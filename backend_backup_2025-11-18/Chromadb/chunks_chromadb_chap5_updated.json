@@ -1,0 +1,272 @@
+{
+  "documents": [
+    "The Foreign Military Sales (FMS) process begins when an eligible foreign country or international organization requests information on defense articles or services, including training, being considered for purchase. All requests for information require the same channels of submission and must be answered consistent with the legal provisions under which the FMS program operates. The Security Cooperation Organization (SCO) can provide necessary assistance for many FMS partners.",
+    "Requests are generally referred to as Letters of Request (LORs), whether provided through formal correspondence, requests for proposal (RFPs), discussions, electronic mail (e-mail), letters, or messages. Although no specific format is required for an LOR, it must be in writing and partner nations are strongly encouraged to work with SCOs to ensure LORs address the items identified using the LOR checklist to avoid delays during the development of the Letter of Offer and Acceptance (LOA) document.",
+    "If the request is received verbally, a memorandum for record (MFR) must document the conversation and outline the required information. Written confirmation should be obtained from the purchaser. If the request is received during a meeting or conference, the minutes should document the request and be signed by an appropriate purchaser representative. LORs transmitted by U.S. Embassies or SCOs should refer to the country letter or message requesting the data.",
+    "Non-Significant Military Equipment (Non-SME) requests that originate in-country must be transmitted either by the purchaser's authorized representative or the DoD element of the U.S. country team to DSCA (Office of International Operations (IOPS)) and the appropriate DoD Component with information copies to the geographic Combatant Command (CCMD). Requests originated by foreign representatives of the purchaser in the United States must be sent to DSCA (IOPS) and the appropriate DoD Component with information copies to the SCO.",
+    "Significant Military Equipment (SME) and Major Defense Equipment (MDE) requests that originate in-country must be addressed to DSCA (IOPS) and the cognizant DoD Component with information copies to the CCMD. Requests regarding SME that originate with purchaser representatives in the United States must be addressed to DSCA (IOPS) and the cognizant DoD Component with information copies to the CCMD and the SCO. Any SME that has a nonrecurring research and development cost of more than $50 million or a total production cost of more than $200 million is considered MDE.",
+    "The Country Team Assessment (CTA) presents the coordinated position of senior U.S. Embassy leadership in support of a proposed sale and provides key information necessary to evaluate and explain it. CTAs can be published as cables or memos on embassy letterhead and signed by a member of the country team. The CTA must accompany any LOR that is likely to result in a Congressional Notification (CN) pursuant to AECA section 36(b) based on its cost; or regardless of cost, that would result in first introduction of a new capability for the country; or that requests defense articles or services of a sensitive nature.",
+    "After receiving the LOR, the IA enters the LOR data in the DSAMS as a Customer Request and acknowledges receipt of the LOR to the FMS purchaser. Both the LOR Date (the date included on the actual request from the purchaser) and the LOR Receipt date (the date the IA received the LOR) must be entered into DSAMS. A Customer Request will be created in DSAMS for each LOR received. This includes creating separate Customer Requests for multiple LOA documents that are developed based upon one LOR.",
+    "Once an LOR, to include any additional information provided by the purchaser, meets the mandatory requirements, it is considered actionable and the IA may proceed with case development actions. An LOR Actionable milestone must be entered into DSAMS before case development activities may begin for Category C documents. The LOR Actionable milestone is defined as the date that the LOR Assessment process has determined that the LOR meets, at a minimum, the mandatory actionable criteria. The time period between LOR Receipt and LOR Actionable should be minimized to the extent possible.",
+    "An LOR Advisory notifies Under Secretary of Defense for Acquisition & Sustainment (USD (A&S)) and the Joint Chiefs of Staff that DSCA has received an LOR for defense articles or items or services that require LOR Advisories or LOR review specific to the proposed sale or specific end item. DSCA (IOPS/WPN) prepares and sends an LOR Advisory to the Joint Chiefs of Staff and USD (A&S). The LOR recipients at the IA have 10 working days from the date of the LOR Advisory to provide comments to DSCA for consideration.",
+    "USG responses to Letters of Request (LORs) include Price and Availability (P&A) data, Letters of Offer and Acceptance (LOAs), and other appropriate actions that respond to purchasers' requests for defense articles and/or services through the Foreign Military Sales (FMS) process. The USG can tailor responses to meet purchasers' requests. These can be in the form of a hybrid, negotiated, or Not-To-Exceed (NTE) tailored response.",
+    "Price and Availability (P&A) data are rough order of magnitude estimates of cost and availability of defense articles or services. These estimates are sufficiently accurate for rough-order planning purposes but should not be used for budget purposes and are not commitments. P&A data are not valid for use in preparing a Letter of Offer and Acceptance (LOA). The term P&A data is not used to reference data being developed for an LOA. Instead, data compiled for an LOA are referred to as LOA data (LOAD).",
+    "P&A data estimates should be provided to the prospective purchaser within 45 days of the request. Classified Price and Availability Data: P&A data are classified only in rare circumstances. Classified P&A data cannot be entered into Defense Security Assistance Management System (DSAMS). P&A data, regardless of estimated dollar value or proposed program content, are classified only when directed by the Department of State (State), the Secretary of Defense (SECDEF) or his or her designees, to include the Director, DSCA; or the purchaser requests classification and the request is approved by an authority listed above.",
+    "The Letter of Offer and Acceptance (LOA) is the legal instrument used by the USG to sell defense articles, defense services including training, and design and construction services to a foreign country or international organization under authorities provided in the Arms Export Control Act (AECA). The LOA itemizes the defense articles and services offered and when implemented, becomes an official tender by the USG. Signed LOAs and their subsequent Amendments and Modifications are also referred to as Foreign Military Sales (FMS) cases.",
+    "The time required to prepare LOA documents (LOAs, Amendments, and Modifications) varies with the complexity of the sale. Standards are established and tracked by specific case category: Category A (Blanket order LOAs - 85% within 45 days), Category B (Defined order LOAs - 85% within 100 days), Category C (Defined Order LOAs with specific factors - 85% within 150 days), and Category D (BPC cases - 85% within 60 days). The Implementing Agency (IA) is responsible for assigning a case development category to each LOA document.",
+    "A Case Development Extenuating Factor (CDEF) identifies a reason why the processing time of an LOA document might exceed the standards. Once the IA has determined that its ability to meet the case development standard will be impacted for a given LOA document, the IA should enter a CDEF reason code in DSAMS. A CDEF can be applied to all preparation categories but is mandatory for LOA documents in Category C. Examples include: first time purchase, engineering/system integration required, detailed release coordination, complex pricing, Congressional Notification, waiver required, or changing requirements.",
+    "The three types of FMS cases are Defined Order, Blanket Order, and Cooperative Logistics Supply Support Arrangement (CLSSA). Each FMS case is managed by one IA and is developed with one primary purpose. Defined Order cases or lines are used for the sale of items that require item-by-item security control throughout the sales process or that require separate reporting. Blanket Order cases or lines are used to provide categories of items or services with no definitive listing of items, quantities, or MOS with the intent to use the lines until funds are exhausted.",
+    "Defined Order cases or lines are used for the sale of items that require item-by-item security control throughout the sales process or that require separate reporting. Items to be provided are stated explicitly on the LOA and include specific quantities or Months (MOS). MDE, SME, related initial support package, explosives (including munitions), specific services, classified materiel, a Security Risk Category (SRC), and Technical Data Packages (TDPs) are types of items generally provided under Defined Order cases.",
+    "Blanket Order cases or lines are used to provide categories of items or services (normally to support one or more end items) with no definitive listing of items, quantities, or MOS with the intent to use the lines until funds are exhausted. Separate Blanket Order lines are required for each category of item. Types of unclassified, non-SME items or services that can be provided include spares and repair parts, support equipment, supplies, maintenance, technical assistance, publications, unclassified software, and training aids. Training (both unclassified and classified) may be placed on Blanket Order training cases or case lines.",
+    "CLSSAs provide for pre-stock and storage of DoD-stocked non-SME items that are needed and used by the FMS purchaser on a recurring basis. CLSSA LOAs reflect support for end items with no definitive listing of items or quantities. CLSSA programs consist of two separate cases: 1) a Foreign Military Sales Order (FMSO) I case (purchase and sustainment of spare and repair parts in DoD inventory), and 2) a FMSO II case (used by the FMS purchaser to requisition those spare and repair parts). The purchaser normally submits requisitions through SCIP.",
+    "Articles or services that support NPOR systems and subsystems (such as commercial end items, obsolete end items including those that have undergone system support buy outs, and non-U.S.-origin military end items) may be incorporated within the LOA. Duration of Total Package Approach support for NPOR items and services (including spare parts, maintenance, sustainment, and training), at the discretion of the IA, may differ from the period of performance of the LOA or of the contracts that will execute the LOA.",
+    "Organizations authorized to receive LORs and responsible for preparing and processing LOAs in accordance with the SAMM are known as IAs. When an LOR received by an IA includes a requirement for an item managed by another IA, the LOR must be coordinated with all organizations involved. The IA should consider a Multi-Service LOA when the purchaser advises the USG that it requires multiple weapon systems on a single case for its own budgetary or other internally-based reasons.",
+    "Standard Terms and Conditions are an official part of each LOA, whether or not they are attached to a particular copy. The Standard Terms and Conditions that are in effect at the time the LOA is prepared and signed are the conditions that apply throughout the life of the FMS case. An LOA Information document provides information describing some of the codes and language used on the LOA. Both the LOA Standard Terms and Conditions and the LOA Information documents must be attached to the original LOA that is sent to the purchaser for review or acceptance.",
+    "MASLs are composed of descriptive codes and text and are used to identify articles and services proposed for transfer on an LOA document. If an appropriate MASL does not exist for an article or service, an IA may submit a request to DSCA to either update an existing MASL or to establish a new one. The IAs should submit MASL requests at the earliest possible point in the LOA document development process to avoid delays. IAs must submit all MASL requests to the DSCA MASL inbox using the MASL Request Form. DSCA will normally process Routine MASL requests within 10 business days of receipt. For Urgent MASL requests, DSCA will normally process these requests within 2 business days of receipt.",
+    "IAs must ensure that each case line item in development within the DSAMS is appropriately marked as either a Program of Record (POR) or Non-Program of Record (NPOR). If a case line item is a NPOR, case writers must select the appropriate NPOR type: NPOR Type A (Modified/Former POR), NPOR Type B (Military Unique - commercial capabilities designed for military applications), or NPOR Type C (Commercial - commercial product as defined in FAR 2.101 that is not classified). This data will support efforts to identify, track, and analyze the industry and purchaser demand signal for NPOR defense articles and services."
+  ],
+  "metadatas": [
+    {
+      "section_id": "C5.1.1",
+      "section_title": "General - FMS Process Beginning",
+      "chapter": "C5",
+      "parent_section": "C5.1",
+      "level": 3,
+      "char_count": 480,
+      "entities_mentioned": "FMS,SCO"
+    },
+    {
+      "section_id": "C5.1.2",
+      "section_title": "Letter of Request Format and Information Requirements",
+      "chapter": "C5",
+      "parent_section": "C5.1",
+      "level": 3,
+      "char_count": 500,
+      "entities_mentioned": "LOR,RFP,SCO,LOA"
+    },
+    {
+      "section_id": "C5.1.3",
+      "section_title": "Letter of Request Submission Procedures",
+      "chapter": "C5",
+      "parent_section": "C5.1",
+      "level": 3,
+      "char_count": 462,
+      "entities_mentioned": "MFR,LOR,SCO"
+    },
+    {
+      "section_id": "C5.1.3.1",
+      "section_title": "Non-Significant Military Equipment Requests",
+      "chapter": "C5",
+      "parent_section": "C5.1.3",
+      "level": 4,
+      "char_count": 532,
+      "entities_mentioned": "Non-SME,DoD,DSCA,IOPS,CCMD,SCO"
+    },
+    {
+      "section_id": "C5.1.3.2",
+      "section_title": "Significant Military Equipment and Major Defense Equipment Requests",
+      "chapter": "C5",
+      "parent_section": "C5.1.3",
+      "level": 4,
+      "char_count": 570,
+      "entities_mentioned": "SME,MDE,DSCA,IOPS,DoD,CCMD,SCO"
+    },
+    {
+      "section_id": "C5.1.4",
+      "section_title": "Country Team Assessment",
+      "chapter": "C5",
+      "parent_section": "C5.1",
+      "level": 3,
+      "char_count": 617,
+      "entities_mentioned": "CTA,LOR,CN,AECA"
+    },
+    {
+      "section_id": "C5.1.7.1",
+      "section_title": "LOR Receipt and Acknowledgement",
+      "chapter": "C5",
+      "parent_section": "C5.1.7",
+      "level": 4,
+      "char_count": 494,
+      "entities_mentioned": "LOR,IA,DSAMS,FMS,LOA"
+    },
+    {
+      "section_id": "C5.1.7.2.2",
+      "section_title": "Letter of Request Actionable",
+      "chapter": "C5",
+      "parent_section": "C5.1.7.2",
+      "level": 4,
+      "char_count": 586,
+      "entities_mentioned": "LOR,IA,DSAMS"
+    },
+    {
+      "section_id": "C5.1.8.1",
+      "section_title": "Letter of Request Advisory Memoranda",
+      "chapter": "C5",
+      "parent_section": "C5.1.8",
+      "level": 4,
+      "char_count": 515,
+      "entities_mentioned": "LOR,USD(A&S),DSCA,IOPS/WPN,IA"
+    },
+    {
+      "section_id": "C5.2.1",
+      "section_title": "Types of Letter of Request Responses",
+      "chapter": "C5",
+      "parent_section": "C5.2",
+      "level": 3,
+      "char_count": 430,
+      "entities_mentioned": "USG,LOR,P&A,LOA,FMS,NTE"
+    },
+    {
+      "section_id": "C5.3.1",
+      "section_title": "Price and Availability - Definition",
+      "chapter": "C5",
+      "parent_section": "C5.3",
+      "level": 3,
+      "char_count": 504,
+      "entities_mentioned": "P&A,LOA,LOAD"
+    },
+    {
+      "section_id": "C5.3.2",
+      "section_title": "Price and Availability Preparation Timeframe",
+      "chapter": "C5",
+      "parent_section": "C5.3",
+      "level": 3,
+      "char_count": 622,
+      "entities_mentioned": "P&A,DSAMS,DSCA,SECDEF"
+    },
+    {
+      "section_id": "C5.4.1",
+      "section_title": "Letter of Offer and Acceptance - Definition",
+      "chapter": "C5",
+      "parent_section": "C5.4",
+      "level": 3,
+      "char_count": 539,
+      "entities_mentioned": "LOA,USG,AECA,FMS"
+    },
+    {
+      "section_id": "C5.4.2",
+      "section_title": "LOA Document Preparation Timeframe",
+      "chapter": "C5",
+      "parent_section": "C5.4",
+      "level": 3,
+      "char_count": 528,
+      "entities_mentioned": "LOA,IA,BPC"
+    },
+    {
+      "section_id": "C5.4.2.1",
+      "section_title": "Case Development Extenuating Factor",
+      "chapter": "C5",
+      "parent_section": "C5.4.2",
+      "level": 4,
+      "char_count": 610,
+      "entities_mentioned": "CDEF,LOA,IA,DSAMS,CN"
+    },
+    {
+      "section_id": "C5.4.3",
+      "section_title": "Types of Foreign Military Sales Cases",
+      "chapter": "C5",
+      "parent_section": "C5.4",
+      "level": 3,
+      "char_count": 567,
+      "entities_mentioned": "FMS,CLSSA,IA,MOS"
+    },
+    {
+      "section_id": "C5.4.3.1",
+      "section_title": "Defined Order Cases or Lines",
+      "chapter": "C5",
+      "parent_section": "C5.4.3",
+      "level": 4,
+      "char_count": 519,
+      "entities_mentioned": "LOA,MOS,MDE,SME,SRC,TDP"
+    },
+    {
+      "section_id": "C5.4.3.2",
+      "section_title": "Blanket Order Cases or Lines",
+      "chapter": "C5",
+      "parent_section": "C5.4.3",
+      "level": 4,
+      "char_count": 637,
+      "entities_mentioned": "MOS,SME"
+    },
+    {
+      "section_id": "C5.4.3.3",
+      "section_title": "Cooperative Logistics Supply Support Arrangements",
+      "chapter": "C5",
+      "parent_section": "C5.4.3",
+      "level": 4,
+      "char_count": 547,
+      "entities_mentioned": "CLSSA,DoD,SME,FMS,LOA,FMSO,SCIP"
+    },
+    {
+      "section_id": "C5.4.4",
+      "section_title": "LOA for Non-Program of Record System Support",
+      "chapter": "C5",
+      "parent_section": "C5.4",
+      "level": 3,
+      "char_count": 513,
+      "entities_mentioned": "NPOR,LOA,IA"
+    },
+    {
+      "section_id": "C5.4.6.1",
+      "section_title": "Implementing Agencies for LOA Preparation",
+      "chapter": "C5",
+      "parent_section": "C5.4.6",
+      "level": 4,
+      "char_count": 478,
+      "entities_mentioned": "LOR,LOA,SAMM,IA,USG"
+    },
+    {
+      "section_id": "C5.4.8.1",
+      "section_title": "Standard Terms and Conditions and LOA Information",
+      "chapter": "C5",
+      "parent_section": "C5.4.8",
+      "level": 4,
+      "char_count": 559,
+      "entities_mentioned": "LOA,FMS"
+    },
+    {
+      "section_id": "C5.4.8.11",
+      "section_title": "Military Articles and Services List Requests",
+      "chapter": "C5",
+      "parent_section": "C5.4.8",
+      "level": 4,
+      "char_count": 696,
+      "entities_mentioned": "MASL,LOA,IA,DSCA"
+    },
+    {
+      "section_id": "C5.4.10",
+      "section_title": "Recording Non-Program of Record Case Line Items in DSAMS",
+      "chapter": "C5",
+      "parent_section": "C5.4",
+      "level": 3,
+      "char_count": 616,
+      "entities_mentioned": "IA,DSAMS,POR,NPOR,FAR"
+    }
+  ],
+  "ids": [
+    "C5.1.1_05203149",
+    "C5.1.2_9b672a0c",
+    "C5.1.3_0accaa62",
+    "C5.1.3.1_c7409933",
+    "C5.1.3.2_197c9389",
+    "C5.1.4_e64792b3",
+    "C5.1.7.1_f75fb05a",
+    "C5.1.7.2.2_5cad9a59",
+    "C5.1.8.1_93981e6a",
+    "C5.2.1_21665640",
+    "C5.3.1_a0b3ef54",
+    "C5.3.2_e2c3e8e4",
+    "C5.4.1_c70dfdf9",
+    "C5.4.2_6a06317b",
+    "C5.4.2.1_eaab0fc2",
+    "C5.4.3_95a35713",
+    "C5.4.3.1_6f190ebe",
+    "C5.4.3.2_6b98ec60",
+    "C5.4.3.3_665d561a",
+    "C5.4.4_6a543009",
+    "C5.4.6.1_ade24cd4",
+    "C5.4.8.1_6a608c35",
+    "C5.4.8.11_461bcd85",
+    "C5.4.10_f91e2e8b"
+  ]
+}

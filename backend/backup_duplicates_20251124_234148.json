@@ -1,0 +1,822 @@
+[
+  {
+    "question": "what's the organizational structure for security cooperation?",
+    "review_id": "2f43cda7-1457-4f60-a9c1-cfeb950234fd",
+    "timestamp": "2025-10-28T06:35:51.052288+00:00"
+  },
+  {
+    "question": "which agency is responsible for navy fms cases?",
+    "review_id": "7a8cd05a-d2df-45c9-b42b-bca07fd96ed2",
+    "timestamp": "2025-10-29T06:27:02.319785+00:00"
+  },
+  {
+    "question": "what's the difference between title 10 and title 22 authorities?",
+    "review_id": "1820ec71-becc-463e-b4be-f830fc51e833",
+    "timestamp": "2025-10-30T23:45:52.203354+00:00"
+  },
+  {
+    "question": "what is dfas responsible for?",
+    "review_id": "27aceeb1-05d9-46ef-b703-8d451c057017",
+    "timestamp": "2025-11-05T01:23:30.670678+00:00"
+  },
+  {
+    "question": "what is dfas responsible for?",
+    "review_id": "b1bf1ab5-2e22-42e8-b533-cd9f7199a21d",
+    "timestamp": "2025-11-05T01:31:32.412433+00:00"
+  },
+  {
+    "question": "what is dfas responsible for?",
+    "review_id": "484bb7c9-3794-4fd6-8096-8569f39b3645",
+    "timestamp": "2025-11-05T03:11:30.008575+00:00"
+  },
+  {
+    "question": "what is letter of offer and acceptance (loa)?",
+    "review_id": "9f363b1e-ce8b-417b-9d9f-ce53633266d0",
+    "timestamp": "2025-11-05T04:08:37.902405+00:00"
+  },
+  {
+    "question": "what is letter of offer and acceptance (loa)?",
+    "review_id": "ec748f85-e983-48b7-a3e6-82d27cb57d40",
+    "timestamp": "2025-11-05T04:54:49.094035+00:00"
+  },
+  {
+    "question": "what is letter of offer and acceptance (loa)?",
+    "review_id": "07e16625-16de-483e-b446-c246b664e34e",
+    "timestamp": "2025-11-05T05:23:45.124265+00:00"
+  },
+  {
+    "question": "what is letter of offer and acceptance (loa)?",
+    "review_id": "28cf8478-c65a-492d-94b2-aaeda441b5e6",
+    "timestamp": "2025-11-05T05:46:36.028190+00:00"
+  },
+  {
+    "question": "what is letter of offer and acceptance (loa)?",
+    "review_id": "3ed2e604-5379-4ad9-a2b9-5c7c13ba2d22",
+    "timestamp": "2025-11-05T05:49:26.987483+00:00"
+  },
+  {
+    "question": "what is the defense courier service used for in fms deliveries?\"",
+    "review_id": "6a328b04-59af-45f2-9c0b-e2ce223b01d4",
+    "timestamp": "2025-11-05T06:54:40.824961+00:00"
+  },
+  {
+    "question": "what is the defense courier service used for in fms deliveries?\"",
+    "review_id": "4cadc018-2a30-473c-a578-6d354c1a9ec7",
+    "timestamp": "2025-11-05T07:05:55.379094+00:00"
+  },
+  {
+    "question": "what is the defense courier service used for in fms deliveries?",
+    "review_id": "0b8dc559-4b4a-4cc5-bd04-06e00d8e7e2a",
+    "timestamp": "2025-11-05T07:34:52.186556+00:00"
+  },
+  {
+    "question": "what are the responsibilities of case managers in fms delivery?",
+    "review_id": "1ef32004-5305-4b60-b4c9-1918d26325b8",
+    "timestamp": "2025-11-05T07:47:32.371813+00:00"
+  },
+  {
+    "question": "what are financial management procedures",
+    "review_id": "9bde846c-7913-4094-9dd5-1579125beee6",
+    "timestamp": "2025-11-05T09:38:16.071230+00:00"
+  },
+  {
+    "question": "what are financial management procedures?",
+    "review_id": "dc185897-53f4-4680-990e-4693b1f7b7ae",
+    "timestamp": "2025-11-05T11:44:33.700514+00:00"
+  },
+  {
+    "question": "explain the foreign military sales trust fund?",
+    "review_id": "47c02c16-4cfe-414b-9c39-4d7a8ac46fc5",
+    "timestamp": "2025-11-05T13:06:12.904406+00:00"
+  },
+  {
+    "question": "what transportation methods are available for fms deliveries?",
+    "review_id": "b37fb5fd-a09e-4bbe-abee-90c989e702d5",
+    "timestamp": "2025-11-05T13:25:30.401364+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "817bb522-6586-423a-8724-500ed29b98e6",
+    "timestamp": "2025-11-05T14:21:58.795115+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "d8256503-2d25-4795-907d-dfd983fc9d48",
+    "timestamp": "2025-11-06T09:35:12.341625+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "b6906abe-ae74-4b95-a6b1-3d9f107c8daa",
+    "timestamp": "2025-11-06T09:41:41.714331+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "2abed71c-ebdc-4a0f-9a9e-340f0acaca19",
+    "timestamp": "2025-11-06T09:45:02.606052+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "ac4eb115-4a69-40c7-8f4c-1c5b7f42421d",
+    "timestamp": "2025-11-06T09:50:02.629984+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "edce6e61-4338-4047-9da6-ece26c985b2a",
+    "timestamp": "2025-11-06T09:51:49.016723+00:00"
+  },
+  {
+    "question": "what are milstrip requisitions under implemented loas?",
+    "review_id": "20eb5e26-8889-4e79-a3cf-29a92e78250b",
+    "timestamp": "2025-11-06T09:54:26.446281+00:00"
+  },
+  {
+    "question": "what is the defense courier service used for in fms deliveries?",
+    "review_id": "cefe8d49-2888-4ed8-b602-adabd6e53615",
+    "timestamp": "2025-11-06T10:02:25.502045+00:00"
+  },
+  {
+    "question": "how long do you wait for vendor estimate?",
+    "review_id": "7566c46f-ab04-480c-abb1-b19637d05db7",
+    "timestamp": "2025-11-06T10:43:58.998872+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "132cf2e1-1781-4e63-a7e7-c1b4a9097f93",
+    "timestamp": "2025-11-06T11:00:35.254369+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "cd5f083f-eec3-4301-b507-ab09c338dbc8",
+    "timestamp": "2025-11-06T11:05:27.745156+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "cfd7db78-07d8-4bda-993b-fea476ff044e",
+    "timestamp": "2025-11-06T11:09:28.120959+00:00"
+  },
+  {
+    "question": "what are milstrip requisitions under implemented loas?",
+    "review_id": "c2ac71a7-d92d-47ce-8fc2-42f3a1aa484f",
+    "timestamp": "2025-11-06T11:12:04.260026+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "1272a72d-b026-4391-8966-1856ded5dd72",
+    "timestamp": "2025-11-06T11:17:17.070303+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "663f1bfa-2f3b-4d61-a43a-c64f29ecc5dd",
+    "timestamp": "2025-11-06T11:20:16.616472+00:00"
+  },
+  {
+    "question": "what are milstrip requisitions under implemented loas?",
+    "review_id": "85c0c238-3d67-4203-a11c-370aa76303f0",
+    "timestamp": "2025-11-06T11:23:12.650722+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "e74f1f6b-57bb-4564-9d0e-d9a66f1e2a06",
+    "timestamp": "2025-11-06T14:17:41.820191+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "a84855ae-d1ba-45f1-b5f9-baa63ccfd44c",
+    "timestamp": "2025-11-06T14:19:25.136704+00:00"
+  },
+  {
+    "question": "what are milstrip requisitions under implemented loas?",
+    "review_id": "f4955cd8-dfab-4e84-970a-12b2c54efc23",
+    "timestamp": "2025-11-06T14:21:24.717708+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "f98a7db6-82a6-40a5-bd0d-c3860da904ed",
+    "timestamp": "2025-11-06T15:05:28.216554+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "fc5200f8-4753-4e0d-a639-19328cd7cd19",
+    "timestamp": "2025-11-06T15:07:19.676385+00:00"
+  },
+  {
+    "question": "what are milstrip requisitions under implemented loas?",
+    "review_id": "2058a516-5afa-4a59-a8f1-11f1dd4466aa",
+    "timestamp": "2025-11-06T15:09:57.803394+00:00"
+  },
+  {
+    "question": "what is the status of my fms case after loa signature?",
+    "review_id": "8c30c30c-17b3-494e-aeb7-2078dd17ea75",
+    "timestamp": "2025-11-06T15:12:22.527100+00:00"
+  },
+  {
+    "question": "what is dsca",
+    "review_id": "d2b0643c-19fa-489c-9e1e-7ad1a80bf5cf",
+    "timestamp": "2025-11-06T16:18:55.869190+00:00"
+  },
+  {
+    "question": "what is dsca",
+    "review_id": "d6864a01-d609-4b40-a46f-25c20964a8e7",
+    "timestamp": "2025-11-06T16:33:07.098569+00:00"
+  },
+  {
+    "question": "what is dsca",
+    "review_id": "bb1f0d60-3212-41ee-8042-13fbcaea6a2e",
+    "timestamp": "2025-11-06T16:40:09.665270+00:00"
+  },
+  {
+    "question": "what is dsca",
+    "review_id": "543d915a-08a4-4c24-9b98-42f6ae0660c9",
+    "timestamp": "2025-11-06T16:44:10.770819+00:00"
+  },
+  {
+    "question": "what are milstrip requisitions under implemented loas?",
+    "review_id": "52b0f97a-6cdc-4364-b071-005075b6058d",
+    "timestamp": "2025-11-08T11:41:18.329026+00:00"
+  },
+  {
+    "question": "what are the line items in sr-p-nav?",
+    "review_id": "5dc1e04f-14f9-4dce-8df2-e2629bf08fe9",
+    "timestamp": "2025-11-08T12:39:28.993731+00:00"
+  },
+  {
+    "question": "what are milstrip requisitions under implemented loas?",
+    "review_id": "6ccee011-9017-4775-b2c0-1f8ad0fb1995",
+    "timestamp": "2025-11-08T20:43:12.306705+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "3ea5e25b-d428-4832-b7ab-b62daf449623",
+    "timestamp": "2025-11-08T20:49:42.785099+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "03116c19-bace-4426-bb88-4d94d19a6493",
+    "timestamp": "2025-11-09T15:50:21.612759+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "a48a21ea-c159-4725-bf8d-04297900de48",
+    "timestamp": "2025-11-09T16:05:07.775749+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "f7be254f-b019-4f96-a5c5-ad54577cb3ea",
+    "timestamp": "2025-11-09T16:10:57.885331+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "ca0bcd8f-8fe5-4a77-ba09-3b84366db516",
+    "timestamp": "2025-11-09T16:34:59.158057+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "289c84e9-f777-4c2a-8d17-0a5adce4ddfe",
+    "timestamp": "2025-11-09T16:46:27.717456+00:00"
+  },
+  {
+    "question": "what are the line items in sr-p-nav or mx-b-sal?",
+    "review_id": "ec8a6ac8-a59a-4ef6-9a47-c1985ef90baf",
+    "timestamp": "2025-11-09T20:07:53.013449+00:00"
+  },
+  {
+    "question": "what are the line items in sr-p-nav or mx-b-sal?",
+    "review_id": "ce8d3854-5eda-4712-b873-d06b803de9d8",
+    "timestamp": "2025-11-09T20:22:18.547269+00:00"
+  },
+  {
+    "question": "what are the line items in sr-p-nav or mx-b-sal?",
+    "review_id": "868aaa59-8fb0-4fe5-b12c-d3f26a347b99",
+    "timestamp": "2025-11-09T20:33:55.620384+00:00"
+  },
+  {
+    "question": "what are the line items in sr-p-nav or mx-b-sal?",
+    "review_id": "a541b400-de2e-422b-8685-81a8c490d5ac",
+    "timestamp": "2025-11-09T20:47:40.308115+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "63bd32cb-7b0e-4d9b-895d-527ad559e507",
+    "timestamp": "2025-11-09T20:51:26.543722+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "884ee72d-952c-4c94-94cb-afbf1e6ff8d8",
+    "timestamp": "2025-11-10T18:17:20.660010+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "a4e78f39-520a-4b24-b96c-1d4d2f9808d7",
+    "timestamp": "2025-11-10T18:41:41.171241+00:00"
+  },
+  {
+    "question": "what is security cooperation",
+    "review_id": "8d270240-ec38-47c6-99bb-cab20e1c3b42",
+    "timestamp": "2025-11-10T19:14:54.167536+00:00"
+  },
+  {
+    "question": "what is dsca responsible for?",
+    "review_id": "3a6838a3-6fc0-4271-ad8d-6865fd6fcef8",
+    "timestamp": "2025-11-10T20:30:45.857813+00:00"
+  },
+  {
+    "question": "what is dsca responsible for?",
+    "review_id": "8589a80c-ed48-46d8-b5ac-c0d8756f2f93",
+    "timestamp": "2025-11-10T20:41:05.709320+00:00"
+  },
+  {
+    "question": "what is dsca responsible for?",
+    "review_id": "f2cc41b4-579f-4ffd-82c7-dd6a74a1d927",
+    "timestamp": "2025-11-10T21:04:43.799844+00:00"
+  },
+  {
+    "question": "what are the line items in sr-p-nav or mx-b-sal?",
+    "review_id": "d70f4911-d954-44eb-aaef-ef1c2c1b71ad",
+    "timestamp": "2025-11-10T23:25:29.126473+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "467d2ccb-18d6-494b-8ad6-0898246e4ca0",
+    "timestamp": "2025-11-12T20:43:20.612798+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "631f5466-6018-455d-aa2d-c94e1b6639e1",
+    "timestamp": "2025-11-12T22:53:02.878933+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "0ffbb194-12cd-4a58-a37e-1099ffca581e",
+    "timestamp": "2025-11-12T22:59:52.216748+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "ee100e0a-cdbb-4f55-b8f5-70095d4eecc3",
+    "timestamp": "2025-11-12T23:05:35.652226+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "23c0dce1-b33b-4ae7-a524-cfac58b0e3c3",
+    "timestamp": "2025-11-12T23:35:20.705094+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "d0511365-45f0-4535-aa42-e862452e7e0c",
+    "timestamp": "2025-11-12T23:45:52.684620+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "78d6ce12-84f4-4db6-b816-ea9b27a7493e",
+    "timestamp": "2025-11-14T14:24:10.107512+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "59464e86-e399-4048-8b1c-96e9b33780a4",
+    "timestamp": "2025-11-14T14:27:34.030321+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "2352af2c-3215-457e-8a87-33980893826e",
+    "timestamp": "2025-11-14T15:54:05.571810+00:00"
+  },
+  {
+    "question": "what are milstrip requisitions under implemented loas?",
+    "review_id": "e9b05443-83e7-4dc9-97cd-bfd03da1a002",
+    "timestamp": "2025-11-14T15:56:42.417792+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "9f914ef5-24b8-4ab1-b30e-8ded33078bcd",
+    "timestamp": "2025-11-14T16:03:14.527190+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "0567dd79-8dbe-499b-8d24-8c926d4cbd00",
+    "timestamp": "2025-11-14T16:45:55.883605+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "94ffea65-14b5-4b02-b5e3-67ad4fc697a8",
+    "timestamp": "2025-11-14T17:34:36.756521+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "e5e436d2-c1f2-49e9-a15b-9628e57d7d93",
+    "timestamp": "2025-11-14T17:50:01.455055+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "be1db36f-64e8-4cac-aaf1-75279127fe93",
+    "timestamp": "2025-11-14T18:16:52.015503+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "385365eb-affa-403b-96c7-74016d5e55f5",
+    "timestamp": "2025-11-14T18:24:03.681123+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "e124623e-6d96-4088-a6d5-44226e7b3bdf",
+    "timestamp": "2025-11-14T18:33:05.176394+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "b9667680-ee80-4a6e-bb62-8b219442f46f",
+    "timestamp": "2025-11-14T18:43:40.092493+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "f006e2c4-2596-49cf-a126-ec3a9d2a15a7",
+    "timestamp": "2025-11-14T19:51:51.547737+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "0de00139-6fc6-49ca-bcc9-68861862f164",
+    "timestamp": "2025-11-14T20:27:08.122952+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "3215f2b5-294f-40f8-aa3a-f8b063ba086c",
+    "timestamp": "2025-11-14T20:58:08.952008+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "e29373de-31c6-4e63-8cad-1b3b67befbad",
+    "timestamp": "2025-11-14T21:06:28.542881+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "d0b734cf-1463-43a9-a47a-cb9e1d0fd72e",
+    "timestamp": "2025-11-14T23:05:07.324182+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "1f6cd67e-cea4-432e-b541-a38a2d483950",
+    "timestamp": "2025-11-14T23:15:40.947876+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "e15a9528-7de3-45a0-8006-6a14155a1605",
+    "timestamp": "2025-11-14T23:31:02.950385+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "b1f54c5f-b83c-40bb-83e3-870f19a340c3",
+    "timestamp": "2025-11-15T01:19:21.691125+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "577c5dd5-8104-4b83-b0ab-7e54aab5c6e5",
+    "timestamp": "2025-11-15T01:33:07.375276+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "7720c50f-e24f-4c50-a254-25e63a29f3e9",
+    "timestamp": "2025-11-15T01:55:12.803666+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "295a59b3-3356-4ca7-9f7d-1c38f375cf3d",
+    "timestamp": "2025-11-17T14:19:41.249415+00:00"
+  },
+  {
+    "question": "what is security assistance",
+    "review_id": "856dadc8-cc90-4a96-9521-1e8726708906",
+    "timestamp": "2025-11-17T14:46:59.547083+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "4a4b59e5-dfb9-4cee-977d-f7de36ca2fc5",
+    "timestamp": "2025-11-17T17:02:56.916587+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "67db5899-db2d-437c-aeff-4bdce2f7515b",
+    "timestamp": "2025-11-17T19:39:50.334852+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "34b3514c-b736-4dad-a388-3b6112126a32",
+    "timestamp": "2025-11-17T19:59:41.807777+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "dc7fe0b5-8eab-4cc6-ab0c-1b804390c6f8",
+    "timestamp": "2025-11-18T14:22:08.225621+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "7b929992-d276-4479-9a63-2bccc21a1189",
+    "timestamp": "2025-11-18T14:28:04.786025+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "bf92cf57-437d-41c2-84d8-9580103c504a",
+    "timestamp": "2025-11-18T14:33:59.757829+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "13013427-4ec7-4c6d-af55-0cc6b068e9ca",
+    "timestamp": "2025-11-18T15:31:21.224485+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "42e4bb5e-df61-4257-9d3b-d2184ff19e15",
+    "timestamp": "2025-11-18T16:04:51.603983+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "2ce63216-520a-490f-ae76-b250e4323e78",
+    "timestamp": "2025-11-18T16:58:45.590667+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "167028cf-d6e8-4dd7-bd9b-1b90a58d0b92",
+    "timestamp": "2025-11-18T18:02:09.943952+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "587bb1b4-0a70-4864-b587-da26a94c3216",
+    "timestamp": "2025-11-18T18:10:05.772407+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "af9a448a-6db4-4faa-b8ac-8899aa3b023e",
+    "timestamp": "2025-11-18T18:15:13.580443+00:00"
+  },
+  {
+    "question": "what are milstrip requisitions under implemented loas?",
+    "review_id": "9bc1eeca-2422-43f6-a94c-e3e0c5b2e2d8",
+    "timestamp": "2025-11-18T18:22:32.069471+00:00"
+  },
+  {
+    "question": "i got this request for funding from my field activity, [upload pdf'd email], which line should fund it and do i have enough funding?",
+    "review_id": "4f52f0ed-60b0-42d7-8d97-d3a80c3c3866",
+    "timestamp": "2025-11-18T18:49:00.482417+00:00"
+  },
+  {
+    "question": "i got this request for funding from my field activity, [upload pdf'd email], which line should fund it and do i have enough funding?",
+    "review_id": "a31f2229-e7d5-4e98-a1f8-9841f16e3118",
+    "timestamp": "2025-11-18T18:53:53.689268+00:00"
+  },
+  {
+    "question": "i got this request for funding from my field activity, [upload pdf'd email], which line should fund it and do i have enough funding?",
+    "review_id": "11d6bd32-2b6b-4ad3-868e-885e4f8e7ef3",
+    "timestamp": "2025-11-18T18:54:41.052643+00:00"
+  },
+  {
+    "question": "what is included in the technical services line for case sr-p-nav",
+    "review_id": "1c6929c6-ee78-4361-a848-236f49fcfbed",
+    "timestamp": "2025-11-18T20:48:16.836571+00:00"
+  },
+  {
+    "question": "what is included in the technical services line for case sr-p-nav  ?",
+    "review_id": "718d5dfb-5a27-47af-a378-056899224660",
+    "timestamp": "2025-11-18T21:11:33.142452+00:00"
+  },
+  {
+    "question": "what are the requirements for a foreign military sale to germany with a value of $75m?",
+    "review_id": "55419c98-e6ac-4d08-95ef-4c3d022c4164",
+    "timestamp": "2025-11-19T05:58:14.384243+00:00"
+  },
+  {
+    "question": "what are the requirements for a foreign military sale to germany with a value of $75m",
+    "review_id": "5a2e01f7-6bed-4547-81f3-ecb6dc35a241",
+    "timestamp": "2025-11-19T06:44:25.556980+00:00"
+  },
+  {
+    "question": "what are the requirements for a foreign military sale to germany with a value of $75m",
+    "review_id": "98e32aa6-55ed-4eeb-a7ac-83c68c8e48cd",
+    "timestamp": "2025-11-19T07:05:26.110849+00:00"
+  },
+  {
+    "question": "what are the requirements for a foreign military sale to germany with a value of $75m",
+    "review_id": "568d37ca-e677-4fb0-b281-cd58415bd72f",
+    "timestamp": "2025-11-19T07:14:38.870399+00:00"
+  },
+  {
+    "question": "what are the requirements for a foreign military sale to germany with a value of $75m",
+    "review_id": "b4a4fdb6-2a7d-4f21-901f-c52a2666c568",
+    "timestamp": "2025-11-19T08:04:23.016787+00:00"
+  },
+  {
+    "question": "what are the requirements for a foreign military sale to germany with a value of $75m",
+    "review_id": "b8a7a389-2a5c-4a28-bf83-3ac73a1a837e",
+    "timestamp": "2025-11-19T08:28:44.474557+00:00"
+  },
+  {
+    "question": "what are the requirements for a foreign military sale to germany with a value of $75m",
+    "review_id": "fdb77a58-c08a-4139-9f4d-501e34274979",
+    "timestamp": "2025-11-19T13:29:20.578843+00:00"
+  },
+  {
+    "question": "what are the requirements for a foreign military sale to germany with a value of $75m",
+    "review_id": "f6ae01f6-b88d-4b4a-8e89-6b30210fd4ef",
+    "timestamp": "2025-11-19T13:42:35.811468+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "fae6d200-bf73-4d6f-8d5b-79e8647e94b8",
+    "timestamp": "2025-11-19T14:32:25.674090+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "03478062-558f-4104-ba08-7723e93a0e64",
+    "timestamp": "2025-11-19T16:03:43.963525+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "0a0d6aeb-af5a-464f-9e3e-71972d937d6a",
+    "timestamp": "2025-11-19T16:46:09.039630+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "98c88ed7-0287-4834-bb14-8837588dfd54",
+    "timestamp": "2025-11-19T16:56:45.788936+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "b7c12fd1-139e-4bd7-8f51-2c087c24790f",
+    "timestamp": "2025-11-19T17:03:59.489636+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "6a06a102-bd2c-40a5-9cfa-e212cb51e8b9",
+    "timestamp": "2025-11-19T17:14:15.899730+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "16e8be77-673a-402c-a0a5-f912aabc89b7",
+    "timestamp": "2025-11-19T17:33:37.947942+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "6077ac99-b66e-4532-b74a-ecbf5d3178b4",
+    "timestamp": "2025-11-19T17:50:33.872223+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "d916618f-a878-4e99-acb4-c0453e4f657a",
+    "timestamp": "2025-11-19T18:12:25.160178+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "95e1b0ed-9965-469c-84a7-4515c3f25282",
+    "timestamp": "2025-11-19T18:27:14.017428+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "d35f71d5-e70b-47d5-9da0-9234c8b88f89",
+    "timestamp": "2025-11-19T18:56:27.622442+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "adc5c7de-de28-4be0-b3a7-cc5e39feb760",
+    "timestamp": "2025-11-19T19:13:36.224385+00:00"
+  },
+  {
+    "question": "i am developing a case for france with an estimated total case value of $99m. will this case need a congressional notification?",
+    "review_id": "972b3d48-0c13-4a0f-b7de-0a7ed4eee189",
+    "timestamp": "2025-11-19T19:38:52.395880+00:00"
+  },
+  {
+    "question": "how long does it take to develop an loa?",
+    "review_id": "935924da-cdf2-44c5-88bf-9f94ebe918d5",
+    "timestamp": "2025-11-19T20:00:00.381334+00:00"
+  },
+  {
+    "question": "what is the threshold for congressional notification?",
+    "review_id": "dbe9757f-be82-4335-b9cf-2e302c9987fd",
+    "timestamp": "2025-11-20T21:19:39.388748+00:00"
+  },
+  {
+    "question": "what is the threshold for congressional notification?",
+    "review_id": "6587bea3-bc42-4629-9685-6528121ef573",
+    "timestamp": "2025-11-20T22:57:55.485498+00:00"
+  },
+  {
+    "question": "what is the threshold for congressional notification?",
+    "review_id": "eb8e6f01-b786-4a25-ab6e-3338e88013df",
+    "timestamp": "2025-11-20T23:15:45.401336+00:00"
+  },
+  {
+    "question": "what is the threshold for congressional notification?",
+    "review_id": "41c840c8-289c-4338-bba0-e7ff58143d45",
+    "timestamp": "2025-11-20T23:18:59.436604+00:00"
+  },
+  {
+    "question": "what is the threshold for congressional notification?",
+    "review_id": "f2ff2993-2777-452a-a985-9fe01e302f0e",
+    "timestamp": "2025-11-20T23:35:33.192441+00:00"
+  },
+  {
+    "question": "what is the threshold for congressional notification?",
+    "review_id": "38367328-9f92-441c-978d-2dba5f42b8c8",
+    "timestamp": "2025-11-20T23:38:34.210632+00:00"
+  },
+  {
+    "question": "what is the threshold for congressional notification?",
+    "review_id": "02a673b3-8855-4e74-9720-befd5a7e23ad",
+    "timestamp": "2025-11-21T04:36:11.128011+00:00"
+  },
+  {
+    "question": "what is the threshold for congressional notification?",
+    "review_id": "4e06f94f-2aee-4303-b70f-f49db9873792",
+    "timestamp": "2025-11-21T04:40:11.287786+00:00"
+  },
+  {
+    "question": "what is dsca responsible for?",
+    "review_id": "ac9a94a5-50ed-4f2c-ae88-b8d0a21fb658",
+    "timestamp": "2025-11-21T05:15:08.190011+00:00"
+  },
+  {
+    "question": "what is dsca responsible for?",
+    "review_id": "901354fc-1ac1-4e12-b115-bb2493aa791d",
+    "timestamp": "2025-11-21T05:21:53.368048+00:00"
+  },
+  {
+    "question": "what is dsca responsible for?",
+    "review_id": "46f79620-e878-4ee8-8678-a8232f7f9970",
+    "timestamp": "2025-11-21T05:54:59.185024+00:00"
+  },
+  {
+    "question": "what is dsca responsible for?",
+    "review_id": "788daf49-3592-410e-8f8a-4879d7993311",
+    "timestamp": "2025-11-21T06:21:37.593187+00:00"
+  },
+  {
+    "question": "i am developing a case for france with an estimated total case value of $99m. will this case need a congressional notification?",
+    "review_id": "02f7b530-ff32-4617-8a44-c41e341546f6",
+    "timestamp": "2025-11-21T15:41:05.999158+00:00"
+  },
+  {
+    "question": "i am developing a case for france with an estimated total case value of $99m. will this case need a congressional notification?",
+    "review_id": "f466dd2b-2fb3-4701-96ae-e4b311b8a830",
+    "timestamp": "2025-11-21T15:45:12.773248+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "de722c6e-525b-435a-a058-35abad589e65",
+    "timestamp": "2025-11-21T16:14:35.653565+00:00"
+  },
+  {
+    "question": "i am developing a case for france with an estimated total case value of $99m. will this case need a congressional notification?",
+    "review_id": "f4505a68-fc3c-49c7-b831-60749c6febe8",
+    "timestamp": "2025-11-21T18:09:30.020338+00:00"
+  },
+  {
+    "question": "what is dsca's role in security assistance?",
+    "review_id": "2ea80724-e79c-4f32-8289-34e10afa52d5",
+    "timestamp": "2025-11-21T18:14:12.863131+00:00"
+  },
+  {
+    "question": "i am developing a case for france with an estimated total case value of $99m. will this case need a congressional notification?”",
+    "review_id": "bdb1aff9-94fb-4958-aea8-10c92e222a03",
+    "timestamp": "2025-11-24T16:51:59.196316+00:00"
+  },
+  {
+    "question": "i am developing a case for france with an estimated total case value of $99m. will this case need a congressional notification?",
+    "review_id": "a0a48d6e-bbdd-4131-af54-816544928528",
+    "timestamp": "2025-11-24T18:21:19.738370+00:00"
+  },
+  {
+    "question": "i am developing a case for france with an estimated total case value of $99m. will this case need a congressional notification?",
+    "review_id": "b1383a21-bbea-42b2-922a-9091acdacb21",
+    "timestamp": "2025-11-24T18:22:27.801105+00:00"
+  },
+  {
+    "question": "what is security cooperation?",
+    "review_id": "8c9faa60-ac68-4cec-824e-74af69f7d61d",
+    "timestamp": "2025-11-24T18:23:40.255353+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "f02f7ad3-8cb1-4763-8ef6-e2339239ccde",
+    "timestamp": "2025-11-24T18:37:28.431348+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "7522f074-1155-490a-8afc-6b78ee540ee1",
+    "timestamp": "2025-11-24T18:38:33.307883+00:00"
+  },
+  {
+    "question": "what is security assistance?",
+    "review_id": "9308d090-2d7c-452f-a51f-c47a6c01afc1",
+    "timestamp": "2025-11-24T18:45:56.425972+00:00"
+  },
+  {
+    "question": "what needs to be included in an lor for it to be actionable?",
+    "review_id": "5a4a023b-1551-43b8-96dc-1d315d8c7a12",
+    "timestamp": "2025-11-24T19:18:55.247948+00:00"
+  },
+  {
+    "question": "what needs to be included in an lor for it to be actionable?",
+    "review_id": "d9a5978f-5a3b-4b76-b6e5-7c6b857ffabd",
+    "timestamp": "2025-11-24T19:37:20.688757+00:00"
+  },
+  {
+    "question": "what needs to be included in an lor for it to be actionable?",
+    "review_id": "d35938e7-7491-490f-8403-4e5ff77750a1",
+    "timestamp": "2025-11-24T20:40:07.052443+00:00"
+  }
+]

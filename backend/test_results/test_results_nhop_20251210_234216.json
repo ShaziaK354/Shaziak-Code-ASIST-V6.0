@@ -1,0 +1,265 @@
+{
+  "timestamp": "2025-12-10T23:42:16.968850",
+  "summary": {
+    "total": 36,
+    "passed": 33,
+    "partial": 3,
+    "failed": 0,
+    "pass_rate": 91.66666666666666,
+    "success_rate": 100.0
+  },
+  "results": [
+    {
+      "id": "Q4",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q2",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 3,
+      "checks_total": 3
+    },
+    {
+      "id": "Q5",
+      "status": "PARTIAL",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 3
+    },
+    {
+      "id": "Q_DSCA_CHAIN",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_FMS_AUTH",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_SA_SUPERVISION",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_FMS_CHAIN",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_NAVY_FMS",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 3,
+      "checks_total": 3
+    },
+    {
+      "id": "Q_DFAS_ROLE",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_JCS_ADVICE",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_IAS",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 4,
+      "checks_total": 4
+    },
+    {
+      "id": "Q_SCO_SUPERVISION",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_DOS_ROLE",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 3,
+      "checks_total": 3
+    },
+    {
+      "id": "Q_FMS_AUDIT",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 3,
+      "checks_total": 3
+    },
+    {
+      "id": "Q_DLA_ROLE",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 3,
+      "checks_total": 3
+    },
+    {
+      "id": "Q_CAMPAIGN_PLANS",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_ARMY_FMS",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_DOD_STRUCTURE",
+      "status": "PARTIAL",
+      "paths_found": 15,
+      "checks_passed": 1,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_EXECUTIVE_AGENT",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 1,
+      "checks_total": 1
+    },
+    {
+      "id": "Q_LOA_PROCESS",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_LOR_PROCESS",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_SECTION_36",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_DOD_DIRECTIVE",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_CCMD_ROLE",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_IMET",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_BPC",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_SDR",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_DCAA_AUDIT",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_USDP_ROLE",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_DEFENSE_ARTICLES",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_STATE_COORDINATION",
+      "status": "PARTIAL",
+      "paths_found": 15,
+      "checks_passed": 1,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_3HOP_DSCA_CHAIN",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 3,
+      "checks_total": 3
+    },
+    {
+      "id": "Q_3HOP_FMS_AUTHORITY",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 3,
+      "checks_total": 3
+    },
+    {
+      "id": "Q_3HOP_LOA_CHAIN",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_3HOP_NIPO_CHAIN",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    {
+      "id": "Q_3HOP_DLA_CHAIN",
+      "status": "PASS",
+      "paths_found": 15,
+      "checks_passed": 2,
+      "checks_total": 2
+    }
+  ]
+}

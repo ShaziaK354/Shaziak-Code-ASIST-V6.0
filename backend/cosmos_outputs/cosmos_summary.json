@@ -1,0 +1,3778 @@
+{
+  "success": true,
+  "timestamp": "2025-12-10T22:28:52.569990",
+  "config": {
+    "endpoint": "asist-graph-db.gremlin.cosmos.azure.com",
+    "database": "ASIST-Agent-1.1DB",
+    "graph": "AGENT1.4"
+  },
+  "counts": {
+    "vertices": 2239,
+    "edges": 3612
+  },
+  "vertex_labels": [
+    {
+      "label": "Abbreviation",
+      "count": 4
+    },
+    {
+      "label": "Activity",
+      "count": 9
+    },
+    {
+      "label": "Agreement",
+      "count": 28
+    },
+    {
+      "label": "Attribute",
+      "count": 4
+    },
+    {
+      "label": "Authority",
+      "count": 2
+    },
+    {
+      "label": "Capability",
+      "count": 7
+    },
+    {
+      "label": "Case",
+      "count": 4
+    },
+    {
+      "label": "Category",
+      "count": 6
+    },
+    {
+      "label": "Classification",
+      "count": 6
+    },
+    {
+      "label": "Code",
+      "count": 29
+    },
+    {
+      "label": "Commercial",
+      "count": 10
+    },
+    {
+      "label": "Component",
+      "count": 5
+    },
+    {
+      "label": "Concept",
+      "count": 112
+    },
+    {
+      "label": "Contract Document",
+      "count": 2
+    },
+    {
+      "label": "Credential",
+      "count": 3
+    },
+    {
+      "label": "Criteria",
+      "count": 1
+    },
+    {
+      "label": "Data",
+      "count": 3
+    },
+    {
+      "label": "Date",
+      "count": 6
+    },
+    {
+      "label": "Defense Item",
+      "count": 1
+    },
+    {
+      "label": "Defense Service",
+      "count": 1
+    },
+    {
+      "label": "Document",
+      "count": 112
+    },
+    {
+      "label": "Domain",
+      "count": 1
+    },
+    {
+      "label": "Entity",
+      "count": 80
+    },
+    {
+      "label": "Entity Group",
+      "count": 2
+    },
+    {
+      "label": "Equipment",
+      "count": 11
+    },
+    {
+      "label": "Event",
+      "count": 1
+    },
+    {
+      "label": "Financial",
+      "count": 107
+    },
+    {
+      "label": "Financial Mechanism",
+      "count": 1
+    },
+    {
+      "label": "Financial Process",
+      "count": 2
+    },
+    {
+      "label": "Form",
+      "count": 7
+    },
+    {
+      "label": "Funding",
+      "count": 1
+    },
+    {
+      "label": "Identifier",
+      "count": 12
+    },
+    {
+      "label": "Item",
+      "count": 48
+    },
+    {
+      "label": "Legal Authority",
+      "count": 7
+    },
+    {
+      "label": "LegalFramework",
+      "count": 1
+    },
+    {
+      "label": "Legislation",
+      "count": 1
+    },
+    {
+      "label": "Location",
+      "count": 19
+    },
+    {
+      "label": "Logistics Support",
+      "count": 1
+    },
+    {
+      "label": "Materiel",
+      "count": 1
+    },
+    {
+      "label": "Metric",
+      "count": 3
+    },
+    {
+      "label": "Objective",
+      "count": 1
+    },
+    {
+      "label": "Office",
+      "count": 13
+    },
+    {
+      "label": "Organization",
+      "count": 117
+    },
+    {
+      "label": "Organization Group",
+      "count": 5
+    },
+    {
+      "label": "Partner",
+      "count": 14
+    },
+    {
+      "label": "Partner Group",
+      "count": 1
+    },
+    {
+      "label": "Plan",
+      "count": 2
+    },
+    {
+      "label": "Policy",
+      "count": 14
+    },
+    {
+      "label": "Position",
+      "count": 40
+    },
+    {
+      "label": "Position Group",
+      "count": 2
+    },
+    {
+      "label": "Procedure",
+      "count": 3
+    },
+    {
+      "label": "Process",
+      "count": 105
+    },
+    {
+      "label": "Program",
+      "count": 21
+    },
+    {
+      "label": "Program Case",
+      "count": 1
+    },
+    {
+      "label": "Regulation",
+      "count": 54
+    },
+    {
+      "label": "Requirement",
+      "count": 1
+    },
+    {
+      "label": "Resource",
+      "count": 4
+    },
+    {
+      "label": "Service",
+      "count": 39
+    },
+    {
+      "label": "Specification",
+      "count": 4
+    },
+    {
+      "label": "Standard",
+      "count": 1
+    },
+    {
+      "label": "Status",
+      "count": 2
+    },
+    {
+      "label": "Strategy",
+      "count": 1
+    },
+    {
+      "label": "System",
+      "count": 20
+    },
+    {
+      "label": "Technical Assistance",
+      "count": 1
+    },
+    {
+      "label": "Technology",
+      "count": 3
+    },
+    {
+      "label": "Template",
+      "count": 2
+    },
+    {
+      "label": "Term",
+      "count": 2
+    },
+    {
+      "label": "Terms",
+      "count": 1
+    },
+    {
+      "label": "Timeframe",
+      "count": 5
+    },
+    {
+      "label": "Unit",
+      "count": 4
+    },
+    {
+      "label": "Weapon",
+      "count": 18
+    },
+    {
+      "label": "Weapon System",
+      "count": 1
+    },
+    {
+      "label": "case_type",
+      "count": 9
+    },
+    {
+      "label": "code",
+      "count": 2
+    },
+    {
+      "label": "concept",
+      "count": 46
+    },
+    {
+      "label": "document",
+      "count": 82
+    },
+    {
+      "label": "dod_directive",
+      "count": 13
+    },
+    {
+      "label": "entity",
+      "count": 108
+    },
+    {
+      "label": "equipment",
+      "count": 6
+    },
+    {
+      "label": "executive_order",
+      "count": 1
+    },
+    {
+      "label": "financial",
+      "count": 12
+    },
+    {
+      "label": "funding",
+      "count": 9
+    },
+    {
+      "label": "legal_authority",
+      "count": 12
+    },
+    {
+      "label": "location",
+      "count": 5
+    },
+    {
+      "label": "ontology",
+      "count": 1
+    },
+    {
+      "label": "organization",
+      "count": 161
+    },
+    {
+      "label": "policy",
+      "count": 1
+    },
+    {
+      "label": "position",
+      "count": 29
+    },
+    {
+      "label": "process",
+      "count": 60
+    },
+    {
+      "label": "program",
+      "count": 26
+    },
+    {
+      "label": "regulation",
+      "count": 10
+    },
+    {
+      "label": "role",
+      "count": 16
+    },
+    {
+      "label": "section",
+      "count": 415
+    },
+    {
+      "label": "status",
+      "count": 20
+    },
+    {
+      "label": "system",
+      "count": 22
+    },
+    {
+      "label": "term",
+      "count": 9
+    },
+    {
+      "label": "timeframe",
+      "count": 1
+    }
+  ],
+  "edge_labels": [
+    {
+      "label": "ACCEPTS",
+      "count": 3
+    },
+    {
+      "label": "ACCOMPANIED_BY",
+      "count": 1
+    },
+    {
+      "label": "ACCOMPANIES",
+      "count": 3
+    },
+    {
+      "label": "ACCOUNTABLE_FOR",
+      "count": 1
+    },
+    {
+      "label": "ACQUIRED_THROUGH",
+      "count": 1
+    },
+    {
+      "label": "ACTS_AS",
+      "count": 2
+    },
+    {
+      "label": "ACTS_AS_AGENT",
+      "count": 1
+    },
+    {
+      "label": "ADDED_FOR",
+      "count": 1
+    },
+    {
+      "label": "ADJUSTED_BY",
+      "count": 1
+    },
+    {
+      "label": "ADJUSTED_DURING",
+      "count": 1
+    },
+    {
+      "label": "ADJUSTED_VIA",
+      "count": 4
+    },
+    {
+      "label": "ADJUSTS",
+      "count": 1
+    },
+    {
+      "label": "ADMINISTERED_BY",
+      "count": 1
+    },
+    {
+      "label": "ADMINISTERED_UNDER",
+      "count": 1
+    },
+    {
+      "label": "ADMINISTERS",
+      "count": 2
+    },
+    {
+      "label": "ADVISES",
+      "count": 1
+    },
+    {
+      "label": "AFFECTED_BY",
+      "count": 1
+    },
+    {
+      "label": "AFFECTS",
+      "count": 1
+    },
+    {
+      "label": "ALLOCATED_BY",
+      "count": 2
+    },
+    {
+      "label": "ALLOCATES",
+      "count": 1
+    },
+    {
+      "label": "ALTERNATIVE_TO",
+      "count": 3
+    },
+    {
+      "label": "ALTERS",
+      "count": 1
+    },
+    {
+      "label": "AMENDED_BY",
+      "count": 2
+    },
+    {
+      "label": "APPLIED_TO",
+      "count": 9
+    },
+    {
+      "label": "APPLIES_TO",
+      "count": 9
+    },
+    {
+      "label": "APPROPRIATED_BY",
+      "count": 1
+    },
+    {
+      "label": "APPROPRIATES",
+      "count": 1
+    },
+    {
+      "label": "APPROVED_BY",
+      "count": 5
+    },
+    {
+      "label": "APPROVED_FOR",
+      "count": 1
+    },
+    {
+      "label": "APPROVES",
+      "count": 12
+    },
+    {
+      "label": "ASSIGNED_BY",
+      "count": 3
+    },
+    {
+      "label": "ASSIGNED_TO",
+      "count": 1
+    },
+    {
+      "label": "ASSIGNS",
+      "count": 1
+    },
+    {
+      "label": "ASSISTS",
+      "count": 2
+    },
+    {
+      "label": "ATTACHED_TO",
+      "count": 1
+    },
+    {
+      "label": "AUTHORIZED_BY",
+      "count": 10
+    },
+    {
+      "label": "AUTHORIZES",
+      "count": 7
+    },
+    {
+      "label": "BASED_ON",
+      "count": 4
+    },
+    {
+      "label": "BASIS_FOR",
+      "count": 2
+    },
+    {
+      "label": "BEGINS",
+      "count": 1
+    },
+    {
+      "label": "BENEFICIARY_IS",
+      "count": 1
+    },
+    {
+      "label": "BILLS",
+      "count": 1
+    },
+    {
+      "label": "CALCULATED_BY",
+      "count": 1
+    },
+    {
+      "label": "CANNOT_SHIP_TO",
+      "count": 1
+    },
+    {
+      "label": "CAN_REIMBURSE",
+      "count": 1
+    },
+    {
+      "label": "CAN_WAIVE",
+      "count": 1
+    },
+    {
+      "label": "CAPTURES",
+      "count": 1
+    },
+    {
+      "label": "CATEGORIZED_BY",
+      "count": 1
+    },
+    {
+      "label": "CATEGORIZES",
+      "count": 1
+    },
+    {
+      "label": "CHANGED_BY",
+      "count": 1
+    },
+    {
+      "label": "CHANGES",
+      "count": 3
+    },
+    {
+      "label": "CHARGED_WITHOUT",
+      "count": 1
+    },
+    {
+      "label": "CLASSIFIED_AS",
+      "count": 1
+    },
+    {
+      "label": "CLEARED_BY",
+      "count": 1
+    },
+    {
+      "label": "CLOSED_BY",
+      "count": 1
+    },
+    {
+      "label": "CODIFIED_AS",
+      "count": 4
+    },
+    {
+      "label": "COMPLEMENT",
+      "count": 1
+    },
+    {
+      "label": "COMPLEMENTS",
+      "count": 2
+    },
+    {
+      "label": "COMPLETES",
+      "count": 1
+    },
+    {
+      "label": "COMPONENT_OF",
+      "count": 5
+    },
+    {
+      "label": "CONCURS_WITH",
+      "count": 1
+    },
+    {
+      "label": "CONNECTED_TO",
+      "count": 1
+    },
+    {
+      "label": "CONSISTS_OF",
+      "count": 3
+    },
+    {
+      "label": "CONSTRAINS",
+      "count": 1
+    },
+    {
+      "label": "CONTAIN",
+      "count": 1
+    },
+    {
+      "label": "CONTAINS",
+      "count": 5
+    },
+    {
+      "label": "CONTRACTED_BY",
+      "count": 1
+    },
+    {
+      "label": "CONTROLLED_BY",
+      "count": 2
+    },
+    {
+      "label": "CONTROLS",
+      "count": 2
+    },
+    {
+      "label": "COORDINATED_BY",
+      "count": 5
+    },
+    {
+      "label": "COORDINATED_WITH",
+      "count": 3
+    },
+    {
+      "label": "COORDINATES",
+      "count": 9
+    },
+    {
+      "label": "COORDINATES_WITH",
+      "count": 36
+    },
+    {
+      "label": "COSTS_INCLUDE",
+      "count": 3
+    },
+    {
+      "label": "COUNTERSIGNED_BY",
+      "count": 1
+    },
+    {
+      "label": "COUNTERSIGNS",
+      "count": 1
+    },
+    {
+      "label": "COVERS",
+      "count": 3
+    },
+    {
+      "label": "CREATED_IN",
+      "count": 1
+    },
+    {
+      "label": "CREATES",
+      "count": 2
+    },
+    {
+      "label": "DEADLINE_FOR",
+      "count": 2
+    },
+    {
+      "label": "DECLARED_BY",
+      "count": 1
+    },
+    {
+      "label": "DECREMENTS",
+      "count": 1
+    },
+    {
+      "label": "DEFINED_BY",
+      "count": 2
+    },
+    {
+      "label": "DEFINED_IN",
+      "count": 1
+    },
+    {
+      "label": "DEFINES",
+      "count": 6
+    },
+    {
+      "label": "DELAYS",
+      "count": 1
+    },
+    {
+      "label": "DELEGATES_FROM",
+      "count": 1
+    },
+    {
+      "label": "DELEGATES_TO",
+      "count": 2
+    },
+    {
+      "label": "DELIVERED_THROUGH",
+      "count": 1
+    },
+    {
+      "label": "DELIVERED_TO",
+      "count": 1
+    },
+    {
+      "label": "DELIVERS_TO",
+      "count": 1
+    },
+    {
+      "label": "DEPOSITED_BY",
+      "count": 1
+    },
+    {
+      "label": "DEPOSITED_IN",
+      "count": 5
+    },
+    {
+      "label": "DEPOSITED_TO",
+      "count": 1
+    },
+    {
+      "label": "DESIGNATED_AS",
+      "count": 2
+    },
+    {
+      "label": "DETERMINES",
+      "count": 4
+    },
+    {
+      "label": "DEVELOPED_BY",
+      "count": 2
+    },
+    {
+      "label": "DEVELOPED_FROM",
+      "count": 1
+    },
+    {
+      "label": "DEVELOPS",
+      "count": 3
+    },
+    {
+      "label": "DIFFERS_FROM",
+      "count": 2
+    },
+    {
+      "label": "DOCUMENTED_BY",
+      "count": 4
+    },
+    {
+      "label": "DOCUMENTED_IN",
+      "count": 3
+    },
+    {
+      "label": "DOMESTIC",
+      "count": 1
+    },
+    {
+      "label": "ELIGIBLE_FOR",
+      "count": 2
+    },
+    {
+      "label": "ENABLE",
+      "count": 1
+    },
+    {
+      "label": "ENABLES",
+      "count": 4
+    },
+    {
+      "label": "ENFORCED_BY",
+      "count": 5
+    },
+    {
+      "label": "ENFORCES",
+      "count": 5
+    },
+    {
+      "label": "ENSURES",
+      "count": 1
+    },
+    {
+      "label": "ESTABLISHES",
+      "count": 1
+    },
+    {
+      "label": "EVALUATED_FOR",
+      "count": 2
+    },
+    {
+      "label": "EXCLUDED_FROM",
+      "count": 1
+    },
+    {
+      "label": "EXECUTED_BY",
+      "count": 2
+    },
+    {
+      "label": "EXECUTES",
+      "count": 6
+    },
+    {
+      "label": "EXEMPT_FROM",
+      "count": 1
+    },
+    {
+      "label": "EXTENDS_IF",
+      "count": 1
+    },
+    {
+      "label": "FACILITATED_BY",
+      "count": 1
+    },
+    {
+      "label": "FACILITATES",
+      "count": 5
+    },
+    {
+      "label": "FILED_IN",
+      "count": 1
+    },
+    {
+      "label": "FINANCED_BY",
+      "count": 2
+    },
+    {
+      "label": "FINANCES",
+      "count": 1
+    },
+    {
+      "label": "FOLLOWS",
+      "count": 11
+    },
+    {
+      "label": "FORWARDED_TO",
+      "count": 1
+    },
+    {
+      "label": "FOR_MEDICAL_COUNTERMEASURES_SENT_TO",
+      "count": 1
+    },
+    {
+      "label": "FUNDED_BY",
+      "count": 6
+    },
+    {
+      "label": "FUNDS",
+      "count": 3
+    },
+    {
+      "label": "GENERATED_IN",
+      "count": 1
+    },
+    {
+      "label": "GENERATES",
+      "count": 4
+    },
+    {
+      "label": "GOVERN",
+      "count": 1
+    },
+    {
+      "label": "GOVERNED_BY",
+      "count": 7
+    },
+    {
+      "label": "GOVERNS",
+      "count": 10
+    },
+    {
+      "label": "GRANTED_BY",
+      "count": 1
+    },
+    {
+      "label": "GUIDANCE_IN",
+      "count": 1
+    },
+    {
+      "label": "HANDLED_BY",
+      "count": 1
+    },
+    {
+      "label": "HANDLES",
+      "count": 4
+    },
+    {
+      "label": "HAS",
+      "count": 2
+    },
+    {
+      "label": "HAS_TYPE",
+      "count": 2
+    },
+    {
+      "label": "HELD_BY",
+      "count": 1
+    },
+    {
+      "label": "HOLDS",
+      "count": 1
+    },
+    {
+      "label": "HOSTS",
+      "count": 1
+    },
+    {
+      "label": "IDENTIFIES",
+      "count": 2
+    },
+    {
+      "label": "IMPLEMENT",
+      "count": 1
+    },
+    {
+      "label": "IMPLEMENTED_BY",
+      "count": 3
+    },
+    {
+      "label": "IMPLEMENTED_VIA",
+      "count": 1
+    },
+    {
+      "label": "IMPLEMENTS",
+      "count": 10
+    },
+    {
+      "label": "INCLUDE",
+      "count": 40
+    },
+    {
+      "label": "INCLUDED_IN",
+      "count": 5
+    },
+    {
+      "label": "INCLUDED_ON",
+      "count": 1
+    },
+    {
+      "label": "INCLUDES",
+      "count": 33
+    },
+    {
+      "label": "INDICATES",
+      "count": 1
+    },
+    {
+      "label": "INFORMS",
+      "count": 1
+    },
+    {
+      "label": "INITIATES",
+      "count": 2
+    },
+    {
+      "label": "INTEGRATES_WITH",
+      "count": 1
+    },
+    {
+      "label": "INTERFACES_WITH",
+      "count": 1
+    },
+    {
+      "label": "INVOLVES",
+      "count": 4
+    },
+    {
+      "label": "IS",
+      "count": 6
+    },
+    {
+      "label": "ISSUED_BY",
+      "count": 9
+    },
+    {
+      "label": "ISSUES",
+      "count": 5
+    },
+    {
+      "label": "IS_STATE_OF",
+      "count": 1
+    },
+    {
+      "label": "IS_TYPE_OF",
+      "count": 44
+    },
+    {
+      "label": "IS_VERSION_OF",
+      "count": 1
+    },
+    {
+      "label": "JUSTIFIES",
+      "count": 1
+    },
+    {
+      "label": "LEADS",
+      "count": 5
+    },
+    {
+      "label": "LEADS_TO",
+      "count": 1
+    },
+    {
+      "label": "LEGACY",
+      "count": 1
+    },
+    {
+      "label": "LESS_COMPLEX_THAN",
+      "count": 1
+    },
+    {
+      "label": "LINKED_TO",
+      "count": 1
+    },
+    {
+      "label": "LINKS",
+      "count": 1
+    },
+    {
+      "label": "LISTED_IN",
+      "count": 4
+    },
+    {
+      "label": "LISTS",
+      "count": 1
+    },
+    {
+      "label": "LOCATED_AT",
+      "count": 2
+    },
+    {
+      "label": "LOWER_THAN",
+      "count": 1
+    },
+    {
+      "label": "MADE_IN",
+      "count": 1
+    },
+    {
+      "label": "MAINTAINED_BY",
+      "count": 1
+    },
+    {
+      "label": "MAINTAINS",
+      "count": 2
+    },
+    {
+      "label": "MAKES_PAYMENT_TO",
+      "count": 1
+    },
+    {
+      "label": "MANAGED_BY",
+      "count": 19
+    },
+    {
+      "label": "MANAGES",
+      "count": 19
+    },
+    {
+      "label": "MANDATED_BY",
+      "count": 1
+    },
+    {
+      "label": "MANDATES",
+      "count": 3
+    },
+    {
+      "label": "MAY_ALLOW",
+      "count": 1
+    },
+    {
+      "label": "MAY_BE",
+      "count": 4
+    },
+    {
+      "label": "MAY_BE_CHANGED_BY",
+      "count": 2
+    },
+    {
+      "label": "MAY_BE_CONFIRMED_BY",
+      "count": 1
+    },
+    {
+      "label": "MAY_BE_SOLD_VIA",
+      "count": 1
+    },
+    {
+      "label": "MAY_CAUSE",
+      "count": 1
+    },
+    {
+      "label": "MAY_FUND",
+      "count": 1
+    },
+    {
+      "label": "MAY_INCLUDE",
+      "count": 3
+    },
+    {
+      "label": "MAY_INVOLVE",
+      "count": 1
+    },
+    {
+      "label": "MAY_QUALIFY_FOR",
+      "count": 1
+    },
+    {
+      "label": "MAY_REQUIRE",
+      "count": 3
+    },
+    {
+      "label": "MAY_RESULT_IN",
+      "count": 1
+    },
+    {
+      "label": "MAY_SHIP_VIA",
+      "count": 1
+    },
+    {
+      "label": "MAY_USE",
+      "count": 6
+    },
+    {
+      "label": "MEASURED_IN",
+      "count": 1
+    },
+    {
+      "label": "MINIMIZES",
+      "count": 1
+    },
+    {
+      "label": "MINIMUM_FOR",
+      "count": 1
+    },
+    {
+      "label": "MODIFIED_BY",
+      "count": 2
+    },
+    {
+      "label": "MODIFIES",
+      "count": 1
+    },
+    {
+      "label": "MONITORED_BY",
+      "count": 2
+    },
+    {
+      "label": "MONITORS",
+      "count": 3
+    },
+    {
+      "label": "MUST_BE",
+      "count": 1
+    },
+    {
+      "label": "MUST_COMPLY_WITH",
+      "count": 1
+    },
+    {
+      "label": "MUST_MEET",
+      "count": 1
+    },
+    {
+      "label": "MUST_USE",
+      "count": 1
+    },
+    {
+      "label": "NEGOTIATED_BY",
+      "count": 4
+    },
+    {
+      "label": "NEGOTIATED_VIA",
+      "count": 1
+    },
+    {
+      "label": "NEGOTIATES",
+      "count": 1
+    },
+    {
+      "label": "NON-REPAYABLE",
+      "count": 1
+    },
+    {
+      "label": "NOTIFIES",
+      "count": 4
+    },
+    {
+      "label": "NOT_APPLIED_TO",
+      "count": 1
+    },
+    {
+      "label": "NOT_SAME_AS",
+      "count": 1
+    },
+    {
+      "label": "OBLIGATES",
+      "count": 1
+    },
+    {
+      "label": "OCCURS_AT",
+      "count": 1
+    },
+    {
+      "label": "OFFERED_UNDER",
+      "count": 1
+    },
+    {
+      "label": "OLDER_VERSION_OF",
+      "count": 1
+    },
+    {
+      "label": "OPERATED_BY",
+      "count": 1
+    },
+    {
+      "label": "OPERATES",
+      "count": 4
+    },
+    {
+      "label": "OPPOSITE_OF",
+      "count": 1
+    },
+    {
+      "label": "ORIGINATES_FROM",
+      "count": 1
+    },
+    {
+      "label": "OVERSEAS",
+      "count": 1
+    },
+    {
+      "label": "OVERSEES",
+      "count": 7
+    },
+    {
+      "label": "PAID_BY",
+      "count": 1
+    },
+    {
+      "label": "PAID_FROM",
+      "count": 1
+    },
+    {
+      "label": "PART_OF",
+      "count": 46
+    },
+    {
+      "label": "PAY_FOR",
+      "count": 1
+    },
+    {
+      "label": "PERFORMED_BY",
+      "count": 1
+    },
+    {
+      "label": "POINT_OF",
+      "count": 1
+    },
+    {
+      "label": "POLICY_FOR",
+      "count": 1
+    },
+    {
+      "label": "POSSESSES",
+      "count": 1
+    },
+    {
+      "label": "PRECEDED_BY",
+      "count": 1
+    },
+    {
+      "label": "PRECEDES",
+      "count": 4
+    },
+    {
+      "label": "PREDATES",
+      "count": 1
+    },
+    {
+      "label": "PREPARED_BY",
+      "count": 1
+    },
+    {
+      "label": "PREPARES",
+      "count": 1
+    },
+    {
+      "label": "PRICED_AT",
+      "count": 1
+    },
+    {
+      "label": "PRICED_IN",
+      "count": 1
+    },
+    {
+      "label": "PRICED_ON",
+      "count": 1
+    },
+    {
+      "label": "PRICED_USING",
+      "count": 1
+    },
+    {
+      "label": "PRICES",
+      "count": 1
+    },
+    {
+      "label": "PRINTED_ON",
+      "count": 1
+    },
+    {
+      "label": "PRIORITIZES",
+      "count": 1
+    },
+    {
+      "label": "PROCESSED_BY",
+      "count": 4
+    },
+    {
+      "label": "PROCESSED_THROUGH",
+      "count": 1
+    },
+    {
+      "label": "PROCESSED_VIA",
+      "count": 2
+    },
+    {
+      "label": "PROCESSES",
+      "count": 5
+    },
+    {
+      "label": "PRODUCES",
+      "count": 2
+    },
+    {
+      "label": "PROHIBITED_BY",
+      "count": 1
+    },
+    {
+      "label": "PROHIBITED_IN",
+      "count": 1
+    },
+    {
+      "label": "PROHIBITS",
+      "count": 1
+    },
+    {
+      "label": "PROMOTES",
+      "count": 2
+    },
+    {
+      "label": "PROTECTS",
+      "count": 1
+    },
+    {
+      "label": "PROTECTS_AGAINST",
+      "count": 2
+    },
+    {
+      "label": "PROVIDED_BY",
+      "count": 5
+    },
+    {
+      "label": "PROVIDED_THROUGH",
+      "count": 1
+    },
+    {
+      "label": "PROVIDED_UNDER",
+      "count": 3
+    },
+    {
+      "label": "PROVIDES",
+      "count": 8
+    },
+    {
+      "label": "PROVIDES_DATA_TO",
+      "count": 2
+    },
+    {
+      "label": "PUBLISHES",
+      "count": 2
+    },
+    {
+      "label": "QUALIFIED_FOR",
+      "count": 1
+    },
+    {
+      "label": "QUALIFIES_FOR",
+      "count": 1
+    },
+    {
+      "label": "RATE_PUBLISHED_BY",
+      "count": 1
+    },
+    {
+      "label": "RECEIVED_BY",
+      "count": 1
+    },
+    {
+      "label": "RECEIVES",
+      "count": 11
+    },
+    {
+      "label": "RECORDS",
+      "count": 4
+    },
+    {
+      "label": "REDUCES",
+      "count": 1
+    },
+    {
+      "label": "REFERENCED_IN",
+      "count": 3
+    },
+    {
+      "label": "REFERENCES",
+      "count": 4
+    },
+    {
+      "label": "REGISTERED_WITH",
+      "count": 1
+    },
+    {
+      "label": "REGULATED_BY",
+      "count": 6
+    },
+    {
+      "label": "REGULATED_FOR",
+      "count": 1
+    },
+    {
+      "label": "REGULATES",
+      "count": 1
+    },
+    {
+      "label": "REIMBURSES",
+      "count": 2
+    },
+    {
+      "label": "RELATED_TO",
+      "count": 4
+    },
+    {
+      "label": "RELATES_TO",
+      "count": 3
+    },
+    {
+      "label": "REPAYABLE",
+      "count": 1
+    },
+    {
+      "label": "REPORTED_IN",
+      "count": 1
+    },
+    {
+      "label": "REPORTED_TO",
+      "count": 1
+    },
+    {
+      "label": "REPORTS_TO",
+      "count": 4
+    },
+    {
+      "label": "REPRESENTED_BY",
+      "count": 1
+    },
+    {
+      "label": "REPRESENTS",
+      "count": 2
+    },
+    {
+      "label": "REQUESTED_BY",
+      "count": 1
+    },
+    {
+      "label": "REQUESTS",
+      "count": 3
+    },
+    {
+      "label": "REQUIRE",
+      "count": 1
+    },
+    {
+      "label": "REQUIRED_AT",
+      "count": 1
+    },
+    {
+      "label": "REQUIRED_BY",
+      "count": 2
+    },
+    {
+      "label": "REQUIRED_FOR",
+      "count": 20
+    },
+    {
+      "label": "REQUIRES",
+      "count": 37
+    },
+    {
+      "label": "REQUIRES_APPROVAL_FROM",
+      "count": 2
+    },
+    {
+      "label": "RESOLVES",
+      "count": 1
+    },
+    {
+      "label": "REVIEWED_BY",
+      "count": 5
+    },
+    {
+      "label": "REVIEWED_DURING",
+      "count": 2
+    },
+    {
+      "label": "REVIEWS",
+      "count": 6
+    },
+    {
+      "label": "SAME_AS",
+      "count": 9
+    },
+    {
+      "label": "SECURED_BY",
+      "count": 1
+    },
+    {
+      "label": "SELECTS",
+      "count": 1
+    },
+    {
+      "label": "SELLS_THROUGH",
+      "count": 1
+    },
+    {
+      "label": "SENDS",
+      "count": 2
+    },
+    {
+      "label": "SENT_BY",
+      "count": 1
+    },
+    {
+      "label": "SENT_TO",
+      "count": 4
+    },
+    {
+      "label": "SERVED_BY",
+      "count": 1
+    },
+    {
+      "label": "SERVICED_BY",
+      "count": 2
+    },
+    {
+      "label": "SHIPS",
+      "count": 1
+    },
+    {
+      "label": "SHORT_FOR",
+      "count": 3
+    },
+    {
+      "label": "SIGNED_BY",
+      "count": 3
+    },
+    {
+      "label": "SIGNS",
+      "count": 2
+    },
+    {
+      "label": "SIMILAR_TO",
+      "count": 3
+    },
+    {
+      "label": "SOLD_THROUGH",
+      "count": 1
+    },
+    {
+      "label": "SOLD_VIA",
+      "count": 2
+    },
+    {
+      "label": "SOURCE_FOR",
+      "count": 1
+    },
+    {
+      "label": "SPECIFICATION_FOR",
+      "count": 2
+    },
+    {
+      "label": "SPECIFIC_TO",
+      "count": 2
+    },
+    {
+      "label": "SPECIFIED_IN",
+      "count": 4
+    },
+    {
+      "label": "SPECIFIES",
+      "count": 3
+    },
+    {
+      "label": "STOCKS",
+      "count": 1
+    },
+    {
+      "label": "STRENGTHENS",
+      "count": 1
+    },
+    {
+      "label": "SUBJECT_TO",
+      "count": 12
+    },
+    {
+      "label": "SUBMITS",
+      "count": 3
+    },
+    {
+      "label": "SUBMITTED_BY",
+      "count": 5
+    },
+    {
+      "label": "SUBMITTED_FOR",
+      "count": 1
+    },
+    {
+      "label": "SUBMITTED_TO",
+      "count": 1
+    },
+    {
+      "label": "SUPPLEMENTED_BY",
+      "count": 1
+    },
+    {
+      "label": "SUPPLEMENTS",
+      "count": 3
+    },
+    {
+      "label": "SUPPLIED_BY",
+      "count": 1
+    },
+    {
+      "label": "SUPPORT",
+      "count": 1
+    },
+    {
+      "label": "SUPPORTS",
+      "count": 11
+    },
+    {
+      "label": "TECHNOLOGY_IN",
+      "count": 2
+    },
+    {
+      "label": "TERMINATES",
+      "count": 1
+    },
+    {
+      "label": "TO",
+      "count": 1
+    },
+    {
+      "label": "TRACKED_BY",
+      "count": 1
+    },
+    {
+      "label": "TRACKED_IN",
+      "count": 7
+    },
+    {
+      "label": "TRACKS",
+      "count": 12
+    },
+    {
+      "label": "TRAINS",
+      "count": 1
+    },
+    {
+      "label": "TRANSFERRED_THROUGH",
+      "count": 2
+    },
+    {
+      "label": "TRANSFERRED_VIA",
+      "count": 2
+    },
+    {
+      "label": "TRANSFERRED_WITH",
+      "count": 3
+    },
+    {
+      "label": "TRANSFERS",
+      "count": 1
+    },
+    {
+      "label": "TRANSPORTED_BY",
+      "count": 1
+    },
+    {
+      "label": "TRANSPORTED_VIA",
+      "count": 2
+    },
+    {
+      "label": "TRANSPORTS",
+      "count": 2
+    },
+    {
+      "label": "TRANSPORTS_FROM",
+      "count": 1
+    },
+    {
+      "label": "TRIGGERS",
+      "count": 2
+    },
+    {
+      "label": "TYPE_OF",
+      "count": 18
+    },
+    {
+      "label": "TYPICALLY_IN",
+      "count": 2
+    },
+    {
+      "label": "UNIQUE_IDENTIFIER_FOR",
+      "count": 1
+    },
+    {
+      "label": "UNIQUE_TO",
+      "count": 1
+    },
+    {
+      "label": "UPDATED_BY",
+      "count": 1
+    },
+    {
+      "label": "UPDATES",
+      "count": 2
+    },
+    {
+      "label": "USED_AS",
+      "count": 1
+    },
+    {
+      "label": "USED_BY",
+      "count": 3
+    },
+    {
+      "label": "USED_FOR",
+      "count": 2
+    },
+    {
+      "label": "USED_IN",
+      "count": 2
+    },
+    {
+      "label": "USED_ON",
+      "count": 1
+    },
+    {
+      "label": "USES",
+      "count": 18
+    },
+    {
+      "label": "USES_DOCUMENT",
+      "count": 1
+    },
+    {
+      "label": "USES_FORM",
+      "count": 2
+    },
+    {
+      "label": "VALIDATED_BY",
+      "count": 1
+    },
+    {
+      "label": "VALIDATES",
+      "count": 2
+    },
+    {
+      "label": "VERIFIED_BY",
+      "count": 2
+    },
+    {
+      "label": "VIOLATES",
+      "count": 1
+    },
+    {
+      "label": "WITHIN",
+      "count": 1
+    },
+    {
+      "label": "WORKS_AT",
+      "count": 1
+    },
+    {
+      "label": "WORKS_WITH",
+      "count": 4
+    },
+    {
+      "label": "abbreviated_as",
+      "count": 9
+    },
+    {
+      "label": "abbreviated_for",
+      "count": 1
+    },
+    {
+      "label": "abbreviatedas",
+      "count": 4
+    },
+    {
+      "label": "accepts",
+      "count": 2
+    },
+    {
+      "label": "accepts_via",
+      "count": 1
+    },
+    {
+      "label": "access",
+      "count": 1
+    },
+    {
+      "label": "accessed_by",
+      "count": 1
+    },
+    {
+      "label": "accordingto",
+      "count": 2
+    },
+    {
+      "label": "accounts_for",
+      "count": 5
+    },
+    {
+      "label": "achieves",
+      "count": 1
+    },
+    {
+      "label": "acquiresthrough",
+      "count": 1
+    },
+    {
+      "label": "acts_as",
+      "count": 2
+    },
+    {
+      "label": "actsas",
+      "count": 2
+    },
+    {
+      "label": "addressed_to",
+      "count": 2
+    },
+    {
+      "label": "addresses",
+      "count": 2
+    },
+    {
+      "label": "administeredby",
+      "count": 6
+    },
+    {
+      "label": "administers",
+      "count": 8
+    },
+    {
+      "label": "advances",
+      "count": 1
+    },
+    {
+      "label": "advises",
+      "count": 6
+    },
+    {
+      "label": "advises_on",
+      "count": 2
+    },
+    {
+      "label": "adviseson",
+      "count": 5
+    },
+    {
+      "label": "advisesto",
+      "count": 8
+    },
+    {
+      "label": "affects",
+      "count": 2
+    },
+    {
+      "label": "alignson",
+      "count": 2
+    },
+    {
+      "label": "alignwith",
+      "count": 21
+    },
+    {
+      "label": "alsoknownas",
+      "count": 1
+    },
+    {
+      "label": "applied_to",
+      "count": 1
+    },
+    {
+      "label": "applies_to",
+      "count": 5
+    },
+    {
+      "label": "appropriates",
+      "count": 2
+    },
+    {
+      "label": "approves",
+      "count": 18
+    },
+    {
+      "label": "approves_changes_to",
+      "count": 4
+    },
+    {
+      "label": "approveson",
+      "count": 1
+    },
+    {
+      "label": "are",
+      "count": 2
+    },
+    {
+      "label": "areais",
+      "count": 1
+    },
+    {
+      "label": "articulates",
+      "count": 1
+    },
+    {
+      "label": "assesses",
+      "count": 1
+    },
+    {
+      "label": "assesseson",
+      "count": 1
+    },
+    {
+      "label": "assigned_by",
+      "count": 1
+    },
+    {
+      "label": "assigned_to",
+      "count": 2
+    },
+    {
+      "label": "assigns",
+      "count": 3
+    },
+    {
+      "label": "assigns_lor_to",
+      "count": 1
+    },
+    {
+      "label": "assigns_to",
+      "count": 2
+    },
+    {
+      "label": "assists",
+      "count": 5
+    },
+    {
+      "label": "assistsdirector",
+      "count": 1
+    },
+    {
+      "label": "assistsoffice",
+      "count": 1
+    },
+    {
+      "label": "assistson",
+      "count": 1
+    },
+    {
+      "label": "attemptstoresolve",
+      "count": 1
+    },
+    {
+      "label": "authorizedby",
+      "count": 10
+    },
+    {
+      "label": "authorizes",
+      "count": 25
+    },
+    {
+      "label": "based_on",
+      "count": 2
+    },
+    {
+      "label": "begins_with",
+      "count": 1
+    },
+    {
+      "label": "budgets",
+      "count": 1
+    },
+    {
+      "label": "builds",
+      "count": 8
+    },
+    {
+      "label": "bypasses",
+      "count": 1
+    },
+    {
+      "label": "calculates",
+      "count": 2
+    },
+    {
+      "label": "cannot_fund",
+      "count": 1
+    },
+    {
+      "label": "canuse",
+      "count": 1
+    },
+    {
+      "label": "changes",
+      "count": 1
+    },
+    {
+      "label": "cites",
+      "count": 29
+    },
+    {
+      "label": "classifies",
+      "count": 1
+    },
+    {
+      "label": "codified_as",
+      "count": 1
+    },
+    {
+      "label": "collaborates_with",
+      "count": 1
+    },
+    {
+      "label": "collaborateswith",
+      "count": 1
+    },
+    {
+      "label": "combineswith",
+      "count": 1
+    },
+    {
+      "label": "communicates_about",
+      "count": 1
+    },
+    {
+      "label": "communicates_directly_with",
+      "count": 1
+    },
+    {
+      "label": "communicateswith",
+      "count": 1
+    },
+    {
+      "label": "complementson",
+      "count": 1
+    },
+    {
+      "label": "completed_after",
+      "count": 1
+    },
+    {
+      "label": "completes",
+      "count": 2
+    },
+    {
+      "label": "complies_with",
+      "count": 2
+    },
+    {
+      "label": "concerns",
+      "count": 1
+    },
+    {
+      "label": "conducted_by",
+      "count": 1
+    },
+    {
+      "label": "conducts",
+      "count": 7
+    },
+    {
+      "label": "confersauthoritiesto",
+      "count": 2
+    },
+    {
+      "label": "conformanceensuredby",
+      "count": 1
+    },
+    {
+      "label": "connects",
+      "count": 2
+    },
+    {
+      "label": "considers",
+      "count": 1
+    },
+    {
+      "label": "consults_with",
+      "count": 1
+    },
+    {
+      "label": "contains",
+      "count": 7
+    },
+    {
+      "label": "coordinated_by",
+      "count": 5
+    },
+    {
+      "label": "coordinated_with",
+      "count": 8
+    },
+    {
+      "label": "coordinatedby",
+      "count": 10
+    },
+    {
+      "label": "coordinates",
+      "count": 15
+    },
+    {
+      "label": "coordinates_policy_with",
+      "count": 1
+    },
+    {
+      "label": "coordinates_through",
+      "count": 1
+    },
+    {
+      "label": "coordinates_with",
+      "count": 38
+    },
+    {
+      "label": "coordinatesinputon",
+      "count": 1
+    },
+    {
+      "label": "coordinateson",
+      "count": 25
+    },
+    {
+      "label": "coordinateswith",
+      "count": 84
+    },
+    {
+      "label": "coordinatewith",
+      "count": 2
+    },
+    {
+      "label": "coordinatreportson",
+      "count": 4
+    },
+    {
+      "label": "countersigns",
+      "count": 1
+    },
+    {
+      "label": "covers",
+      "count": 2
+    },
+    {
+      "label": "creates",
+      "count": 1
+    },
+    {
+      "label": "critical_to",
+      "count": 1
+    },
+    {
+      "label": "defined_in",
+      "count": 1
+    },
+    {
+      "label": "defines",
+      "count": 10
+    },
+    {
+      "label": "defineson",
+      "count": 1
+    },
+    {
+      "label": "delegates_authority_to",
+      "count": 8
+    },
+    {
+      "label": "delegatesauthoritiesthrough",
+      "count": 1
+    },
+    {
+      "label": "delegatesauthoritiesto",
+      "count": 2
+    },
+    {
+      "label": "delegatesauthorityto",
+      "count": 14
+    },
+    {
+      "label": "delegatesresponsibilityto",
+      "count": 1
+    },
+    {
+      "label": "delgates",
+      "count": 1
+    },
+    {
+      "label": "delivers_to",
+      "count": 1
+    },
+    {
+      "label": "deputyfor",
+      "count": 1
+    },
+    {
+      "label": "derivesfrom",
+      "count": 1
+    },
+    {
+      "label": "described_in",
+      "count": 1
+    },
+    {
+      "label": "designates",
+      "count": 1
+    },
+    {
+      "label": "determined_by",
+      "count": 1
+    },
+    {
+      "label": "determines",
+      "count": 4
+    },
+    {
+      "label": "determines_priorities_for",
+      "count": 2
+    },
+    {
+      "label": "determineseligibilityof",
+      "count": 1
+    },
+    {
+      "label": "determinsallocatedbudgetfor",
+      "count": 1
+    },
+    {
+      "label": "developed_through",
+      "count": 1
+    },
+    {
+      "label": "develops",
+      "count": 11
+    },
+    {
+      "label": "develops_checklists_for",
+      "count": 1
+    },
+    {
+      "label": "developsinputon",
+      "count": 1
+    },
+    {
+      "label": "differentfrom",
+      "count": 1
+    },
+    {
+      "label": "directed_by",
+      "count": 1
+    },
+    {
+      "label": "directlymanages",
+      "count": 1
+    },
+    {
+      "label": "directs",
+      "count": 11
+    },
+    {
+      "label": "distributes",
+      "count": 1
+    },
+    {
+      "label": "documented_in",
+      "count": 1
+    },
+    {
+      "label": "documentedin",
+      "count": 6
+    },
+    {
+      "label": "documentsfor",
+      "count": 1
+    },
+    {
+      "label": "enables",
+      "count": 13
+    },
+    {
+      "label": "enactedby",
+      "count": 2
+    },
+    {
+      "label": "encourages",
+      "count": 1
+    },
+    {
+      "label": "endorses",
+      "count": 1
+    },
+    {
+      "label": "enforced_by",
+      "count": 2
+    },
+    {
+      "label": "enforces",
+      "count": 3
+    },
+    {
+      "label": "engaged_in",
+      "count": 1
+    },
+    {
+      "label": "enhances",
+      "count": 2
+    },
+    {
+      "label": "ensures",
+      "count": 8
+    },
+    {
+      "label": "ensures_eligibility_under",
+      "count": 1
+    },
+    {
+      "label": "ensures_representation_of",
+      "count": 2
+    },
+    {
+      "label": "ensuresconformancewith",
+      "count": 3
+    },
+    {
+      "label": "escalationauthorityover",
+      "count": 1
+    },
+    {
+      "label": "establishes",
+      "count": 14
+    },
+    {
+      "label": "establishescriteriafor",
+      "count": 3
+    },
+    {
+      "label": "establisheson",
+      "count": 7
+    },
+    {
+      "label": "establishespoliciesfor",
+      "count": 3
+    },
+    {
+      "label": "estimates",
+      "count": 1
+    },
+    {
+      "label": "evaluates",
+      "count": 2
+    },
+    {
+      "label": "exceeds",
+      "count": 1
+    },
+    {
+      "label": "exchanges",
+      "count": 1
+    },
+    {
+      "label": "executed_by",
+      "count": 1
+    },
+    {
+      "label": "executedby",
+      "count": 1
+    },
+    {
+      "label": "executes",
+      "count": 20
+    },
+    {
+      "label": "executeson",
+      "count": 1
+    },
+    {
+      "label": "exercised_through",
+      "count": 1
+    },
+    {
+      "label": "expires_then",
+      "count": 1
+    },
+    {
+      "label": "explains",
+      "count": 42
+    },
+    {
+      "label": "facilitated_by",
+      "count": 1
+    },
+    {
+      "label": "facilitates",
+      "count": 5
+    },
+    {
+      "label": "follows",
+      "count": 3
+    },
+    {
+      "label": "forbenefitof",
+      "count": 1
+    },
+    {
+      "label": "formalized_by",
+      "count": 2
+    },
+    {
+      "label": "fundedby",
+      "count": 4
+    },
+    {
+      "label": "fundedthrough",
+      "count": 2
+    },
+    {
+      "label": "funds",
+      "count": 9
+    },
+    {
+      "label": "fundson",
+      "count": 1
+    },
+    {
+      "label": "generated_by",
+      "count": 1
+    },
+    {
+      "label": "generates",
+      "count": 3
+    },
+    {
+      "label": "govern",
+      "count": 1
+    },
+    {
+      "label": "governed_by",
+      "count": 3
+    },
+    {
+      "label": "governedby",
+      "count": 1
+    },
+    {
+      "label": "governs",
+      "count": 13
+    },
+    {
+      "label": "governson",
+      "count": 2
+    },
+    {
+      "label": "grants",
+      "count": 1
+    },
+    {
+      "label": "guarantees",
+      "count": 1
+    },
+    {
+      "label": "guides",
+      "count": 1
+    },
+    {
+      "label": "guideson",
+      "count": 7
+    },
+    {
+      "label": "has",
+      "count": 1
+    },
+    {
+      "label": "has_office",
+      "count": 2
+    },
+    {
+      "label": "has_responsibility_for",
+      "count": 6
+    },
+    {
+      "label": "hasauthorityover",
+      "count": 3
+    },
+    {
+      "label": "hasauthorityunder",
+      "count": 1
+    },
+    {
+      "label": "hasdirectpart",
+      "count": 68
+    },
+    {
+      "label": "haspart",
+      "count": 24
+    },
+    {
+      "label": "hasresolutionauthorityfor",
+      "count": 2
+    },
+    {
+      "label": "hasrole",
+      "count": 1
+    },
+    {
+      "label": "hasrolein",
+      "count": 2
+    },
+    {
+      "label": "hassubordinate",
+      "count": 1
+    },
+    {
+      "label": "heads",
+      "count": 1
+    },
+    {
+      "label": "holds",
+      "count": 1
+    },
+    {
+      "label": "hosts",
+      "count": 1
+    },
+    {
+      "label": "identifiedby",
+      "count": 1
+    },
+    {
+      "label": "identifies",
+      "count": 4
+    },
+    {
+      "label": "identifies_criteria_for",
+      "count": 2
+    },
+    {
+      "label": "identifies_procedures_for",
+      "count": 2
+    },
+    {
+      "label": "identifies_requirements_for",
+      "count": 2
+    },
+    {
+      "label": "identifieson",
+      "count": 1
+    },
+    {
+      "label": "implemented_by",
+      "count": 2
+    },
+    {
+      "label": "implementedby",
+      "count": 12
+    },
+    {
+      "label": "implementedthrough",
+      "count": 3
+    },
+    {
+      "label": "implements",
+      "count": 30
+    },
+    {
+      "label": "implements_under_direction_of",
+      "count": 1
+    },
+    {
+      "label": "implementsin",
+      "count": 1
+    },
+    {
+      "label": "implementson",
+      "count": 2
+    },
+    {
+      "label": "included_in",
+      "count": 2
+    },
+    {
+      "label": "includes",
+      "count": 48
+    },
+    {
+      "label": "includesfor",
+      "count": 1
+    },
+    {
+      "label": "includeson",
+      "count": 2
+    },
+    {
+      "label": "indicates",
+      "count": 2
+    },
+    {
+      "label": "info_copy_to",
+      "count": 2
+    },
+    {
+      "label": "informs",
+      "count": 1
+    },
+    {
+      "label": "initiated_by",
+      "count": 1
+    },
+    {
+      "label": "initiates",
+      "count": 6
+    },
+    {
+      "label": "integrates",
+      "count": 2
+    },
+    {
+      "label": "interactswith",
+      "count": 2
+    },
+    {
+      "label": "interfaces_with",
+      "count": 3
+    },
+    {
+      "label": "involves",
+      "count": 19
+    },
+    {
+      "label": "is_part_of",
+      "count": 1
+    },
+    {
+      "label": "is_responsible_for",
+      "count": 1
+    },
+    {
+      "label": "isa",
+      "count": 39
+    },
+    {
+      "label": "isadministeredby",
+      "count": 3
+    },
+    {
+      "label": "isadvisedby",
+      "count": 6
+    },
+    {
+      "label": "isapprovedby",
+      "count": 3
+    },
+    {
+      "label": "isauthorizedby",
+      "count": 6
+    },
+    {
+      "label": "isdevelopedby",
+      "count": 2
+    },
+    {
+      "label": "isdirectedby",
+      "count": 3
+    },
+    {
+      "label": "isdirectpartof",
+      "count": 69
+    },
+    {
+      "label": "isexecutiveagentfor",
+      "count": 1
+    },
+    {
+      "label": "isfundedby",
+      "count": 8
+    },
+    {
+      "label": "isgovernedby",
+      "count": 1
+    },
+    {
+      "label": "isincludedin",
+      "count": 3
+    },
+    {
+      "label": "isoverseenby",
+      "count": 5
+    },
+    {
+      "label": "isp",
+      "count": 1
+    },
+    {
+      "label": "ispartof",
+      "count": 31
+    },
+    {
+      "label": "ispreparedby",
+      "count": 2
+    },
+    {
+      "label": "isprovidedto",
+      "count": 1
+    },
+    {
+      "label": "isreimbursedfor",
+      "count": 1
+    },
+    {
+      "label": "isrepresentedby",
+      "count": 3
+    },
+    {
+      "label": "isrequiredby",
+      "count": 2
+    },
+    {
+      "label": "isresponsiblefor",
+      "count": 9
+    },
+    {
+      "label": "isreviewedby",
+      "count": 2
+    },
+    {
+      "label": "issubmittedby",
+      "count": 1
+    },
+    {
+      "label": "issubordinateto",
+      "count": 1
+    },
+    {
+      "label": "issubsetof",
+      "count": 1
+    },
+    {
+      "label": "issued_by",
+      "count": 3
+    },
+    {
+      "label": "issuedby",
+      "count": 3
+    },
+    {
+      "label": "issues",
+      "count": 8
+    },
+    {
+      "label": "issupervisedby",
+      "count": 2
+    },
+    {
+      "label": "issupportedby",
+      "count": 4
+    },
+    {
+      "label": "jointly_approves_with",
+      "count": 2
+    },
+    {
+      "label": "jointly_establishes_agreements_with",
+      "count": 2
+    },
+    {
+      "label": "jointly_establishes_procedures_with",
+      "count": 2
+    },
+    {
+      "label": "jointly_establishes_with",
+      "count": 2
+    },
+    {
+      "label": "leads",
+      "count": 4
+    },
+    {
+      "label": "leads_development_of",
+      "count": 6
+    },
+    {
+      "label": "leads_to",
+      "count": 5
+    },
+    {
+      "label": "leads_via",
+      "count": 1
+    },
+    {
+      "label": "leadson",
+      "count": 2
+    },
+    {
+      "label": "legal_basis",
+      "count": 3
+    },
+    {
+      "label": "links",
+      "count": 1
+    },
+    {
+      "label": "listed_in",
+      "count": 1
+    },
+    {
+      "label": "managed_by",
+      "count": 3
+    },
+    {
+      "label": "managed_in",
+      "count": 4
+    },
+    {
+      "label": "managedby",
+      "count": 6
+    },
+    {
+      "label": "managedthrough",
+      "count": 1
+    },
+    {
+      "label": "manages",
+      "count": 31
+    },
+    {
+      "label": "manages_in",
+      "count": 1
+    },
+    {
+      "label": "manageson",
+      "count": 2
+    },
+    {
+      "label": "mandated_by",
+      "count": 1
+    },
+    {
+      "label": "mandates",
+      "count": 1
+    },
+    {
+      "label": "may_allow",
+      "count": 1
+    },
+    {
+      "label": "may_be",
+      "count": 8
+    },
+    {
+      "label": "may_identify",
+      "count": 1
+    },
+    {
+      "label": "may_include",
+      "count": 1
+    },
+    {
+      "label": "may_lead_to",
+      "count": 1
+    },
+    {
+      "label": "may_participate_in",
+      "count": 1
+    },
+    {
+      "label": "may_request",
+      "count": 4
+    },
+    {
+      "label": "may_require",
+      "count": 2
+    },
+    {
+      "label": "may_specify",
+      "count": 1
+    },
+    {
+      "label": "may_transition_to",
+      "count": 2
+    },
+    {
+      "label": "modifies",
+      "count": 2
+    },
+    {
+      "label": "monitors",
+      "count": 6
+    },
+    {
+      "label": "must_be_consistent_with",
+      "count": 1
+    },
+    {
+      "label": "must_comply_with",
+      "count": 7
+    },
+    {
+      "label": "must_identify",
+      "count": 2
+    },
+    {
+      "label": "must_precede",
+      "count": 1
+    },
+    {
+      "label": "must_specify",
+      "count": 1
+    },
+    {
+      "label": "mustcomplywith",
+      "count": 5
+    },
+    {
+      "label": "negotiates",
+      "count": 1
+    },
+    {
+      "label": "notifiedon",
+      "count": 1
+    },
+    {
+      "label": "notifies",
+      "count": 3
+    },
+    {
+      "label": "obtains_assurances_under",
+      "count": 1
+    },
+    {
+      "label": "obtainsassurancesfrom",
+      "count": 1
+    },
+    {
+      "label": "offered_in",
+      "count": 2
+    },
+    {
+      "label": "offers",
+      "count": 1
+    },
+    {
+      "label": "operated_by",
+      "count": 1
+    },
+    {
+      "label": "operates",
+      "count": 1
+    },
+    {
+      "label": "operates_in",
+      "count": 1
+    },
+    {
+      "label": "operates_in_accordance_with",
+      "count": 2
+    },
+    {
+      "label": "operates_under",
+      "count": 1
+    },
+    {
+      "label": "operatesinaccordancewith",
+      "count": 6
+    },
+    {
+      "label": "operatesunder",
+      "count": 5
+    },
+    {
+      "label": "originated_by",
+      "count": 1
+    },
+    {
+      "label": "overseen_by",
+      "count": 3
+    },
+    {
+      "label": "oversees",
+      "count": 39
+    },
+    {
+      "label": "oversees_policy",
+      "count": 1
+    },
+    {
+      "label": "part_of",
+      "count": 30
+    },
+    {
+      "label": "participate_in",
+      "count": 1
+    },
+    {
+      "label": "participates_in",
+      "count": 3
+    },
+    {
+      "label": "passes",
+      "count": 1
+    },
+    {
+      "label": "pays",
+      "count": 1
+    },
+    {
+      "label": "performed_by",
+      "count": 5
+    },
+    {
+      "label": "performs",
+      "count": 4
+    },
+    {
+      "label": "performsfor",
+      "count": 1
+    },
+    {
+      "label": "pertains_to",
+      "count": 6
+    },
+    {
+      "label": "pertainsto",
+      "count": 12
+    },
+    {
+      "label": "plans",
+      "count": 2
+    },
+    {
+      "label": "policy_by",
+      "count": 1
+    },
+    {
+      "label": "posts",
+      "count": 2
+    },
+    {
+      "label": "precedes",
+      "count": 4
+    },
+    {
+      "label": "prepared_by",
+      "count": 4
+    },
+    {
+      "label": "prepares",
+      "count": 5
+    },
+    {
+      "label": "priced_in",
+      "count": 1
+    },
+    {
+      "label": "prioritizes",
+      "count": 1
+    },
+    {
+      "label": "processed_by",
+      "count": 1
+    },
+    {
+      "label": "processed_through",
+      "count": 1
+    },
+    {
+      "label": "processes",
+      "count": 5
+    },
+    {
+      "label": "programs",
+      "count": 1
+    },
+    {
+      "label": "promotes",
+      "count": 2
+    },
+    {
+      "label": "provided_by",
+      "count": 1
+    },
+    {
+      "label": "provided_for",
+      "count": 1
+    },
+    {
+      "label": "provided_through",
+      "count": 1
+    },
+    {
+      "label": "providedto",
+      "count": 3
+    },
+    {
+      "label": "providedwhen",
+      "count": 1
+    },
+    {
+      "label": "provideresourcesfor",
+      "count": 1
+    },
+    {
+      "label": "provides",
+      "count": 58
+    },
+    {
+      "label": "provides_consultation_to",
+      "count": 1
+    },
+    {
+      "label": "provides_coordination_for",
+      "count": 1
+    },
+    {
+      "label": "provides_coordination_support_to",
+      "count": 2
+    },
+    {
+      "label": "provides_copies_to",
+      "count": 3
+    },
+    {
+      "label": "provides_data_for",
+      "count": 1
+    },
+    {
+      "label": "provides_guidance",
+      "count": 1
+    },
+    {
+      "label": "provides_guidance_to",
+      "count": 6
+    },
+    {
+      "label": "provides_loa_to",
+      "count": 1
+    },
+    {
+      "label": "provides_oversight",
+      "count": 1
+    },
+    {
+      "label": "provides_policy",
+      "count": 1
+    },
+    {
+      "label": "provides_policy_guidance",
+      "count": 1
+    },
+    {
+      "label": "provides_response_to",
+      "count": 1
+    },
+    {
+      "label": "providesadviceon",
+      "count": 1
+    },
+    {
+      "label": "providesadviceto",
+      "count": 3
+    },
+    {
+      "label": "providesassistanceto",
+      "count": 2
+    },
+    {
+      "label": "providesassurancesto",
+      "count": 1
+    },
+    {
+      "label": "providesguidanceto",
+      "count": 5
+    },
+    {
+      "label": "providesinputon",
+      "count": 1
+    },
+    {
+      "label": "provideson",
+      "count": 18
+    },
+    {
+      "label": "providesongrantbasis",
+      "count": 1
+    },
+    {
+      "label": "providespolicyfor",
+      "count": 7
+    },
+    {
+      "label": "providesrequirementsto",
+      "count": 1
+    },
+    {
+      "label": "providesthroughgrant",
+      "count": 2
+    },
+    {
+      "label": "providesthroughlease",
+      "count": 2
+    },
+    {
+      "label": "providesthroughsales",
+      "count": 2
+    },
+    {
+      "label": "providesto",
+      "count": 1
+    },
+    {
+      "label": "purchases",
+      "count": 2
+    },
+    {
+      "label": "purposeis",
+      "count": 3
+    },
+    {
+      "label": "ranks",
+      "count": 1
+    },
+    {
+      "label": "reaches",
+      "count": 1
+    },
+    {
+      "label": "receive",
+      "count": 1
+    },
+    {
+      "label": "received_by",
+      "count": 2
+    },
+    {
+      "label": "receives",
+      "count": 15
+    },
+    {
+      "label": "receives_communication_from",
+      "count": 1
+    },
+    {
+      "label": "receives_from",
+      "count": 4
+    },
+    {
+      "label": "receives_reports_from",
+      "count": 1
+    },
+    {
+      "label": "receivesadvicefrom",
+      "count": 3
+    },
+    {
+      "label": "receivesassistancefrom",
+      "count": 6
+    },
+    {
+      "label": "receivesauthoritiesfrom",
+      "count": 3
+    },
+    {
+      "label": "receivesauthorityfrom",
+      "count": 12
+    },
+    {
+      "label": "receiveseligibilityfrom",
+      "count": 1
+    },
+    {
+      "label": "receivesfrom",
+      "count": 3
+    },
+    {
+      "label": "receivesguidancefrom",
+      "count": 1
+    },
+    {
+      "label": "receiveson",
+      "count": 2
+    },
+    {
+      "label": "recommendsprioritiesfor",
+      "count": 2
+    },
+    {
+      "label": "recoverable_under",
+      "count": 1
+    },
+    {
+      "label": "referenced_in",
+      "count": 15
+    },
+    {
+      "label": "references",
+      "count": 316
+    },
+    {
+      "label": "regulates",
+      "count": 1
+    },
+    {
+      "label": "related_to",
+      "count": 1
+    },
+    {
+      "label": "relatedto",
+      "count": 3
+    },
+    {
+      "label": "repairs",
+      "count": 1
+    },
+    {
+      "label": "reportedto",
+      "count": 1
+    },
+    {
+      "label": "reports_about",
+      "count": 1
+    },
+    {
+      "label": "reports_to",
+      "count": 3
+    },
+    {
+      "label": "reports_via",
+      "count": 1
+    },
+    {
+      "label": "reportsto",
+      "count": 23
+    },
+    {
+      "label": "represents",
+      "count": 5
+    },
+    {
+      "label": "representsinterestsof",
+      "count": 1
+    },
+    {
+      "label": "requested_in",
+      "count": 4
+    },
+    {
+      "label": "requests",
+      "count": 3
+    },
+    {
+      "label": "requests_via",
+      "count": 1
+    },
+    {
+      "label": "requestsassistancefrom",
+      "count": 2
+    },
+    {
+      "label": "requestson",
+      "count": 1
+    },
+    {
+      "label": "required_above",
+      "count": 3
+    },
+    {
+      "label": "required_by",
+      "count": 4
+    },
+    {
+      "label": "required_for",
+      "count": 4
+    },
+    {
+      "label": "requires",
+      "count": 21
+    },
+    {
+      "label": "requires_approval_from",
+      "count": 1
+    },
+    {
+      "label": "requires_for",
+      "count": 1
+    },
+    {
+      "label": "requiresapprovalfrom",
+      "count": 4
+    },
+    {
+      "label": "requiresassurancesfrom",
+      "count": 1
+    },
+    {
+      "label": "requirescoordinationwith",
+      "count": 12
+    },
+    {
+      "label": "requireson",
+      "count": 6
+    },
+    {
+      "label": "requisitions",
+      "count": 1
+    },
+    {
+      "label": "resolves",
+      "count": 1
+    },
+    {
+      "label": "responds_to",
+      "count": 4
+    },
+    {
+      "label": "responsible_for",
+      "count": 7
+    },
+    {
+      "label": "responsiblefor",
+      "count": 7
+    },
+    {
+      "label": "results_in",
+      "count": 1
+    },
+    {
+      "label": "reverses",
+      "count": 1
+    },
+    {
+      "label": "reviewed_by",
+      "count": 5
+    },
+    {
+      "label": "reviewed_in",
+      "count": 1
+    },
+    {
+      "label": "reviews",
+      "count": 18
+    },
+    {
+      "label": "reviews_and_approves",
+      "count": 3
+    },
+    {
+      "label": "reviewswith",
+      "count": 1
+    },
+    {
+      "label": "risks",
+      "count": 1
+    },
+    {
+      "label": "same_as",
+      "count": 13
+    },
+    {
+      "label": "sendsinformationto",
+      "count": 1
+    },
+    {
+      "label": "sent_to",
+      "count": 3
+    },
+    {
+      "label": "serves",
+      "count": 1
+    },
+    {
+      "label": "servesasadvisorto",
+      "count": 1
+    },
+    {
+      "label": "specified_in",
+      "count": 1
+    },
+    {
+      "label": "specifies",
+      "count": 6
+    },
+    {
+      "label": "stands_for",
+      "count": 2
+    },
+    {
+      "label": "standsfor",
+      "count": 3
+    },
+    {
+      "label": "starts_with",
+      "count": 1
+    },
+    {
+      "label": "stops",
+      "count": 1
+    },
+    {
+      "label": "stores",
+      "count": 3
+    },
+    {
+      "label": "strengthens",
+      "count": 1
+    },
+    {
+      "label": "subject_to",
+      "count": 4
+    },
+    {
+      "label": "submit",
+      "count": 1
+    },
+    {
+      "label": "submits",
+      "count": 7
+    },
+    {
+      "label": "submits_to",
+      "count": 4
+    },
+    {
+      "label": "submitted_by",
+      "count": 2
+    },
+    {
+      "label": "submitted_through",
+      "count": 1
+    },
+    {
+      "label": "submitted_to",
+      "count": 6
+    },
+    {
+      "label": "submitted_with",
+      "count": 1
+    },
+    {
+      "label": "subset_of",
+      "count": 1
+    },
+    {
+      "label": "subsetof",
+      "count": 1
+    },
+    {
+      "label": "supersedes",
+      "count": 1
+    },
+    {
+      "label": "supervises",
+      "count": 3
+    },
+    {
+      "label": "supplements",
+      "count": 1
+    },
+    {
+      "label": "supplementsmanualfor",
+      "count": 1
+    },
+    {
+      "label": "supported_by",
+      "count": 2
+    },
+    {
+      "label": "supports",
+      "count": 52
+    },
+    {
+      "label": "supports_development_of",
+      "count": 6
+    },
+    {
+      "label": "supportson",
+      "count": 27
+    },
+    {
+      "label": "tracked_by",
+      "count": 1
+    },
+    {
+      "label": "tracked_in",
+      "count": 6
+    },
+    {
+      "label": "tracks",
+      "count": 11
+    },
+    {
+      "label": "tracks_compliance",
+      "count": 2
+    },
+    {
+      "label": "tracks_in",
+      "count": 1
+    },
+    {
+      "label": "transfers_funds_between",
+      "count": 1
+    },
+    {
+      "label": "transitions_to",
+      "count": 6
+    },
+    {
+      "label": "transmitted_by",
+      "count": 2
+    },
+    {
+      "label": "transmitted_from",
+      "count": 1
+    },
+    {
+      "label": "triggered_by",
+      "count": 3
+    },
+    {
+      "label": "triggeredwhen",
+      "count": 1
+    },
+    {
+      "label": "triggers",
+      "count": 2
+    },
+    {
+      "label": "type_of",
+      "count": 5
+    },
+    {
+      "label": "under_responsibility_of",
+      "count": 1
+    },
+    {
+      "label": "underexecutiveagent",
+      "count": 1
+    },
+    {
+      "label": "undertakes",
+      "count": 1
+    },
+    {
+      "label": "updated_by",
+      "count": 2
+    },
+    {
+      "label": "used_by",
+      "count": 6
+    },
+    {
+      "label": "used_for",
+      "count": 1
+    },
+    {
+      "label": "used_in",
+      "count": 1
+    },
+    {
+      "label": "used_to_prepare",
+      "count": 2
+    },
+    {
+      "label": "usedby",
+      "count": 5
+    },
+    {
+      "label": "usedfor",
+      "count": 1
+    },
+    {
+      "label": "uses",
+      "count": 20
+    },
+    {
+      "label": "within",
+      "count": 3
+    },
+    {
+      "label": "works_in",
+      "count": 1
+    },
+    {
+      "label": "works_with",
+      "count": 3
+    },
+    {
+      "label": "workswith",
+      "count": 2
+    }
+  ],
+  "sample_vertices": []
+}

@@ -1,0 +1,6094 @@
+{
+  "pattern_c7_1_dts": {
+    "results": [
+      {
+        "test_id": 401,
+        "query": "What is the Defense Transportation System DTS?",
+        "expected": [
+          "dts",
+          "defense transportation system"
+        ],
+        "extracted": [
+          "DTS",
+          "Defense Transportation System"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dts",
+            "defense transportation system"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 3.74,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 16,
+            "vector_db": 0
+          },
+          "entities": [
+            "DTS",
+            "Defense Transportation System"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is the Defense Transportation System DTS?",
+          "relationships": [
+            "DTS Defense Transportation System",
+            "DTS USTRANSCOM manages",
+            "DTS includes AMC SDDC MSC",
+            "defense_technology_security_administration_dtsa implements technology_security_policy",
+            "defense_technology_security_administration_dtsa coordinateswith under_secretary_of_defense_for_policy_usdp",
+            "c1321 references defense_technology_security_administration_dtsa",
+            "under_secretary_of_defense_for_policy_usdp coordinateswith defense_technology_security_administration_dtsa",
+            "431cf727-e9c2-4d00-bc74-b3daf641e3b9 implements_under_direction_of usdp",
+            "70437424-726e-464b-b820-b0548b10e9fb MANAGED_BY 7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 402,
+        "query": "What is USTRANSCOM United States Transportation Command?",
+        "expected": [
+          "ustranscom",
+          "united states transportation command"
+        ],
+        "extracted": [
+          "State",
+          "USTRANSCOM",
+          "United States Transportation Command"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "united states transportation command",
+            "ustranscom"
+          ],
+          "false_positives": [
+            "state"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 3.82,
+        "status": "success",
+        "entity_confidence": 0.8899999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 29,
+            "vector_db": 0
+          },
+          "entities": [
+            "State",
+            "USTRANSCOM",
+            "United States Transportation Command"
+          ],
+          "entity_confidence": 0.8899999999999999,
+          "entity_metrics": {
+            "f1_score": 0.5714,
+            "hallucination_rate": 0.3333,
+            "precision": 0.6667,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is USTRANSCOM United States Transportation Command?",
+          "relationships": [
+            "USTRANSCOM transportation command",
+            "USTRANSCOM oversees DTS",
+            "USTRANSCOM coordinates movements",
+            "united_states_transportation_command_ustranscom isa combatant_command_ccmd",
+            "c13210 references united_states_transportation_command_ustranscom",
+            "united_states_northern_command_usnorthcom isa combatant_command_ccmd",
+            "c13210 references united_states_northern_command_usnorthcom",
+            "department_of_state_dos determineseligibilityof recipient_country",
+            "7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c MANAGES ac74b545-8153-4d3b-a3d0-896b1d18cc41",
+            "7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c OPERATES e0119d03-99cf-4c59-b978-2f14cebeb4cd"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 403,
+        "query": "What is AMC Air Mobility Command?",
+        "expected": [
+          "amc",
+          "air mobility command"
+        ],
+        "extracted": [
+          "AMC",
+          "Air Mobility Command"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "air mobility command",
+            "amc"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.36,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "AMC",
+            "Air Mobility Command"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is AMC Air Mobility Command?",
+          "relationships": [
+            "AMC Air Mobility Command",
+            "AMC airlift",
+            "AMC channel missions",
+            "army_material_command_amc haspart us_army_security_assistance_command_usasac",
+            "army_material_command_amc coordinateswith office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec",
+            "army_material_command_amc directs us_army_security_assistance_command_usasac",
+            "army_material_command_amc ispartof department_of_the_army_da",
+            "department_of_the_army_da haspart army_material_command_amc"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 404,
+        "query": "What is SDDC Surface Deployment and Distribution Command?",
+        "expected": [
+          "sddc",
+          "surface deployment and distribution command"
+        ],
+        "extracted": [
+          "SDDC",
+          "Surface Deployment and Distribution Command"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "surface deployment and distribution command",
+            "sddc"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 25.27,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "SDDC",
+            "Surface Deployment and Distribution Command"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is SDDC Surface Deployment and Distribution Command?",
+          "relationships": [
+            "SDDC Surface Deployment and Distribution Command",
+            "SDDC ocean shipments",
+            "SDDC claims processing",
+            "33860771-cddf-4483-a903-047ebc323d17 ISSUES 5286cbd9-f253-4b61-b9f5-2dd197d92a26",
+            "33860771-cddf-4483-a903-047ebc323d17 PART_OF 7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c",
+            "ac74b545-8153-4d3b-a3d0-896b1d18cc41 INCLUDES 33860771-cddf-4483-a903-047ebc323d17",
+            "7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c OPERATES 33860771-cddf-4483-a903-047ebc323d17",
+            "5286cbd9-f253-4b61-b9f5-2dd197d92a26 ISSUED_BY 33860771-cddf-4483-a903-047ebc323d17"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 405,
+        "query": "What is MSC Military Sealift Command?",
+        "expected": [
+          "msc",
+          "military sealift command"
+        ],
+        "extracted": [
+          "MSC",
+          "Military Sealift Command"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "msc",
+            "military sealift command"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.36,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "MSC",
+            "Military Sealift Command"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is MSC Military Sealift Command?",
+          "relationships": [
+            "MSC Military Sealift Command",
+            "MSC sealift",
+            "MSC vessel operations",
+            "3a130548-e804-4bb7-9895-4275070120e9 PART_OF 7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c",
+            "ac74b545-8153-4d3b-a3d0-896b1d18cc41 INCLUDES 3a130548-e804-4bb7-9895-4275070120e9",
+            "7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c OPERATES 3a130548-e804-4bb7-9895-4275070120e9"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_1_dts",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9333,
+      "avg_recall": 1.0,
+      "avg_f1": 0.96,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_2_dtc": {
+    "results": [
+      {
+        "test_id": 406,
+        "query": "What is a Delivery Term Code DTC?",
+        "expected": [
+          "dtc",
+          "delivery term code"
+        ],
+        "extracted": [
+          "DTC",
+          "Delivery Term Code"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "delivery term code",
+            "dtc"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.1,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 14,
+            "vector_db": 0
+          },
+          "entities": [
+            "DTC",
+            "Delivery Term Code"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a Delivery Term Code DTC?",
+          "relationships": [
+            "DTC Delivery Term Code",
+            "DTC determines DoD responsibility",
+            "DTC FOB origin basis",
+            "aaf71312-0dc8-4938-995c-5b4705f61eb3 ASSIGNED_BY 7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "aaf71312-0dc8-4938-995c-5b4705f61eb3 SPECIFIED_IN 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 SPECIFIES aaf71312-0dc8-4938-995c-5b4705f61eb3",
+            "7cd530f5-9eeb-40d0-82a4-a4b473d26e02 ASSIGNS aaf71312-0dc8-4938-995c-5b4705f61eb3",
+            "cd98167a-b4f6-4b5a-bcb9-1093ae9f415a REQUESTS aaf71312-0dc8-4938-995c-5b4705f61eb3"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 407,
+        "query": "What does DTC 7 mean for FMS shipments?",
+        "expected": [
+          "dtc 7",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "DTC",
+          "DTC 7",
+          "Foreign Military Sales",
+          "Delivery Term Code",
+          "Delivery Term Code 7"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "hallucination_rate": 0.1667,
+          "true_positives": [
+            "fms",
+            "dtc 7"
+          ],
+          "false_positives": [
+            "foreign military sales",
+            "delivery term code",
+            "dtc",
+            "delivery term code 7"
+          ],
+          "false_negatives": [],
+          "hallucinations": [
+            "delivery term code 7"
+          ]
+        },
+        "response_time": 2.47,
+        "status": "success",
+        "entity_confidence": 0.86125,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 28,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "DTC",
+            "DTC 7",
+            "Foreign Military Sales",
+            "Delivery Term Code",
+            "Delivery Term Code 7"
+          ],
+          "entity_confidence": 0.86125,
+          "entity_metrics": {
+            "f1_score": 0.4,
+            "hallucination_rate": 0.75,
+            "precision": 0.25,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What does DTC 7 mean for FMS shipments?",
+          "relationships": [
+            "DTC Delivery Term Code",
+            "DTC determines DoD responsibility",
+            "DTC FOB origin basis",
+            "DTC 7 overseas POD",
+            "DTC 7 DTS to port",
+            "DTC 7 standard FMS",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 408,
+        "query": "What is DTC 8 purchaser pickup?",
+        "expected": [
+          "dtc 8",
+          "purchaser pickup"
+        ],
+        "extracted": [
+          "DTC",
+          "DTC 8",
+          "Delivery Term Code",
+          "Delivery Term Code 8"
+        ],
+        "metrics": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1": 0.3333,
+          "hallucination_rate": 0.25,
+          "true_positives": [
+            "dtc 8"
+          ],
+          "false_positives": [
+            "delivery term code 8",
+            "delivery term code",
+            "dtc"
+          ],
+          "false_negatives": [
+            "purchaser pickup"
+          ],
+          "hallucinations": [
+            "delivery term code 8"
+          ]
+        },
+        "response_time": 8.06,
+        "status": "success",
+        "entity_confidence": 0.8456250000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "DTC",
+            "DTC 8",
+            "Delivery Term Code",
+            "Delivery Term Code 8"
+          ],
+          "entity_confidence": 0.8456250000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is DTC 8 purchaser pickup?",
+          "relationships": [
+            "DTC Delivery Term Code",
+            "DTC determines DoD responsibility",
+            "DTC FOB origin basis",
+            "DTC 8 purchaser pickup at POE",
+            "DTC 8 CONUS collection",
+            "aaf71312-0dc8-4938-995c-5b4705f61eb3 ASSIGNED_BY 7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "aaf71312-0dc8-4938-995c-5b4705f61eb3 SPECIFIED_IN 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 SPECIFIES aaf71312-0dc8-4938-995c-5b4705f61eb3",
+            "7cd530f5-9eeb-40d0-82a4-a4b473d26e02 ASSIGNS aaf71312-0dc8-4938-995c-5b4705f61eb3",
+            "cd98167a-b4f6-4b5a-bcb9-1093ae9f415a REQUESTS aaf71312-0dc8-4938-995c-5b4705f61eb3"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 409,
+        "query": "What is FOB Free On Board origin?",
+        "expected": [
+          "fob",
+          "free on board"
+        ],
+        "extracted": [
+          "FOB",
+          "Free On Board"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fob",
+            "free on board"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 16.8,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "FOB",
+            "Free On Board"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is FOB Free On Board origin?",
+          "relationships": [
+            "FOB Free On Board",
+            "FOB title transfer point",
+            "FOB origin default",
+            "3675cfb8-e826-4f10-9866-955c746b4c42 DEFINES f4c8deca-de0f-407d-8ec4-a4230eb4f2cd",
+            "11f2255e-c871-4411-8da6-748fa6e1ad99 SPECIFIES f4c8deca-de0f-407d-8ec4-a4230eb4f2cd",
+            "fcd4caf4-c8ca-48ae-ba95-afd1cec4ef3d SAME_AS f4c8deca-de0f-407d-8ec4-a4230eb4f2cd",
+            "fdda1431-c0bf-4a9e-a07f-e2d247e83c22 REQUIRES f4c8deca-de0f-407d-8ec4-a4230eb4f2cd"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 410,
+        "query": "What is the difference between POE and POD?",
+        "expected": [
+          "poe",
+          "pod"
+        ],
+        "extracted": [
+          "POE",
+          "POD",
+          "Port Of Embarkation",
+          "Port Of Debarkation"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "poe",
+            "pod"
+          ],
+          "false_positives": [
+            "port of embarkation",
+            "port of debarkation"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.77,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 12,
+            "vector_db": 0
+          },
+          "entities": [
+            "POE",
+            "POD",
+            "Port Of Embarkation",
+            "Port Of Debarkation"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.83,
+          "question": "What is the difference between POE and POD?",
+          "relationships": [
+            "POE Port of Embarkation",
+            "POE departure point",
+            "POE CONUS port",
+            "POD Port of Debarkation",
+            "POD arrival point",
+            "POD overseas port",
+            "a676e099-8c5f-4aa1-84e2-a8f610629fba CONTROLLED_BY 9a001a29-e619-4b96-b168-c24f353f478b",
+            "ac74b545-8153-4d3b-a3d0-896b1d18cc41 ORIGINATES_FROM a676e099-8c5f-4aa1-84e2-a8f610629fba",
+            "95484733-6720-4a58-a550-e3d51357a75d CONTAINS a676e099-8c5f-4aa1-84e2-a8f610629fba",
+            "5bd79624-35da-43f8-8bfb-c3bf20674195 SERVICED_BY 1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_2_dtc",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.6167,
+      "avg_recall": 0.9,
+      "avg_f1": 0.7,
+      "avg_hallucination_rate": 0.0833
+    }
+  },
+  "pattern_c7_3_title": {
+    "results": [
+      {
+        "test_id": 411,
+        "query": "When does title transfer occur in FMS?",
+        "expected": [
+          "title transfer",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "title transfer",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "title transfer",
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.44,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 28,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "title transfer",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.91,
+          "question": "When does title transfer occur in FMS?",
+          "relationships": [
+            "title transfer at point of origin",
+            "title transfer manufacturer or depot",
+            "title transfer FOB origin",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "bf3cf7c8-39fd-4240-a947-154393eff5e9 OCCURS_AT 4f895eac-4b3f-49fd-b419-33b7ebf32db7",
+            "bf3cf7c8-39fd-4240-a947-154393eff5e9 SPECIFIED_IN 94dab1d0-0add-4f1e-a85d-f5aaf97b2159"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 412,
+        "query": "What is the point of origin for title passage?",
+        "expected": [
+          "point of origin",
+          "title"
+        ],
+        "extracted": [
+          "title passage",
+          "point of origin"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "point of origin"
+          ],
+          "false_positives": [
+            "title passage"
+          ],
+          "false_negatives": [
+            "title"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.54,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 3,
+            "vector_db": 0
+          },
+          "entities": [
+            "title passage",
+            "point of origin"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is the point of origin for title passage?",
+          "relationships": [
+            "4f895eac-4b3f-49fd-b419-33b7ebf32db7 TYPICALLY_IN 95484733-6720-4a58-a550-e3d51357a75d",
+            "bf3cf7c8-39fd-4240-a947-154393eff5e9 OCCURS_AT 4f895eac-4b3f-49fd-b419-33b7ebf32db7"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 413,
+        "query": "When can USG retain title for FMS shipments?",
+        "expected": [
+          "usg",
+          "title",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.3333,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "usg",
+            "title"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 8.55,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.64,
+          "question": "When can USG retain title for FMS shipments?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 414,
+        "query": "How does title transfer work for EDA Excess Defense Articles?",
+        "expected": [
+          "title transfer",
+          "eda",
+          "excess defense articles"
+        ],
+        "extracted": [
+          "Excess Defense Articles",
+          "EDA",
+          "defense articles",
+          "title transfer"
+        ],
+        "metrics": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "title transfer",
+            "eda",
+            "excess defense articles"
+          ],
+          "false_positives": [
+            "defense articles"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.47,
+        "status": "success",
+        "entity_confidence": 0.9099999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 22,
+            "vector_db": 0
+          },
+          "entities": [
+            "Excess Defense Articles",
+            "EDA",
+            "defense articles",
+            "title transfer"
+          ],
+          "entity_confidence": 0.9099999999999999,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.6667,
+            "precision": 0.6667,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "process",
+          "intent_confidence": 0.94,
+          "question": "How does title transfer work for EDA Excess Defense Articles?",
+          "relationships": [
+            "title transfer at point of origin",
+            "title transfer manufacturer or depot",
+            "title transfer FOB origin",
+            "c133 references excess_defense_articles_eda",
+            "c1326232 references excess_defense_articles_eda",
+            "40d4bddb-160b-45ef-b2cd-eca2c18ccb2c TRANSFERRED_THROUGH 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "40d4bddb-160b-45ef-b2cd-eca2c18ccb2c SUBJECT_TO 2e6c7e49-80da-4b27-9ae1-cfc5a2d05eb1",
+            "40d4bddb-160b-45ef-b2cd-eca2c18ccb2c TYPE_OF defense_articles",
+            "2c020ef0-f298-4f61-94af-b348ae64950f providedto 981e92fa-1650-4b44-8af5-6d2df6d0409b",
+            "2c020ef0-f298-4f61-94af-b348ae64950f requested_in 9df49e57-5b64-412c-b3e7-d567f35fb1f6"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 415,
+        "query": "What is retention of title?",
+        "expected": [
+          "retention of title"
+        ],
+        "extracted": [
+          "retention of title"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "retention of title"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.11,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "retention of title"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is retention of title?",
+          "relationships": [
+            "retention of title USG retains",
+            "retention of title operational circumstances",
+            "retention of title special cases"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_3_title",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.6833,
+      "avg_recall": 0.7667,
+      "avg_f1": 0.7114,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_4_freight": {
+    "results": [
+      {
+        "test_id": 416,
+        "query": "What is an FMS freight forwarder?",
+        "expected": [
+          "fms",
+          "freight forwarder"
+        ],
+        "extracted": [
+          "FMS",
+          "freight forwarder",
+          "FMS freight forwarder",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "freight forwarder"
+          ],
+          "false_positives": [
+            "fms freight forwarder",
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.98,
+        "status": "success",
+        "entity_confidence": 0.8712500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 26,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "freight forwarder",
+            "FMS freight forwarder",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8712500000000001,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.6667,
+            "precision": 0.3333,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is an FMS freight forwarder?",
+          "relationships": [
+            "freight forwarder purchaser-selected",
+            "freight forwarder ITAR registration required",
+            "freight forwarder DTC 4/5",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd ACTS_AS_AGENT cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd REGISTERED_WITH 7c699ddc-188b-49ed-9af8-adc9d70919e8"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 417,
+        "query": "What are freight forwarder requirements?",
+        "expected": [
+          "freight forwarder"
+        ],
+        "extracted": [
+          "freight forwarder"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "freight forwarder"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.24,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "freight forwarder"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are freight forwarder requirements?",
+          "relationships": [
+            "freight forwarder purchaser-selected",
+            "freight forwarder ITAR registration required",
+            "freight forwarder DTC 4/5",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd ACTS_AS_AGENT cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd REGISTERED_WITH 7c699ddc-188b-49ed-9af8-adc9d70919e8",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd MUST_COMPLY_WITH 0c3c4252-08f7-470a-9123-b36116116ad4",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd HANDLES 30cbf26a-36a4-4996-8aee-d2f409e4eb61",
+            "7b8e4f97-f66c-4c46-9595-35a05476690e USES 70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 418,
+        "query": "What is a DGR Designated Government Representative?",
+        "expected": [
+          "dgr",
+          "designated government representative"
+        ],
+        "extracted": [
+          "DGR",
+          "Designated Government Representative"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "designated government representative",
+            "dgr"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.02,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "DGR",
+            "Designated Government Representative"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a DGR Designated Government Representative?",
+          "relationships": [
+            "DGR Designated Government Representative",
+            "DGR cannot be freight forwarder",
+            "10bb8375-537a-41c1-946b-eb231e619afc REPRESENTS cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "10bb8375-537a-41c1-946b-eb231e619afc COORDINATES_WITH 1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8",
+            "10bb8375-537a-41c1-946b-eb231e619afc NOT_SAME_AS 70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd",
+            "10bb8375-537a-41c1-946b-eb231e619afc COORDINATES_WITH 70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd",
+            "10bb8375-537a-41c1-946b-eb231e619afc SIGNS 5286cbd9-f253-4b61-b9f5-2dd197d92a26"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 419,
+        "query": "Who selects an FMS freight forwarder?",
+        "expected": [
+          "fms",
+          "freight forwarder"
+        ],
+        "extracted": [
+          "FMS",
+          "freight forwarder",
+          "FMS freight forwarder",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "freight forwarder"
+          ],
+          "false_positives": [
+            "fms freight forwarder",
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.59,
+        "status": "success",
+        "entity_confidence": 0.8712500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 26,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "freight forwarder",
+            "FMS freight forwarder",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8712500000000001,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.6667,
+            "precision": 0.3333,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.64,
+          "question": "Who selects an FMS freight forwarder?",
+          "relationships": [
+            "freight forwarder purchaser-selected",
+            "freight forwarder ITAR registration required",
+            "freight forwarder DTC 4/5",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd ACTS_AS_AGENT cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd REGISTERED_WITH 7c699ddc-188b-49ed-9af8-adc9d70919e8"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 420,
+        "query": "What ITAR registration is required for freight forwarders?",
+        "expected": [
+          "itar",
+          "freight forwarder"
+        ],
+        "extracted": [
+          "freight forwarder",
+          "ITAR registration"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "freight forwarder"
+          ],
+          "false_positives": [
+            "itar registration"
+          ],
+          "false_negatives": [
+            "itar"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.27,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "freight forwarder",
+            "ITAR registration"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "compliance",
+          "intent_confidence": 0.91,
+          "question": "What ITAR registration is required for freight forwarders?",
+          "relationships": [
+            "freight forwarder purchaser-selected",
+            "freight forwarder ITAR registration required",
+            "freight forwarder DTC 4/5",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd ACTS_AS_AGENT cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd REGISTERED_WITH 7c699ddc-188b-49ed-9af8-adc9d70919e8",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd MUST_COMPLY_WITH 0c3c4252-08f7-470a-9123-b36116116ad4",
+            "70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd HANDLES 30cbf26a-36a4-4996-8aee-d2f409e4eb61",
+            "7b8e4f97-f66c-4c46-9595-35a05476690e USES 70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_4_freight",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.7,
+      "avg_recall": 0.9,
+      "avg_f1": 0.7667,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_5_mapad": {
+    "results": [
+      {
+        "test_id": 421,
+        "query": "What is the MAPAD Military Assistance Program Address Directory?",
+        "expected": [
+          "mapad",
+          "military assistance program address directory"
+        ],
+        "extracted": [
+          "MAPAD",
+          "Military Assistance Program Address Directory"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "mapad",
+            "military assistance program address directory"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.32,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "MAPAD",
+            "Military Assistance Program Address Directory"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the MAPAD Military Assistance Program Address Directory?",
+          "relationships": [
+            "MAPAD Military Assistance Program Address Directory",
+            "MAPAD TAC codes",
+            "MAPAD SCO maintains",
+            "54907e95-2c88-47e0-917e-088e344a2f25 MAINTAINED_BY e0eefd35-5847-4a26-848e-19996209a637",
+            "54907e95-2c88-47e0-917e-088e344a2f25 INCLUDES e4251dd1-1784-498d-a751-00d8dc295e35",
+            "54907e95-2c88-47e0-917e-088e344a2f25 UPDATED_BY cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "54907e95-2c88-47e0-917e-088e344a2f25 REVIEWED_BY 1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8",
+            "1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8 MAINTAINS 54907e95-2c88-47e0-917e-088e344a2f25"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 422,
+        "query": "What is a TAC Type Address Code?",
+        "expected": [
+          "tac",
+          "type address code"
+        ],
+        "extracted": [
+          "TAC",
+          "Type Address Code"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "tac",
+            "type address code"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.12,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "TAC",
+            "Type Address Code"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a TAC Type Address Code?",
+          "relationships": [
+            "TAC Type Address Code",
+            "TAC address types",
+            "TAC ship-to mark-for NOA",
+            "e4251dd1-1784-498d-a751-00d8dc295e35 PART_OF 54907e95-2c88-47e0-917e-088e344a2f25",
+            "54907e95-2c88-47e0-917e-088e344a2f25 INCLUDES e4251dd1-1784-498d-a751-00d8dc295e35"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 423,
+        "query": "What is TAC M mark-for address?",
+        "expected": [
+          "tac m",
+          "mark-for address"
+        ],
+        "extracted": [
+          "TAC",
+          "TAC M",
+          "mark-for address",
+          "Type Address Code",
+          "Type Address Code M"
+        ],
+        "metrics": {
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1": 0.5714,
+          "hallucination_rate": 0.2,
+          "true_positives": [
+            "mark-for address",
+            "tac m"
+          ],
+          "false_positives": [
+            "type address code",
+            "type address code m",
+            "tac"
+          ],
+          "false_negatives": [],
+          "hallucinations": [
+            "type address code m"
+          ]
+        },
+        "response_time": 7.45,
+        "status": "success",
+        "entity_confidence": 0.8889999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "TAC",
+            "TAC M",
+            "mark-for address",
+            "Type Address Code",
+            "Type Address Code M"
+          ],
+          "entity_confidence": 0.8889999999999999,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is TAC M mark-for address?",
+          "relationships": [
+            "TAC Type Address Code",
+            "TAC address types",
+            "TAC ship-to mark-for NOA",
+            "TAC M mark-for address",
+            "TAC M ultimate consignee",
+            "TAC M final recipient",
+            "e4251dd1-1784-498d-a751-00d8dc295e35 PART_OF 54907e95-2c88-47e0-917e-088e344a2f25",
+            "54907e95-2c88-47e0-917e-088e344a2f25 INCLUDES e4251dd1-1784-498d-a751-00d8dc295e35"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 424,
+        "query": "What are MAPAD Special Instructions?",
+        "expected": [
+          "mapad",
+          "special instructions"
+        ],
+        "extracted": [
+          "MAPAD",
+          "Military Assistance Program Address Directory"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "mapad"
+          ],
+          "false_positives": [
+            "military assistance program address directory"
+          ],
+          "false_negatives": [
+            "special instructions"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.31,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "MAPAD",
+            "Military Assistance Program Address Directory"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What are MAPAD Special Instructions?",
+          "relationships": [
+            "MAPAD Military Assistance Program Address Directory",
+            "MAPAD TAC codes",
+            "MAPAD SCO maintains",
+            "54907e95-2c88-47e0-917e-088e344a2f25 MAINTAINED_BY e0eefd35-5847-4a26-848e-19996209a637",
+            "54907e95-2c88-47e0-917e-088e344a2f25 INCLUDES e4251dd1-1784-498d-a751-00d8dc295e35",
+            "54907e95-2c88-47e0-917e-088e344a2f25 UPDATED_BY cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "54907e95-2c88-47e0-917e-088e344a2f25 REVIEWED_BY 1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8",
+            "1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8 MAINTAINS 54907e95-2c88-47e0-917e-088e344a2f25"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 425,
+        "query": "How often should MAPAD addresses be reviewed?",
+        "expected": [
+          "mapad"
+        ],
+        "extracted": [
+          "MAPAD",
+          "Military Assistance Program Address Directory"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "mapad"
+          ],
+          "false_positives": [
+            "military assistance program address directory"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.09,
+        "status": "success",
+        "entity_confidence": 0.8187500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "MAPAD",
+            "Military Assistance Program Address Directory"
+          ],
+          "entity_confidence": 0.8187500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.59,
+          "question": "How often should MAPAD addresses be reviewed?",
+          "relationships": [
+            "MAPAD Military Assistance Program Address Directory",
+            "MAPAD TAC codes",
+            "MAPAD SCO maintains",
+            "54907e95-2c88-47e0-917e-088e344a2f25 MAINTAINED_BY e0eefd35-5847-4a26-848e-19996209a637",
+            "54907e95-2c88-47e0-917e-088e344a2f25 INCLUDES e4251dd1-1784-498d-a751-00d8dc295e35",
+            "54907e95-2c88-47e0-917e-088e344a2f25 UPDATED_BY cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "54907e95-2c88-47e0-917e-088e344a2f25 REVIEWED_BY 1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8",
+            "1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8 MAINTAINS 54907e95-2c88-47e0-917e-088e344a2f25"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_5_mapad",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.68,
+      "avg_recall": 0.9,
+      "avg_f1": 0.7476,
+      "avg_hallucination_rate": 0.04
+    }
+  },
+  "pattern_c7_6_documentation": {
+    "results": [
+      {
+        "test_id": 426,
+        "query": "What is a NOA Notice of Availability?",
+        "expected": [
+          "noa",
+          "notice of availability"
+        ],
+        "extracted": [
+          "NOA",
+          "Notice of Availability"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "notice of availability",
+            "noa"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.87,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "NOA",
+            "Notice of Availability"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a NOA Notice of Availability?",
+          "relationships": [
+            "NOA Notice of Availability",
+            "NOA DD Form 1348-5",
+            "NOA triggers pickup",
+            "2048c033-25c4-40fb-a571-0b5951323245 NOTIFIES cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "2048c033-25c4-40fb-a571-0b5951323245 USES ff2bd720-9d4b-4b02-91bd-d0081d8c6e38",
+            "2048c033-25c4-40fb-a571-0b5951323245 SENT_TO ebd8e6c0-61f0-471e-93ad-adda4b62dbe7",
+            "2048c033-25c4-40fb-a571-0b5951323245 NOTIFIES 70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd",
+            "2048c033-25c4-40fb-a571-0b5951323245 USES_FORM ff2bd720-9d4b-4b02-91bd-d0081d8c6e38"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 427,
+        "query": "What is an ORC Offer Release Code?",
+        "expected": [
+          "orc",
+          "offer release code"
+        ],
+        "extracted": [
+          "ORC",
+          "Offer Release Code"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "offer release code",
+            "orc"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.52,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 3,
+            "vector_db": 0
+          },
+          "entities": [
+            "ORC",
+            "Offer Release Code"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is an ORC Offer Release Code?",
+          "relationships": [
+            "ORC Offer Release Code",
+            "ORC A X Y Z codes",
+            "ORC shipping release",
+            "2ff7b41f-a142-4861-b1a5-81f53c14ddfe SPECIFIED_IN 94dab1d0-0add-4f1e-a85d-f5aaf97b2159"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 428,
+        "query": "What is a TCN Transportation Control Number?",
+        "expected": [
+          "tcn",
+          "transportation control number"
+        ],
+        "extracted": [
+          "TCN",
+          "Transportation Control Number"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "tcn",
+            "transportation control number"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.92,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "TCN",
+            "Transportation Control Number"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a TCN Transportation Control Number?",
+          "relationships": [
+            "TCN Transportation Control Number",
+            "TCN shipment tracking",
+            "TCN 17 characters",
+            "fa3bcab1-42d8-49a7-8e1a-24b5b92d1c93 TRACKED_IN ac74b545-8153-4d3b-a3d0-896b1d18cc41",
+            "fa3bcab1-42d8-49a7-8e1a-24b5b92d1c93 PRINTED_ON cb1e9789-f53e-487f-91b4-894676788023",
+            "67586f0b-95d3-4102-a835-413cd46f23ba TRACKED_BY fa3bcab1-42d8-49a7-8e1a-24b5b92d1c93",
+            "cb1e9789-f53e-487f-91b4-894676788023 INCLUDES fa3bcab1-42d8-49a7-8e1a-24b5b92d1c93",
+            "5286cbd9-f253-4b61-b9f5-2dd197d92a26 REFERENCES fa3bcab1-42d8-49a7-8e1a-24b5b92d1c93"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 429,
+        "query": "What is a Bill of Lading BL?",
+        "expected": [
+          "bill of lading",
+          "bl"
+        ],
+        "extracted": [
+          "BL",
+          "Bill of Lading"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "bill of lading",
+            "bl"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.42,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "BL",
+            "Bill of Lading"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a Bill of Lading BL?",
+          "relationships": [
+            "Bill of Lading shipping document",
+            "Bill of Lading CBL or GBL",
+            "Bill of Lading proof of shipment",
+            "4d19be49-346d-43c8-8463-7eab6fecc41a IS_TYPE_OF 768b10f0-d8f8-478b-9e2f-4cb811c06b9d",
+            "d28d1d01-6348-489b-b3fc-1a8777f905a1 ENABLES 4d19be49-346d-43c8-8463-7eab6fecc41a",
+            "97d88551-df10-4d50-bf5e-1f40751a84ad IS_TYPE_OF 5286cbd9-f253-4b61-b9f5-2dd197d92a26",
+            "159c1168-e06d-4438-a299-5a0c9ce57436 IS_TYPE_OF 5286cbd9-f253-4b61-b9f5-2dd197d92a26",
+            "159c1168-e06d-4438-a299-5a0c9ce57436 FORWARDED_TO 1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 430,
+        "query": "What is DD Form 1348-5 used for?",
+        "expected": [
+          "dd form 1348-5"
+        ],
+        "extracted": [
+          "DD Form 1348-5"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dd form 1348-5"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 9.11,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "DD Form 1348-5"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is DD Form 1348-5 used for?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_6_documentation",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_7_special": {
+    "results": [
+      {
+        "test_id": 431,
+        "query": "What is a SAAM Special Assignment Airlift Mission?",
+        "expected": [
+          "saam",
+          "special assignment airlift mission"
+        ],
+        "extracted": [
+          "SAAM",
+          "Special Assignment Airlift Mission"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "saam",
+            "special assignment airlift mission"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.36,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "SAAM",
+            "Special Assignment Airlift Mission"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is a SAAM Special Assignment Airlift Mission?",
+          "relationships": [
+            "SAAM Special Assignment Airlift Mission",
+            "SAAM billed hourly",
+            "SAAM dedicated mission",
+            "72f5498f-db5e-4f27-9ecb-ea5a6b73ac14 PROVIDED_BY e0119d03-99cf-4c59-b978-2f14cebeb4cd",
+            "72f5498f-db5e-4f27-9ecb-ea5a6b73ac14 COORDINATED_BY 7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c",
+            "e0119d03-99cf-4c59-b978-2f14cebeb4cd OPERATES 72f5498f-db5e-4f27-9ecb-ea5a6b73ac14",
+            "af747c62-a652-49f5-87d5-ca8156b5ade0 OPERATED_BY e0119d03-99cf-4c59-b978-2f14cebeb4cd"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 432,
+        "query": "What is NGDS Next Generation Delivery Services?",
+        "expected": [
+          "ngds",
+          "next generation delivery services"
+        ],
+        "extracted": [
+          "NGDS",
+          "Next Generation Delivery Services"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "next generation delivery services",
+            "ngds"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.77,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 2,
+            "vector_db": 0
+          },
+          "entities": [
+            "NGDS",
+            "Next Generation Delivery Services"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is NGDS Next Generation Delivery Services?",
+          "relationships": [
+            "NGDS Next Generation Delivery Services",
+            "NGDS up to 300 lbs",
+            "NGDS express delivery"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 433,
+        "query": "What is DCS Defense Courier Service?",
+        "expected": [
+          "dcs",
+          "defense courier service"
+        ],
+        "extracted": [
+          "DCS",
+          "Defense Courier Service",
+          "Direct Commercial Sales"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dcs",
+            "defense courier service"
+          ],
+          "false_positives": [
+            "direct commercial sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.52,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 20,
+            "vector_db": 0
+          },
+          "entities": [
+            "DCS",
+            "Defense Courier Service",
+            "Direct Commercial Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is DCS Defense Courier Service?",
+          "relationships": [
+            "Defense Courier Service classified courier",
+            "Defense Courier Service sensitive items",
+            "Defense Courier Service secure transport",
+            "direct_commercial_sales_dcs referenced_in c12",
+            "direct_commercial_sales_dcs isreviewedby department_of_state_dos",
+            "direct_commercial_sales_dcs isapprovedby department_of_state_dos",
+            "c1326212 references direct_commercial_sales_dcs",
+            "department_of_state_dos reviews_and_approves direct_commercial_sales_dcs"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 434,
+        "query": "What is AMC Channel airlift?",
+        "expected": [
+          "amc channel",
+          "amc"
+        ],
+        "extracted": [
+          "AMC",
+          "AMC Channel",
+          "channel airlift",
+          "Air Mobility Command"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "amc",
+            "amc channel"
+          ],
+          "false_positives": [
+            "air mobility command",
+            "channel airlift"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.4,
+        "status": "success",
+        "entity_confidence": 0.8843749999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 8,
+            "vector_db": 0
+          },
+          "entities": [
+            "AMC",
+            "AMC Channel",
+            "channel airlift",
+            "Air Mobility Command"
+          ],
+          "entity_confidence": 0.8843749999999999,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.6667,
+            "precision": 0.3333,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is AMC Channel airlift?",
+          "relationships": [
+            "AMC Air Mobility Command",
+            "AMC airlift",
+            "AMC channel missions",
+            "army_material_command_amc haspart us_army_security_assistance_command_usasac",
+            "army_material_command_amc coordinateswith office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec",
+            "army_material_command_amc directs us_army_security_assistance_command_usasac",
+            "army_material_command_amc ispartof department_of_the_army_da",
+            "department_of_the_army_da haspart army_material_command_amc"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 435,
+        "query": "How are small parcel shipments handled?",
+        "expected": [
+          "small parcel"
+        ],
+        "extracted": [
+          "small parcel"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "small parcel"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.51,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "small parcel"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.77,
+          "question": "How are small parcel shipments handled?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_7_special",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.8333,
+      "avg_recall": 1.0,
+      "avg_f1": 0.8933,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_8_cargo": {
+    "results": [
+      {
+        "test_id": 436,
+        "query": "What is Cargo Preference for US Flag vessels?",
+        "expected": [
+          "cargo preference",
+          "us flag"
+        ],
+        "extracted": [
+          "Cargo Preference",
+          "US Flag",
+          "US Flag vessel"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "cargo preference",
+            "us flag"
+          ],
+          "false_positives": [
+            "us flag vessel"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.84,
+        "status": "success",
+        "entity_confidence": 0.8899999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 5,
+            "vector_db": 0
+          },
+          "entities": [
+            "Cargo Preference",
+            "US Flag",
+            "US Flag vessel"
+          ],
+          "entity_confidence": 0.8899999999999999,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is Cargo Preference for US Flag vessels?",
+          "relationships": [
+            "Cargo Preference US Flag requirement",
+            "Cargo Preference 50% minimum legal",
+            "Cargo Preference 100% DSCA policy",
+            "US Flag required for FMS",
+            "US Flag P1 service default",
+            "US Flag Cargo Preference Act",
+            "2e6c7e49-80da-4b27-9ae1-cfc5a2d05eb1 ENFORCED_BY dsca",
+            "dsca ENFORCES 2e6c7e49-80da-4b27-9ae1-cfc5a2d05eb1",
+            "0ba2af29-04bc-4e65-883f-4b3288d05dd2 AMENDED_BY 2e6c7e49-80da-4b27-9ae1-cfc5a2d05eb1",
+            "40d4bddb-160b-45ef-b2cd-eca2c18ccb2c SUBJECT_TO 2e6c7e49-80da-4b27-9ae1-cfc5a2d05eb1"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 437,
+        "query": "What is P1 P2 P3 service?",
+        "expected": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "extracted": [
+          "P1",
+          "P2",
+          "P3",
+          "P3 service"
+        ],
+        "metrics": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "p2",
+            "p1",
+            "p3"
+          ],
+          "false_positives": [
+            "p3 service"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.66,
+        "status": "success",
+        "entity_confidence": 0.9099999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "P1",
+            "P2",
+            "P3",
+            "P3 service"
+          ],
+          "entity_confidence": 0.9099999999999999,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is P1 P2 P3 service?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 438,
+        "query": "What is a DNA Determination of Non-Availability?",
+        "expected": [
+          "dna",
+          "determination of non-availability"
+        ],
+        "extracted": [
+          "DNA",
+          "Determination of Non-Availability"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dna",
+            "determination of non-availability"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.69,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "DNA",
+            "Determination of Non-Availability"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a DNA Determination of Non-Availability?",
+          "relationships": [
+            "DNA Determination of Non-Availability",
+            "DNA MARAD approval",
+            "DNA 21 days notice",
+            "bdd7fa3d-00d2-4595-9ea3-e420489dfba6 ISSUED_BY dsca",
+            "bdd7fa3d-00d2-4595-9ea3-e420489dfba6 COORDINATED_WITH 450a1e8f-858c-4575-8a65-ec7e8f93865c",
+            "bdd7fa3d-00d2-4595-9ea3-e420489dfba6 REQUESTED_BY cd98167a-b4f6-4b5a-bcb9-1093ae9f415a"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 439,
+        "query": "What role does MARAD Maritime Administration play?",
+        "expected": [
+          "marad",
+          "maritime administration"
+        ],
+        "extracted": [
+          "MARAD",
+          "Maritime Administration"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "marad",
+            "maritime administration"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.64,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "MARAD",
+            "Maritime Administration"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "organization",
+          "intent_confidence": 0.59,
+          "question": "What role does MARAD Maritime Administration play?",
+          "relationships": [
+            "MARAD Maritime Administration",
+            "MARAD DNA approval",
+            "MARAD US Flag waivers",
+            "450a1e8f-858c-4575-8a65-ec7e8f93865c ENFORCES 0ba2af29-04bc-4e65-883f-4b3288d05dd2",
+            "dsca WORKS_WITH 450a1e8f-858c-4575-8a65-ec7e8f93865c",
+            "bdd7fa3d-00d2-4595-9ea3-e420489dfba6 COORDINATED_WITH 450a1e8f-858c-4575-8a65-ec7e8f93865c"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 440,
+        "query": "What is the Fly America Act?",
+        "expected": [
+          "fly america act"
+        ],
+        "extracted": [
+          "Fly America Act"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fly america act"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.79,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 1,
+            "vector_db": 0
+          },
+          "entities": [
+            "Fly America Act"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is the Fly America Act?",
+          "relationships": [
+            "Fly America Act US flag air carriers",
+            "Fly America Act grant and credit cargo"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_8_cargo",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.8833,
+      "avg_recall": 1.0,
+      "avg_f1": 0.9314,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_9_packaging": {
+    "results": [
+      {
+        "test_id": 441,
+        "query": "What is MIL-STD-129 for FMS shipping?",
+        "expected": [
+          "mil-std-129",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "MIL-STD-129",
+          "Foreign Military Sales",
+          "Military Standard 129"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.25,
+          "true_positives": [
+            "fms",
+            "mil-std-129"
+          ],
+          "false_positives": [
+            "foreign military sales",
+            "military standard 129"
+          ],
+          "false_negatives": [],
+          "hallucinations": [
+            "military standard 129"
+          ]
+        },
+        "response_time": 2.45,
+        "status": "success",
+        "entity_confidence": 0.8456250000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "MIL-STD-129",
+            "Foreign Military Sales",
+            "Military Standard 129"
+          ],
+          "entity_confidence": 0.8456250000000001,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.6667,
+            "precision": 0.3333,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is MIL-STD-129 for FMS shipping?",
+          "relationships": [
+            "MIL-STD-129 military marking standard",
+            "MIL-STD-129 required for FMS",
+            "MIL-STD-129 marking requirements",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 442,
+        "query": "What is Military Level A/B packaging?",
+        "expected": [
+          "military level a",
+          "military level b"
+        ],
+        "extracted": [
+          "Military Level A"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "military level a"
+          ],
+          "false_positives": [],
+          "false_negatives": [
+            "military level b"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.74,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "Military Level A"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What is Military Level A/B packaging?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 443,
+        "query": "What is WPM Wood Packaging Material?",
+        "expected": [
+          "wpm",
+          "wood packaging material"
+        ],
+        "extracted": [
+          "WPM",
+          "Wood Packaging Material"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "wpm",
+            "wood packaging material"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.21,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "WPM",
+            "Wood Packaging Material"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is WPM Wood Packaging Material?",
+          "relationships": [
+            "WPM Wood Packaging Material",
+            "WPM ISPM 15 treatment",
+            "WPM phytosanitary"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 444,
+        "query": "What is ISPM 15 for wood packaging?",
+        "expected": [
+          "ispm 15",
+          "wood packaging"
+        ],
+        "extracted": [
+          "ISPM 15",
+          "International Standards For Phytosanitary Measures 15"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.5,
+          "true_positives": [
+            "ispm 15"
+          ],
+          "false_positives": [
+            "international standards for phytosanitary measures 15"
+          ],
+          "false_negatives": [
+            "wood packaging"
+          ],
+          "hallucinations": [
+            "international standards for phytosanitary measures 15"
+          ]
+        },
+        "response_time": 7.46,
+        "status": "success",
+        "entity_confidence": 0.8187500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "ISPM 15",
+            "International Standards For Phytosanitary Measures 15"
+          ],
+          "entity_confidence": 0.8187500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is ISPM 15 for wood packaging?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 445,
+        "query": "What marking is required on FMS shipments?",
+        "expected": [
+          "marking",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "marking"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.85,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.64,
+          "question": "What marking is required on FMS shipments?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_9_packaging",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.7,
+      "avg_recall": 0.7,
+      "avg_f1": 0.6667,
+      "avg_hallucination_rate": 0.15
+    }
+  },
+  "pattern_c7_10_classified": {
+    "results": [
+      {
+        "test_id": 446,
+        "query": "What is a Transportation Plan for classified materiel?",
+        "expected": [
+          "transportation plan",
+          "classified"
+        ],
+        "extracted": [
+          "Transportation Plan",
+          "classified materiel"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "transportation plan"
+          ],
+          "false_positives": [
+            "classified materiel"
+          ],
+          "false_negatives": [
+            "classified"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.96,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "Transportation Plan",
+            "classified materiel"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is a Transportation Plan for classified materiel?",
+          "relationships": [
+            "Transportation Plan required for classified",
+            "Transportation Plan AA&E",
+            "Transportation Plan COMSEC CCI",
+            "1be5af16-8feb-4e21-90c8-b40011369a7d REQUIRED_FOR 30cbf26a-36a4-4996-8aee-d2f409e4eb61",
+            "1be5af16-8feb-4e21-90c8-b40011369a7d REQUIRED_FOR bc525afd-3bbe-4db2-ade0-fa3336a4ff20",
+            "1be5af16-8feb-4e21-90c8-b40011369a7d REQUIRED_FOR 1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c",
+            "1be5af16-8feb-4e21-90c8-b40011369a7d DEVELOPED_BY 7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "1be5af16-8feb-4e21-90c8-b40011369a7d APPROVED_BY dsca"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 447,
+        "query": "What is COMSEC Communications Security?",
+        "expected": [
+          "comsec",
+          "communications security"
+        ],
+        "extracted": [
+          "COMSEC",
+          "Communications Security"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "comsec",
+            "communications security"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.59,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "COMSEC",
+            "Communications Security"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is COMSEC Communications Security?",
+          "relationships": [
+            "COMSEC Communications Security",
+            "COMSEC SF-153 report",
+            "COMSEC special handling",
+            "cf94dbab-9528-47d7-83e0-f7c4592f6b91 INCLUDES 1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c",
+            "a244e6fd-93d6-410b-addc-11afd5b9da46 RELATES_TO cf94dbab-9528-47d7-83e0-f7c4592f6b91",
+            "46dc3b5e-a9a3-4885-b49a-770a9b080d0a CONTROLLED_BY fa6ee51c-f7e6-4907-b41f-1abf4558cc1b",
+            "e54b4c7b-88b9-494f-a762-c009d4de3f67 REQUIRED_FOR 46dc3b5e-a9a3-4885-b49a-770a9b080d0a",
+            "f38054dc-c051-43f5-9c84-bb6ded8f17aa TRANSFERS 1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 448,
+        "query": "What are CCI Controlled Cryptographic Items?",
+        "expected": [
+          "cci",
+          "controlled cryptographic items"
+        ],
+        "extracted": [
+          "CCI",
+          "Controlled Cryptographic Items"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "cci",
+            "controlled cryptographic items"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.21,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "CCI",
+            "Controlled Cryptographic Items"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What are CCI Controlled Cryptographic Items?",
+          "relationships": [
+            "CCI Controlled Cryptographic Items",
+            "CCI keyed vs un-keyed",
+            "CCI ETP for keyed",
+            "1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c REQUIRES 1be5af16-8feb-4e21-90c8-b40011369a7d",
+            "1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c MAY_USE 70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd",
+            "1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c MAY_SHIP_VIA 70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd",
+            "1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c MAY_USE ac74b545-8153-4d3b-a3d0-896b1d18cc41",
+            "1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c REQUIRES e54b4c7b-88b9-494f-a762-c009d4de3f67"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 449,
+        "query": "What does DCSA do for classified shipments?",
+        "expected": [
+          "dcsa",
+          "classified"
+        ],
+        "extracted": [
+          "DCSA",
+          "Defense Counterintelligence And Security Agency"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dcsa"
+          ],
+          "false_positives": [
+            "defense counterintelligence and security agency"
+          ],
+          "false_negatives": [
+            "classified"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.86,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "DCSA",
+            "Defense Counterintelligence And Security Agency"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What does DCSA do for classified shipments?",
+          "relationships": [
+            "DCSA Defense Counterintelligence and Security Agency",
+            "DCSA verifies clearances",
+            "DCSA NISPOM",
+            "8b9fdd9d-e6aa-419e-8347-344eb434cfed REVIEWS 1be5af16-8feb-4e21-90c8-b40011369a7d",
+            "1be5af16-8feb-4e21-90c8-b40011369a7d REVIEWED_BY 8b9fdd9d-e6aa-419e-8347-344eb434cfed",
+            "30cbf26a-36a4-4996-8aee-d2f409e4eb61 CLEARED_BY 8b9fdd9d-e6aa-419e-8347-344eb434cfed",
+            "708b2e44-a7e0-4756-b39a-ef44624d944a VERIFIED_BY 8b9fdd9d-e6aa-419e-8347-344eb434cfed"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 450,
+        "query": "What is a CISMOA agreement?",
+        "expected": [
+          "cismoa"
+        ],
+        "extracted": [
+          "CISMOA",
+          "Communications Interoperability And Security Memorandum Of Agreement"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "cismoa"
+          ],
+          "false_positives": [
+            "communications interoperability and security memorandum of agreement"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.04,
+        "status": "success",
+        "entity_confidence": 0.8187500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "CISMOA",
+            "Communications Interoperability And Security Memorandum Of Agreement"
+          ],
+          "entity_confidence": 0.8187500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is a CISMOA agreement?",
+          "relationships": [
+            "CISMOA Communications Interoperability and Security Memorandum of Agreement",
+            "CISMOA CCI transfer",
+            "e54b4c7b-88b9-494f-a762-c009d4de3f67 REQUIRED_FOR 46dc3b5e-a9a3-4885-b49a-770a9b080d0a",
+            "e54b4c7b-88b9-494f-a762-c009d4de3f67 NEGOTIATED_VIA d8e96378-3fbc-4f5d-a50c-3753806f5c4f",
+            "d8e96378-3fbc-4f5d-a50c-3753806f5c4f FACILITATES e54b4c7b-88b9-494f-a762-c009d4de3f67",
+            "1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c REQUIRES e54b4c7b-88b9-494f-a762-c009d4de3f67"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_10_classified",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.7,
+      "avg_recall": 0.8,
+      "avg_f1": 0.7333,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_11_aa_e": {
+    "results": [
+      {
+        "test_id": 451,
+        "query": "What is AA&E Arms Ammunition and Explosives?",
+        "expected": [
+          "aa&e",
+          "arms ammunition and explosives"
+        ],
+        "extracted": [
+          "AA&E",
+          "Arms Ammunition and Explosives",
+          "explosives"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "aa&e",
+            "arms ammunition and explosives"
+          ],
+          "false_positives": [
+            "explosives"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.55,
+        "status": "success",
+        "entity_confidence": 0.8899999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "AA&E",
+            "Arms Ammunition and Explosives",
+            "explosives"
+          ],
+          "entity_confidence": 0.8899999999999999,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What is AA&E Arms Ammunition and Explosives?",
+          "relationships": [
+            "AA&E Arms Ammunition and Explosives",
+            "AA&E SRC categories",
+            "AA&E special security"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 452,
+        "query": "What are SRC Security Risk Categories I through IV?",
+        "expected": [
+          "src",
+          "security risk category"
+        ],
+        "extracted": [
+          "SRC",
+          "Security Risk Category"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "src",
+            "security risk category"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.72,
+        "status": "success",
+        "entity_confidence": 0.8187500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "SRC",
+            "Security Risk Category"
+          ],
+          "entity_confidence": 0.8187500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are SRC Security Risk Categories I through IV?",
+          "relationships": [
+            "SRC Security Risk Category",
+            "SRC I through IV",
+            "SRC determines handling",
+            "b88e61b5-2228-48e2-8287-e38359a4db6d CATEGORIZES bc525afd-3bbe-4db2-ade0-fa3336a4ff20",
+            "bc525afd-3bbe-4db2-ade0-fa3336a4ff20 CATEGORIZED_BY b88e61b5-2228-48e2-8287-e38359a4db6d",
+            "7769b3a3-58ba-4bf5-a10d-9cd26441ede3 INCLUDES 132a3884-ebdc-41d6-8027-3c9397e890bf",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf CLASSIFIED_AS 7769b3a3-58ba-4bf5-a10d-9cd26441ede3"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 453,
+        "query": "What are MANPADS Man Portable Air Defense Systems?",
+        "expected": [
+          "manpads",
+          "man portable air defense systems"
+        ],
+        "extracted": [
+          "MANPADS",
+          "Man Portable Air Defense Systems",
+          "Man-Portable Air Defense System"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "manpads",
+            "man portable air defense systems"
+          ],
+          "false_positives": [
+            "man-portable air defense system"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 3.38,
+        "status": "success",
+        "entity_confidence": 0.8558333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "MANPADS",
+            "Man Portable Air Defense Systems",
+            "Man-Portable Air Defense System"
+          ],
+          "entity_confidence": 0.8558333333333334,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.5,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What are MANPADS Man Portable Air Defense Systems?",
+          "relationships": [
+            "MANPADS SRC I category",
+            "MANPADS DTS required",
+            "MANPADS no purchaser pickup without waiver",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf CLASSIFIED_AS 7769b3a3-58ba-4bf5-a10d-9cd26441ede3",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf MUST_USE ac74b545-8153-4d3b-a3d0-896b1d18cc41",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf TYPE_OF defense_articles",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf REQUIRES_APPROVAL_FROM d7a24796-93e9-4057-85c5-e12e4e41065e",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf SUBJECT_TO 029588c3-212d-4803-86e5-9525fdf22df1"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 454,
+        "query": "What is SRC I for AA&E?",
+        "expected": [
+          "src i",
+          "aa&e"
+        ],
+        "extracted": [
+          "AA&E",
+          "SRC",
+          "SRC I",
+          "Arms Ammunition And Explosives",
+          "Security Risk Category",
+          "Security Risk Category I"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "hallucination_rate": 0.1667,
+          "true_positives": [
+            "aa&e",
+            "src i"
+          ],
+          "false_positives": [
+            "security risk category i",
+            "arms ammunition and explosives",
+            "security risk category",
+            "src"
+          ],
+          "false_negatives": [],
+          "hallucinations": [
+            "security risk category i"
+          ]
+        },
+        "response_time": 7.19,
+        "status": "success",
+        "entity_confidence": 0.86125,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 3,
+            "vector_db": 0
+          },
+          "entities": [
+            "AA&E",
+            "SRC",
+            "SRC I",
+            "Arms Ammunition And Explosives",
+            "Security Risk Category",
+            "Security Risk Category I"
+          ],
+          "entity_confidence": 0.86125,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What is SRC I for AA&E?",
+          "relationships": [
+            "AA&E Arms Ammunition and Explosives",
+            "AA&E SRC categories",
+            "AA&E special security",
+            "SRC Security Risk Category",
+            "SRC I through IV",
+            "SRC determines handling",
+            "SRC I highest risk",
+            "SRC I MANPADS rockets",
+            "SRC I USD(I&S) waiver required",
+            "b88e61b5-2228-48e2-8287-e38359a4db6d CATEGORIZES bc525afd-3bbe-4db2-ade0-fa3336a4ff20"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 455,
+        "query": "How is sensitive materiel transported?",
+        "expected": [
+          "sensitive materiel"
+        ],
+        "extracted": [
+          "sensitive materiel"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "sensitive materiel"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.51,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "sensitive materiel"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.48,
+          "question": "How is sensitive materiel transported?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_11_aa_e",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.7333,
+      "avg_recall": 1.0,
+      "avg_f1": 0.82,
+      "avg_hallucination_rate": 0.0333
+    }
+  },
+  "pattern_c7_12_hazmat": {
+    "results": [
+      {
+        "test_id": 456,
+        "query": "What is HAZMAT Hazardous Materials?",
+        "expected": [
+          "hazmat",
+          "hazardous materials"
+        ],
+        "extracted": [
+          "HAZMAT",
+          "Hazardous Materials"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "hazardous materials",
+            "hazmat"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.53,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "HAZMAT",
+            "Hazardous Materials"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is HAZMAT Hazardous Materials?",
+          "relationships": [
+            "HAZMAT Hazardous Materials",
+            "HAZMAT 49 CFR regulated",
+            "HAZMAT HMR compliance",
+            "9d7e1ee6-1b53-4fe8-bc5f-fe4d8c91f16c GOVERNED_BY 78000c22-4a03-4244-a23f-f5366fb73db3",
+            "9d7e1ee6-1b53-4fe8-bc5f-fe4d8c91f16c REGULATED_BY 37e15c72-849c-4454-a4a1-5ec9bb368646",
+            "9d7e1ee6-1b53-4fe8-bc5f-fe4d8c91f16c TRANSPORTED_VIA ac74b545-8153-4d3b-a3d0-896b1d18cc41"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 457,
+        "query": "What is an EX-Number from DOT PHMSA?",
+        "expected": [
+          "ex-number",
+          "dot",
+          "phmsa"
+        ],
+        "extracted": [
+          "EX-Number",
+          "PHMSA",
+          "Exemption Number",
+          "Pipeline And Hazardous Materials Safety Administration"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.6667,
+          "f1": 0.5714,
+          "hallucination_rate": 0.25,
+          "true_positives": [
+            "ex-number",
+            "phmsa"
+          ],
+          "false_positives": [
+            "pipeline and hazardous materials safety administration",
+            "exemption number"
+          ],
+          "false_negatives": [
+            "dot"
+          ],
+          "hallucinations": [
+            "exemption number"
+          ]
+        },
+        "response_time": 8.46,
+        "status": "success",
+        "entity_confidence": 0.8456250000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 3,
+            "vector_db": 0
+          },
+          "entities": [
+            "EX-Number",
+            "PHMSA",
+            "Exemption Number",
+            "Pipeline And Hazardous Materials Safety Administration"
+          ],
+          "entity_confidence": 0.8456250000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is an EX-Number from DOT PHMSA?",
+          "relationships": [
+            "EX-Number DOT authorization",
+            "EX-Number HC1 explosives",
+            "EX-Number commercial movement",
+            "PHMSA Pipeline and Hazardous Materials Safety Administration",
+            "PHMSA EX-Number issuer",
+            "de9215cc-1dae-4c01-8183-9fe0d862ce3b PART_OF 0a146b7f-fd41-45b3-9797-c39a30cf3111",
+            "dbc50414-8909-4b50-8490-047911cc4116 ISSUED_BY de9215cc-1dae-4c01-8183-9fe0d862ce3b"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 458,
+        "query": "What is HC1 Hazard Class 1?",
+        "expected": [
+          "hc1",
+          "hazard class 1"
+        ],
+        "extracted": [
+          "HC1",
+          "Hazard Class 1"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "hc1",
+            "hazard class 1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.33,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "HC1",
+            "Hazard Class 1"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is HC1 Hazard Class 1?",
+          "relationships": [
+            "HC1 Hazard Class 1",
+            "HC1 explosives",
+            "HC1 EX-Number required",
+            "7465d876-d1b8-49c0-a0cf-41f515948697 REQUIRES dbc50414-8909-4b50-8490-047911cc4116"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 459,
+        "query": "What are HMR Hazardous Materials Regulations?",
+        "expected": [
+          "hmr",
+          "hazardous materials regulations"
+        ],
+        "extracted": [
+          "Hazardous Materials",
+          "HMR",
+          "Hazardous Materials Regulations",
+          "HAZMAT"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "hmr",
+            "hazardous materials regulations"
+          ],
+          "false_positives": [
+            "hazardous materials",
+            "hazmat"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.47,
+        "status": "success",
+        "entity_confidence": 0.8712500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 8,
+            "vector_db": 0
+          },
+          "entities": [
+            "Hazardous Materials",
+            "HMR",
+            "Hazardous Materials Regulations",
+            "HAZMAT"
+          ],
+          "entity_confidence": 0.8712500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What are HMR Hazardous Materials Regulations?",
+          "relationships": [
+            "HAZMAT Hazardous Materials",
+            "HAZMAT 49 CFR regulated",
+            "HAZMAT HMR compliance",
+            "37e15c72-849c-4454-a4a1-5ec9bb368646 PART_OF 78000c22-4a03-4244-a23f-f5366fb73db3",
+            "9d7e1ee6-1b53-4fe8-bc5f-fe4d8c91f16c REGULATED_BY 37e15c72-849c-4454-a4a1-5ec9bb368646"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 460,
+        "query": "When is a DOT EX-Number required?",
+        "expected": [
+          "dot",
+          "ex-number"
+        ],
+        "extracted": [
+          "EX-Number",
+          "DOT EX-Number",
+          "Exemption Number"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "hallucination_rate": 0.3333,
+          "true_positives": [
+            "ex-number"
+          ],
+          "false_positives": [
+            "exemption number",
+            "dot ex-number"
+          ],
+          "false_negatives": [
+            "dot"
+          ],
+          "hallucinations": [
+            "exemption number"
+          ]
+        },
+        "response_time": 7.27,
+        "status": "success",
+        "entity_confidence": 0.8558333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "EX-Number",
+            "DOT EX-Number",
+            "Exemption Number"
+          ],
+          "entity_confidence": 0.8558333333333334,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.77,
+          "question": "When is a DOT EX-Number required?",
+          "relationships": [
+            "EX-Number DOT authorization",
+            "EX-Number HC1 explosives",
+            "EX-Number commercial movement"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_12_hazmat",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.6667,
+      "avg_recall": 0.8333,
+      "avg_f1": 0.7276,
+      "avg_hallucination_rate": 0.1167
+    }
+  },
+  "pattern_c7_13_export": {
+    "results": [
+      {
+        "test_id": 461,
+        "query": "What ITAR exemptions apply to FMS?",
+        "expected": [
+          "itar",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "ITAR",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "itar"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.56,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 32,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "ITAR",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "compliance",
+          "intent_confidence": 0.94,
+          "question": "What ITAR exemptions apply to FMS?",
+          "relationships": [
+            "ITAR International Traffic in Arms Regulations",
+            "ITAR 126.6 exemptions",
+            "ITAR PM/DDTC",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "united_states_munitions_list_usml is_part_of international_traffic_in_arms_regulations_itar",
+            "0c3c4252-08f7-470a-9123-b36116116ad4 REGULATES defense_articles"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 462,
+        "query": "What is EEI Electronic Export Information?",
+        "expected": [
+          "eei",
+          "electronic export information"
+        ],
+        "extracted": [
+          "EEI",
+          "Electronic Export Information"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "eei",
+            "electronic export information"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.34,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "EEI",
+            "Electronic Export Information"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is EEI Electronic Export Information?",
+          "relationships": [
+            "EEI Electronic Export Information",
+            "EEI AES submission",
+            "EEI required for defense articles",
+            "efdacb88-553c-45c9-8867-ecd77d1650ee FILED_IN 92858a32-9a03-41d0-8769-c35e846382fa",
+            "6e9dbfe5-ac25-4f57-8fea-10f36539ae16 REQUIRES efdacb88-553c-45c9-8867-ecd77d1650ee"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 463,
+        "query": "What is AES Automated Export System?",
+        "expected": [
+          "aes",
+          "automated export system"
+        ],
+        "extracted": [
+          "AES",
+          "Automated Export System"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "automated export system",
+            "aes"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.87,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "AES",
+            "Automated Export System"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is AES Automated Export System?",
+          "relationships": [
+            "AES Automated Export System",
+            "AES CBP filing",
+            "AES generates ITN",
+            "92858a32-9a03-41d0-8769-c35e846382fa GENERATES 215fa9f0-aa04-4bf9-a1d1-abece3ec52dc",
+            "92858a32-9a03-41d0-8769-c35e846382fa DECREMENTS 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "efdacb88-553c-45c9-8867-ecd77d1650ee FILED_IN 92858a32-9a03-41d0-8769-c35e846382fa",
+            "6e9dbfe5-ac25-4f57-8fea-10f36539ae16 USES 92858a32-9a03-41d0-8769-c35e846382fa"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 464,
+        "query": "What does CBP Customs and Border Protection require?",
+        "expected": [
+          "cbp",
+          "customs and border protection"
+        ],
+        "extracted": [
+          "CBP",
+          "Customs and Border Protection"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "customs and border protection",
+            "cbp"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.55,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "CBP",
+            "Customs and Border Protection"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What does CBP Customs and Border Protection require?",
+          "relationships": [
+            "CBP Customs and Border Protection",
+            "CBP AES filing",
+            "CBP export documentation",
+            "6e9dbfe5-ac25-4f57-8fea-10f36539ae16 REQUIRES efdacb88-553c-45c9-8867-ecd77d1650ee",
+            "6e9dbfe5-ac25-4f57-8fea-10f36539ae16 USES 92858a32-9a03-41d0-8769-c35e846382fa"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 465,
+        "query": "What is an ITN Internal Transaction Number?",
+        "expected": [
+          "itn",
+          "internal transaction number"
+        ],
+        "extracted": [
+          "ITN",
+          "Internal Transaction Number"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "internal transaction number",
+            "itn"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.35,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "ITN",
+            "Internal Transaction Number"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is an ITN Internal Transaction Number?",
+          "relationships": [
+            "ITN Internal Transaction Number",
+            "ITN AES-generated",
+            "ITN export tracking",
+            "215fa9f0-aa04-4bf9-a1d1-abece3ec52dc INCLUDED_ON 31b93f9a-21fa-4eaa-ad1b-4d3aebff005e",
+            "92858a32-9a03-41d0-8769-c35e846382fa GENERATES 215fa9f0-aa04-4bf9-a1d1-abece3ec52dc"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_13_export",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9333,
+      "avg_recall": 1.0,
+      "avg_f1": 0.96,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_14_insurance": {
+    "results": [
+      {
+        "test_id": 466,
+        "query": "Is commercial insurance required for FMS?",
+        "expected": [
+          "commercial insurance",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "commercial insurance",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "commercial insurance",
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.43,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "commercial insurance",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "verification",
+          "intent_confidence": 0.91,
+          "question": "Is commercial insurance required for FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 467,
+        "query": "What is loss or damage liability for FMS?",
+        "expected": [
+          "loss",
+          "damage",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "loss or damage",
+          "liability",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.25,
+          "recall": 0.3333,
+          "f1": 0.2857,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "loss or damage",
+            "foreign military sales",
+            "liability"
+          ],
+          "false_negatives": [
+            "loss",
+            "damage"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.34,
+        "status": "success",
+        "entity_confidence": 0.8712500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "loss or damage",
+            "liability",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8712500000000001,
+          "entity_metrics": {
+            "f1_score": 0.3333,
+            "hallucination_rate": 0.6667,
+            "precision": 0.3333,
+            "recall": 0.3333
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is loss or damage liability for FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 468,
+        "query": "Can purchasers self-insure FMS shipments?",
+        "expected": [
+          "self-insure",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "self-insure",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "self-insure",
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.51,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "self-insure",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.63,
+          "question": "Can purchasers self-insure FMS shipments?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 469,
+        "query": "Who arranges insurance for FMS freight?",
+        "expected": [
+          "insurance",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "insurance"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.58,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.64,
+          "question": "Who arranges insurance for FMS freight?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 470,
+        "query": "What insurance is needed for high value items?",
+        "expected": [
+          "insurance",
+          "high value"
+        ],
+        "extracted": [
+          "high value items"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "high value items"
+          ],
+          "false_negatives": [
+            "insurance",
+            "high value"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.61,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "high value items"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.48,
+          "question": "What insurance is needed for high value items?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_14_insurance",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.4167,
+      "avg_recall": 0.5667,
+      "avg_f1": 0.4771,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_15_costs": {
+    "results": [
+      {
+        "test_id": 471,
+        "query": "How are DTS transportation costs calculated?",
+        "expected": [
+          "dts",
+          "transportation costs"
+        ],
+        "extracted": [
+          "DTS",
+          "transportation costs",
+          "Defense Transportation System"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dts",
+            "transportation costs"
+          ],
+          "false_positives": [
+            "defense transportation system"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.65,
+        "status": "success",
+        "entity_confidence": 0.8558333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 16,
+            "vector_db": 0
+          },
+          "entities": [
+            "DTS",
+            "transportation costs",
+            "Defense Transportation System"
+          ],
+          "entity_confidence": 0.8558333333333334,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.48,
+          "question": "How are DTS transportation costs calculated?",
+          "relationships": [
+            "DTS Defense Transportation System",
+            "DTS USTRANSCOM manages",
+            "DTS includes AMC SDDC MSC",
+            "defense_technology_security_administration_dtsa implements technology_security_policy",
+            "defense_technology_security_administration_dtsa coordinateswith under_secretary_of_defense_for_policy_usdp",
+            "c1321 references defense_technology_security_administration_dtsa",
+            "under_secretary_of_defense_for_policy_usdp coordinateswith defense_technology_security_administration_dtsa",
+            "431cf727-e9c2-4d00-bc74-b3daf641e3b9 implements_under_direction_of usdp",
+            "70437424-726e-464b-b820-b0548b10e9fb MANAGED_BY 7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 472,
+        "query": "What are standard transportation percentages?",
+        "expected": [
+          "standard transportation percentage"
+        ],
+        "extracted": [
+          "standard transportation percentage"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "standard transportation percentage"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.83,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "standard transportation percentage"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are standard transportation percentages?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 473,
+        "query": "What are storage charges for NOA delays?",
+        "expected": [
+          "storage charges",
+          "noa"
+        ],
+        "extracted": [
+          "NOA",
+          "storage charges",
+          "Notice Of Availability"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "noa",
+            "storage charges"
+          ],
+          "false_positives": [
+            "notice of availability"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.89,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "NOA",
+            "storage charges",
+            "Notice Of Availability"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are storage charges for NOA delays?",
+          "relationships": [
+            "NOA Notice of Availability",
+            "NOA DD Form 1348-5",
+            "NOA triggers pickup",
+            "2048c033-25c4-40fb-a571-0b5951323245 NOTIFIES cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "2048c033-25c4-40fb-a571-0b5951323245 USES ff2bd720-9d4b-4b02-91bd-d0081d8c6e38",
+            "2048c033-25c4-40fb-a571-0b5951323245 SENT_TO ebd8e6c0-61f0-471e-93ad-adda4b62dbe7",
+            "2048c033-25c4-40fb-a571-0b5951323245 NOTIFIES 70e57f4d-2b11-41f7-88d9-ff6ae52fc7dd",
+            "2048c033-25c4-40fb-a571-0b5951323245 USES_FORM ff2bd720-9d4b-4b02-91bd-d0081d8c6e38"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 474,
+        "query": "How are SAAM costs billed on LOA?",
+        "expected": [
+          "saam",
+          "loa"
+        ],
+        "extracted": [
+          "LOA",
+          "SAAM",
+          "Letter Of Offer And Acceptance",
+          "Special Assignment Airlift Mission"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "saam",
+            "loa"
+          ],
+          "false_positives": [
+            "letter of offer and acceptance",
+            "special assignment airlift mission"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.73,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 21,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOA",
+            "SAAM",
+            "Letter Of Offer And Acceptance",
+            "Special Assignment Airlift Mission"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.4,
+            "hallucination_rate": 0.6667,
+            "precision": 0.3333,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.64,
+          "question": "How are SAAM costs billed on LOA?",
+          "relationships": [
+            "SAAM Special Assignment Airlift Mission",
+            "SAAM billed hourly",
+            "SAAM dedicated mission",
+            "letter_of_offer_and_acceptance_loa isprovidedto partner_nation",
+            "partner_nation receives letter_of_offer_and_acceptance_loa",
+            "5093dca6-e3da-4075-afa9-9699e369f2d8 documentsfor 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "ab80e488-55f6-4074-af01-295e69f39469 coordinateson 5093dca6-e3da-4075-afa9-9699e369f2d8",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 isa 16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7",
+            "72f5498f-db5e-4f27-9ecb-ea5a6b73ac14 PROVIDED_BY e0119d03-99cf-4c59-b978-2f14cebeb4cd",
+            "72f5498f-db5e-4f27-9ecb-ea5a6b73ac14 COORDINATED_BY 7becfea8-0e7f-4bd4-a7e1-b1a42e308f6c"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 475,
+        "query": "What are accessorial charges?",
+        "expected": [
+          "accessorial charges"
+        ],
+        "extracted": [
+          "accessorial charges"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "accessorial charges"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.19,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 3,
+            "vector_db": 0
+          },
+          "entities": [
+            "accessorial charges"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What are accessorial charges?",
+          "relationships": [
+            "baa93f5d-fb1e-4869-94f5-eabeb63d5a3b INCLUDES fms_administrative_surcharge",
+            "1bead085-257f-4b4d-bccb-da16e8b8ec7c SAME_AS baa93f5d-fb1e-4869-94f5-eabeb63d5a3b"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_15_costs",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.7667,
+      "avg_recall": 1.0,
+      "avg_f1": 0.8533,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_16_claims": {
+    "results": [
+      {
+        "test_id": 476,
+        "query": "What is a TDR Transportation Discrepancy Report?",
+        "expected": [
+          "tdr",
+          "transportation discrepancy report"
+        ],
+        "extracted": [
+          "TDR",
+          "Transportation Discrepancy Report"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "tdr",
+            "transportation discrepancy report"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.61,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 5,
+            "vector_db": 0
+          },
+          "entities": [
+            "TDR",
+            "Transportation Discrepancy Report"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a TDR Transportation Discrepancy Report?",
+          "relationships": [
+            "TDR Transportation Discrepancy Report",
+            "TDR DD Form 361",
+            "TDR SCO submits",
+            "39900ae9-be92-4487-b5f9-88e42a411884 USES_FORM 3d3f4c16-48ea-4133-8f68-16f3cf15e341",
+            "39900ae9-be92-4487-b5f9-88e42a411884 SUBMITTED_BY 1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8",
+            "39900ae9-be92-4487-b5f9-88e42a411884 REFERENCES fa3bcab1-42d8-49a7-8e1a-24b5b92d1c93"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 477,
+        "query": "What is DD Form 361?",
+        "expected": [
+          "dd form 361"
+        ],
+        "extracted": [
+          "DD Form 361"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dd form 361"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.71,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 2,
+            "vector_db": 0
+          },
+          "entities": [
+            "DD Form 361"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is DD Form 361?",
+          "relationships": [
+            "39900ae9-be92-4487-b5f9-88e42a411884 USES_FORM 3d3f4c16-48ea-4133-8f68-16f3cf15e341"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 478,
+        "query": "What is a tracer action for shipments?",
+        "expected": [
+          "tracer action"
+        ],
+        "extracted": [
+          "tracer action"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "tracer action"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.32,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "tracer action"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is a tracer action for shipments?",
+          "relationships": [
+            "tracer action non-receipt investigation",
+            "tracer action purchaser initiates"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 479,
+        "query": "What is constructive proof of delivery?",
+        "expected": [
+          "constructive proof of delivery",
+          "proof of delivery"
+        ],
+        "extracted": [
+          "proof of delivery",
+          "constructive proof"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "proof of delivery"
+          ],
+          "false_positives": [
+            "constructive proof"
+          ],
+          "false_negatives": [
+            "constructive proof of delivery"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.03,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "proof of delivery",
+            "constructive proof"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is constructive proof of delivery?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 480,
+        "query": "Who submits claims against carriers?",
+        "expected": [
+          "claims",
+          "carrier"
+        ],
+        "extracted": [
+          "claims"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "claims"
+          ],
+          "false_positives": [],
+          "false_negatives": [
+            "carrier"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.86,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "claims"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.48,
+          "question": "Who submits claims against carriers?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_16_claims",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9,
+      "avg_recall": 0.8,
+      "avg_f1": 0.8333,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_17_organizations": {
+    "results": [
+      {
+        "test_id": 481,
+        "query": "What is the SCO Security Cooperation Organization role?",
+        "expected": [
+          "sco",
+          "security cooperation organization"
+        ],
+        "extracted": [
+          "SCO",
+          "Security Cooperation Organization",
+          "Security Cooperation",
+          "SC"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "security cooperation organization",
+            "sco"
+          ],
+          "false_positives": [
+            "sc",
+            "security cooperation"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.33,
+        "status": "success",
+        "entity_confidence": 0.9524999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 40,
+            "vector_db": 0
+          },
+          "entities": [
+            "SCO",
+            "Security Cooperation Organization",
+            "Security Cooperation",
+            "SC"
+          ],
+          "entity_confidence": 0.9524999999999999,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the SCO Security Cooperation Organization role?",
+          "relationships": [
+            "Security Cooperation includes Security Assistance",
+            "Security Cooperation authorized under Title 10",
+            "SC includes SA",
+            "SC Title 10 authorized",
+            "system_command_syscom ispartof department_of_the_navy_don",
+            "navy_international_programs_office_nipo directs system_command_syscom",
+            "c1326123 references system_command_syscom",
+            "c1326122 references system_command_syscom",
+            "united_states_transportation_command_ustranscom isa combatant_command_ccmd",
+            "c132 references security_cooperation_organization_sco"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 482,
+        "query": "What does DCMA Defense Contract Management Agency do?",
+        "expected": [
+          "dcma",
+          "defense contract management agency"
+        ],
+        "extracted": [
+          "DCMA",
+          "Defense Contract Management Agency"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "defense contract management agency",
+            "dcma"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.55,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 14,
+            "vector_db": 0
+          },
+          "entities": [
+            "DCMA",
+            "Defense Contract Management Agency"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.68,
+          "question": "What does DCMA Defense Contract Management Agency do?",
+          "relationships": [
+            "DCMA performs contract administration",
+            "DCMA provides quality assurance",
+            "defense_contract_management_agency_dcma responsiblefor quality_assurance",
+            "defense_contract_management_agency_dcma responsiblefor contract_administration",
+            "defense_contract_management_agency_dcma responsiblefor product_acceptance",
+            "c1326211 explains defense_contract_management_agency_dcma",
+            "c1326213 explains defense_contract_management_agency_dcma"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 483,
+        "query": "What is DTSA Defense Technology Security Administration?",
+        "expected": [
+          "dtsa",
+          "defense technology security administration"
+        ],
+        "extracted": [
+          "DTSA",
+          "Defense Technology Security Administration"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "defense technology security administration",
+            "dtsa"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.3,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 14,
+            "vector_db": 0
+          },
+          "entities": [
+            "DTSA",
+            "Defense Technology Security Administration"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is DTSA Defense Technology Security Administration?",
+          "relationships": [
+            "DTSA NVD export policy",
+            "DTSA case-by-case review",
+            "DTSA technology transfer",
+            "defense_technology_security_administration_dtsa implements technology_security_policy",
+            "defense_technology_security_administration_dtsa coordinateswith under_secretary_of_defense_for_policy_usdp",
+            "c1321 references defense_technology_security_administration_dtsa",
+            "under_secretary_of_defense_for_policy_usdp coordinateswith defense_technology_security_administration_dtsa",
+            "431cf727-e9c2-4d00-bc74-b3daf641e3b9 implements_under_direction_of usdp"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 484,
+        "query": "What is a husbanding agent?",
+        "expected": [
+          "husbanding agent"
+        ],
+        "extracted": [
+          "husbanding agent"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "husbanding agent"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.05,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 2,
+            "vector_db": 0
+          },
+          "entities": [
+            "husbanding agent"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a husbanding agent?",
+          "relationships": [
+            "5bd79624-35da-43f8-8bfb-c3bf20674195 SERVICED_BY 6bb112c8-5c4e-4cc3-a2d6-a6dc859d8072"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 485,
+        "query": "What does DFAS-IN handle for transportation?",
+        "expected": [
+          "dfas-in"
+        ],
+        "extracted": [
+          "DFAS",
+          "DFAS-IN",
+          "Defense Finance And Accounting Service",
+          "Defense Finance And Accounting Services Indianapolis"
+        ],
+        "metrics": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dfas-in"
+          ],
+          "false_positives": [
+            "dfas",
+            "defense finance and accounting services indianapolis",
+            "defense finance and accounting service"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.53,
+        "status": "success",
+        "entity_confidence": 0.943125,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "DFAS",
+            "DFAS-IN",
+            "Defense Finance And Accounting Service",
+            "Defense Finance And Accounting Services Indianapolis"
+          ],
+          "entity_confidence": 0.943125,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.6667,
+            "precision": 0.3333,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What does DFAS-IN handle for transportation?",
+          "relationships": [
+            "DFAS performs accounting",
+            "DFAS performs billing",
+            "DFAS performs disbursing",
+            "DFAS performs collecting",
+            "DFAS-IN processes deposits",
+            "DFAS-IN posts financial implementation",
+            "DFAS-IN notifies SCO",
+            "defense_finance_and_accounting_service_dfas responsiblefor collecting",
+            "defense_finance_and_accounting_service_dfas responsiblefor billing",
+            "defense_finance_and_accounting_service_dfas relatedto security_cooperation"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_17_organizations",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.75,
+      "avg_recall": 1.0,
+      "avg_f1": 0.8133,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c7_18_forms": {
+    "results": [
+      {
+        "test_id": 486,
+        "query": "What is DD Form 1348-1A used for?",
+        "expected": [
+          "dd form 1348-1a"
+        ],
+        "extracted": [
+          "DD Form 1348-1A"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dd form 1348-1a"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.01,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "DD Form 1348-1A"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is DD Form 1348-1A used for?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 487,
+        "query": "What is iRAPT Receiving Report?",
+        "expected": [
+          "irapt"
+        ],
+        "extracted": [
+          "iRAPT",
+          "Invoicing Receipt Acceptance And Property Transfer"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "irapt"
+          ],
+          "false_positives": [
+            "invoicing receipt acceptance and property transfer"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.44,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 1,
+            "vector_db": 0
+          },
+          "entities": [
+            "iRAPT",
+            "Invoicing Receipt Acceptance And Property Transfer"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is iRAPT Receiving Report?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 488,
+        "query": "What is SF-153 COMSEC Material Report?",
+        "expected": [
+          "sf-153",
+          "comsec"
+        ],
+        "extracted": [
+          "COMSEC",
+          "SF-153",
+          "Communications Security",
+          "Comsec Material Report"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.25,
+          "true_positives": [
+            "sf-153",
+            "comsec"
+          ],
+          "false_positives": [
+            "communications security",
+            "comsec material report"
+          ],
+          "false_negatives": [],
+          "hallucinations": [
+            "comsec material report"
+          ]
+        },
+        "response_time": 2.51,
+        "status": "success",
+        "entity_confidence": 0.8712500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "COMSEC",
+            "SF-153",
+            "Communications Security",
+            "Comsec Material Report"
+          ],
+          "entity_confidence": 0.8712500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.5,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is SF-153 COMSEC Material Report?",
+          "relationships": [
+            "COMSEC Communications Security",
+            "COMSEC SF-153 report",
+            "COMSEC special handling",
+            "cf94dbab-9528-47d7-83e0-f7c4592f6b91 INCLUDES 1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c",
+            "a244e6fd-93d6-410b-addc-11afd5b9da46 RELATES_TO cf94dbab-9528-47d7-83e0-f7c4592f6b91",
+            "46dc3b5e-a9a3-4885-b49a-770a9b080d0a CONTROLLED_BY fa6ee51c-f7e6-4907-b41f-1abf4558cc1b",
+            "e54b4c7b-88b9-494f-a762-c009d4de3f67 REQUIRED_FOR 46dc3b5e-a9a3-4885-b49a-770a9b080d0a",
+            "f38054dc-c051-43f5-9c84-bb6ded8f17aa TRANSFERS 1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 489,
+        "query": "What is the DTR Defense Transportation Regulation?",
+        "expected": [
+          "dtr",
+          "defense transportation regulation"
+        ],
+        "extracted": [
+          "DTR",
+          "Defense Transportation Regulation"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "defense transportation regulation",
+            "dtr"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.36,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 13,
+            "vector_db": 0
+          },
+          "entities": [
+            "DTR",
+            "Defense Transportation Regulation"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is the DTR Defense Transportation Regulation?",
+          "relationships": [
+            "c1326241 references dtra_director",
+            "director_dsca delegatesresponsibilityto dtra_director",
+            "c1326242 explains defense_threat_reduction_agency_dtra",
+            "c1326241 explains defense_threat_reduction_agency_dtra",
+            "c1326243 explains defense_threat_reduction_agency_dtra"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 490,
+        "query": "What is NISPOM for contractor security?",
+        "expected": [
+          "nispom"
+        ],
+        "extracted": [
+          "NISPOM",
+          "National Industrial Security Program Operating Manual"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "nispom"
+          ],
+          "false_positives": [
+            "national industrial security program operating manual"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.62,
+        "status": "success",
+        "entity_confidence": 0.8187500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "NISPOM",
+            "National Industrial Security Program Operating Manual"
+          ],
+          "entity_confidence": 0.8187500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is NISPOM for contractor security?",
+          "relationships": [
+            "NISPOM National Industrial Security Program Operating Manual",
+            "NISPOM contractor security"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c7_18_forms",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.7,
+      "avg_recall": 1.0,
+      "avg_f1": 0.8,
+      "avg_hallucination_rate": 0.05
+    }
+  }
+}

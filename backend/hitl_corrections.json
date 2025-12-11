@@ -1,0 +1,29 @@
+{
+  "intent_corrections": {
+    "2da940cef4a415085cc3bc82b9f21a1c": "process",
+    "886ce880557fc4ff174decb448d64e7d": "process"
+  },
+  "entity_corrections": {},
+  "answer_corrections": {
+    "886ce880557fc4ff174decb448d64e7d": "***Edited answer by Shazia Kashif***"
+  },
+  "correction_history": [
+    {
+      "type": "intent",
+      "question": "test question",
+      "correction": "process",
+      "timestamp": "2025-12-11T06:36:20.170546+00:00"
+    },
+    {
+      "type": "intent",
+      "question": "I am developing a case for MIDS JTRS terminals and the outside coordination and approval process is taking longer than expected, delaying my case submission. What should I do?",
+      "correction": "process",
+      "timestamp": "2025-12-11T06:50:33.402170+00:00"
+    },
+    {
+      "type": "answer",
+      "question": "I am developing a case for MIDS JTRS terminals and the outside coordination and approval process is taking longer than expected, delaying my case submission. What should I do?",
+      "timestamp": "2025-12-11T07:29:54.793359+00:00"
+    }
+  ]
+}

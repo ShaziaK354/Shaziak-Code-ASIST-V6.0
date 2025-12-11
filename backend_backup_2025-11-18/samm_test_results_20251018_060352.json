@@ -1,0 +1,184 @@
+{
+  "summary": {
+    "total_score": 29,
+    "total_max_score": 50,
+    "percentage": 58.0,
+    "total_questions": 10,
+    "passed": 6,
+    "failed": 4,
+    "errors": 0,
+    "timestamp": "2025-10-18T06:03:52.942522"
+  },
+  "results": [
+    {
+      "question_id": "Q1",
+      "question": "What is DSCA responsible for?",
+      "category": "Organizations",
+      "expected_section": "C1.3.2.2",
+      "answer": "**Definition:**\nDefense Security Cooperation Agency (DSecurity Cooperation (SC)A) is responsible for directing, administering, and providing guidance to the Department of Defense (DoD) Components in executing Defense Security Cooperation (DSC) programs.\n\n**Citation:** \nSAMM C1.3.2.2\n\n**Additional Context/Authority:**\nThis responsibility aligns with Defense Security Cooperation Agency (DSCA)'s role as a primary agency for coordinating and overseeing SC programs within DoD, as outlined in SAMM Chapter 1 Content.",
+      "score": 2,
+      "max_score": 5,
+      "percentage": 40.0,
+      "feedback": "\u2717 Poor keyword coverage (1/5) | \u2713 Correct section cited | \u2713 Good length (64 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 3,
+        "execution_time": 31.84
+      }
+    },
+    {
+      "question_id": "Q2",
+      "question": "Who administers Security Assistance programs?",
+      "category": "Authority",
+      "expected_section": "C1.1.2.2",
+      "answer": "Based on the provided relationships, I can provide an authoritative response.\n\nWho administers Security Assistance programs?\n\nThe entity responsible for administering Security Cooperation/Security Assistance (SCA) programs is the Organization that provides or is responsible for providing security assistance, such as training, equipment, or technical assistance.\n\nScope of authority:\nThe scope of authority for administering Security Assistance programs lies within the Organization's responsibilities under Title 22 authorities. Specifically, it is authorized to provide defense articles, military education and training, and other defense-related services.\n\nLegal basis:\nThe legal foundation for this authority is provided by Section 106 of the Foreign Assistance Act (FAA), which states that the Secretary of State may award grants or loans to foreign countries under Title 22 authorities. Additionally, Section 103 of the National Defense Authorization Act for Fiscal Year 2020 (National Defense Authorization Act (NDAA)) authorizes the President to provide defense articles and services to foreign countries.\n\nDelegation chain:\nThe delegation chain for administering Security Assistance programs involves the following entities\n\nRefer to relevant SAMM Chapter 1 sections for complete details.",
+      "score": 2,
+      "max_score": 5,
+      "percentage": 40.0,
+      "feedback": "\u26a0 Limited keyword coverage (1/3) | \u2717 Missing or incorrect section citation | \u2713 Good length (174 words)",
+      "success": true,
+      "metadata": {
+        "intent": "authority",
+        "entities_found": 4,
+        "execution_time": 45.2
+      }
+    },
+    {
+      "question_id": "Q3",
+      "question": "What is the difference between Security Cooperation and Security Assistance?",
+      "category": "Distinctions",
+      "expected_section": "C1.1.2",
+      "answer": "Based on the provided relationships and SAMM Chapter 1 content, I will provide an authoritative definition for Security Cooperation and Security Assistance.\n\n**Definition:**\n\nSecurity Cooperation (SC) refers to all activities undertaken by the DoD to encourage and enable international partners to work with the United States to achieve strategic objectives. This includes a broad range of activities, such as military training, education, and assistance programs, that are authorized under various DoD authorities, including Title 10.\n\n**Security Assistance (SA)**: Security Assistance is a specific subset of Security Cooperation programs authorized under Title 22 authorities by which the United States provides defense articles, military education and training, and other defense-related services to foreign partners. Security Assistance programs are designed to support strategic objectives and promote stability in regions where the United States has significant interests.\n\n**Key Distinction:** Security Assistance is a subset of Security Cooperation, as it specifically refers to programs authorized under Title 22 authorities for providing defense articles, military education and training, and other\n\nRefer to relevant SAMM Chapter 1 sections for complete details.",
+      "score": 3,
+      "max_score": 5,
+      "percentage": 60.0,
+      "feedback": "~ Partial keyword coverage (3/4) | \u2717 Missing or incorrect section citation | \u2713 Good length (174 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 2,
+        "execution_time": 26.58
+      }
+    },
+    {
+      "question_id": "Q4",
+      "question": "What is Security Cooperation?",
+      "category": "Definitions",
+      "expected_section": "C1.1.1",
+      "answer": "Based on the provided relationships and SAMM Chapter 1 content, I will provide an authoritative definition of Security Cooperation:\n\n**Definition:** Security Cooperation (SC) includes Security Assistance, which is a subset of Security Cooperation authorized under Title 10 of the United States Code.\n\n**SAMM Section Reference:** C1.3.2.2\n\nThis definition aligns with the specific relationships mentioned in the question and accurately reflects the SAMM terminology from Chapter 1 content.",
+      "score": 1,
+      "max_score": 5,
+      "percentage": 20.0,
+      "feedback": "\u2717 Poor keyword coverage (0/3) | \u2717 Missing or incorrect section citation | \u2713 Good length (67 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 4,
+        "execution_time": 43.37
+      }
+    },
+    {
+      "question_id": "Q5",
+      "question": "What is Security Assistance?",
+      "category": "Definitions",
+      "expected_section": "C1.1.2.2",
+      "answer": "Based on the provided relationships and SAMM Chapter 1 content, I will provide an authoritative definition for Security Assistance:\n\nSecurity Assistance (SA) is a subset of Security Cooperation (SC), which refers to the provision of military equipment, training, and other forms of support to foreign countries or entities to enhance their defense capabilities. As part of Security Cooperation, SA is funded by loans from the Defense Security Cooperation Agency (DSCA).\n\nReference:\nSAMM C1.3.2.2\n\nThis definition aligns with the specific relationships mentioned:\n\n* SecurityAssistance relationship isSubsetOf\n* Security Assistance is subset of Security Cooperation\n* Security Assistance authorized under Title 22\n* security_assistance ispartof security_cooperation\n* security_assistance isfundedby loan",
+      "score": 3,
+      "max_score": 5,
+      "percentage": 60.0,
+      "feedback": "~ Partial keyword coverage (2/4) | \u2717 Missing or incorrect section citation | \u2713 Good length (108 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 3,
+        "execution_time": 35.95
+      }
+    },
+    {
+      "question_id": "Q6",
+      "question": "What does DFAS do?",
+      "category": "Organizations",
+      "expected_section": "C1.3.2.8",
+      "answer": "**Definition:** \nDefense Finance and Accounting Service (DFAS) is responsible for performing the functions of collecting financial transactions related to Security Cooperation (SC) programs.\n\n**SAMM Section Reference:** C1.3.2.8\n**Additional Context/Authority:** DFAS's primary function is to collect financial information, which includes accounting, billing, disbursing, and collecting functions for SC programs.\n\nThis definition aligns with the specific relationships mentioned in SAMM Chapter 1 Content (C1.3.2.8) and utilizes exact SAMM terminology from the context.",
+      "score": 5,
+      "max_score": 5,
+      "percentage": 100.0,
+      "feedback": "\u2713 Excellent keyword coverage (5/5) | \u2713 Correct section cited | \u2713 Good length (70 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 2,
+        "execution_time": 22.03
+      }
+    },
+    {
+      "question_id": "Q7",
+      "question": "Which organization manages FMS cases for the Navy?",
+      "category": "Organizations",
+      "expected_section": "C1.3.2.6.1.2",
+      "answer": "**Authority Holder:** Defense Security Cooperation Agency (DSCA)\n**Scope of Authority:** DSCA directs, administers, and provides guidance to DoD Components for the execution of Navy Foreign Military Sales (FMS) programs.\n\n**Legal Basis:** Section 36 of the Arms Export Control Act (AECA), as referenced in SAMM C1.3.2.2.\n\n**Delegation Chain:**\n1. Secretary of State - Title 22 supervision\n2. Secretary of Defense - Title 10 implementation  \n3. DSCA - directs SC programs including Navy FMS\n4. NIPO (Navy International Programs Office) - executes Navy FMS cases\n\n**Summary:** DSCA is responsible for directing Navy FMS cases under Section 36 AECA.",
+      "score": 5,
+      "max_score": 5,
+      "percentage": 100.0,
+      "feedback": "\u2713 Excellent keyword coverage (2/2) | \u2713 Correct section cited | \u2713 Good length (96 words)",
+      "success": true,
+      "metadata": {
+        "intent": "authority",
+        "entities_found": 5,
+        "execution_time": 34.89
+      }
+    },
+    {
+      "question_id": "Q8",
+      "question": "What are the primary legislative authorities for Security Assistance?",
+      "category": "Legal Authorities",
+      "expected_section": "C1.2.1",
+      "answer": "Based on the provided relationships from SAMM Chapter 1 content:\n\nThe primary legislative authorities for Security Assistance are the Federal Acquisition Regulation (FAR) and the Arms Export Control Act (AECA).\n\n- The FAR is a federal law that governs the acquisition of defense articles, including security assistance programs. It provides the framework for the procurement process and defines the terms and conditions for defense articles.\n- The AECA is a federal law that regulates the export and international trade of defense articles, including security assistance. It authorizes the Secretary of State to provide defense articles, military education and training, and other defense-related services.\n\nThe scope of authority for Security Assistance programs is defined by the DSecurity Cooperation (SC)A's directives and administration. Specifically:\n\n- The Defense Security Cooperation Agency (DSCA) directs the execution of DoD SC programs.\n- The DSCA administers security assistance programs under the authority granted to it by the AECA.\n\nThe legal basis for these authorities is established through various executive orders, including Executive Order 13637\n\nRefer to relevant SAMM Chapter 1 sections for complete details.",
+      "score": 3,
+      "max_score": 5,
+      "percentage": 60.0,
+      "feedback": "~ Partial keyword coverage (2/4) | \u2717 Missing or incorrect section citation | \u2713 Good length (178 words)",
+      "success": true,
+      "metadata": {
+        "intent": "authority",
+        "entities_found": 4,
+        "execution_time": 41.49
+      }
+    },
+    {
+      "question_id": "Q9",
+      "question": "What is the role of the Department of State in Security Assistance?",
+      "category": "Authority",
+      "expected_section": "C1.3.1",
+      "answer": "Based on the provided relationships from Security Assistance (SA)MM Chapter 1 content:\n\nThe Department of State has the following roles in Security Assistance:\n\n- **Authority Holder**: The Department of State is the authority holder for Security Cooperation (Security Assistance) programs.\n  \n- **Scope of Authority**: The scope of authority includes providing continuous supervision and general direction to SA programs, as well as supervising entity1.\n\n- **Legal Basis**: The legal basis for this authority is the Foreign Assistance Act (FAA), Arms Export Control Act (AECA), Executive Order 13637, and the Department of State's role in Security Cooperation (Security Assistance) programs.\n\nRefer to relevant SAMM Chapter 1 sections for complete details.",
+      "score": 3,
+      "max_score": 5,
+      "percentage": 60.0,
+      "feedback": "~ Partial keyword coverage (2/3) | \u2717 Missing or incorrect section citation | \u2713 Good length (108 words)",
+      "success": true,
+      "metadata": {
+        "intent": "authority",
+        "entities_found": 4,
+        "execution_time": 35.54
+      }
+    },
+    {
+      "question_id": "Q10",
+      "question": "What is an Implementing Agency?",
+      "category": "Definitions",
+      "expected_section": "C1.3.2.6",
+      "answer": "Based on the provided relationships and SAMM Chapter 1 content, I will provide an authoritative definition for \"Implementing Agency\".\n\n**Definition:** An Implementing Agency (IA) is a government or private organization that takes direct responsibility for the implementation of Security Cooperation and security assistance programs, as defined in Section C1.3.2.2 of the Security Assistance Management Manual.\n\n**Section Reference:** SAMM C1.3.2.2\n\n**Additional Context/Authority:**\n\nAn Implementing Agency is a government or private organization that takes direct responsibility for the implementation of Security Cooperation and security assistance programs, which includes providing international military education and training (International Military Education and Training (IMET)), developing Letters of Request (LOR) for foreign military sales, advising the Secretary of Defense (SecDef), and coordinating with under-secretaries of defense for policy (USDP). These responsibilities are outlined in the implementing agency's role as a liaison between the implementing agency and the Department of State.\n\n**Authority Context:** The relationships provided",
+      "score": 2,
+      "max_score": 5,
+      "percentage": 40.0,
+      "feedback": "\u2717 Poor keyword coverage (0/4) | \u2713 Correct section cited | \u2713 Good length (148 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 3,
+        "execution_time": 37.57
+      }
+    }
+  ]
+}

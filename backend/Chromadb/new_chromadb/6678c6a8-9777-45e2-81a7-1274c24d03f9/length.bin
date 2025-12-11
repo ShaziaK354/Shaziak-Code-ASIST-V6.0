@@ -1,0 +1,2 @@
+invalid type: string "{\"FMS\": \"Foreign Military Sales\", \"LOR\": \"Letter of Request\", \"DSCA\": \"Defense Security Cooperation Agency\", \"DoD\": \"Department of Defense\", \"AECA\": \"Arms Export Control Act\"}", expected a booleanection", expected f64view on the submitted LOA
+document before moving the package to Review status in DSAMS. DSAMS feeds will update the CTS application according

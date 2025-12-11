@@ -1,0 +1,382 @@
+{
+  "documents": [
+    "OVERVIEW\nChapter 1, Security Cooperation Overview and Relationships, defines security cooperation (SC) and security assistance (SA), and summarizes the key legal authorities for, and roles and responsibilities of other agencies in, the provision of SA. It also restates the roles and responsibilities of DoD organizations in providing SC.",
+    "Security cooperation (SC) comprises all activities undertaken by the DoD to encourage and enable international partners to work with the United States to achieve strategic objectives. It includes all DoD interactions with foreign defense and security establishments, including all DoD-administered security assistance (SA) programs, that build defense and security relationships; promote specific U.S. security interests, including all international armaments cooperation activities and SA activities; develop allied and friendly military capabilities for self-defense and multinational operations; and provide U.S. forces with peacetime and contingency access to host nations. It is DoD policy that SC is an important tool of national security and foreign policy and is an integral element of the DoD mission. SC activities shall be planned, programmed, budgeted, and executed with the same high degree of attention and efficiency as other integral DoD activities. SC requirements shall be combined with other DoD requirements and implemented through standard DoD systems, facilities, and procedures.",
+    "As the definition of SC above reveals, there are many types of SC activities. For the purposes of this Manual, it is important to be able to distinguish between SC programs and SA programs. Programs of both types are the means by which the United States provides defense articles, military training, and other defense services to our partner nations in support of U.S. national security objectives, including Building Partner Capacity (BPC). They are distinguished by the statutes by which they are authorized and funded.",
+    "SC program authorizations and appropriations are provided to the Secretary of Defense primarily under the annual National Defense Authorization Act (NDAA) and appropriations acts. By statute or Executive Order (EO), they are sometimes required to be exercised in coordination with the Secretary of State. These programs vary greatly in terms of the agency or DoD activity responsible and the manner in which they are planned for and funded.",
+    "SA is a group of programs, authorized under Title 22 authorities, by which the United States provides defense articles, military education and training, and other defense-related services by grant, loan, credit, cash sales, or lease, in furtherance of national policies and objectives. All SA programs are subject to the continuous supervision and general direction of the Secretary of State to best serve U.S. foreign policy interests; however, programs are variously administered by DoD or Department of State (State). Those SA programs that are administered by DoD are a subset of SC.",
+    "Security assistance (SA) authorizations and appropriations are provided primarily under three public laws:\n- Foreign Assistance Act (FAA)\n- Arms Export Control Act (AECA)\n- Annual Foreign Operations Appropriations Act\nEach year, the Administration submits an SA appropriations budget request as part of the President's budget submission. The Administration may also request legislative amendments to authorization and appropriations laws from Congress. Congress reviews requests, authorizes and appropriates funds, and enacts necessary legislative amendments for carrying out SA programs. Appropriations may also be requested to reimburse the DoD for the value of items furnished under Military Assistance Drawdown. In the event appropriations are not enacted prior to the beginning of the fiscal year essential activities are usually carried out under a Continuing Resolution Authority (CRA). The CRA is a temporary or stopgap appropriation made by Congress and contains special rules for expenditures.",
+    "Security cooperation (SC) authorizations and appropriations are provided primarily under annual DoD Appropriations Acts, Supplementals, and a range of other Title 10 provisions.",
+    "Detailed SA delegations are also found in Executive Order (E.O.) 13637. This EO allocates authority and responsibility for SA principally to the Secretary of Defense and the Secretary of State. The Secretary of Defense authority is further delegated to the Deputy Secretary of Defense, to the Under Secretary of Defense for Policy (USD(P)), and finally to the Director, DSCA.",
+    "Congress authorizes and appropriates funds for the USG-financed portions of security assistance (SA). Congress has a keen interest in the sale and transfer of defense articles and services to foreign countries and international organizations. Executive Branch agencies such as the National Security Staff, the Office of Management and Budget (OMB), the Department of the Treasury, and others have responsibilities related to SA. However, aside from the President, the principal legislated responsibilities fall to the Department of State (State) and the DoD.",
+    "Under the Foreign Assistance Act (FAA), Arms Export Control Act (AECA), and Executive Order (EO) 13637 the Secretary of State (SECSTATE) is responsible for continuous supervision and general direction of SA programs. This includes determining whether (and when) there will be a program or sale for a particular country or activity (to include International Military Education and Training (IMET)) and, if so, its size and scope. It also includes the determination of budget requests and allocation of funds for military assistance. State reviews and approves export license requests for direct commercial sales of items on the United States Munitions List (USML) of the International Traffic in Arms Regulations (ITAR). State also reviews and approves third party transfers of exported defense articles and services. State ensures FAA, section 503 eligibility and obtains the assurances from recipient countries and organizations required by FAA, section 505 prior to most grant transfers of defense articles. State prepares the Mission Strategic Resource Plan (MSRP) and reviews and submits to Congress the Congressional Budget Justification (CBJ), which includes an annual estimate of the total amount of sales and licensed commercial exports expected to be made to each foreign nation and annual arms sale proposal (Javits Report).",
+    "The Secretary of Defense (SECDEF) establishes military requirements and implements programs to transfer defense articles and services to eligible foreign countries and international organizations. Within DoD, the principal responsible agencies for security cooperation (SC) are DSCA, the Combatant Commands (CCMDs), the Joint Staff (JS), the Security Cooperation Organizations (SCOs), and the Military Departments (MILDEPs).",
+    "The Under Secretary of Defense for Policy (USD(P)) serves as the principal staff assistant and advisor to the SECDEF on SC matters. In that capacity, USD(P) develops and coordinates DoD guidance which disseminates SECDEF SC goals and priorities; develops and coordinates DoD campaign plan policy and assessment guidance; provides oversight and review of regional and functional campaign plans and assessments; oversees and advises the DoD Components on the development of campaign plans and campaign support plans and resource allocation priorities; evaluates completed campaign plan assessments, campaign support plan assessments, and SC program assessments and advises the SECDEF on the effectiveness of DoD SC efforts; articulates SECDEF SC goals, policies, and priorities to other USG agencies to help shape national security objectives and enable greater unity of effort; determines priorities for diversion of materiel and equipment in consultation with the Director, DSCA; develops, coordinates, and disseminates the Guidance for the Employment of the Force (GEF), including the assessment guidance, which outlines SECDEF SC goals; oversees the direction and administration of DoD-wide policy guidance for the execution of SA and additional DoD SC programs; represents SECDEF interests in SC matters and serves as the DoD point of contact and representative for SC; in coordination with the Director, Cost Assessment and Program Evaluation Office (CAPE), oversees and conducts programmatic level assessments and conducts all SC program assessments; in coordination with the Under Secretary of Defense for Research and Engineering (USD(R&E)) and the Director, DSCA, as appropriate, leads the development of technology security and foreign disclosure and sales policies and procedures for defense information, technology, and systems via the Director, Defense Technology Security Administration (DTSA).",
+    "DSCA directs, administers, and provides guidance to the DoD Components and DoD representatives to U.S. missions, for the execution of DoD SC programs for which DSCA has responsibility. DSCA ensures Secretary of Defense and USD(P) interests in SA matters are represented; identifies requirements, criteria, and procedures for the selection and training of personnel engaged in SA activities in DoD SC programs over which DSCA has responsibility; communicates directly with the heads of the DoD Components on SC matters over which DSCA has responsibility; in coordination with the USD(P) and the USD(R&E), as appropriate, supports the development of technology security and foreign disclosure and sales policies and procedures for defense information, technology, and systems; jointly establishes appropriate agreements and procedures with the Director, Defense Intelligence Agency (DIA), and with the CCMDs for Senior Defense Officials (SDOs) and Defense Attachés (DATTs) to provide guidance and oversees SC programs for which DSCA is responsible, in accordance with applicable laws and regulations; approves, in coordination with the Chairman of the Joint Chiefs of Staff (CJCS), SCO joint manpower programs involving the establishment of new SCOs or changes in manpower authorizations or organizational structure; jointly, with the Director of the DIA, approves changes to the grade or MILDEP affiliation of the SDO or DATT; reports to the Under Secretary of Defense for Personnel and Readiness (USD(P&R)) in the Defense Readiness Reporting System (DRRS) readiness of personnel for SA activities in DoD SC programs over which DSCA has responsibility; and acts as the Executive Agent (EA) for DoD Regional Centers for Security Studies.",
+    "The Under Secretary of Defense for Acquisition and Sustainment (USD(A&S)) is the principal staff assistant and advisor to the SECDEF for all matters relating to acquisition and sustainment in the DoD, including the DoD Acquisition System; system design and development; production; logistics and distribution; installation maintenance, management, and resilience; military construction; procurement of goods and services; materiel readiness; maintenance; environment and energy resilience (including renewable energy, as appropriate); utilities, renewable energy, and energy management; business management modernization; document services; nuclear, chemical, and biological defense programs; nuclear command, control and communications; and related matters. The USD(A&S) coordinates on all applicable DoD guidance; ensures conformance with international armaments cooperation and industrial collaboration; ensures that DoD logistics policy and procedures are effectively integrated with all applicable DoD guidance; provides advice to the USD(P) and the Director, DSCA, to accomplish the objectives of SC programs; establishes policies, in coordination with the USD(P), for the effective development of international acquisition and sustainment programs that support current SC goals.",
+    "Under Secretary of Defense, Comptroller (USD(C)) establishes policies and procedures for SC activities involving financial management, fiscal matters, accounting, pricing, budgeting for reimbursements to DoD appropriation accounts and revolving funds, international payments, and matters affecting the DoD budget.",
+    "The USD(P&R) assists the Director, DSCA and the CJCS by developing and coordinating relevant input on SCO joint manpower programs involving the establishment of new SCO or changes in SCO manpower authorizations, organizational structure, or the grade, rank, or MILDEP affiliation of the Chief of the SCO; coordinates efforts to build regional, cultural, and language expertise among U.S. forces, including DoD international military and civilian personnel exchange programs, with the USD(P); and identifies, tracks, and assesses readiness of personnel with regional, cultural, and language expertise.",
+    "An Implementing Agency (IA) is the MILDEP organization or defense agency responsible for the execution of SC programs. The IA is responsible for the overall management of actions for delivery of the materiel, supporting equipment, or services set forth in the SC programs and activities being provided to a foreign partner. In coordination with State, the Office of the Under Secretary of Defense for Policy (OUSD(P)) and DSCA, for all matters affecting or related to the respective department's or agency's support to the Combatant Commanders (CCDRs) concerning SC, IAs serve as advisors to the SECDEF. IAs provide, either through sales, grant, or lease, defense articles and defense services, including training, and provide International Military Education and Training (IMET) on a grant basis, to eligible foreign partners in accordance with policies and criteria established by State, the Office of the Secretary of Defense (OSD) and the Director, DSCA. IAs provide the technical information and other data, upon request, on weapons systems, tactics, doctrine, training, capabilities, logistic support, price, source, availability, and lead-time for developing and reviewing SC programs. IAs maintain appropriate records and furnish prescribed reports as requested. IAs provide qualified military and civilian personnel to carry out SC assignments according to approved tables of distribution and other authorizations, directives, and requests. Directives that govern IAs ensure conformance with technology transfer, classified military information release, and disclosure policies for their respective areas of responsibility while conducting SC activities. IAs also assist the Office of the Under Secretary of Defense for Acquisition and Sustainment (OUSD(A&S)) and the Director, DSCA, as requested, in government-to-government or interdepartmental discussions or negotiations involving SC.",
+    "In addition to authorizing organizations as IAs, with duties as described in Section C1.3.2.6., the MILDEPs also conduct international armaments cooperation with eligible partner nations and international organizations in accordance with policies and criteria established by State and the OUSD(A&S). MILDEPs also authorize certain other organizations to carry out SC duties at the direction of the IAs.\nMILITARY DEPARTMENT IMPLEMENTING AGENCIES:\nDepartment of the Army (DA): Office of the Deputy Assistant Secretary of the Army for Defense Exports and Cooperation (DASA (DE&C))\nDepartment of the Navy (DoN): Navy International Programs Office (NIPO)\nDepartment of the Air Force (DAF): Deputy Under Secretary of the Air Force for International Affairs (SAF/IA)",
+    "Authorities: DA's delegation of authority to fulfill the responsibilities related to SC is derived from DoDD 5132.03 and as directed by the Secretary of the Army (SECARMY). Assistant Secretary of the Army (Acquisition, Logistics and Technology) (ASA (ALT)) is responsible for SC and other related activities and general export matters.\nRoles: DA develops allied and partner defense and security capabilities and capacity for self-defense and multinational operations. The ASA (ALT) is the single office in HQDA responsible for setting the strategic direction for and overseeing DA policies and programs related to acquisition, logistics, technology, procurement, intellectual property, the industrial base, and SC not otherwise delegated (including security assistance and armaments cooperation). Subject to the authority, direction, and control of the ASA (ALT), the DASA (DE&C) is delegated responsibility for select SC activities. The DASA (DE&C), as the Army IA, works closely with two Army Commands and one Direct Report Unit (DRU): Army Material Command (AMC), Army Training and Doctrine Command (TRADOC), and U.S. Army Corps of Engineers (USACE) as a DRU to HQDA.\nResponsibilities: The DASA (DE&C) leads, manages, resources, and directs assigned elements of the Army's global SC activities, including policy and strategy, for Foreign Military Sales (FMS), foreign military and foreign national training and education, international armaments cooperation, non-special access program (SAP) technology transfer, and export policy. DA has three designated commands responsible for collaborating, synchronizing, and integrating pre-LOR/MOR, case development, and execution efforts:\n- U.S. Army Security Assistance Command (USASAC), under AMC, is responsible for approved SC, materiel programs\n- Security Assistance Training Field Activity (SATFA), under TRADOC, is responsible for approved SC institutional training\n- USACE is responsible for approved SC (design, engineering, and construction of infrastructure and facilities) executed through FMS\n- The Program Executive Officers (PEOs) and Program Managers (PMs) are responsible for supporting the development and execution of approved FMS cases",
+    "Authorities: NIPO manages DoN SC programs, including Title 10 Building Partner Capacity (BPC) and international agreements, as authorized by the FAA, the AECA, the DoDD 5132.03, and various authorization and appropriation acts.\nRoles: The DoN advances global maritime alliances and partnerships by championing exportability and the transfer of capabilities supporting strategic security interests. NIPO, under the Assistant Secretary of the Navy (Research, Development, and Acquisition) (ASN (RDA)), is the principal office for developing, implementing, and managing DoN international programs and policies concerning research, development, acquisition, military training, and technology transfer for DoN.\nResponsibilities: NIPO is responsible for receipt and tasking of requests for information, Pre-LOR/MOR activities, and LORs/MORs to the SYSCOMS and other organizations as required to develop, coordinate, negotiate, conclude international acquisition agreements and arrangements, and international armaments cooperation agreements. NIPO is also the IA responsible for implementing United States Coast Guard (USCG) and some U.S. Marine Corps (USMC) SC programs.",
+    "Authorities: The DAF manages and executes SC and SA programs under the expressed authorities of the FAA, the AECA, and applicable policies and statutes.\nRoles: The Secretary of the Air Force delegates responsibility for the DAF's security cooperation programs and activities to the SAF/IA. SAF/IA serves as the functional synchronizer and integrator of DAF security cooperation enterprise.\nResponsibilities: SAF/IA, in effort to accomplish elements the National Defense Strategy and U.S. Air Force objectives, endeavors to strengthen alliances and build mutually beneficial partnerships through a robust Security Cooperation program. U.S. Air Force SC programs enables our allies and partners to grow air and space defense capabilities and capacity in order to operate independently, and in coalition, with U.S. forces. The DAF further delegates the following responsibilities:\n- Professional military education (PME), exercises, training and access to airspace and ranges is aligned under Air Education and Training Command (AETC) and Air Force Security Assistance Training Squadron (AFSAT)\n- Material and service support to article procurement, operations, maintenance, and sustainment programs are aligned under Air Force Materiel Command (AFMC) International Affairs (AFMC/IA), the Air Force Security Assistance and Cooperation (AFSAC) Directorate and PEOs",
+    "In addition to DSCA, the following defense agencies are designated as IAs:",
+    "Authorities: The SECDEF delegated the DCMA authority to communicate directly with the heads of the DoD Components, through the Secretaries of MILDEPs' designees, and representatives of foreign partners to carry out assigned SC responsibilities and functions.\nRoles: DCMA performs contract administration and management, quality assurance, product acceptance, and other acquisition services for the DoD, other federal agencies, and foreign partners as authorized in support of SC.\nResponsibilities: DCMA performs Contract Administration Services (CAS) functions in accordance with the Federal Acquisition Regulation (FAR) and the Defense Federal Acquisition Regulation Supplement (DFARS). DCMA designs and manages contracting and acquisition programs and activities to improve standards of performance, economy, and efficiency for the USG and foreign partners in support of SC efforts.",
+    "Authorities: The SECDEF delegated the DISA authority to carry out assigned responsibilities and functions in support of SC programs and activities.\nRoles: DISA provides, operates, and assures command and control (C2) and information-sharing capabilities in support of USG and foreign partner requirements in support of SC efforts.\nResponsibilities: DISA supports the DoD CIO with implementation of assigned responsibilities in support of SC efforts to help achieve an information advantage and full spectrum superiority, increase mission assurance, improve mission effectiveness, and realize information technology (IT) efficiencies.",
+    "Authorities: The SECDEF has delegated the DLA authority to communicate with representatives of foreign partners, as appropriate, and to carry out assigned responsibilities and functions according to DoD policy in support of SC programs and activities.\nRoles: The Director, DLA, advises the SECDEF on all SC matters impacting DLA and acts for the SECDEF when responsibility is delegated. DLA prepares FMS cases for cataloging services at the DLA Logistics Information Services and Excess Defense Articles (EDA) at the DLA Disposition Services.\nResponsibilities: The Director, DLA, organizes, directs, and manages DLA and all assigned resources in support of SC efforts. DLA procures assigned items and services, administers, supervises, and controls all programs, joint enabling capabilities, services, and items assigned to DLA, and provides logistics information, products, and services for authorized customers.",
+    "Authorities: The SECDEF has delegated the DTRA authority to direct, administer, and provide services to foreign partners under SA. The DSCA Director has delegated responsibility to the DTRA Director for the execution and administration of SC programs and activities to develop foreign partner capability in counter weapons of mass destruction operations.\nRoles: DTRA provides cross-cutting solutions in support of SC efforts to enable the DoD, the USG, and foreign partners to deter strategic attack against the United States and its allies; prevent, reduce, and counter Weapons of Mass Destruction (WMD) and emerging threats; and prevail against WMD-armed adversaries in crisis and conflict.\nResponsibilities: DTRA supports the Commander, U.S. Special Operations Command (USSOCOM), as the lead CCDR for synchronizing DoD efforts to combat WMD. DTRA prevents, reduces, and eliminates WMD threats through risk reduction, arms control, nonproliferation, partner capacity building, and warfighter support. DTRA utilizes Title 50 and Title 10 funding authorities to conduct SC programs and activities including:\n- Title 50 Cooperative Threat Reduction (CTR) Program\n- CWMD SC Engagement Program using Title 10 U.S.C. 333 funds\n- International Counterproliferation Program\n- Proliferation Security Initiative",
+    "Authorities: The SECDEF has delegated the MDA authority to execute SA programs and activities, exercising original classification and foreign disclosure authority over information comprising all programs and activities of the developmental integrated Missile Defense System (MDS).\nRoles: MDA is a research, development, and acquisition agency under the authority, direction, and control of USD Research and Engineering (R&E). MDA develops, tests, and fields the integrated MDS, Terminal High Altitude Area Defense (THAAD) weapon system to defend the United States, its deployed forces, allies, and friends from missile attacks in all phases of flight.\nResponsibilities: MDA is responsible for programmatic policy, research, and development of MDS to include SC programs and activities, assisting in the planning, development, integration, and execution of global missile defenses. This includes missile warning system and MDS architecture, experimentation, exercises, and analyses for addressing the missile defense needs of all CCDRs. MDA is responsible for the development, implementation, execution, and closure of THAAD weapon system, stand-alone FMS Cross Domain Solution, and other emerging MDS capabilities.",
+    "Authorities: The SECDEF has delegated authority to the NGA to direct, administer, and provide defense services to foreign partners under the AECA and Export Administration Regulations in support of NGA missions.\nRoles: NGA delivers timely, relevant, accurate, and actionable geospatial intelligence. NGA enables the U.S. intelligence community and the DoD to fulfill the president's national security priorities to protect the nation.\nResponsibilities: The NGA Director, International Operations and Partnerships has delegated the SA Program Director as the agency focal point for administration and implementation of SC programs and activities. The Security Assistance Program Director determines whether the SC program is the appropriate means of providing support to foreign partners or whether the Accommodation Procurement authority is a more suitable means of support.",
+    "Authorities: The SECDEF has delegated the NSA authority to communicate, establish contact, and maintain relationships with representatives of foreign partners or other entities in carrying out assigned responsibilities and functions.\nRoles: NSA leads the USG in cryptology that encompasses both Signals Intelligence (SIGINT) insights and Cybersecurity products and services and enables computer network operations to gain a decisive advantage for the nation and its allies. The Director, NSA/Chief, Central Security Service (CSS) serves as the principal SIGINT and Cybersecurity advisor to the SECDEF.\nResponsibilities: NSA exercises oversight of intelligence coordination with foreign partners. NSA conducts liaison with foreign partners regarding SIGINT and Cybersecurity SC programs and activities, providing technical advice and support to cryptologic arrangements and conducting cryptologic exchanges as authorized. NSA exercises authority and responsibility for disclosing and releasing classified military information to foreign partners. NSA also provides appropriate policy guidance and training to personnel exercising foreign disclosure duties, coordinates SIGINT and Cybersecurity agreements and arrangements with other affected USG departments and agencies and leverages cryptologic capabilities of foreign partners.",
+    "The Defense Contract Audit Agency (DCAA) performs all necessary contract auditing for the DoD and provides accounting and financial advisory services regarding contracts and subcontracts to all the DoD Components responsible for procurement and contract administration. These services are provided in connection with negotiation, administration, and settlement of contracts and subcontracts. This includes contracts that support FMS cases.",
+    "The Defense Finance and Accounting Service (DFAS) performs accounting, billing, disbursing, and collecting functions for SC programs. DFAS also issues accounting procedures. The primary site for SA is DFAS Indianapolis (DFAS-IN).",
+    "The Joint Chiefs of Staff provide implementation guidance for U.S. military plans and programs and provide the SECDEF with military advice concerning SC; review, in conjunction with the USD(P), CCMD campaign plans (including SC aspects) and oversee deconfliction of the campaign plans as necessary; and collect and review the campaign plan assessments completed by the CCDRs through the Comprehensive Joint Assessment and advise the USD(P) on the effectiveness of DoD SC efforts. They produce the annual DoD campaign plan assessment template in consultation with the USD(P), to be completed by the DoD Components, and review Service campaign support plans and enable deconfliction, coordination, and/or integration of Service support of CCMD campaign plans, as necessary. They modify Global Force Management Board processes and procedures to account for force requirements for SC. The Joint Chiefs of Staff also assign Force/Activity Designators (F/AD) for priorities in the allocation of stocked defense articles, defense services, and military education and training between and among partner nations (PNs) and organizations and the U.S. Armed Forces and recommend priorities for allocation of materiel and equipment for PNs when competing needs cannot be resolved by Director, DSCA. The Joint Chiefs of Staff are responsible for assigning CJCS project codes.",
+    "The CCDRs develop campaign plans to conduct SC programs and activities; coordinate on seam issues for CCMDs with geographic responsibility; coordinate on their individual functional responsibilities for CCMDs with a global focus; complete campaign plan and campaign support plan assessments, as appropriate; provide appropriate assistance as requested by the USD(P) or the Director, DSCA; and supervise the SCOs in matters related to execution of the GEF, including the provision of necessary technical assistance and administrative support to the SCOs.\nCOMBATANT COMMANDS:\n- U.S. Africa Command (USAFRICOM)\n- U.S. Central Command (USCENTCOM)\n- U.S. European Command (USEUCOM)\n- U.S. Indo-Pacific Command (USINDOPACOM)\n- U.S. Northern Command (USNORTHCOM)\n- U.S. Southern Command (USSOUTHCOM)\n- U.S. Cyber Command (USCYBERCOM)\n- U.S. Space Command (USSPACECOM)\n- U.S. Special Operations Command (USSOCOM)\n- U.S. Transportation Command (USTRANSCOM)",
+    "The Department of Commerce (DOC) is the lead organization for the USG's Defense Advocacy Program, a means by which U.S. Defense industry can submit requests for the USG's support when competing in foreign markets. DOC works closely with State, DoD, and U.S. missions to engage foreign decision makers on the strategic, military, and economic issues associated with major defense procurements. It also reviews EDA allocations, materiel surveys, and international agreements. The DOC regulates the export of sensitive dual-use goods and technologies and also administers the Defense Priorities and Allocations System, which assures the timely availability of industrial resources to meet current national defense and emergency preparedness program requirements and supports rapid industrial response in a national emergency."
+  ],
+  "metadatas": [
+    {
+      "section_id": "C1.OVERVIEW",
+      "section_title": "Overview",
+      "chapter": "C1",
+      "parent_section": "C1",
+      "level": 2,
+      "char_count": 338,
+      "entities_mentioned": "SC,DoD,SA"
+    },
+    {
+      "section_id": "C1.1.1",
+      "section_title": "Definition and Purpose",
+      "chapter": "C1",
+      "parent_section": "C1.1",
+      "level": 3,
+      "char_count": 1101,
+      "entities_mentioned": "SC,DoD,SA"
+    },
+    {
+      "section_id": "C1.1.2",
+      "section_title": "Distinguishing Between Security Cooperation and Security Assistance Programs",
+      "chapter": "C1",
+      "parent_section": "C1.1",
+      "level": 3,
+      "char_count": 521,
+      "entities_mentioned": "SC,BPC,SA"
+    },
+    {
+      "section_id": "C1.1.2.1",
+      "section_title": "Security Cooperation Programs",
+      "chapter": "C1",
+      "parent_section": "C1.1.2",
+      "level": 4,
+      "char_count": 440,
+      "entities_mentioned": "NDAA,SC,DoD"
+    },
+    {
+      "section_id": "C1.1.2.2",
+      "section_title": "Security Assistance Programs",
+      "chapter": "C1",
+      "parent_section": "C1.1.2",
+      "level": 4,
+      "char_count": 587,
+      "entities_mentioned": "SC,DoD,SA"
+    },
+    {
+      "section_id": "C1.2.1",
+      "section_title": "Legislative Authorities for Security Assistance",
+      "chapter": "C1",
+      "parent_section": "C1.2",
+      "level": 3,
+      "char_count": 1003,
+      "entities_mentioned": "DoD,AECA,FAA,SA"
+    },
+    {
+      "section_id": "C1.2.2",
+      "section_title": "Legislative Authorities for Security Cooperation",
+      "chapter": "C1",
+      "parent_section": "C1.2",
+      "level": 3,
+      "char_count": 177,
+      "entities_mentioned": "SC,DoD"
+    },
+    {
+      "section_id": "C1.2.3",
+      "section_title": "Executive Orders for Security Assistance",
+      "chapter": "C1",
+      "parent_section": "C1.2",
+      "level": 3,
+      "char_count": 375,
+      "entities_mentioned": "DSCA,USD(P),SA"
+    },
+    {
+      "section_id": "C1.3",
+      "section_title": "ROLES AND RESPONSIBILITIES",
+      "chapter": "C1",
+      "parent_section": "C1",
+      "level": 2,
+      "char_count": 558,
+      "entities_mentioned": "DoD,SA"
+    },
+    {
+      "section_id": "C1.3.1",
+      "section_title": "Department of State",
+      "chapter": "C1",
+      "parent_section": "C1.3",
+      "level": 3,
+      "char_count": 1334,
+      "entities_mentioned": "IMET,SECSTATE,FAA,AECA,SA"
+    },
+    {
+      "section_id": "C1.3.2",
+      "section_title": "Department of Defense Organizations",
+      "chapter": "C1",
+      "parent_section": "C1.3",
+      "level": 3,
+      "char_count": 424,
+      "entities_mentioned": "SC,DSCA,DoD,SECDEF"
+    },
+    {
+      "section_id": "C1.3.2.1",
+      "section_title": "Under Secretary of Defense for Policy",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 1907,
+      "entities_mentioned": "SECDEF,SC,DoD,SA,DSCA,USD(P)"
+    },
+    {
+      "section_id": "C1.3.2.2",
+      "section_title": "Defense Security Cooperation Agency",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 1735,
+      "entities_mentioned": "SC,DoD,USD(P),SA,DSCA,CJCS"
+    },
+    {
+      "section_id": "C1.3.2.3",
+      "section_title": "Under Secretary of Defense for Acquisition and Sustainment",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 1285,
+      "entities_mentioned": "SECDEF,SC,DoD,USD(A&S),USD(P),DSCA"
+    },
+    {
+      "section_id": "C1.3.2.4",
+      "section_title": "Under Secretary of Defense (Comptroller)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 313,
+      "entities_mentioned": "SC,DoD"
+    },
+    {
+      "section_id": "C1.3.2.5",
+      "section_title": "Under Secretary of Defense, Personnel and Readiness",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 600,
+      "entities_mentioned": "DSCA,DoD,CJCS,USD(P)"
+    },
+    {
+      "section_id": "C1.3.2.6",
+      "section_title": "Implementing Agencies",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 1897,
+      "entities_mentioned": "IMET,SECDEF,SC,USD(A&S),USD(P),DSCA"
+    },
+    {
+      "section_id": "C1.3.2.6.1",
+      "section_title": "The Military Departments",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6",
+      "level": 5,
+      "char_count": 759,
+      "entities_mentioned": "DASA(DE&C),SAF/IA,SC,NIPO,USD(A&S)"
+    },
+    {
+      "section_id": "C1.3.2.6.1.1",
+      "section_title": "The Department of the Army",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.1",
+      "level": 6,
+      "char_count": 2200,
+      "entities_mentioned": "USASAC,DASA(DE&C),SC,FMS"
+    },
+    {
+      "section_id": "C1.3.2.6.1.2",
+      "section_title": "The Department of the Navy",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.1",
+      "level": 6,
+      "char_count": 1165,
+      "entities_mentioned": "FAA,BPC,SC,NIPO,AECA"
+    },
+    {
+      "section_id": "C1.3.2.6.1.3",
+      "section_title": "The Department of the Air Force",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.1",
+      "level": 6,
+      "char_count": 1360,
+      "entities_mentioned": "SAF/IA,FAA,SC,AECA,SA"
+    },
+    {
+      "section_id": "C1.3.2.6.2",
+      "section_title": "Defense Agencies as Implementing Agencies",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6",
+      "level": 5,
+      "char_count": 74,
+      "entities_mentioned": "DSCA"
+    },
+    {
+      "section_id": "C1.3.2.6.2.1",
+      "section_title": "Defense Contract Management Agency (DCMA)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.2",
+      "level": 6,
+      "char_count": 884,
+      "entities_mentioned": "SC,DoD,DCMA,SECDEF"
+    },
+    {
+      "section_id": "C1.3.2.6.2.2",
+      "section_title": "Defense Information Systems Agency (DISA)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.2",
+      "level": 6,
+      "char_count": 633,
+      "entities_mentioned": "SC,DoD,SECDEF"
+    },
+    {
+      "section_id": "C1.3.2.6.2.3",
+      "section_title": "Defense Logistics Agency (DLA)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.2",
+      "level": 6,
+      "char_count": 913,
+      "entities_mentioned": "SECDEF,DLA,SC,DoD,FMS"
+    },
+    {
+      "section_id": "C1.3.2.6.2.4",
+      "section_title": "Defense Threat Reduction Agency (DTRA)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.2",
+      "level": 6,
+      "char_count": 1303,
+      "entities_mentioned": "DTRA,SECDEF,SC,DoD,CCDR,SA,DSCA"
+    },
+    {
+      "section_id": "C1.3.2.6.2.5",
+      "section_title": "Missile Defense Agency (MDA)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.2",
+      "level": 6,
+      "char_count": 1214,
+      "entities_mentioned": "SECDEF,MDA,SC,FMS,SA"
+    },
+    {
+      "section_id": "C1.3.2.6.2.6",
+      "section_title": "National Geospatial-Intelligence Agency (NGA)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.2",
+      "level": 6,
+      "char_count": 874,
+      "entities_mentioned": "SECDEF,SC,DoD,AECA,SA,NGA"
+    },
+    {
+      "section_id": "C1.3.2.6.2.7",
+      "section_title": "National Security Agency (NSA)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2.6.2",
+      "level": 6,
+      "char_count": 1329,
+      "entities_mentioned": "NSA,SC,SECDEF"
+    },
+    {
+      "section_id": "C1.3.2.7",
+      "section_title": "Defense Contract Audit Agency (DCAA)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 439,
+      "entities_mentioned": "DoD,DCAA,FMS"
+    },
+    {
+      "section_id": "C1.3.2.8",
+      "section_title": "Defense Finance and Accounting Service (DFAS)",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 229,
+      "entities_mentioned": "SC,DFAS,SA"
+    },
+    {
+      "section_id": "C1.3.2.9",
+      "section_title": "The Joint Chiefs of Staff",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 1361,
+      "entities_mentioned": "CCMD,SECDEF,SC,DoD,USD(P),DSCA,CJCS"
+    },
+    {
+      "section_id": "C1.3.2.10",
+      "section_title": "Combatant Commanders",
+      "chapter": "C1",
+      "parent_section": "C1.3.2",
+      "level": 4,
+      "char_count": 947,
+      "entities_mentioned": "SC,DSCA,USD(P)"
+    },
+    {
+      "section_id": "C1.3.3",
+      "section_title": "Department of Commerce (DoC)",
+      "chapter": "C1",
+      "parent_section": "C1.3",
+      "level": 3,
+      "char_count": 822,
+      "entities_mentioned": "DoD"
+    }
+  ],
+  "ids": [
+    "C1.OVERVIEW_3d4349fd",
+    "C1.1.1_d1ba6823",
+    "C1.1.2_be9314f6",
+    "C1.1.2.1_9dd38a0a",
+    "C1.1.2.2_ed5b9049",
+    "C1.2.1_1f10ae1f",
+    "C1.2.2_112c8e34",
+    "C1.2.3_5e624ab8",
+    "C1.3_42991962",
+    "C1.3.1_149ae186",
+    "C1.3.2_a9ca36f4",
+    "C1.3.2.1_e987fb8f",
+    "C1.3.2.2_7039eafb",
+    "C1.3.2.3_48c9cc0e",
+    "C1.3.2.4_a6868925",
+    "C1.3.2.5_6f7320bc",
+    "C1.3.2.6_cd68cda2",
+    "C1.3.2.6.1_4269f19c",
+    "C1.3.2.6.1.1_3149ac59",
+    "C1.3.2.6.1.2_e337f114",
+    "C1.3.2.6.1.3_2c3da5f0",
+    "C1.3.2.6.2_ecbde631",
+    "C1.3.2.6.2.1_e33b4522",
+    "C1.3.2.6.2.2_6a146cec",
+    "C1.3.2.6.2.3_3c21687d",
+    "C1.3.2.6.2.4_b5ec7060",
+    "C1.3.2.6.2.5_89e970b9",
+    "C1.3.2.6.2.6_6eda0ec5",
+    "C1.3.2.6.2.7_2ff2d138",
+    "C1.3.2.7_cf738c82",
+    "C1.3.2.8_27a60889",
+    "C1.3.2.9_9bc95996",
+    "C1.3.2.10_1eb825c4",
+    "C1.3.3_396a5312"
+  ]
+}

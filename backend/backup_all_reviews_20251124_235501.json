@@ -1,0 +1,1731 @@
+[
+  {
+    "id": "2ea083f2-4a74-41a3-a69c-10a805f178a3",
+    "reviewId": "282c57cb-4952-4f30-b431-49bef10bb494",
+    "question": "What are the Military Departments responsible for Security Cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-10-27T23:29:53.7616349Z"
+  },
+  {
+    "id": "6d9de7d6-ca98-4688-aa47-125de5ec4371",
+    "reviewId": "e249a415-6940-4168-ac79-917e629dcee1",
+    "question": "How does DSCA coordinate with implementing agencies?",
+    "type": "review_item",
+    "timestamp": "2025-10-28T04:22:57.852110+00:00"
+  },
+  {
+    "id": "57491f6f-86bf-48f2-af5d-9e6078938bc8",
+    "reviewId": "bfa63434-e7e5-47ac-9606-3f36c558a04b",
+    "question": "What is Foreign Military Sales?",
+    "type": "review_item",
+    "timestamp": "2025-10-28T04:45:59.483855+00:00"
+  },
+  {
+    "id": "f7dcc690-c464-4de1-b7e1-32e4ef85a53d",
+    "reviewId": "1ad04168-d832-4d1f-a8b1-f6e1fb675110",
+    "question": "What's the organizational structure for security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-10-28T06:19:01.905050+00:00"
+  },
+  {
+    "id": "2f43cda7-1457-4f60-a9c1-cfeb950234fd",
+    "reviewId": "f0a811bf-eca7-4cc9-b074-005e410bbcd6",
+    "question": "What's the organizational structure for security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-10-28T06:35:51.052288+00:00"
+  },
+  {
+    "id": "38be34d8-e72a-4a42-ae07-098d1568dc39",
+    "reviewId": "f299991d-cd8b-4508-b9cd-682225083296",
+    "question": "Who does Director DSCA report to?",
+    "type": "review_item",
+    "timestamp": "2025-10-29T05:22:37.106263+00:00"
+  },
+  {
+    "id": "556e4ca9-a112-4c95-9649-7a66655766a8",
+    "reviewId": "1517311b-c0bf-469a-acca-a46195d4ba53",
+    "question": "Which agency is responsible for Navy FMS cases?",
+    "type": "review_item",
+    "timestamp": "2025-10-29T05:52:35.442329+00:00"
+  },
+  {
+    "id": "7a8cd05a-d2df-45c9-b42b-bca07fd96ed2",
+    "reviewId": "a67294b3-fa04-4e15-b498-eb137721c5d7",
+    "question": "Which agency is responsible for Navy FMS cases?",
+    "type": "review_item",
+    "timestamp": "2025-10-29T06:27:02.319785+00:00"
+  },
+  {
+    "id": "0f613540-13fe-4222-acfb-f077ded3e1e4",
+    "reviewId": "752d3341-f993-41b2-b0a8-b2e32777983a",
+    "question": "How are the Military Departments organized for SC?",
+    "type": "review_item",
+    "timestamp": "2025-10-29T15:43:10.560433+00:00"
+  },
+  {
+    "id": "804ab490-7285-475b-b80a-c52763f8d976",
+    "reviewId": "1a931dd8-833e-4b8a-b8e8-5ff803c0337d",
+    "question": "What makes an organization qualify as an implementing agency?",
+    "type": "review_item",
+    "timestamp": "2025-10-29T20:40:25.836256+00:00"
+  },
+  {
+    "id": "603ddd90-cff1-4005-bf69-a1972cfc23c8",
+    "reviewId": "fa733ee0-53d9-43c4-b0e6-c192c2e52f47",
+    "question": "Who signs off at each stage of the FMS process?",
+    "type": "review_item",
+    "timestamp": "2025-10-30T02:18:51.122704+00:00"
+  },
+  {
+    "id": "3cb6f5c2-48ab-4ce7-a1f5-ac89fd0f3160",
+    "reviewId": "5855ec69-26a0-4d13-87a2-99a5887682ed",
+    "question": "What's the difference between Title 10 and Title 22 authorities?",
+    "type": "review_item",
+    "timestamp": "2025-10-30T21:24:55.514415+00:00"
+  },
+  {
+    "id": "1820ec71-becc-463e-b4be-f830fc51e833",
+    "reviewId": "275b2655-76fa-41ef-8543-275408f4b49c",
+    "question": "What's the difference between Title 10 and Title 22 authorities?",
+    "type": "review_item",
+    "timestamp": "2025-10-30T23:45:52.203354+00:00"
+  },
+  {
+    "id": "87622e7a-4702-4f62-9a73-2121c44376ba",
+    "reviewId": "25325a52-9053-4ed2-9090-ff9c4c223d91",
+    "question": "What is the Defense Transportation System (DTS)?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T07:18:34.973706+00:00"
+  },
+  {
+    "id": "5d717041-aac0-4831-895b-25126d708d61",
+    "reviewId": "2bbce799-37b8-47dd-b747-5b2430162b3d",
+    "question": "What is MAPAD?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T07:40:22.926922+00:00"
+  },
+  {
+    "id": "18632f2a-82bf-40c5-9496-8df5efe84b40",
+    "reviewId": "e8d6ea37-f0eb-4d52-856c-4de8c10e2225",
+    "question": "What is an FMS case?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T07:46:12.465604+00:00"
+  },
+  {
+    "id": "b8d3c60f-34b4-4a4a-a78a-9a8ec00cea6b",
+    "reviewId": "596daf42-567b-4a36-940d-fdaaeabcd0ee",
+    "question": "Who is responsible for recovering the full cost of FMS articles and services?”",
+    "type": "review_item",
+    "timestamp": "2025-11-04T08:09:10.424714+00:00"
+  },
+  {
+    "id": "a5f21f52-5c0b-4773-8f87-eb3c9f152bd0",
+    "reviewId": "b3a75666-9664-4cce-a877-84408f6d52b3",
+    "question": "Who manages FMS pricing and costs?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T08:16:03.304161+00:00"
+  },
+  {
+    "id": "e70abf0b-2a4e-404d-8a51-de578d10f56b",
+    "reviewId": "240d3225-adcb-47f3-9cc7-5d77374e68a9",
+    "question": "Who determines the pricing of defense articles and services in FMS?”",
+    "type": "review_item",
+    "timestamp": "2025-11-04T08:21:12.071599+00:00"
+  },
+  {
+    "id": "a6597baf-3e79-40fb-9ef2-afae22570ff2",
+    "reviewId": "75c00a3a-ff55-4b41-a869-db2f86711c29",
+    "question": "who pays the costs of letter of offer and acceptance LOA",
+    "type": "review_item",
+    "timestamp": "2025-11-04T08:38:34.982346+00:00"
+  },
+  {
+    "id": "9644f10d-abb5-4e67-8279-3db9423cb7c3",
+    "reviewId": "e357d7e1-8523-402d-820a-62d38a74fc9e",
+    "question": "Who pays for an FMS case under the LOA?”",
+    "type": "review_item",
+    "timestamp": "2025-11-04T08:42:33.944990+00:00"
+  },
+  {
+    "id": "574a6251-cfff-44d1-bf1c-c9a683e2e39a",
+    "reviewId": "8f12cbb9-9b11-4a08-8c22-4ebbc6eabfae",
+    "question": "When costs change, what document updates the LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T08:46:46.456117+00:00"
+  },
+  {
+    "id": "12bd1f4d-7732-44a5-93bd-69f55c012001",
+    "reviewId": "6c551229-0e7d-40fd-8c6c-c1364848653c",
+    "question": "What is DSCA and what are its key responsibilities?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T18:57:43.408799+00:00"
+  },
+  {
+    "id": "8ebb843c-bb48-47fb-9876-267b085376e7",
+    "reviewId": "fe7d4954-caa5-4576-afc7-8715a7958af3",
+    "question": "How does the Defense Transportation System (DTS) support FMS?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T19:06:32.747524+00:00"
+  },
+  {
+    "id": "716d2e1e-2767-44bb-98f2-7e4c99920cc9",
+    "reviewId": "01c1d116-baa6-434d-a620-a08475c00bbb",
+    "question": "What is the Letter of Offer and Acceptance (LOA) and where is it used?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T19:10:29.793550+00:00"
+  },
+  {
+    "id": "cf3669f8-09c6-4426-9076-af2ddc4db2f8",
+    "reviewId": "14be450c-203f-469e-b265-20a9cb754704",
+    "question": "What financial management requirements apply to FMS cases?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T19:14:35.072947+00:00"
+  },
+  {
+    "id": "2881d4d7-384d-4929-ad06-b8109f6954c1",
+    "reviewId": "5ab32f48-b11d-45b2-bd1c-277529017df0",
+    "question": "What organizations are involved in the FMS process from approval to delivery?",
+    "type": "review_item",
+    "timestamp": "2025-11-04T19:18:24.950865+00:00"
+  },
+  {
+    "id": "9c33aad3-ac64-4cd6-b0ad-47f1efa4fe5c",
+    "reviewId": "2abf6b11-6104-43ea-890d-3377e4a4185f",
+    "question": "What is DFAS responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T01:21:17.901360+00:00"
+  },
+  {
+    "id": "27aceeb1-05d9-46ef-b703-8d451c057017",
+    "reviewId": "5e0397a1-7449-4f33-b770-6416da986e5f",
+    "question": "What is DFAS responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T01:23:30.670678+00:00"
+  },
+  {
+    "id": "b1bf1ab5-2e22-42e8-b533-cd9f7199a21d",
+    "reviewId": "a308d4e2-2c87-40b4-a4b0-bb0c9f6b4c12",
+    "question": "What is DFAS responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T01:31:32.412433+00:00"
+  },
+  {
+    "id": "2ef14c63-3883-4a4a-909b-e113ad2874cd",
+    "reviewId": "36cd65a9-234d-4c08-9620-8feb8da3832f",
+    "question": "What does DoD do?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T01:35:56.141644+00:00"
+  },
+  {
+    "id": "6baf8eba-af7a-44fa-9528-c12aec9532cd",
+    "reviewId": "4864fa8f-3db8-46a7-8826-ccb0e2124ba1",
+    "question": "Who supervises FMS programs?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T01:47:08.684931+00:00"
+  },
+  {
+    "id": "484bb7c9-3794-4fd6-8096-8569f39b3645",
+    "reviewId": "3fafc567-3e95-411b-83d2-eaa738724a54",
+    "question": "What is DFAS responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T03:11:30.008575+00:00"
+  },
+  {
+    "id": "7996fa20-0693-4a7a-b54a-695c7231f140",
+    "reviewId": "da9375d5-bab9-4acd-9036-0875f5b171ca",
+    "question": "What is Letter of Offer and Acceptance (LOA)?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T03:38:06.925335+00:00"
+  },
+  {
+    "id": "9f363b1e-ce8b-417b-9d9f-ce53633266d0",
+    "reviewId": "2d5f44cb-0184-463a-907c-02b21a7c7310",
+    "question": "What is Letter of Offer and Acceptance (LOA)?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T04:08:37.902405+00:00"
+  },
+  {
+    "id": "ec748f85-e983-48b7-a3e6-82d27cb57d40",
+    "reviewId": "8e761520-1752-42a0-87d1-a8687a416b23",
+    "question": "What is Letter of Offer and Acceptance (LOA)?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T04:54:49.094035+00:00"
+  },
+  {
+    "id": "07e16625-16de-483e-b446-c246b664e34e",
+    "reviewId": "9f6d4f07-bb66-48df-8f93-f7038c6c597a",
+    "question": "What is Letter of Offer and Acceptance (LOA)?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T05:23:45.124265+00:00"
+  },
+  {
+    "id": "28cf8478-c65a-492d-94b2-aaeda441b5e6",
+    "reviewId": "190c021a-93cb-4e9f-a746-b77bca5ec7d3",
+    "question": "What is Letter of Offer and Acceptance (LOA)?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T05:46:36.028190+00:00"
+  },
+  {
+    "id": "3ed2e604-5379-4ad9-a2b9-5c7c13ba2d22",
+    "reviewId": "d632889e-1cff-46f6-8a6d-6bf2691f095e",
+    "question": "What is Letter of Offer and Acceptance (LOA)?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T05:49:26.987483+00:00"
+  },
+  {
+    "id": "672f4b87-57b2-445a-bc79-20a42925302f",
+    "reviewId": "552abda0-d9c0-4465-8b21-bba80da957b4",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T06:30:08.186861+00:00"
+  },
+  {
+    "id": "205a6e40-a5cf-4dee-a2ad-596505653a2e",
+    "reviewId": "fd7ccff2-ce2c-4e44-bc92-23c2fcce4314",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T06:32:12.853460+00:00"
+  },
+  {
+    "id": "f261a94d-2897-402b-a094-8c3f1003bff0",
+    "reviewId": "56718468-ff02-4e1e-9c05-5078dc88a32f",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T06:34:30.153908+00:00"
+  },
+  {
+    "id": "36d5470b-cc67-491d-9357-823bcc1d6f50",
+    "reviewId": "3d1dff64-1a09-4b8a-ad47-32abb386c6ba",
+    "question": "Who provides transportation for Security Cooperation deliveries?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T06:37:21.769635+00:00"
+  },
+  {
+    "id": "913f5984-e81e-45fc-b5f3-d2296c6b4ce8",
+    "reviewId": "aff007c3-3beb-4c91-9e0b-db006652a062",
+    "question": "What transportation methods are available under the Defense Transportation System?\"",
+    "type": "review_item",
+    "timestamp": "2025-11-05T06:40:19.567852+00:00"
+  },
+  {
+    "id": "cafa93a7-b9c8-4970-927a-ccb4a91271de",
+    "reviewId": "8e002fc5-4a82-4244-95e3-f4d4e11c41b7",
+    "question": "What is the Defense Courier Service used for in FMS deliveries?\"",
+    "type": "review_item",
+    "timestamp": "2025-11-05T06:43:02.211655+00:00"
+  },
+  {
+    "id": "6a328b04-59af-45f2-9c0b-e2ce223b01d4",
+    "reviewId": "f3d43408-34f5-4923-b838-9e9f8530f2bb",
+    "question": "What is the Defense Courier Service used for in FMS deliveries?\"",
+    "type": "review_item",
+    "timestamp": "2025-11-05T06:54:40.824961+00:00"
+  },
+  {
+    "id": "4cadc018-2a30-473c-a578-6d354c1a9ec7",
+    "reviewId": "05facea3-0fc1-4e8e-a30a-78bc4aee5920",
+    "question": "What is the Defense Courier Service used for in FMS deliveries?\"",
+    "type": "review_item",
+    "timestamp": "2025-11-05T07:05:55.379094+00:00"
+  },
+  {
+    "id": "e7f4591a-df2c-442e-ba47-673d25a128ef",
+    "reviewId": "09b06d99-db79-42e3-a935-126fdd3461f1",
+    "question": "What is the Defense Courier Service used for in FMS deliveries?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T07:22:26.840879+00:00"
+  },
+  {
+    "id": "0b8dc559-4b4a-4cc5-bd04-06e00d8e7e2a",
+    "reviewId": "aba35951-deb0-46d9-b522-00ae2bdba2b3",
+    "question": "What is the Defense Courier Service used for in FMS deliveries?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T07:34:52.186556+00:00"
+  },
+  {
+    "id": "db3955f9-62ab-44e3-b3d7-10191a67fd8e",
+    "reviewId": "c59973db-309e-4c63-879f-8adde36f1904",
+    "question": "What are the responsibilities of case managers in FMS delivery?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T07:39:42.981288+00:00"
+  },
+  {
+    "id": "1ef32004-5305-4b60-b4c9-1918d26325b8",
+    "reviewId": "1b57fa93-9797-49d6-a368-dc1b81639916",
+    "question": "What are the responsibilities of case managers in FMS delivery?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T07:47:32.371813+00:00"
+  },
+  {
+    "id": "20819b4e-1f6e-42ad-afa2-5d70f1a3a8dd",
+    "reviewId": "6920295a-fb39-4c9f-a210-de2bdb68b7c6",
+    "question": "What is the Administrative Surcharge in FMS cases?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T07:49:59.582192+00:00"
+  },
+  {
+    "id": "ffe1f43b-729b-45b0-bcc5-38f693bef512",
+    "reviewId": "90e9e967-2119-4bb2-aa8e-c41cc093709d",
+    "question": "What is the Contract Administration Services fee in FMS?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T07:53:22.663876+00:00"
+  },
+  {
+    "id": "a68962e1-74a5-47b3-abe1-2f2cbfd4cb3f",
+    "reviewId": "7cb206c0-d2ab-47a1-ade1-743e507ff92a",
+    "question": "What is the FMS Administrative Surcharge?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T09:18:06.148165+00:00"
+  },
+  {
+    "id": "10f8698b-2fa1-4ba0-b5b1-7621a895d83c",
+    "reviewId": "76befbad-c113-4eb1-9242-40998b07c728",
+    "question": "What is DoD FMR?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T09:21:11.917185+00:00"
+  },
+  {
+    "id": "3e72a741-f2ba-48ef-988d-1009122dad42",
+    "reviewId": "a1ef6245-2ad4-4d49-bd9c-4b626bbe8152",
+    "question": "What are financial management procedures",
+    "type": "review_item",
+    "timestamp": "2025-11-05T09:31:10.824170+00:00"
+  },
+  {
+    "id": "9bde846c-7913-4094-9dd5-1579125beee6",
+    "reviewId": "f4ccfc7a-15ec-4ba4-abb4-81d5640d0cb5",
+    "question": "What are financial management procedures",
+    "type": "review_item",
+    "timestamp": "2025-11-05T09:38:16.071230+00:00"
+  },
+  {
+    "id": "d97e1ef3-a377-4bda-9ab5-75c1c0ad95ce",
+    "reviewId": "fff40aee-6078-4a36-b766-435285559d44",
+    "question": "What are financial management procedures?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T11:04:50.742208+00:00"
+  },
+  {
+    "id": "dc185897-53f4-4680-990e-4693b1f7b7ae",
+    "reviewId": "2cb50390-53d6-4c9c-adf4-4024433d1674",
+    "question": "What are financial management procedures?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T11:44:33.700514+00:00"
+  },
+  {
+    "id": "7cbbfcec-bf76-4638-8b64-90ce6f52bc26",
+    "reviewId": "ebb987e5-02d4-45b2-b12b-433596cfffa9",
+    "question": "Explain the Foreign Military Sales Trust Fund?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T11:46:48.013797+00:00"
+  },
+  {
+    "id": "47c02c16-4cfe-414b-9c39-4d7a8ac46fc5",
+    "reviewId": "4cfd20ab-e153-4074-87f3-7508419c8246",
+    "question": "Explain the Foreign Military Sales Trust Fund?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T13:06:12.904406+00:00"
+  },
+  {
+    "id": "e7b91b77-04d1-4ed1-bbb3-7c8ba221e63b",
+    "reviewId": "d7f4e0b1-ab95-4769-afdf-153d69d9c7d9",
+    "question": "What transportation methods are available for FMS deliveries?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T13:20:46.388709+00:00"
+  },
+  {
+    "id": "b37fb5fd-a09e-4bbe-abee-90c989e702d5",
+    "reviewId": "c5c30102-1dd2-4691-9d3d-ae07ea8b83c0",
+    "question": "What transportation methods are available for FMS deliveries?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T13:25:30.401364+00:00"
+  },
+  {
+    "id": "9463b3d4-5125-4278-8cdd-cbf13c2fa58c",
+    "reviewId": "83709936-8263-45fc-8b2d-bc081a5ab0fd",
+    "question": "How is transportation funded in FMS cases?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T13:30:55.019589+00:00"
+  },
+  {
+    "id": "817bb522-6586-423a-8724-500ed29b98e6",
+    "reviewId": "e9b686d5-c299-4100-b9bd-be4d2b4994e2",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-05T14:21:58.795115+00:00"
+  },
+  {
+    "id": "d8256503-2d25-4795-907d-dfd983fc9d48",
+    "reviewId": "67a48805-e693-4dda-9e7b-2e631d5b6df4",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T09:35:12.341625+00:00"
+  },
+  {
+    "id": "b6906abe-ae74-4b95-a6b1-3d9f107c8daa",
+    "reviewId": "f783fea4-5c8e-4818-95d5-25bdc476cdd5",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T09:41:41.714331+00:00"
+  },
+  {
+    "id": "2abed71c-ebdc-4a0f-9a9e-340f0acaca19",
+    "reviewId": "2835fd80-41f0-4210-adf9-89c05964f63b",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T09:45:02.606052+00:00"
+  },
+  {
+    "id": "ac4eb115-4a69-40c7-8f4c-1c5b7f42421d",
+    "reviewId": "aa2b533a-335e-4e91-b835-85fdac62b201",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T09:50:02.629984+00:00"
+  },
+  {
+    "id": "edce6e61-4338-4047-9da6-ece26c985b2a",
+    "reviewId": "1476bb4c-f973-4396-ba1b-fe8a2fba44be",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T09:51:49.016723+00:00"
+  },
+  {
+    "id": "20eb5e26-8889-4e79-a3cf-29a92e78250b",
+    "reviewId": "8c4125f1-13cf-45eb-a343-4e9b29d17206",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T09:54:26.446281+00:00"
+  },
+  {
+    "id": "cefe8d49-2888-4ed8-b602-adabd6e53615",
+    "reviewId": "f84e70b7-19a1-40b5-bfed-da35f22e65d2",
+    "question": "What is the Defense Courier Service used for in FMS deliveries?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T10:02:25.502045+00:00"
+  },
+  {
+    "id": "dd77ad26-264c-46ca-afb4-4043018e6c61",
+    "reviewId": "ac73817c-e8f9-4237-acb0-b9065cfc918a",
+    "question": "How long do you wait for vendor estimates",
+    "type": "review_item",
+    "timestamp": "2025-11-06T10:09:23.398637+00:00"
+  },
+  {
+    "id": "f269b217-39bb-4252-aa5d-e5366b327542",
+    "reviewId": "cc704e3a-6edd-4516-ade5-fcd3a280be73",
+    "question": "How long do you wait for vendor estimate?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T10:27:39.145282+00:00"
+  },
+  {
+    "id": "7566c46f-ab04-480c-abb1-b19637d05db7",
+    "reviewId": "6ad82cd2-3929-4a6b-af9c-1aaf4b6d7593",
+    "question": "How long do you wait for vendor estimate?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T10:43:58.998872+00:00"
+  },
+  {
+    "id": "132cf2e1-1781-4e63-a7e7-c1b4a9097f93",
+    "reviewId": "4eed3d0f-8a95-48e5-8d5f-f608eab0de2f",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T11:00:35.254369+00:00"
+  },
+  {
+    "id": "cd5f083f-eec3-4301-b507-ab09c338dbc8",
+    "reviewId": "7177916c-3b1e-4b41-a558-bd4707d9a388",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T11:05:27.745156+00:00"
+  },
+  {
+    "id": "cfd7db78-07d8-4bda-993b-fea476ff044e",
+    "reviewId": "8a33d4ff-b6e5-493d-a407-dbdb54e4f56a",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T11:09:28.120959+00:00"
+  },
+  {
+    "id": "c2ac71a7-d92d-47ce-8fc2-42f3a1aa484f",
+    "reviewId": "86a07c17-99a0-4b45-847e-f1a21c0d28af",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T11:12:04.260026+00:00"
+  },
+  {
+    "id": "1272a72d-b026-4391-8966-1856ded5dd72",
+    "reviewId": "be190987-26ba-481b-b0b7-d38fa4673efa",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T11:17:17.070303+00:00"
+  },
+  {
+    "id": "663f1bfa-2f3b-4d61-a43a-c64f29ecc5dd",
+    "reviewId": "36503d0b-c78b-4e91-9a58-b68ac5a9842c",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T11:20:16.616472+00:00"
+  },
+  {
+    "id": "85c0c238-3d67-4203-a11c-370aa76303f0",
+    "reviewId": "b2ab173c-275b-4ca3-b2d2-0bc18ff1b372",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T11:23:12.650722+00:00"
+  },
+  {
+    "id": "e74f1f6b-57bb-4564-9d0e-d9a66f1e2a06",
+    "reviewId": "4a699176-e883-47c9-b9d3-848e4ccb40e1",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T14:17:41.820191+00:00"
+  },
+  {
+    "id": "a84855ae-d1ba-45f1-b5f9-baa63ccfd44c",
+    "reviewId": "bcfa433b-d795-4e7a-80d4-a945c5bd33e5",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T14:19:25.136704+00:00"
+  },
+  {
+    "id": "f4955cd8-dfab-4e84-970a-12b2c54efc23",
+    "reviewId": "a941956a-a2bd-4be8-a752-e694494bc05d",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T14:21:24.717708+00:00"
+  },
+  {
+    "id": "e6d2f902-a042-4f1d-98bb-7a5c23933856",
+    "reviewId": "89359777-227c-42c7-b238-59a9594b5585",
+    "question": "What is the status of my FMS case after LOA signature?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T14:42:50.980904+00:00"
+  },
+  {
+    "id": "f98a7db6-82a6-40a5-bd0d-c3860da904ed",
+    "reviewId": "d073d1f0-19fe-4fe4-bca9-ff76a7d30108",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T15:05:28.216554+00:00"
+  },
+  {
+    "id": "fc5200f8-4753-4e0d-a639-19328cd7cd19",
+    "reviewId": "a6016734-9720-4c1a-9825-64460ead1d48",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T15:07:19.676385+00:00"
+  },
+  {
+    "id": "2058a516-5afa-4a59-a8f1-11f1dd4466aa",
+    "reviewId": "442b1926-a460-4c6b-b4d0-d062502f6672",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T15:09:57.803394+00:00"
+  },
+  {
+    "id": "8c30c30c-17b3-494e-aeb7-2078dd17ea75",
+    "reviewId": "9c1572e6-5858-460d-aae4-aab13687fd6c",
+    "question": "What is the status of my FMS case after LOA signature?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T15:12:22.527100+00:00"
+  },
+  {
+    "id": "b888ec4b-ec8c-424d-bdbe-f28e4d30993b",
+    "reviewId": "25268809-bd07-4f81-a6db-2bba50f17278",
+    "question": "What is security cooperation",
+    "type": "review_item",
+    "timestamp": "2025-11-06T15:26:47.004144+00:00"
+  },
+  {
+    "id": "9af9c2db-e017-4750-8900-3f7ff4e55a35",
+    "reviewId": "220751d3-a711-432b-a629-c06abb5aa4d5",
+    "question": "what is dsca",
+    "type": "review_item",
+    "timestamp": "2025-11-06T16:06:47.061400+00:00"
+  },
+  {
+    "id": "d2b0643c-19fa-489c-9e1e-7ad1a80bf5cf",
+    "reviewId": "529291ac-3ea6-49af-b666-a04920d4ecc7",
+    "question": "what is DSCA",
+    "type": "review_item",
+    "timestamp": "2025-11-06T16:18:55.869190+00:00"
+  },
+  {
+    "id": "6fa28108-267c-48a6-ad81-66a46f92548a",
+    "reviewId": "543038af-7f30-4e42-9420-3cc2fb22d68e",
+    "question": "Tell me about title 22",
+    "type": "review_item",
+    "timestamp": "2025-11-06T16:27:15.962858+00:00"
+  },
+  {
+    "id": "a75847d7-2149-4d13-a34e-16dfb01a4691",
+    "reviewId": "26029942-01eb-4940-8899-3fd3c10f687f",
+    "question": "Who was the first president of the USA?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T16:29:18.325862+00:00"
+  },
+  {
+    "id": "d6864a01-d609-4b40-a46f-25c20964a8e7",
+    "reviewId": "2097f3c6-eed3-4820-9c04-e8e7466e2697",
+    "question": "WHAT IS DSCA",
+    "type": "review_item",
+    "timestamp": "2025-11-06T16:33:07.098569+00:00"
+  },
+  {
+    "id": "62b89567-47f7-4c6b-84ca-65bfd8511cef",
+    "reviewId": "e9ba3224-c310-488f-9864-3a75cb8b857e",
+    "question": "What is the chapter 7 about?",
+    "type": "review_item",
+    "timestamp": "2025-11-06T16:35:00.665645+00:00"
+  },
+  {
+    "id": "bb1f0d60-3212-41ee-8042-13fbcaea6a2e",
+    "reviewId": "0641d848-187f-4fe8-acf5-d6f5cee279d7",
+    "question": "what is DSCA",
+    "type": "review_item",
+    "timestamp": "2025-11-06T16:40:09.665270+00:00"
+  },
+  {
+    "id": "543d915a-08a4-4c24-9b98-42f6ae0660c9",
+    "reviewId": "3b549768-9ddb-4e25-b6b1-e6a2afff99b3",
+    "question": "what is dsca",
+    "type": "review_item",
+    "timestamp": "2025-11-06T16:44:10.770819+00:00"
+  },
+  {
+    "id": "9b957f50-b398-4d9e-8ae8-1ac46d3b76ad",
+    "reviewId": "59527089-2f40-4d12-a1c9-c180ad7db7e3",
+    "question": "WHA IS DSCA",
+    "type": "review_item",
+    "timestamp": "2025-11-06T16:48:50.638881+00:00"
+  },
+  {
+    "id": "52b0f97a-6cdc-4364-b071-005075b6058d",
+    "reviewId": "39ef2349-96f2-44e5-8965-d49ef5587585",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-08T11:41:18.329026+00:00"
+  },
+  {
+    "id": "79879b52-93ec-47f0-8e51-995a766c2fe5",
+    "reviewId": "ae736cc5-b058-4780-8336-f036ddb84f26",
+    "question": "What are the line items in SR-P-NAV?",
+    "type": "review_item",
+    "timestamp": "2025-11-08T12:30:16.520217+00:00"
+  },
+  {
+    "id": "5dc1e04f-14f9-4dce-8df2-e2629bf08fe9",
+    "reviewId": "688a07c3-551e-4f71-b299-6dd9b020647e",
+    "question": "What are the line items in SR-P-NAV?",
+    "type": "review_item",
+    "timestamp": "2025-11-08T12:39:28.993731+00:00"
+  },
+  {
+    "id": "fb765725-c21e-4379-ad3d-3e1986686f92",
+    "reviewId": "792603cd-7e8b-478b-ae73-169469bc7500",
+    "question": "What are the line items in SR-P-NAV or MX-B-SAL?",
+    "type": "review_item",
+    "timestamp": "2025-11-08T16:13:33.319646+00:00"
+  },
+  {
+    "id": "6ccee011-9017-4775-b2c0-1f8ad0fb1995",
+    "reviewId": "1f341822-8c8a-4c7e-97f9-27d0c708443a",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-08T20:43:12.306705+00:00"
+  },
+  {
+    "id": "3ea5e25b-d428-4832-b7ab-b62daf449623",
+    "reviewId": "8fac3053-0a82-47f9-8e37-c1083bd58ec8",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-08T20:49:42.785099+00:00"
+  },
+  {
+    "id": "03116c19-bace-4426-bb88-4d94d19a6493",
+    "reviewId": "cad67c0f-be61-42bb-8519-bf01d4b83da7",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T15:50:21.612759+00:00"
+  },
+  {
+    "id": "a48a21ea-c159-4725-bf8d-04297900de48",
+    "reviewId": "a25d9c75-2918-4924-b8a4-c1ffb829c01f",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T16:05:07.775749+00:00"
+  },
+  {
+    "id": "f7be254f-b019-4f96-a5c5-ad54577cb3ea",
+    "reviewId": "dd86831f-397b-40f2-bd35-5537c1261099",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T16:10:57.885331+00:00"
+  },
+  {
+    "id": "ca0bcd8f-8fe5-4a77-ba09-3b84366db516",
+    "reviewId": "265d2842-a284-45e5-8ede-61d3f8cda3cb",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T16:34:59.158057+00:00"
+  },
+  {
+    "id": "289c84e9-f777-4c2a-8d17-0a5adce4ddfe",
+    "reviewId": "af7176af-9a10-4986-827b-b302497a717d",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T16:46:27.717456+00:00"
+  },
+  {
+    "id": "ec8a6ac8-a59a-4ef6-9a47-c1985ef90baf",
+    "reviewId": "1e4d4797-5646-40f7-983b-da77a5f5e56a",
+    "question": "What are the line items in SR-P-NAV or MX-B-SAL?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T20:07:53.013449+00:00"
+  },
+  {
+    "id": "ce8d3854-5eda-4712-b873-d06b803de9d8",
+    "reviewId": "31f11bf8-3b19-48b4-91c7-8c1353f81de3",
+    "question": "What are the line items in SR-P-NAV or MX-B-SAL?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T20:22:18.547269+00:00"
+  },
+  {
+    "id": "868aaa59-8fb0-4fe5-b12c-d3f26a347b99",
+    "reviewId": "413ad3e7-e04c-44a8-a663-d46ba5954759",
+    "question": "What are the line items in SR-P-NAV or MX-B-SAL?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T20:33:55.620384+00:00"
+  },
+  {
+    "id": "a541b400-de2e-422b-8685-81a8c490d5ac",
+    "reviewId": "e8b3dd8e-6a64-4c3f-8e14-6c388d0e6bd1",
+    "question": "What are the line items in SR-P-NAV or MX-B-SAL?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T20:47:40.308115+00:00"
+  },
+  {
+    "id": "63bd32cb-7b0e-4d9b-895d-527ad559e507",
+    "reviewId": "bcf2517c-cd4b-48d4-b395-e8b4faa6e7fc",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-09T20:51:26.543722+00:00"
+  },
+  {
+    "id": "884ee72d-952c-4c94-94cb-afbf1e6ff8d8",
+    "reviewId": "c7a009b7-f584-4e9b-978c-b11f46d4a9f9",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-10T18:17:20.660010+00:00"
+  },
+  {
+    "id": "a4e78f39-520a-4b24-b96c-1d4d2f9808d7",
+    "reviewId": "0e3e57a5-a42d-4621-a2e6-b26258370ded",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-10T18:41:41.171241+00:00"
+  },
+  {
+    "id": "f9184793-b510-4d14-a27c-9fba3a29ed06",
+    "reviewId": "ad19683d-943c-4667-96ed-5c20eb179f96",
+    "question": "what is security assistance",
+    "type": "review_item",
+    "timestamp": "2025-11-10T19:06:33.102365+00:00"
+  },
+  {
+    "id": "8d270240-ec38-47c6-99bb-cab20e1c3b42",
+    "reviewId": "bdfef11e-3c09-494a-8bf5-de93177f89df",
+    "question": "what is security cooperation",
+    "type": "review_item",
+    "timestamp": "2025-11-10T19:14:54.167536+00:00"
+  },
+  {
+    "id": "dfdfd6d6-371c-4186-9a2f-cb280c167a7d",
+    "reviewId": "92bf62f4-fe8c-4a47-9be6-f3d5304fd12d",
+    "question": "What is DSCA responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-10T20:30:22.136903+00:00"
+  },
+  {
+    "id": "3a6838a3-6fc0-4271-ad8d-6865fd6fcef8",
+    "reviewId": "74063309-f775-4511-8a40-3fa1fbde6926",
+    "question": "What is DSCA responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-10T20:30:45.857813+00:00"
+  },
+  {
+    "id": "8589a80c-ed48-46d8-b5ac-c0d8756f2f93",
+    "reviewId": "f24115b8-d164-498f-8371-1021626d8669",
+    "question": "What is DSCA responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-10T20:41:05.709320+00:00"
+  },
+  {
+    "id": "f2cc41b4-579f-4ffd-82c7-dd6a74a1d927",
+    "reviewId": "8d4896aa-8566-44e5-b5d7-a8e6d5d3a1b0",
+    "question": "What is DSCA responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-10T21:04:43.799844+00:00"
+  },
+  {
+    "id": "d70f4911-d954-44eb-aaef-ef1c2c1b71ad",
+    "reviewId": "22b69bdb-bde7-4faa-bdbc-7d606b8a4b4a",
+    "question": "What are the line items in SR-P-NAV or MX-B-SAL?",
+    "type": "review_item",
+    "timestamp": "2025-11-10T23:25:29.126473+00:00"
+  },
+  {
+    "id": "467d2ccb-18d6-494b-8ad6-0898246e4ca0",
+    "reviewId": "a95f5361-289b-414c-a8f8-b2c5f8266a38",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-12T20:43:20.612798+00:00"
+  },
+  {
+    "id": "631f5466-6018-455d-aa2d-c94e1b6639e1",
+    "reviewId": "e31caf2c-4c07-4ace-95d2-4c200f968344",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-12T22:53:02.878933+00:00"
+  },
+  {
+    "id": "0ffbb194-12cd-4a58-a37e-1099ffca581e",
+    "reviewId": "14b2346d-d777-454b-b9ee-29ce4c022284",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-12T22:59:52.216748+00:00"
+  },
+  {
+    "id": "ee100e0a-cdbb-4f55-b8f5-70095d4eecc3",
+    "reviewId": "763df7c6-16fe-425c-ac1f-016a5203d79b",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-12T23:05:35.652226+00:00"
+  },
+  {
+    "id": "23c0dce1-b33b-4ae7-a524-cfac58b0e3c3",
+    "reviewId": "c46848ff-e993-4b05-be16-eca9e133324e",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-12T23:35:20.705094+00:00"
+  },
+  {
+    "id": "d0511365-45f0-4535-aa42-e862452e7e0c",
+    "reviewId": "9d72fbfb-35a6-485d-a114-e91e468b6744",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-12T23:45:52.684620+00:00"
+  },
+  {
+    "id": "cf5aba43-6edc-4ae4-bf04-f22ac82c15a1",
+    "reviewId": "91bdb20f-b4e6-464e-acad-0944a5c6aeef",
+    "question": "What is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-13T16:52:16.106096+00:00"
+  },
+  {
+    "id": "78d6ce12-84f4-4db6-b816-ea9b27a7493e",
+    "reviewId": "c2ee9628-fa12-4df2-88fa-f44ba066eb74",
+    "question": "what is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T14:24:10.107512+00:00"
+  },
+  {
+    "id": "59464e86-e399-4048-8b1c-96e9b33780a4",
+    "reviewId": "2f9514c5-c6fe-4464-bb7c-f492695f375a",
+    "question": "what is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T14:27:34.030321+00:00"
+  },
+  {
+    "id": "0063682d-8c00-402f-a9ec-8a0264f966e2",
+    "reviewId": "9dea666d-86cf-4580-900b-eddbc5c1f235",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T14:48:11.464163+00:00"
+  },
+  {
+    "id": "2352af2c-3215-457e-8a87-33980893826e",
+    "reviewId": "7bdbd803-1e68-4d44-8075-e3de18f4a356",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T15:54:05.571810+00:00"
+  },
+  {
+    "id": "e9b05443-83e7-4dc9-97cd-bfd03da1a002",
+    "reviewId": "5bb2f825-5e8a-4e99-9701-c93278acf30e",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T15:56:42.417792+00:00"
+  },
+  {
+    "id": "d207eba6-4898-494a-9711-554653ee457d",
+    "reviewId": "96fb8e1c-cb0d-416c-94ea-fc7e7c96c45f",
+    "question": "I am building a case for Romania that will have a total case value of $150M, do I need to process a CN?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T15:59:37.022832+00:00"
+  },
+  {
+    "id": "9f914ef5-24b8-4ab1-b30e-8ded33078bcd",
+    "reviewId": "a2b123a9-8948-446a-92f9-31eca92f2618",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T16:03:14.527190+00:00"
+  },
+  {
+    "id": "0567dd79-8dbe-499b-8d24-8c926d4cbd00",
+    "reviewId": "b241e405-c8c5-45f2-bf37-1d585e70a2ad",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T16:45:55.883605+00:00"
+  },
+  {
+    "id": "94ffea65-14b5-4b02-b5e3-67ad4fc697a8",
+    "reviewId": "ec997e5b-b89b-4531-8059-d2d2fa6eafc3",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T17:34:36.756521+00:00"
+  },
+  {
+    "id": "e5e436d2-c1f2-49e9-a15b-9628e57d7d93",
+    "reviewId": "1e164d61-168b-4bb8-b102-342cde2e61b9",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T17:50:01.455055+00:00"
+  },
+  {
+    "id": "be1db36f-64e8-4cac-aaf1-75279127fe93",
+    "reviewId": "7b6de718-baa2-44fa-a3b2-21c04fd2188a",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T18:16:52.015503+00:00"
+  },
+  {
+    "id": "385365eb-affa-403b-96c7-74016d5e55f5",
+    "reviewId": "3ce0e307-707c-487b-b0e7-58efafeb036d",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T18:24:03.681123+00:00"
+  },
+  {
+    "id": "e124623e-6d96-4088-a6d5-44226e7b3bdf",
+    "reviewId": "70f622ca-aabf-4ccc-b4cd-2b826caeeb1a",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T18:33:05.176394+00:00"
+  },
+  {
+    "id": "b9667680-ee80-4a6e-bb62-8b219442f46f",
+    "reviewId": "f041892c-e54c-4c7d-9301-fe213842652b",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T18:43:40.092493+00:00"
+  },
+  {
+    "id": "2c765c2b-7533-4881-9aca-97985777cd2f",
+    "reviewId": "1670679f-1893-44c1-b4e5-3ee23f3052cf",
+    "question": "What is Line 002 on SR-P-NAV procuring",
+    "type": "review_item",
+    "timestamp": "2025-11-14T18:45:35.000999+00:00"
+  },
+  {
+    "id": "5416908e-de41-4e17-956f-8e02b313a1fb",
+    "reviewId": "41a16143-4349-4545-b6be-ab9d04cf400e",
+    "question": "List line items in Case SR-P-NAV or MX-B-SAL in LOA",
+    "type": "review_item",
+    "timestamp": "2025-11-14T18:53:10.987917+00:00"
+  },
+  {
+    "id": "f006e2c4-2596-49cf-a126-ec3a9d2a15a7",
+    "reviewId": "fa9a52c1-7d60-4cd8-8eee-00eae4b5eb9d",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T19:51:51.547737+00:00"
+  },
+  {
+    "id": "0de00139-6fc6-49ca-bcc9-68861862f164",
+    "reviewId": "ea6abda0-95a8-4a30-b6b4-0ca2ada0f26f",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T20:27:08.122952+00:00"
+  },
+  {
+    "id": "3215f2b5-294f-40f8-aa3a-f8b063ba086c",
+    "reviewId": "2885f2aa-17de-4980-a4ff-f0658a4651b6",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T20:58:08.952008+00:00"
+  },
+  {
+    "id": "e29373de-31c6-4e63-8cad-1b3b67befbad",
+    "reviewId": "c29536be-e9d4-42df-9d06-406d7aa3d242",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T21:06:28.542881+00:00"
+  },
+  {
+    "id": "d0b734cf-1463-43a9-a47a-cb9e1d0fd72e",
+    "reviewId": "a0ddcfc6-27bf-4d4f-98b1-fb716eaaf0b0",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T23:05:07.324182+00:00"
+  },
+  {
+    "id": "1f6cd67e-cea4-432e-b541-a38a2d483950",
+    "reviewId": "e81c6922-508e-4be5-9d03-5ee0c71cc617",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T23:15:40.947876+00:00"
+  },
+  {
+    "id": "e15a9528-7de3-45a0-8006-6a14155a1605",
+    "reviewId": "cf6a832d-8b27-428d-9580-a1143e596969",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-14T23:31:02.950385+00:00"
+  },
+  {
+    "id": "b1f54c5f-b83c-40bb-83e3-870f19a340c3",
+    "reviewId": "9fc571b0-48ce-49bc-b760-06c900951013",
+    "question": "What is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-15T01:19:21.691125+00:00"
+  },
+  {
+    "id": "577c5dd5-8104-4b83-b0ab-7e54aab5c6e5",
+    "reviewId": "bd2bedff-4b6f-43f0-b5d0-bf06b30cbc31",
+    "question": "What is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-15T01:33:07.375276+00:00"
+  },
+  {
+    "id": "7720c50f-e24f-4c50-a254-25e63a29f3e9",
+    "reviewId": "55e34b96-9099-4b3c-942d-6ad44ddd3410",
+    "question": "What is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-15T01:55:12.803666+00:00"
+  },
+  {
+    "id": "295a59b3-3356-4ca7-9f7d-1c38f375cf3d",
+    "reviewId": "12b37f50-d99d-4dec-8a76-1bd4484c8d52",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-17T14:19:41.249415+00:00"
+  },
+  {
+    "id": "856dadc8-cc90-4a96-9521-1e8726708906",
+    "reviewId": "82200d6e-5005-47b5-8df2-7572d5450370",
+    "question": "What is security assistance",
+    "type": "review_item",
+    "timestamp": "2025-11-17T14:46:59.547083+00:00"
+  },
+  {
+    "id": "4a4b59e5-dfb9-4cee-977d-f7de36ca2fc5",
+    "reviewId": "8c4b9396-47ea-4bf4-b1e0-3005b45a6ab3",
+    "question": "What is Security Cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-17T17:02:56.916587+00:00"
+  },
+  {
+    "id": "67db5899-db2d-437c-aeff-4bdce2f7515b",
+    "reviewId": "0bb29993-3c01-450e-9486-aeed263297e1",
+    "question": "what is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-17T19:39:50.334852+00:00"
+  },
+  {
+    "id": "34b3514c-b736-4dad-a388-3b6112126a32",
+    "reviewId": "d2ccde72-342e-4bf9-ac8d-aba4f9c95b42",
+    "question": "what is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-17T19:59:41.807777+00:00"
+  },
+  {
+    "id": "dc7fe0b5-8eab-4cc6-ab0c-1b804390c6f8",
+    "reviewId": "b37469ad-05a6-420e-bb07-49ffc27005f4",
+    "question": "what is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T14:22:08.225621+00:00"
+  },
+  {
+    "id": "7b929992-d276-4479-9a63-2bccc21a1189",
+    "reviewId": "d3ff8629-d5de-4964-a459-458f1c39b81e",
+    "question": "What is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T14:28:04.786025+00:00"
+  },
+  {
+    "id": "bf92cf57-437d-41c2-84d8-9580103c504a",
+    "reviewId": "73db8d7f-eb73-4b1a-9dda-fc7dfe6b60f4",
+    "question": "what is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T14:33:59.757829+00:00"
+  },
+  {
+    "id": "13013427-4ec7-4c6d-af55-0cc6b068e9ca",
+    "reviewId": "35993514-e034-475a-af29-2e39e4825a32",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T15:31:21.224485+00:00"
+  },
+  {
+    "id": "42e4bb5e-df61-4257-9d3b-d2184ff19e15",
+    "reviewId": "36d427c1-3b31-46a5-8a67-c63c4e885f2b",
+    "question": "What is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T16:04:51.603983+00:00"
+  },
+  {
+    "id": "6c61b59c-c22d-473e-8326-f5d0e80e2596",
+    "reviewId": "05794511-76e9-4d6d-a46e-ec6e8b2d41e0",
+    "question": "'What is DSCA responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T16:28:25.884018+00:00"
+  },
+  {
+    "id": "2ce63216-520a-490f-ae76-b250e4323e78",
+    "reviewId": "247c73e2-4020-4694-b083-f50c7aa7ba43",
+    "question": "What is Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T16:58:45.590667+00:00"
+  },
+  {
+    "id": "65591305-23a4-4c95-9571-c2ee95e0295e",
+    "reviewId": "f9bd2f70-8a6d-42ea-a709-cd78044ecea9",
+    "question": "The LOR is requesting Sole Source, I know there needs to be a sole source line note, what do I need to do that?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T17:15:26.220754+00:00"
+  },
+  {
+    "id": "ca9f4790-1e57-4447-947d-a2b5c1fdc3dc",
+    "reviewId": "1ffcd0df-c7a8-4a38-979a-f54d33fb7c00",
+    "question": "Can ammunition be procured on a Blanket Order FMS Case?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T17:20:37.609083+00:00"
+  },
+  {
+    "id": "3aeb478d-ad3e-45b0-b683-57b20d7c16da",
+    "reviewId": "3a2fb95e-b829-4a8a-82b0-22fa4cae1283",
+    "question": "I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T17:31:37.139223+00:00"
+  },
+  {
+    "id": "167028cf-d6e8-4dd7-bd9b-1b90a58d0b92",
+    "reviewId": "f4d6f250-a3e5-45d4-8c4a-1ad1e33d174e",
+    "question": "what is security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T18:02:09.943952+00:00"
+  },
+  {
+    "id": "587bb1b4-0a70-4864-b587-da26a94c3216",
+    "reviewId": "14ad1d6f-e575-40c4-8037-94b98136e197",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T18:10:05.772407+00:00"
+  },
+  {
+    "id": "af9a448a-6db4-4faa-b8ac-8899aa3b023e",
+    "reviewId": "6dec45be-73ba-494e-b73c-a826db9dc312",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T18:15:13.580443+00:00"
+  },
+  {
+    "id": "9bc1eeca-2422-43f6-a94c-e3e0c5b2e2d8",
+    "reviewId": "239f0cbe-f8c6-4b79-a23c-a97dbfb3d427",
+    "question": "What are MILSTRIP requisitions under implemented LOAs?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T18:22:32.069471+00:00"
+  },
+  {
+    "id": "6bbd710a-cc7e-45a7-895e-6d360fabdaf6",
+    "reviewId": "2f35c59a-5548-48b2-959f-9cfc8c2a4fcb",
+    "question": "I got this request for funding from my field activity, [Upload PDF'd Email], Which line should fund it and do I have enough funding?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T18:41:53.365584+00:00"
+  },
+  {
+    "id": "4f52f0ed-60b0-42d7-8d97-d3a80c3c3866",
+    "reviewId": "956ce4e7-fea2-4f4a-a5ec-a527136c5769",
+    "question": "I got this request for funding from my field activity, [Upload PDF'd Email], Which line should fund it and do I have enough funding?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T18:49:00.482417+00:00"
+  },
+  {
+    "id": "a31f2229-e7d5-4e98-a1f8-9841f16e3118",
+    "reviewId": "4702eeaf-a208-4f17-90c0-3311d693325e",
+    "question": "I got this request for funding from my field activity, [Upload PDF'd Email], Which line should fund it and do I have enough funding?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T18:53:53.689268+00:00"
+  },
+  {
+    "id": "11d6bd32-2b6b-4ad3-868e-885e4f8e7ef3",
+    "reviewId": "57eebb9f-3e61-4c6a-8357-71b970eff77d",
+    "question": "I got this request for funding from my field activity, [Upload PDF'd Email], Which line should fund it and do I have enough funding?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T18:54:41.052643+00:00"
+  },
+  {
+    "id": "22e3b1a0-4749-423f-be30-2b5ed0db9bc5",
+    "reviewId": "b783e309-ea03-4cc7-ba7e-73a44a99a360",
+    "question": "I got this request for funding from my field activity for CASE SR-P-NAV  Which line should fund it and do I have enough funding?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T18:56:26.528367+00:00"
+  },
+  {
+    "id": "939e016a-9d73-4278-871f-26f0b0d1d2bc",
+    "reviewId": "43984d53-b021-4610-b353-95fb8ae5daf1",
+    "question": "What is included in the technical services line for CASE SR-P-NAV",
+    "type": "review_item",
+    "timestamp": "2025-11-18T20:39:55.434035+00:00"
+  },
+  {
+    "id": "1c6929c6-ee78-4361-a848-236f49fcfbed",
+    "reviewId": "d58bd3da-6e96-4792-87eb-3299c179e21c",
+    "question": "What is included in the technical services line for CASE SR-P-NAV",
+    "type": "review_item",
+    "timestamp": "2025-11-18T20:48:16.836571+00:00"
+  },
+  {
+    "id": "5255359b-41cc-4fc6-96f5-e977154e1dca",
+    "reviewId": "6bc8f0e7-1301-47cf-b51f-56527b201444",
+    "question": "What is included in the technical services line for CASE SR-P-NAV  ?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T21:03:34.310439+00:00"
+  },
+  {
+    "id": "718d5dfb-5a27-47af-a378-056899224660",
+    "reviewId": "d90a64b2-c26e-482f-b4a3-a25e9f26e10b",
+    "question": "What is included in the technical services line for CASE SR-P-NAV  ?",
+    "type": "review_item",
+    "timestamp": "2025-11-18T21:11:33.142452+00:00"
+  },
+  {
+    "id": "e2b53a47-7081-42d8-b64d-3278dfcf18c0",
+    "reviewId": "60aaac48-1b9f-4a5c-973a-89898b707a8f",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M?\"",
+    "type": "review_item",
+    "timestamp": "2025-11-19T05:29:23.349563+00:00"
+  },
+  {
+    "id": "668cde78-3105-49d2-a43d-9e209588df88",
+    "reviewId": "2cc5d9b8-98a3-450f-9102-c3782a855814",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T05:50:32.543198+00:00"
+  },
+  {
+    "id": "55419c98-e6ac-4d08-95ef-4c3d022c4164",
+    "reviewId": "13320960-83db-45f8-a788-4cc1d2c7b386",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T05:58:14.384243+00:00"
+  },
+  {
+    "id": "e47b285e-5f17-4596-aa8a-ca8fac1774d8",
+    "reviewId": "e6147dc0-acb0-4621-9210-1a91d8b2b3a0",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M",
+    "type": "review_item",
+    "timestamp": "2025-11-19T06:16:08.823989+00:00"
+  },
+  {
+    "id": "5a2e01f7-6bed-4547-81f3-ecb6dc35a241",
+    "reviewId": "a4b70d51-d8c1-42d5-8f83-38ababd365c1",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M",
+    "type": "review_item",
+    "timestamp": "2025-11-19T06:44:25.556980+00:00"
+  },
+  {
+    "id": "98e32aa6-55ed-4eeb-a7ac-83c68c8e48cd",
+    "reviewId": "5f7947e3-6b41-4aac-a58b-0130d515949f",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M",
+    "type": "review_item",
+    "timestamp": "2025-11-19T07:05:26.110849+00:00"
+  },
+  {
+    "id": "568d37ca-e677-4fb0-b281-cd58415bd72f",
+    "reviewId": "d001bbeb-dfba-4746-8570-5532d37bdc8b",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M",
+    "type": "review_item",
+    "timestamp": "2025-11-19T07:14:38.870399+00:00"
+  },
+  {
+    "id": "b4a4fdb6-2a7d-4f21-901f-c52a2666c568",
+    "reviewId": "78b19e17-ba15-4fce-a8f8-72bc91973ab8",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M",
+    "type": "review_item",
+    "timestamp": "2025-11-19T08:04:23.016787+00:00"
+  },
+  {
+    "id": "b8a7a389-2a5c-4a28-bf83-3ac73a1a837e",
+    "reviewId": "0c27084c-2e98-4114-af05-0c69e313de94",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M",
+    "type": "review_item",
+    "timestamp": "2025-11-19T08:28:44.474557+00:00"
+  },
+  {
+    "id": "fdb77a58-c08a-4139-9f4d-501e34274979",
+    "reviewId": "03b0e84b-c875-4a19-bc2e-8ec537d6eb8b",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M",
+    "type": "review_item",
+    "timestamp": "2025-11-19T13:29:20.578843+00:00"
+  },
+  {
+    "id": "f6ae01f6-b88d-4b4a-8e89-6b30210fd4ef",
+    "reviewId": "dba4faa0-7ff8-49d1-aa56-6bb7349b22c1",
+    "question": "What are the requirements for a Foreign Military Sale to Germany with a value of $75M",
+    "type": "review_item",
+    "timestamp": "2025-11-19T13:42:35.811468+00:00"
+  },
+  {
+    "id": "fae6d200-bf73-4d6f-8d5b-79e8647e94b8",
+    "reviewId": "f2e369be-11a3-4eae-842c-ea54cdc36a27",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T14:32:25.674090+00:00"
+  },
+  {
+    "id": "03478062-558f-4104-ba08-7723e93a0e64",
+    "reviewId": "55771402-ee73-4632-9845-044114492b16",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T16:03:43.963525+00:00"
+  },
+  {
+    "id": "0a0d6aeb-af5a-464f-9e3e-71972d937d6a",
+    "reviewId": "517ea3de-0769-42c5-ba80-cb3dfec1ec32",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T16:46:09.039630+00:00"
+  },
+  {
+    "id": "98c88ed7-0287-4834-bb14-8837588dfd54",
+    "reviewId": "492c258c-f638-4deb-aaba-93f56202d4ae",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T16:56:45.788936+00:00"
+  },
+  {
+    "id": "b7c12fd1-139e-4bd7-8f51-2c087c24790f",
+    "reviewId": "3b977a73-1b3c-493d-8629-ce24556e28de",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T17:03:59.489636+00:00"
+  },
+  {
+    "id": "6a06a102-bd2c-40a5-9cfa-e212cb51e8b9",
+    "reviewId": "c9a0753a-ac65-4251-bb44-4a68509498d4",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T17:14:15.899730+00:00"
+  },
+  {
+    "id": "16e8be77-673a-402c-a0a5-f912aabc89b7",
+    "reviewId": "6b30fc4e-36b2-44bc-a74a-0fb9a49f5fed",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T17:33:37.947942+00:00"
+  },
+  {
+    "id": "6077ac99-b66e-4532-b74a-ecbf5d3178b4",
+    "reviewId": "df591f95-dc21-4af6-b6e0-ac2a50ab5822",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T17:50:33.872223+00:00"
+  },
+  {
+    "id": "d916618f-a878-4e99-acb4-c0453e4f657a",
+    "reviewId": "c30d8866-0bde-4df1-ba2d-7f17db0e6b05",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T18:12:25.160178+00:00"
+  },
+  {
+    "id": "95e1b0ed-9965-469c-84a7-4515c3f25282",
+    "reviewId": "a19078bd-520e-41c5-8c65-e7845887fee5",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T18:27:14.017428+00:00"
+  },
+  {
+    "id": "d35f71d5-e70b-47d5-9da0-9234c8b88f89",
+    "reviewId": "4e5e4ade-e32f-4e87-a4c6-4591b216d3fc",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T18:56:27.622442+00:00"
+  },
+  {
+    "id": "adc5c7de-de28-4be0-b3a7-cc5e39feb760",
+    "reviewId": "d2f032b4-7c0c-40bb-ae9e-09bd8edda09b",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T19:13:36.224385+00:00"
+  },
+  {
+    "id": "972b3d48-0c13-4a0f-b7de-0a7ed4eee189",
+    "reviewId": "588611f5-9000-4920-af32-265cd4e97e72",
+    "question": "I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T19:38:52.395880+00:00"
+  },
+  {
+    "id": "935924da-cdf2-44c5-88bf-9f94ebe918d5",
+    "reviewId": "7d19f51e-fb43-4d4d-b96f-f032b80b3ea5",
+    "question": "How long does it take to develop an LOA?",
+    "type": "review_item",
+    "timestamp": "2025-11-19T20:00:00.381334+00:00"
+  },
+  {
+    "id": "cda05144-d4d2-4f82-b0b4-b0bee8d8caa8",
+    "reviewId": "36469c92-a56d-4377-8b26-09de2dad331d",
+    "question": "Based on this funding request for Case SR-P-NAV  verify the appropriate funding line and check if funds are available on the line and PDLI.",
+    "type": "review_item",
+    "timestamp": "2025-11-19T22:50:53.663241+00:00"
+  },
+  {
+    "id": "354a8f11-3112-4115-99ef-1985c852bc35",
+    "reviewId": "b08ede30-a02e-4d8c-b863-2a7280055efc",
+    "question": "What is the threshold for Congressional notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-20T21:10:14.380980+00:00"
+  },
+  {
+    "id": "dbe9757f-be82-4335-b9cf-2e302c9987fd",
+    "reviewId": "0739ebc6-cb62-4313-afff-9cd1aa87d78f",
+    "question": "What is the threshold for Congressional notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-20T21:19:39.388748+00:00"
+  },
+  {
+    "id": "6587bea3-bc42-4629-9685-6528121ef573",
+    "reviewId": "3cb79ee8-fdda-46c4-bd3f-f991ee564070",
+    "question": "What is the threshold for Congressional notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-20T22:57:55.485498+00:00"
+  },
+  {
+    "id": "eb8e6f01-b786-4a25-ab6e-3338e88013df",
+    "reviewId": "0fac5cee-c543-4886-92be-23c3c4853289",
+    "question": "What is the threshold for Congressional notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-20T23:15:45.401336+00:00"
+  },
+  {
+    "id": "41c840c8-289c-4338-bba0-e7ff58143d45",
+    "reviewId": "b1b6123a-000a-4b6b-8dfa-2bdb4feab8b1",
+    "question": "What is the threshold for Congressional notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-20T23:18:59.436604+00:00"
+  },
+  {
+    "id": "f2ff2993-2777-452a-a985-9fe01e302f0e",
+    "reviewId": "7fd14c6a-de82-4f61-9b35-c74082d87422",
+    "question": "What is the threshold for Congressional notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-20T23:35:33.192441+00:00"
+  },
+  {
+    "id": "38367328-9f92-441c-978d-2dba5f42b8c8",
+    "reviewId": "165ade5c-98e1-4d40-8f09-d7d651bb1282",
+    "question": "What is the threshold for Congressional notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-20T23:38:34.210632+00:00"
+  },
+  {
+    "id": "46287804-05b4-464e-8b03-785b35e04245",
+    "reviewId": "acadf160-19be-4b18-a497-12f6be68ba6f",
+    "question": "What is DSCA?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T04:29:53.286919+00:00"
+  },
+  {
+    "id": "02a673b3-8855-4e74-9720-befd5a7e23ad",
+    "reviewId": "2a6471b1-26f8-46b0-8753-7609900a7823",
+    "question": "What is the threshold for Congressional notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T04:36:11.128011+00:00"
+  },
+  {
+    "id": "4e06f94f-2aee-4303-b70f-f49db9873792",
+    "reviewId": "ef9dbfb5-4cdf-492a-8a54-a5218670c110",
+    "question": "What is the threshold for Congressional notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T04:40:11.287786+00:00"
+  },
+  {
+    "id": "ac9a94a5-50ed-4f2c-ae88-b8d0a21fb658",
+    "reviewId": "5064482a-b346-45a1-b6af-551a5e5e8577",
+    "question": "What is DSCA responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T05:15:08.190011+00:00"
+  },
+  {
+    "id": "901354fc-1ac1-4e12-b115-bb2493aa791d",
+    "reviewId": "85235c78-dea7-4cd8-bfcb-72ea9d88df48",
+    "question": "What is DSCA responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T05:21:53.368048+00:00"
+  },
+  {
+    "id": "46f79620-e878-4ee8-8678-a8232f7f9970",
+    "reviewId": "f6b0b99d-0156-4550-9ea0-a8bf48284978",
+    "question": "What is DSCA responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T05:54:59.185024+00:00"
+  },
+  {
+    "id": "788daf49-3592-410e-8f8a-4879d7993311",
+    "reviewId": "4194373f-6402-420f-af72-1cbfdc2d88ef",
+    "question": "What is DSCA responsible for?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T06:21:37.593187+00:00"
+  },
+  {
+    "id": "02f7b530-ff32-4617-8a44-c41e341546f6",
+    "reviewId": "502e354e-4893-42cd-839c-e3aeb3e57ae1",
+    "question": "I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T15:41:05.999158+00:00"
+  },
+  {
+    "id": "f466dd2b-2fb3-4701-96ae-e4b311b8a830",
+    "reviewId": "b7905e5c-dbf7-4f9c-a498-42cc7fde12b8",
+    "question": "I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T15:45:12.773248+00:00"
+  },
+  {
+    "id": "de722c6e-525b-435a-a058-35abad589e65",
+    "reviewId": "f04da56b-9e3f-49ba-814c-9be4dc466be4",
+    "question": "What is security cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T16:14:35.653565+00:00"
+  },
+  {
+    "id": "ee64cd71-be6d-4dce-a6bf-263fbc40ee98",
+    "reviewId": "8ae426d9-74b6-4b05-a9b7-a105344db659",
+    "question": "What is FMS?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T17:39:35.386908+00:00"
+  },
+  {
+    "id": "f4505a68-fc3c-49c7-b831-60749c6febe8",
+    "reviewId": "177ba1a6-97d0-48e2-8fa0-87c310a39354",
+    "question": "I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T18:09:30.020338+00:00"
+  },
+  {
+    "id": "2ea80724-e79c-4f32-8289-34e10afa52d5",
+    "reviewId": "0619841d-9f22-46fe-b9a0-3ce49ac673ef",
+    "question": "What is DSCA's role in Security Assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-21T18:14:12.863131+00:00"
+  },
+  {
+    "id": "aeb2b882-1aef-4d95-ada9-05911e552210",
+    "reviewId": "9c77b2cb-bb28-484a-b7d2-47d499fdb230",
+    "question": "“I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?”",
+    "type": "review_item",
+    "timestamp": "2025-11-24T16:09:08.768485+00:00"
+  },
+  {
+    "id": "aa863551-e22a-4a79-8643-7b989b706d49",
+    "reviewId": "fd7ba317-38ca-423a-b655-1e5fea67fced",
+    "question": "I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?”",
+    "type": "review_item",
+    "timestamp": "2025-11-24T16:44:11.776865+00:00"
+  },
+  {
+    "id": "bdb1aff9-94fb-4958-aea8-10c92e222a03",
+    "reviewId": "411ab285-4e1f-42f5-b141-e0fbdbf657bd",
+    "question": "I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?”",
+    "type": "review_item",
+    "timestamp": "2025-11-24T16:51:59.196316+00:00"
+  },
+  {
+    "id": "4deaf19b-8588-4fef-aa6d-72ddf4f33f36",
+    "reviewId": "0a84977d-7cbf-49a9-be28-8104dd2491b6",
+    "question": "can you tell me about srpnav",
+    "type": "review_item",
+    "timestamp": "2025-11-24T17:31:14.868637+00:00"
+  },
+  {
+    "id": "360c47ed-43c0-4819-b195-e40f0841b0e9",
+    "reviewId": "b700f978-f6c7-42dc-9608-234cf9566d31",
+    "question": "can you tell me about number of line items for loa",
+    "type": "review_item",
+    "timestamp": "2025-11-24T17:31:43.342729+00:00"
+  },
+  {
+    "id": "a0a48d6e-bbdd-4131-af54-816544928528",
+    "reviewId": "f8dfbe28-4379-4b15-9fa0-8025194c01f6",
+    "question": "I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T18:21:19.738370+00:00"
+  },
+  {
+    "id": "b1383a21-bbea-42b2-922a-9091acdacb21",
+    "reviewId": "fbba4e8c-25cd-4374-9db8-b6a5d131f1d9",
+    "question": "I am developing a case for France with an estimated Total Case Value of $99M. Will this case need a Congressional Notification?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T18:22:27.801105+00:00"
+  },
+  {
+    "id": "8c9faa60-ac68-4cec-824e-74af69f7d61d",
+    "reviewId": "1682b6a0-07e3-47b9-a8a5-3213d222367d",
+    "question": "What is Security Cooperation?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T18:23:40.255353+00:00"
+  },
+  {
+    "id": "f02f7ad3-8cb1-4763-8ef6-e2339239ccde",
+    "reviewId": "8c6ab4b2-9c20-493d-be1d-dbf26c47a758",
+    "question": "What is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T18:37:28.431348+00:00"
+  },
+  {
+    "id": "7522f074-1155-490a-8afc-6b78ee540ee1",
+    "reviewId": "0ceb6c32-0ca2-499b-99d6-e1d4d2e914ec",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T18:38:33.307883+00:00"
+  },
+  {
+    "id": "9308d090-2d7c-452f-a51f-c47a6c01afc1",
+    "reviewId": "0419473f-3d75-4092-9aad-9e5cc71fc44f",
+    "question": "what is security assistance?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T18:45:56.425972+00:00"
+  },
+  {
+    "id": "a34e46a1-e290-4b5f-a2e7-44b8f898e861",
+    "reviewId": "2f5bacda-34fd-45c9-8b2d-9d0cf04bbd17",
+    "question": "What needs to be included in an LOR for it to be actionable?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T19:17:27.451545+00:00"
+  },
+  {
+    "id": "5a4a023b-1551-43b8-96dc-1d315d8c7a12",
+    "reviewId": "cef54041-f50d-475a-8ae6-1a322a5b6dd9",
+    "question": "What needs to be included in an LOR for it to be actionable?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T19:18:55.247948+00:00"
+  },
+  {
+    "id": "d9a5978f-5a3b-4b76-b6e5-7c6b857ffabd",
+    "reviewId": "cd827134-0025-42a9-ad1f-5d36c9fc7015",
+    "question": "What needs to be included in an LOR for it to be actionable?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T19:37:20.688757+00:00"
+  },
+  {
+    "id": "d35938e7-7491-490f-8403-4e5ff77750a1",
+    "reviewId": "08ad0621-5b00-491a-b301-80397470cad9",
+    "question": "What needs to be included in an LOR for it to be actionable?",
+    "type": "review_item",
+    "timestamp": "2025-11-24T20:40:07.052443+00:00"
+  }
+]

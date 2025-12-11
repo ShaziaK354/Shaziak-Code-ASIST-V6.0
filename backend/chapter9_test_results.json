@@ -1,0 +1,5059 @@
+{
+  "pattern_c9_1_overview": {
+    "results": [
+      {
+        "test_id": 901,
+        "query": "What is the purpose of Chapter 9 Financial Policies and Procedures?",
+        "expected": [
+          "fms"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "fms"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.41,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "explanation",
+          "intent_confidence": 0.91,
+          "question": "What is the purpose of Chapter 9 Financial Policies and Procedures?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 902,
+        "query": "What are the two critical financial functions in FMS case life cycle?",
+        "expected": [
+          "fms",
+          "loa"
+        ],
+        "extracted": [
+          "FMS",
+          "FMS case",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "fms case",
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "loa"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.21,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 33,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "FMS case",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "list",
+          "intent_confidence": 0.91,
+          "question": "What are the two critical financial functions in FMS case life cycle?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "dcccb221-9534-422e-9af5-bc3c10acd22f includesfor 2601bbaf-2503-420c-9de1-6a31451905a4",
+            "6bb2dfee-89a4-4d38-b940-de21412e5bf1 implements dcccb221-9534-422e-9af5-bc3c10acd22f",
+            "dsca manages dcccb221-9534-422e-9af5-bc3c10acd22f",
+            "6bb2dfee-89a4-4d38-b940-de21412e5bf1 manages dcccb221-9534-422e-9af5-bc3c10acd22f",
+            "ab80e488-55f6-4074-af01-295e69f39469 coordinateson dcccb221-9534-422e-9af5-bc3c10acd22f"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 903,
+        "query": "What is the DoD FMR Volume 15?",
+        "expected": [
+          "dod fmr"
+        ],
+        "extracted": [
+          "DoD",
+          "FMR",
+          "Financial Management Review"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "fmr",
+            "financial management review",
+            "dod"
+          ],
+          "false_negatives": [
+            "dod fmr"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.76,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 25,
+            "vector_db": 0
+          },
+          "entities": [
+            "DoD",
+            "FMR",
+            "Financial Management Review"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.6667,
+            "precision": 0.3333,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is the DoD FMR Volume 15?",
+          "relationships": [
+            "FMR Financial Management Review",
+            "FMR Chapter 9",
+            "FMR country-level",
+            "department_of_defense_dod administers security_assistance",
+            "department_of_defense_dod isreimbursedfor military_assistance_drawdown",
+            "department_of_defense_dod haspart combatant_command_ccmd",
+            "department_of_defense_dod haspart joint_chiefs_of_staff_jcs",
+            "department_of_defense_dod administers security_cooperation",
+            "06e946e9-d2f9-48c2-98a2-9d1883283d57 GOVERNS 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "06e946e9-d2f9-48c2-98a2-9d1883283d57 REFERENCED_IN 94dab1d0-0add-4f1e-a85d-f5aaf97b2159"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 904,
+        "query": "What legal references govern FMS financial management under AECA?",
+        "expected": [
+          "aeca",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "AECA",
+          "Foreign Military Sales",
+          "Arms Export Control Act"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "aeca"
+          ],
+          "false_positives": [
+            "arms export control act",
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 25.48,
+        "status": "success",
+        "entity_confidence": 0.8875,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 39,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "AECA",
+            "Foreign Military Sales",
+            "Arms Export Control Act"
+          ],
+          "entity_confidence": 0.8875,
+          "entity_metrics": {
+            "f1_score": 0.8,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "authority",
+          "intent_confidence": 0.68,
+          "question": "What legal references govern FMS financial management under AECA?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "c131 cites aeca_section_25a1_22_usc_2765a1",
+            "javits_report isrequiredby aeca_section_25a1_22_usc_2765a1",
+            "javits_report required_by aeca_section_25a1_22_usc_2765a1",
+            "arms_export_control_act_aeca_of_1976 referenced_in c121",
+            "secretary_of_state_secstate legal_basis arms_export_control_act_aeca_of_1976"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 905,
+        "query": "What does Table C9.T1 contain?",
+        "expected": [
+          "table c9.t1"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "table c9.t1"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.14,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.6,
+          "question": "What does Table C9.T1 contain?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_1_overview",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.5667,
+      "avg_recall": 0.3,
+      "avg_f1": 0.2133,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_2_trust_fund": {
+    "results": [
+      {
+        "test_id": 906,
+        "query": "What is the FMS Trust Fund?",
+        "expected": [
+          "fms trust fund"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "fms",
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "fms trust fund"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.61,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the FMS Trust Fund?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 907,
+        "query": "Who manages the FMS Trust Fund? Is it DSCA?",
+        "expected": [
+          "dsca",
+          "fms trust fund"
+        ],
+        "extracted": [
+          "DSCA",
+          "FMS",
+          "Defense Security Cooperation Agency",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1": 0.3333,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca"
+          ],
+          "false_positives": [
+            "fms",
+            "defense security cooperation agency",
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "fms trust fund"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.65,
+        "status": "success",
+        "entity_confidence": 0.90375,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 38,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "FMS",
+            "Defense Security Cooperation Agency",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.90375,
+          "entity_metrics": {
+            "f1_score": 0.8,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "authority",
+          "intent_confidence": 0.94,
+          "question": "Who manages the FMS Trust Fund? Is it DSCA?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 908,
+        "query": "How are payments handled in the FMS Trust Fund?",
+        "expected": [
+          "fms trust fund"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "fms",
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "fms trust fund"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.62,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How are payments handled in the FMS Trust Fund?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 909,
+        "query": "What is DSCA responsibility for FMS Trust Fund?",
+        "expected": [
+          "dsca",
+          "fms trust fund"
+        ],
+        "extracted": [
+          "DSCA",
+          "FMS",
+          "Defense Security Cooperation Agency",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1": 0.3333,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca"
+          ],
+          "false_positives": [
+            "fms",
+            "defense security cooperation agency",
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "fms trust fund"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 3.52,
+        "status": "success",
+        "entity_confidence": 0.90375,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 38,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "FMS",
+            "Defense Security Cooperation Agency",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.90375,
+          "entity_metrics": {
+            "f1_score": 0.8,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.94,
+          "question": "What is DSCA responsibility for FMS Trust Fund?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 910,
+        "query": "How are FMS Trust Fund disbursements processed?",
+        "expected": [
+          "fms trust fund"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "fms",
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "fms trust fund"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 3.19,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How are FMS Trust Fund disbursements processed?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_2_trust_fund",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.1,
+      "avg_recall": 0.2,
+      "avg_f1": 0.1333,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_3_pricing": {
+    "results": [
+      {
+        "test_id": 911,
+        "query": "What is LOA line item pricing?",
+        "expected": [
+          "loa",
+          "line item pricing"
+        ],
+        "extracted": [
+          "LOA",
+          "line item",
+          "Letter Of Offer And Acceptance"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "loa"
+          ],
+          "false_positives": [
+            "line item",
+            "letter of offer and acceptance"
+          ],
+          "false_negatives": [
+            "line item pricing"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.58,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOA",
+            "line item",
+            "Letter Of Offer And Acceptance"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is LOA line item pricing?",
+          "relationships": [
+            "letter_of_offer_and_acceptance_loa isprovidedto partner_nation",
+            "partner_nation receives letter_of_offer_and_acceptance_loa",
+            "5093dca6-e3da-4075-afa9-9699e369f2d8 documentsfor 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "ab80e488-55f6-4074-af01-295e69f39469 coordinateson 5093dca6-e3da-4075-afa9-9699e369f2d8",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 isa 16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 912,
+        "query": "What are direct charges vs indirect charges in FMS?",
+        "expected": [
+          "direct charges",
+          "indirect charges",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.3333,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "direct charges",
+            "indirect charges"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.44,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.91,
+          "question": "What are direct charges vs indirect charges in FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 913,
+        "query": "What are above-the-line and below-the-line charges?",
+        "expected": [
+          "above-the-line",
+          "below-the-line"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "above-the-line",
+            "below-the-line"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 8.99,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are above-the-line and below-the-line charges?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 914,
+        "query": "What is a Primary Category Code PCC?",
+        "expected": [
+          "pcc",
+          "primary category code"
+        ],
+        "extracted": [
+          "Category C"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "category c"
+          ],
+          "false_negatives": [
+            "pcc",
+            "primary category code"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.08,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 2,
+            "vector_db": 0
+          },
+          "entities": [
+            "Category C"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a Primary Category Code PCC?",
+          "relationships": [
+            "Category C up to 120 days",
+            "Category C complex cases",
+            "Category C extensive coordination"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 915,
+        "query": "What are Indirect Pricing Components IPC?",
+        "expected": [
+          "ipc",
+          "indirect pricing component"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "indirect pricing component",
+            "ipc"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.24,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What are Indirect Pricing Components IPC?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_3_pricing",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.5667,
+      "avg_recall": 0.1667,
+      "avg_f1": 0.16,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_4_admin_surcharge": {
+    "results": [
+      {
+        "test_id": 916,
+        "query": "What is the FMS Administrative Surcharge?",
+        "expected": [
+          "fms administrative surcharge"
+        ],
+        "extracted": [
+          "FMS",
+          "FMS Administrative Surcharge",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms administrative surcharge"
+          ],
+          "false_positives": [
+            "fms",
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.67,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 32,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "FMS Administrative Surcharge",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the FMS Administrative Surcharge?",
+          "relationships": [
+            "FMS Administrative Surcharge non-refundable minimum",
+            "FMS Administrative Surcharge SCML value",
+            "FMS Administrative Surcharge up to $15,000",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "fms_administrative_surcharge FUNDS 54fbecd0-963b-46da-9c7a-e8eef8a4c64f",
+            "fms_administrative_surcharge FUNDS 8fc961ac-2bed-4f3f-969d-615453e092a2"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 917,
+        "query": "How is the FMS Administrative Surcharge calculated?",
+        "expected": [
+          "fms administrative surcharge"
+        ],
+        "extracted": [
+          "FMS",
+          "FMS Administrative Surcharge",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms administrative surcharge"
+          ],
+          "false_positives": [
+            "fms",
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.75,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 32,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "FMS Administrative Surcharge",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.64,
+          "question": "How is the FMS Administrative Surcharge calculated?",
+          "relationships": [
+            "FMS Administrative Surcharge non-refundable minimum",
+            "FMS Administrative Surcharge SCML value",
+            "FMS Administrative Surcharge up to $15,000",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "fms_administrative_surcharge FUNDS 54fbecd0-963b-46da-9c7a-e8eef8a4c64f",
+            "fms_administrative_surcharge FUNDS 8fc961ac-2bed-4f3f-969d-615453e092a2"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 918,
+        "query": "What is the eight percent limit on pre-LOR activities for FMS Admin?",
+        "expected": [
+          "pre-lor",
+          "fms admin"
+        ],
+        "extracted": [
+          "FMS",
+          "LOR",
+          "Foreign Military Sales",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "lor",
+            "fms",
+            "letter of request",
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "pre-lor",
+            "fms admin"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.66,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 39,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "LOR",
+            "Foreign Military Sales",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.94,
+          "question": "What is the eight percent limit on pre-LOR activities for FMS Admin?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 919,
+        "query": "When can the FMS Administrative Surcharge be waived?",
+        "expected": [
+          "fms administrative surcharge"
+        ],
+        "extracted": [
+          "FMS",
+          "FMS Administrative Surcharge",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms administrative surcharge"
+          ],
+          "false_positives": [
+            "fms",
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.73,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 32,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "FMS Administrative Surcharge",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.64,
+          "question": "When can the FMS Administrative Surcharge be waived?",
+          "relationships": [
+            "FMS Administrative Surcharge non-refundable minimum",
+            "FMS Administrative Surcharge SCML value",
+            "FMS Administrative Surcharge up to $15,000",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "fms_administrative_surcharge FUNDS 54fbecd0-963b-46da-9c7a-e8eef8a4c64f",
+            "fms_administrative_surcharge FUNDS 8fc961ac-2bed-4f3f-969d-615453e092a2"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 920,
+        "query": "What is the FMS Administrative Surcharge Account?",
+        "expected": [
+          "fms administrative surcharge account"
+        ],
+        "extracted": [
+          "FMS",
+          "FMS Administrative Surcharge",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "fms",
+            "foreign military sales",
+            "fms administrative surcharge"
+          ],
+          "false_negatives": [
+            "fms administrative surcharge account"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.6,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 32,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "FMS Administrative Surcharge",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the FMS Administrative Surcharge Account?",
+          "relationships": [
+            "FMS Administrative Surcharge non-refundable minimum",
+            "FMS Administrative Surcharge SCML value",
+            "FMS Administrative Surcharge up to $15,000",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "fms_administrative_surcharge FUNDS 54fbecd0-963b-46da-9c7a-e8eef8a4c64f",
+            "fms_administrative_surcharge FUNDS 8fc961ac-2bed-4f3f-969d-615453e092a2"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_4_admin_surcharge",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.2,
+      "avg_recall": 0.6,
+      "avg_f1": 0.3,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_5_scml": {
+    "results": [
+      {
+        "test_id": 921,
+        "query": "What is the Small Case Management Line SCML?",
+        "expected": [
+          "scml",
+          "small case management line"
+        ],
+        "extracted": [
+          "SCML",
+          "Small Case Management Line"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "scml",
+            "small case management line"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 7.7,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "SCML",
+            "Small Case Management Line"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is the Small Case Management Line SCML?",
+          "relationships": [
+            "SCML Small Case Management Line",
+            "SCML non-refundable",
+            "SCML Appendix 6",
+            "64813229-01c1-4496-b261-847fdd4b0a8b ENSURES 6cb87ab8-10d3-42c3-8cd0-f27715f3298c",
+            "64813229-01c1-4496-b261-847fdd4b0a8b APPLIED_TO ec152961-e608-49d8-bb6e-f140ba14631d",
+            "64813229-01c1-4496-b261-847fdd4b0a8b USES 99930574-7cd7-4d6c-98d4-c3775232cd77",
+            "64813229-01c1-4496-b261-847fdd4b0a8b SUPPLEMENTS fms_administrative_surcharge",
+            "64813229-01c1-4496-b261-847fdd4b0a8b ADJUSTED_VIA 9cf88967-7197-4f5a-b500-403cd3916fd4"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 922,
+        "query": "When is SCML applied to FMS cases?",
+        "expected": [
+          "scml",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "FMS case",
+          "FMS cases",
+          "SCML",
+          "Foreign Military Sales",
+          "Small Case Management Line"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "scml"
+          ],
+          "false_positives": [
+            "fms case",
+            "foreign military sales",
+            "fms cases",
+            "small case management line"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.65,
+        "status": "success",
+        "entity_confidence": 0.8870833333333333,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 30,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "FMS case",
+            "FMS cases",
+            "SCML",
+            "Foreign Military Sales",
+            "Small Case Management Line"
+          ],
+          "entity_confidence": 0.8870833333333333,
+          "entity_metrics": {
+            "f1_score": 0.2857,
+            "hallucination_rate": 0.8,
+            "precision": 0.2,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "factual",
+          "intent_confidence": 0.91,
+          "question": "When is SCML applied to FMS cases?",
+          "relationships": [
+            "SCML Small Case Management Line",
+            "SCML non-refundable",
+            "SCML Appendix 6",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "dcccb221-9534-422e-9af5-bc3c10acd22f includesfor 2601bbaf-2503-420c-9de1-6a31451905a4",
+            "6bb2dfee-89a4-4d38-b940-de21412e5bf1 implements dcccb221-9534-422e-9af5-bc3c10acd22f"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 923,
+        "query": "What is the $15,000 minimum for SCML?",
+        "expected": [
+          "scml",
+          "$15,000"
+        ],
+        "extracted": [
+          "SCML",
+          "$15,000",
+          "Small Case Management Line"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "scml",
+            "$15,000"
+          ],
+          "false_positives": [
+            "small case management line"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.0,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "SCML",
+            "$15,000",
+            "Small Case Management Line"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "factual",
+          "intent_confidence": 0.55,
+          "question": "What is the $15,000 minimum for SCML?",
+          "relationships": [
+            "SCML Small Case Management Line",
+            "SCML non-refundable",
+            "SCML Appendix 6",
+            "64813229-01c1-4496-b261-847fdd4b0a8b ENSURES 6cb87ab8-10d3-42c3-8cd0-f27715f3298c",
+            "64813229-01c1-4496-b261-847fdd4b0a8b APPLIED_TO ec152961-e608-49d8-bb6e-f140ba14631d",
+            "64813229-01c1-4496-b261-847fdd4b0a8b USES 99930574-7cd7-4d6c-98d4-c3775232cd77",
+            "64813229-01c1-4496-b261-847fdd4b0a8b SUPPLEMENTS fms_administrative_surcharge",
+            "64813229-01c1-4496-b261-847fdd4b0a8b ADJUSTED_VIA 9cf88967-7197-4f5a-b500-403cd3916fd4"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 924,
+        "query": "What Generic Code R6C is used for SCML?",
+        "expected": [
+          "scml",
+          "generic code r6c"
+        ],
+        "extracted": [
+          "SCML",
+          "Small Case Management Line"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "scml"
+          ],
+          "false_positives": [
+            "small case management line"
+          ],
+          "false_negatives": [
+            "generic code r6c"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 8.46,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "SCML",
+            "Small Case Management Line"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "factual",
+          "intent_confidence": 0.48,
+          "question": "What Generic Code R6C is used for SCML?",
+          "relationships": [
+            "SCML Small Case Management Line",
+            "SCML non-refundable",
+            "SCML Appendix 6",
+            "64813229-01c1-4496-b261-847fdd4b0a8b ENSURES 6cb87ab8-10d3-42c3-8cd0-f27715f3298c",
+            "64813229-01c1-4496-b261-847fdd4b0a8b APPLIED_TO ec152961-e608-49d8-bb6e-f140ba14631d",
+            "64813229-01c1-4496-b261-847fdd4b0a8b USES 99930574-7cd7-4d6c-98d4-c3775232cd77",
+            "64813229-01c1-4496-b261-847fdd4b0a8b SUPPLEMENTS fms_administrative_surcharge",
+            "64813229-01c1-4496-b261-847fdd4b0a8b ADJUSTED_VIA 9cf88967-7197-4f5a-b500-403cd3916fd4"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 925,
+        "query": "When was SCML rescinded in July 2012?",
+        "expected": [
+          "scml"
+        ],
+        "extracted": [
+          "SCML",
+          "Small Case Management Line"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "scml"
+          ],
+          "false_positives": [
+            "small case management line"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.32,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "SCML",
+            "Small Case Management Line"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "factual",
+          "intent_confidence": 0.77,
+          "question": "When was SCML rescinded in July 2012?",
+          "relationships": [
+            "SCML Small Case Management Line",
+            "SCML non-refundable",
+            "SCML Appendix 6",
+            "64813229-01c1-4496-b261-847fdd4b0a8b ENSURES 6cb87ab8-10d3-42c3-8cd0-f27715f3298c",
+            "64813229-01c1-4496-b261-847fdd4b0a8b APPLIED_TO ec152961-e608-49d8-bb6e-f140ba14631d",
+            "64813229-01c1-4496-b261-847fdd4b0a8b USES 99930574-7cd7-4d6c-98d4-c3775232cd77",
+            "64813229-01c1-4496-b261-847fdd4b0a8b SUPPLEMENTS fms_administrative_surcharge",
+            "64813229-01c1-4496-b261-847fdd4b0a8b ADJUSTED_VIA 9cf88967-7197-4f5a-b500-403cd3916fd4"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_5_scml",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.6,
+      "avg_recall": 0.9,
+      "avg_f1": 0.6933,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_6_nc": {
+    "results": [
+      {
+        "test_id": 926,
+        "query": "What is Nonrecurring Cost NC in FMS?",
+        "expected": [
+          "nc",
+          "nonrecurring cost",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "nonrecurring cost",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "nonrecurring cost"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "nc"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.56,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 25,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "nonrecurring cost",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is Nonrecurring Cost NC in FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 927,
+        "query": "How are NC Nonrecurring Cost charges approved by DSCA?",
+        "expected": [
+          "nc",
+          "dsca"
+        ],
+        "extracted": [
+          "DSCA",
+          "nonrecurring cost",
+          "Defense Security Cooperation Agency"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca"
+          ],
+          "false_positives": [
+            "defense security cooperation agency",
+            "nonrecurring cost"
+          ],
+          "false_negatives": [
+            "nc"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.55,
+        "status": "success",
+        "entity_confidence": 0.9333333333333333,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "nonrecurring cost",
+            "Defense Security Cooperation Agency"
+          ],
+          "entity_confidence": 0.9333333333333333,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How are NC Nonrecurring Cost charges approved by DSCA?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 928,
+        "query": "What is the NC waiver process?",
+        "expected": [
+          "nc waiver"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "nc waiver"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.55,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is the NC waiver process?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 929,
+        "query": "When can NC charges be waived for NATO?",
+        "expected": [
+          "nc",
+          "nato"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "nc",
+            "nato"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.14,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "non_samm",
+          "intent_confidence": 0.77,
+          "question": "When can NC charges be waived for NATO?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 930,
+        "query": "How is NC reported on DSCA reports?",
+        "expected": [
+          "nc",
+          "dsca"
+        ],
+        "extracted": [
+          "DSCA",
+          "Defense Security Cooperation Agency"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca"
+          ],
+          "false_positives": [
+            "defense security cooperation agency"
+          ],
+          "false_negatives": [
+            "nc"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.58,
+        "status": "success",
+        "entity_confidence": 0.935,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "Defense Security Cooperation Agency"
+          ],
+          "entity_confidence": 0.935,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.64,
+          "question": "How is NC reported on DSCA reports?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_6_nc",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.7,
+      "avg_recall": 0.3333,
+      "avg_f1": 0.3133,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_7_cas": {
+    "results": [
+      {
+        "test_id": 931,
+        "query": "What is Contract Administration Services CAS?",
+        "expected": [
+          "cas",
+          "contract administration services"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "cas",
+            "contract administration services"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.89,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is Contract Administration Services CAS?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 932,
+        "query": "How is CAS applied to FMS procurement?",
+        "expected": [
+          "cas",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "cas"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 13.29,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.64,
+          "question": "How is CAS applied to FMS procurement?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 933,
+        "query": "What is a CAS waiver?",
+        "expected": [
+          "cas waiver"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "cas waiver"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.53,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a CAS waiver?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 934,
+        "query": "Which countries have CAS agreements in Table C9.T5?",
+        "expected": [
+          "cas",
+          "table c9.t5"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "cas",
+            "table c9.t5"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 8.56,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "factual",
+          "intent_confidence": 0.6,
+          "question": "Which countries have CAS agreements in Table C9.T5?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 935,
+        "query": "How does NATO CAS waiver work in Table C9.T7?",
+        "expected": [
+          "cas",
+          "nato",
+          "table c9.t7"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "cas",
+            "nato",
+            "table c9.t7"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.1,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "non_samm",
+          "intent_confidence": 0.87,
+          "question": "How does NATO CAS waiver work in Table C9.T7?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_7_cas",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9,
+      "avg_recall": 0.1,
+      "avg_f1": 0.1,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_8_terms_sale": {
+    "results": [
+      {
+        "test_id": 936,
+        "query": "What are the FMS Terms of Sale?",
+        "expected": [
+          "terms of sale",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "terms of sale"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.81,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What are the FMS Terms of Sale?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 937,
+        "query": "What is Cash with Acceptance CWA?",
+        "expected": [
+          "cwa",
+          "cash with acceptance"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "cwa",
+            "cash with acceptance"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.07,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is Cash with Acceptance CWA?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 938,
+        "query": "What is Dependable Undertaking DU?",
+        "expected": [
+          "du",
+          "dependable undertaking"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "du",
+            "dependable undertaking"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.08,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is Dependable Undertaking DU?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 939,
+        "query": "What is Cash Flow Financing?",
+        "expected": [
+          "cash flow financing"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "cash flow financing"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.53,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is Cash Flow Financing?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 940,
+        "query": "What are Risk Assessed Payment Schedules RAPS?",
+        "expected": [
+          "raps",
+          "risk assessed payment schedules"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "raps",
+            "risk assessed payment schedules"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 18.45,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are Risk Assessed Payment Schedules RAPS?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_8_terms_sale",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9,
+      "avg_recall": 0.1,
+      "avg_f1": 0.1,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_9_caps": {
+    "results": [
+      {
+        "test_id": 941,
+        "query": "What is Credit Assured Payment Schedules CAPS?",
+        "expected": [
+          "caps",
+          "credit assured payment schedules"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "caps",
+            "credit assured payment schedules"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 8.54,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is Credit Assured Payment Schedules CAPS?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 942,
+        "query": "What is a Standby Letter of Credit SBLC?",
+        "expected": [
+          "sblc",
+          "standby letter of credit"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "standby letter of credit",
+            "sblc"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 8.58,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is a Standby Letter of Credit SBLC?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 943,
+        "query": "What is the 75% TCV requirement for SBLC?",
+        "expected": [
+          "sblc",
+          "tcv"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "tcv",
+            "sblc"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.86,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "factual",
+          "intent_confidence": 0.55,
+          "question": "What is the 75% TCV requirement for SBLC?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 944,
+        "query": "How does CFD monitor CAPS?",
+        "expected": [
+          "cfd",
+          "caps"
+        ],
+        "extracted": [
+          "CFD",
+          "Country Finance Director"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "cfd"
+          ],
+          "false_positives": [
+            "country finance director"
+          ],
+          "false_negatives": [
+            "caps"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.33,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "CFD",
+            "Country Finance Director"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.77,
+          "question": "How does CFD monitor CAPS?",
+          "relationships": [
+            "CFD approves EI",
+            "CFD confirms deposit timing",
+            "CFD coordinates with IA",
+            "CFD Country Finance Director",
+            "56465336-5b3f-4751-844e-31b0c534a37e MANAGES 768b10f0-d8f8-478b-9e2f-4cb811c06b9d",
+            "56465336-5b3f-4751-844e-31b0c534a37e COORDINATES 6ab90dcd-ddac-4418-8a1d-f81d99171baa",
+            "56465336-5b3f-4751-844e-31b0c534a37e PART_OF 86db7a07-b6f6-418f-82fb-a85cb862238c",
+            "56465336-5b3f-4751-844e-31b0c534a37e ISSUES 915c26d5-4502-481d-9ed5-a771b40b8bd5",
+            "56465336-5b3f-4751-844e-31b0c534a37e REPORTS_TO 86db7a07-b6f6-418f-82fb-a85cb862238c"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 945,
+        "query": "What happens when SBLC is terminated?",
+        "expected": [
+          "sblc"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "sblc"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.17,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "factual",
+          "intent_confidence": 0.48,
+          "question": "What happens when SBLC is terminated?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_9_caps",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9,
+      "avg_recall": 0.1,
+      "avg_f1": 0.1,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_10_payment": {
+    "results": [
+      {
+        "test_id": 946,
+        "query": "What are FMS payment schedules?",
+        "expected": [
+          "payment schedule",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "payment schedule"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.78,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What are FMS payment schedules?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 947,
+        "query": "How is initial deposit calculated for FMS?",
+        "expected": [
+          "initial deposit",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "initial deposit",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "initial deposit",
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.48,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 26,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "initial deposit",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.64,
+          "question": "How is initial deposit calculated for FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "d0b09b7f-be30-4bbe-883a-aa0a502bd91b REQUIRED_AT ff398f14-175c-43cb-9f2c-92d6d1ca5831"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 948,
+        "query": "What is advance cash requirement?",
+        "expected": [
+          "advance cash"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "advance cash"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.15,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is advance cash requirement?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 949,
+        "query": "How are payment schedules revised for LOA Amendments?",
+        "expected": [
+          "payment schedule",
+          "loa"
+        ],
+        "extracted": [
+          "LOA",
+          "LOA Amendment",
+          "Amendment",
+          "Amendments",
+          "Letter Of Offer And Acceptance"
+        ],
+        "metrics": {
+          "precision": 0.2,
+          "recall": 0.5,
+          "f1": 0.2857,
+          "hallucination_rate": 0.2,
+          "true_positives": [
+            "loa"
+          ],
+          "false_positives": [
+            "amendments",
+            "amendment",
+            "loa amendment",
+            "letter of offer and acceptance"
+          ],
+          "false_negatives": [
+            "payment schedule"
+          ],
+          "hallucinations": [
+            "loa amendment"
+          ]
+        },
+        "response_time": 8.3,
+        "status": "success",
+        "entity_confidence": 0.899,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 27,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOA",
+            "LOA Amendment",
+            "Amendment",
+            "Amendments",
+            "Letter Of Offer And Acceptance"
+          ],
+          "entity_confidence": 0.899,
+          "entity_metrics": {
+            "f1_score": 0.3333,
+            "hallucination_rate": 0.75,
+            "precision": 0.25,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.64,
+          "question": "How are payment schedules revised for LOA Amendments?",
+          "relationships": [
+            "Amendment change in scope",
+            "Amendment requires purchaser acceptance",
+            "Amendment can be restated",
+            "letter_of_offer_and_acceptance_loa isprovidedto partner_nation",
+            "partner_nation receives letter_of_offer_and_acceptance_loa",
+            "5093dca6-e3da-4075-afa9-9699e369f2d8 documentsfor 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "ab80e488-55f6-4074-af01-295e69f39469 coordinateson 5093dca6-e3da-4075-afa9-9699e369f2d8",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 isa 16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7",
+            "f853ca52-ac83-48a5-b99b-a50ba22015d4 modifies 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "f853ca52-ac83-48a5-b99b-a50ba22015d4 IS_TYPE_OF 9cf88967-7197-4f5a-b500-403cd3916fd4"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 950,
+        "query": "What is termination liability TL?",
+        "expected": [
+          "tl",
+          "termination liability"
+        ],
+        "extracted": [
+          "liability"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "liability"
+          ],
+          "false_negatives": [
+            "tl",
+            "termination liability"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.19,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "liability"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is termination liability TL?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_10_payment",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.4733,
+      "avg_recall": 0.4,
+      "avg_f1": 0.3171,
+      "avg_hallucination_rate": 0.04
+    }
+  },
+  "pattern_c9_11_billing": {
+    "results": [
+      {
+        "test_id": 951,
+        "query": "What is the DD 645 Billing Statement?",
+        "expected": [
+          "dd 645",
+          "billing statement"
+        ],
+        "extracted": [
+          "State"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "state"
+          ],
+          "false_negatives": [
+            "dd 645",
+            "billing statement"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.17,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "State"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is the DD 645 Billing Statement?",
+          "relationships": [
+            "united_states_transportation_command_ustranscom isa combatant_command_ccmd",
+            "c13210 references united_states_transportation_command_ustranscom",
+            "united_states_northern_command_usnorthcom isa combatant_command_ccmd",
+            "c13210 references united_states_northern_command_usnorthcom",
+            "department_of_state_dos determineseligibilityof recipient_country"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 952,
+        "query": "When are FMS quarterly bills issued?",
+        "expected": [
+          "quarterly billing",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "quarterly billing"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.66,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.91,
+          "question": "When are FMS quarterly bills issued?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 953,
+        "query": "What is a Special Billing Arrangement SBA?",
+        "expected": [
+          "sba",
+          "special billing arrangement"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "special billing arrangement",
+            "sba"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.15,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is a Special Billing Arrangement SBA?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 954,
+        "query": "What is a Special Bill Letter SBL?",
+        "expected": [
+          "sbl",
+          "special bill letter"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "sbl",
+            "special bill letter"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.13,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is a Special Bill Letter SBL?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 955,
+        "query": "How does DFAS prepare billing statements?",
+        "expected": [
+          "dfas",
+          "billing statement"
+        ],
+        "extracted": [
+          "State",
+          "DFAS",
+          "Defense Finance And Accounting Service"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dfas"
+          ],
+          "false_positives": [
+            "state",
+            "defense finance and accounting service"
+          ],
+          "false_negatives": [
+            "billing statement"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.7,
+        "status": "success",
+        "entity_confidence": 0.9333333333333333,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 26,
+            "vector_db": 0
+          },
+          "entities": [
+            "State",
+            "DFAS",
+            "Defense Finance And Accounting Service"
+          ],
+          "entity_confidence": 0.9333333333333333,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How does DFAS prepare billing statements?",
+          "relationships": [
+            "DFAS performs accounting",
+            "DFAS performs billing",
+            "DFAS performs disbursing",
+            "DFAS performs collecting",
+            "united_states_transportation_command_ustranscom isa combatant_command_ccmd",
+            "c13210 references united_states_transportation_command_ustranscom",
+            "united_states_northern_command_usnorthcom isa combatant_command_ccmd",
+            "c13210 references united_states_northern_command_usnorthcom",
+            "department_of_state_dos determineseligibilityof recipient_country",
+            "defense_finance_and_accounting_service_dfas responsiblefor collecting"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_11_billing",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.5667,
+      "avg_recall": 0.2,
+      "avg_f1": 0.18,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_12_loc": {
+    "results": [
+      {
+        "test_id": 956,
+        "query": "What is a Bank Letter of Credit BLOC?",
+        "expected": [
+          "bloc",
+          "bank letter of credit"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "bloc",
+            "bank letter of credit"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.12,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is a Bank Letter of Credit BLOC?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 957,
+        "query": "How is Letter of Credit LC used for FMS?",
+        "expected": [
+          "lc",
+          "letter of credit",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.3333,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "lc",
+            "letter of credit"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.98,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.64,
+          "question": "How is Letter of Credit LC used for FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 958,
+        "query": "What are the LC Letter of Credit eligibility requirements?",
+        "expected": [
+          "lc",
+          "letter of credit"
+        ],
+        "extracted": [
+          "eligibility"
+        ],
+        "metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [
+            "eligibility"
+          ],
+          "false_negatives": [
+            "lc",
+            "letter of credit"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 8.09,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "eligibility"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "compliance",
+          "intent_confidence": 0.83,
+          "question": "What are the LC Letter of Credit eligibility requirements?",
+          "relationships": [
+            "7c699ddc-188b-49ed-9af8-adc9d70919e8 determines 58fdbcf1-22b6-4977-be62-03d33f1dca74",
+            "2c2429ee-8354-44f8-b04b-83592d1a1de6 EVALUATED_FOR 4dcbf7ce-64f9-456a-a00b-f98a0c194407",
+            "2c2429ee-8354-44f8-b04b-83592d1a1de6 EVALUATED_FOR ce4629b9-93e0-4792-a661-8bff3fb55165",
+            "8e77ea4b-ea58-4f7c-a4e3-b3dea7e32f9f DETERMINES c68e382d-083c-46a8-9b8e-5cfb2aacc13e"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 959,
+        "query": "How is LC replenishment handled?",
+        "expected": [
+          "lc"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "lc"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.63,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "process",
+          "intent_confidence": 0.77,
+          "question": "How is LC replenishment handled?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 960,
+        "query": "What is the MOU requirement for LC?",
+        "expected": [
+          "mou",
+          "lc"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "mou",
+            "lc"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.17,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is the MOU requirement for LC?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_12_loc",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.7,
+      "avg_recall": 0.0667,
+      "avg_f1": 0.08,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_13_manpower": {
+    "results": [
+      {
+        "test_id": 961,
+        "query": "What are Manpower Travel Data Sheets MTDS?",
+        "expected": [
+          "mtds",
+          "manpower travel data sheets"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "manpower travel data sheets",
+            "mtds"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.71,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are Manpower Travel Data Sheets MTDS?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 962,
+        "query": "How is Work Year WY calculated?",
+        "expected": [
+          "wy",
+          "work year"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "wy",
+            "work year"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.84,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "compliance",
+          "intent_confidence": 0.77,
+          "question": "How is Work Year WY calculated?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 963,
+        "query": "What is full-time equivalent FTE manpower?",
+        "expected": [
+          "fte",
+          "full-time equivalent"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "full-time equivalent",
+            "fte"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.35,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is full-time equivalent FTE manpower?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 964,
+        "query": "How does DSCA review MTDS?",
+        "expected": [
+          "dsca",
+          "mtds"
+        ],
+        "extracted": [
+          "DSCA",
+          "Defense Security Cooperation Agency"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca"
+          ],
+          "false_positives": [
+            "defense security cooperation agency"
+          ],
+          "false_negatives": [
+            "mtds"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.39,
+        "status": "success",
+        "entity_confidence": 0.935,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "Defense Security Cooperation Agency"
+          ],
+          "entity_confidence": 0.935,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How does DSCA review MTDS?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 965,
+        "query": "What are MTDS exemptions?",
+        "expected": [
+          "mtds"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "mtds"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.33,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are MTDS exemptions?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_13_manpower",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9,
+      "avg_recall": 0.1,
+      "avg_f1": 0.1,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_14_pml": {
+    "results": [
+      {
+        "test_id": 966,
+        "query": "What is a Program Management Line PML?",
+        "expected": [
+          "pml",
+          "program management line"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "program management line",
+            "pml"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.2,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is a Program Management Line PML?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 967,
+        "query": "When were PMLs used before August 2006?",
+        "expected": [
+          "pml"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "pml"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.82,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "factual",
+          "intent_confidence": 0.77,
+          "question": "When were PMLs used before August 2006?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 968,
+        "query": "What Generic Code R6B was used for PML?",
+        "expected": [
+          "pml",
+          "generic code r6b"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "generic code r6b",
+            "pml"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 8.02,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "factual",
+          "intent_confidence": 0.48,
+          "question": "What Generic Code R6B was used for PML?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 969,
+        "query": "What types of sales include PMLs?",
+        "expected": [
+          "pml"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "pml"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.44,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "distinction",
+          "intent_confidence": 0.47,
+          "question": "What types of sales include PMLs?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 970,
+        "query": "How are program management services tracked?",
+        "expected": [
+          "program management services"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "program management services"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.74,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "relationship",
+          "intent_confidence": 0.59,
+          "question": "How are program management services tracked?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_14_pml",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.0,
+      "avg_f1": 0.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_15_tuition": {
+    "results": [
+      {
+        "test_id": 971,
+        "query": "What is Rate A full cost tuition?",
+        "expected": [
+          "rate a",
+          "full cost tuition"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "rate a",
+            "full cost tuition"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.11,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is Rate A full cost tuition?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 972,
+        "query": "What is Rate C incremental tuition?",
+        "expected": [
+          "rate c",
+          "incremental tuition"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "rate c",
+            "incremental tuition"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.66,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is Rate C incremental tuition?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 973,
+        "query": "How does IMET status affect tuition rates?",
+        "expected": [
+          "imet",
+          "tuition rates"
+        ],
+        "extracted": [
+          "IMET",
+          "International Military Education And Training"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "imet"
+          ],
+          "false_positives": [
+            "international military education and training"
+          ],
+          "false_negatives": [
+            "tuition rates"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.48,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "IMET",
+            "International Military Education And Training"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How does IMET status affect tuition rates?",
+          "relationships": [
+            "international_military_education_and_training_imet referenced_in c12",
+            "c1326123 references international_military_education_and_training_imet",
+            "security_assistance provides international_military_education_and_training_imet",
+            "c131 references international_military_education_and_training_imet",
+            "navy_international_programs_office_nipo oversees international_military_education_and_training_imet"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 974,
+        "query": "What are attrition charges for FMS training?",
+        "expected": [
+          "attrition charges",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "attrition charges"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.76,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What are attrition charges for FMS training?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 975,
+        "query": "What are civilian fringe benefits?",
+        "expected": [
+          "civilian fringe benefits"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "civilian fringe benefits"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.23,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What are civilian fringe benefits?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_15_tuition",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.8,
+      "avg_recall": 0.2,
+      "avg_f1": 0.2,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_16_reviews": {
+    "results": [
+      {
+        "test_id": 976,
+        "query": "What is a Financial Management Review FMR?",
+        "expected": [
+          "fmr",
+          "financial management review"
+        ],
+        "extracted": [
+          "FMR",
+          "Financial Management Review"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fmr",
+            "financial management review"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.31,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMR",
+            "Financial Management Review"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is a Financial Management Review FMR?",
+          "relationships": [
+            "FMR Financial Management Review",
+            "FMR Chapter 9",
+            "FMR country-level",
+            "06e946e9-d2f9-48c2-98a2-9d1883283d57 GOVERNS 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "06e946e9-d2f9-48c2-98a2-9d1883283d57 REFERENCED_IN 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "7cd530f5-9eeb-40d0-82a4-a4b473d26e02 USES 06e946e9-d2f9-48c2-98a2-9d1883283d57",
+            "02d56e46-d389-4541-853e-38e9cc24d0bc IS 06e946e9-d2f9-48c2-98a2-9d1883283d57",
+            "21d37f98-fa45-49dd-a7d5-a9c348cbf674 FOLLOWS 06e946e9-d2f9-48c2-98a2-9d1883283d57"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 977,
+        "query": "How are FMS financial reviews conducted?",
+        "expected": [
+          "financial review",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "financial review"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.44,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How are FMS financial reviews conducted?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 978,
+        "query": "What is performance reporting?",
+        "expected": [
+          "performance reporting"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "performance reporting"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.34,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is performance reporting?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 979,
+        "query": "How does OBO/FPRE manage financial policy?",
+        "expected": [
+          "obo/fpre",
+          "financial policy"
+        ],
+        "extracted": [
+          "OBO",
+          "OBO/FPRE",
+          "Office Of Business Operations",
+          "Financial Policy And Regional Execution Directorate"
+        ],
+        "metrics": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1": 0.3333,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "obo/fpre"
+          ],
+          "false_positives": [
+            "financial policy and regional execution directorate",
+            "office of business operations",
+            "obo"
+          ],
+          "false_negatives": [
+            "financial policy"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.56,
+        "status": "success",
+        "entity_confidence": 0.8456250000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 5,
+            "vector_db": 0
+          },
+          "entities": [
+            "OBO",
+            "OBO/FPRE",
+            "Office Of Business Operations",
+            "Financial Policy And Regional Execution Directorate"
+          ],
+          "entity_confidence": 0.8456250000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "process",
+          "intent_confidence": 0.86,
+          "question": "How does OBO/FPRE manage financial policy?",
+          "relationships": [
+            "56465336-5b3f-4751-844e-31b0c534a37e PART_OF 86db7a07-b6f6-418f-82fb-a85cb862238c",
+            "56465336-5b3f-4751-844e-31b0c534a37e REPORTS_TO 86db7a07-b6f6-418f-82fb-a85cb862238c"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 980,
+        "query": "What is the role of Country Finance Director CFD?",
+        "expected": [
+          "cfd",
+          "country finance director"
+        ],
+        "extracted": [
+          "CFD",
+          "Country Finance Director"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "cfd",
+            "country finance director"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 2.41,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "CFD",
+            "Country Finance Director"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.86,
+          "question": "What is the role of Country Finance Director CFD?",
+          "relationships": [
+            "CFD approves EI",
+            "CFD confirms deposit timing",
+            "CFD coordinates with IA",
+            "CFD Country Finance Director",
+            "56465336-5b3f-4751-844e-31b0c534a37e MANAGES 768b10f0-d8f8-478b-9e2f-4cb811c06b9d",
+            "56465336-5b3f-4751-844e-31b0c534a37e COORDINATES 6ab90dcd-ddac-4418-8a1d-f81d99171baa",
+            "56465336-5b3f-4751-844e-31b0c534a37e PART_OF 86db7a07-b6f6-418f-82fb-a85cb862238c",
+            "56465336-5b3f-4751-844e-31b0c534a37e ISSUES 915c26d5-4502-481d-9ed5-a771b40b8bd5",
+            "56465336-5b3f-4751-844e-31b0c534a37e REPORTS_TO 86db7a07-b6f6-418f-82fb-a85cb862238c"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_16_reviews",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.75,
+      "avg_recall": 0.6,
+      "avg_f1": 0.5667,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_17_sdaf": {
+    "results": [
+      {
+        "test_id": 981,
+        "query": "What is the Special Defense Acquisition Fund SDAF?",
+        "expected": [
+          "sdaf",
+          "special defense acquisition fund"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "sdaf",
+            "special defense acquisition fund"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.22,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the Special Defense Acquisition Fund SDAF?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 982,
+        "query": "How are sales from stock proceeds deposited to SDAF?",
+        "expected": [
+          "sales from stock",
+          "sdaf"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "sdaf",
+            "sales from stock"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.8,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "relationship",
+          "intent_confidence": 0.48,
+          "question": "How are sales from stock proceeds deposited to SDAF?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 983,
+        "query": "What is sale with intent to replace?",
+        "expected": [
+          "sale with intent to replace"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "sale with intent to replace"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.81,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is sale with intent to replace?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 984,
+        "query": "What is sale without intent to replace?",
+        "expected": [
+          "sale without intent to replace"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "sale without intent to replace"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.83,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is sale without intent to replace?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 985,
+        "query": "How are munitions valued for FMS?",
+        "expected": [
+          "munitions",
+          "fms"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms"
+          ],
+          "false_positives": [
+            "foreign military sales"
+          ],
+          "false_negatives": [
+            "munitions"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.55,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.64,
+          "question": "How are munitions valued for FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_17_sdaf",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9,
+      "avg_recall": 0.1,
+      "avg_f1": 0.1,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c9_18_nato": {
+    "results": [
+      {
+        "test_id": 986,
+        "query": "What is the NATO CAS waiver for NSPA?",
+        "expected": [
+          "nato",
+          "cas",
+          "nspa"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "cas",
+            "nato",
+            "nspa"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.28,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "non_samm",
+          "intent_confidence": 0.83,
+          "question": "What is the NATO CAS waiver for NSPA?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 987,
+        "query": "What is NSIP NATO Security Investment Program?",
+        "expected": [
+          "nsip",
+          "nato security investment program"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "nsip",
+            "nato security investment program"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 2.19,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "non_samm",
+          "intent_confidence": 0.87,
+          "question": "What is NSIP NATO Security Investment Program?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 988,
+        "query": "How do reciprocal agreements work?",
+        "expected": [
+          "reciprocal agreement"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "reciprocal agreement"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.45,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "process",
+          "intent_confidence": 0.77,
+          "question": "How do reciprocal agreements work?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 989,
+        "query": "What is the SHAPE CAS waiver?",
+        "expected": [
+          "shape",
+          "cas"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "cas",
+            "shape"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.94,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is the SHAPE CAS waiver?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 990,
+        "query": "What are European Participating Governments EPG?",
+        "expected": [
+          "epg",
+          "european participating governments"
+        ],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            "european participating governments",
+            "epg"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 7.78,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are European Participating Governments EPG?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c9_18_nato",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.0,
+      "avg_f1": 0.0,
+      "avg_hallucination_rate": 0.0
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{"text": "What is the CN threshold for Japan?", "label": "factual_lookup", "metadata": {"original_prediction": "procedural", "confidence": 0.65, "timestamp": "2025-11-25T05:42:17.309308+00:00", "hash": "98cf65f1b23745a6"}}
+{"text": "What is CN?", "label": "factual_lookup", "metadata": {"original_prediction": "procedural", "confidence": 0.6, "timestamp": "2025-11-25T07:13:55.106917+00:00", "hash": "3c902203ee81bb6f"}}
+{"text": "Define LOA", "label": "factual_lookup", "metadata": {"original_prediction": "procedural", "confidence": 0.55, "timestamp": "2025-11-25T07:13:55.108595+00:00", "hash": "12f6a395b9de0cb9"}}
+{"text": "What is FMS?", "label": "factual_lookup", "metadata": {"original_prediction": "procedural", "confidence": 0.7, "timestamp": "2025-11-25T07:13:55.110964+00:00", "hash": "161e38d5dcc2b537"}}
+{"text": "How do I process CN?", "label": "procedural", "metadata": {"original_prediction": "factual_lookup", "confidence": 0.65, "timestamp": "2025-11-25T07:13:55.112836+00:00", "hash": "51d73f450237ce7b"}}

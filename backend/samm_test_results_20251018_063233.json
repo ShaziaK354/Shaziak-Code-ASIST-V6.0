@@ -1,0 +1,184 @@
+{
+  "summary": {
+    "total_score": 32,
+    "total_max_score": 50,
+    "percentage": 64.0,
+    "total_questions": 10,
+    "passed": 8,
+    "failed": 2,
+    "errors": 0,
+    "timestamp": "2025-10-18T06:32:33.253007"
+  },
+  "results": [
+    {
+      "question_id": "Q1",
+      "question": "What is DSCA responsible for?",
+      "category": "Organizations",
+      "expected_section": "C1.3.2.2",
+      "answer": "{\"final_answer\": \"DSCA is responsible for directing and administering Defense Security Cooperation Agency (DSCA) programs that provide guidance to DoD Components on security cooperation matters.\", \n\"approver\": \"<org or ''>\",\n\"reasoning\": \"This definition directly matches the relationship between DSCA and its responsibility as stated in SAMM C1.3.2.2.\",\n\"citations\": [\"Defense Security Cooperation Agency (DSCA) directs, administers\", \"Defense Security Cooperation Agency (DSCA) provides guidance to DoD Components\"]\n}\n",
+      "score": 5,
+      "max_score": 5,
+      "percentage": 100.0,
+      "feedback": "\u2713 Excellent keyword coverage (4/5) | \u2713 Correct section cited | \u2713 Good length (64 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 4,
+        "execution_time": 26.04
+      }
+    },
+    {
+      "question_id": "Q2",
+      "question": "Who administers Security Assistance programs?",
+      "category": "Authority",
+      "expected_section": "C1.1.2.2",
+      "answer": "{\n\"final_answer\": \"The Defense Security Cooperation Agency (DSCA) directly administers and provides guidance to DoD Components for Security Assistance programs.\",\n\"approver\": \"Defense Security Cooperation Agency\",\n\"reasoning\": \"According to the provided context, DSCA is a subset of Security Assistance programs and is authorized under Title 22. Therefore, it is logical to conclude that DSCA directly administers and provides guidance to DoD Components for Security Assistance programs.\",\n\"citations\": [\"SAMM C1.3.2.2\", \"SAMM From Vector DB\"]\n}\n\n",
+      "score": 1,
+      "max_score": 5,
+      "percentage": 20.0,
+      "feedback": "\u2717 Poor keyword coverage (0/3) | \u2717 Missing or incorrect section citation | \u2713 Good length (73 words)",
+      "success": true,
+      "metadata": {
+        "intent": "ORGANIZATION",
+        "entities_found": 5,
+        "execution_time": 28.44
+      }
+    },
+    {
+      "question_id": "Q3",
+      "question": "What is the difference between Security Cooperation and Security Assistance?",
+      "category": "Distinctions",
+      "expected_section": "C1.1.2",
+      "answer": "{\"final_answer\": \"Security Cooperation and Security Assistance are two distinct concepts within the realm of international security cooperation, defined by their respective legal authorities and roles in the United States' foreign policy framework.\", \n\"approver\": \"\",\n\"reasoning\": \"Based on the provided relationships from SAMM Chapter 1, it is clear that Security Cooperation includes Security Assistance as a subset. Additionally, SecurityAssistance is authorized under Title 22, whereas SecurityCooperation is authorized under Title 10.\",\n\"citations\": [\"SAMM C1.3.2.2\", SAMM C1.1.2.1\"]\n}",
+      "score": 4,
+      "max_score": 5,
+      "percentage": 80.0,
+      "feedback": "~ Partial keyword coverage (3/4) | \u2713 Correct section cited | \u2713 Good length (76 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 2,
+        "execution_time": 22.99
+      }
+    },
+    {
+      "question_id": "Q4",
+      "question": "What is Security Cooperation?",
+      "category": "Definitions",
+      "expected_section": "C1.1.1",
+      "answer": "{\n\"final_answer\": \"Security Cooperation is an authorized program under Title 10 of the United States Code that includes Security Assistance and aims to promote strategic objectives through international partnerships.\",\n\"approver\": \"<org or ''>\",\n\"reasoning\": \"This definition aligns with SAMM C1.2. Authorities for Security Assistance, as it explicitly states that Security Cooperation is an authorized program under Title 10.\",\n\"citations\": [\"SAMM From Vector DB\", \"SAMM Chapter 1 - Part 1\"]\n}\n\n",
+      "score": 3,
+      "max_score": 5,
+      "percentage": 60.0,
+      "feedback": "~ Partial keyword coverage (2/3) | \u2717 Missing or incorrect section citation | \u2713 Good length (70 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 2,
+        "execution_time": 21.1
+      }
+    },
+    {
+      "question_id": "Q5",
+      "question": "What is Security Assistance?",
+      "category": "Definitions",
+      "expected_section": "C1.1.2.2",
+      "answer": "{\"final_answer\": \"Security Assistance (SA) refers to programs authorized under Title 22 authorities by which the United States provides defense articles, military education and training, and other defense-related services by grant, loan, credit, cash sales, or lease, in furtherance of national policies and objectives.\", \n\"approver\": \"\",\n\"reasoning\": \"Based on the relationships provided in the context, Security Assistance is a subset of Security Cooperation. It is authorized under Title 22 authorities and funded through loans.\",\n\"citations\": [\"SAMM C1.2.3.5\", \"SAMM From Vector DB\"]}\n",
+      "score": 3,
+      "max_score": 5,
+      "percentage": 60.0,
+      "feedback": "~ Partial keyword coverage (3/4) | \u2717 Missing or incorrect section citation | \u2713 Good length (80 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 2,
+        "execution_time": 21.3
+      }
+    },
+    {
+      "question_id": "Q6",
+      "question": "What does DFAS do?",
+      "category": "Organizations",
+      "expected_section": "C1.3.2.8",
+      "answer": "Based on the provided context and Security Assistance (SA)MM definitions, I can provide an accurate response.\n\nThe Defense Finance and Accounting Service (DFAS) is responsible for performing accounting functions, including billing and disbursing funds to Security Cooperation (SC) programs.\n\n\nName: Defense Finance and Accounting Service\nRole: Performs financial services\nSpecific Responsibilities:\n- Performs accounting functions, such as recording, classifying, and reporting on financial transactions.\n- Performs billing functions, including preparing invoices and sending them to customers or third-party payers for payment.\n- Performs disbursing functions, which involve the transfer of funds from one account to another.\n- Collects funds from various sources, including customer payments, subcontracts, and other revenue streams.\n\nReporting Relationships:\nDFAS is a primary site for SA (Defense Accounting Service) within DoD (Department of Defense), specifically at DFAS Indianapolis (DFAS-IN). The Joint Chiefs of Staff also provide implementation guidance to the SECDEF (Secretary of Defense) on SC programs. Additionally, NIPO (National Institute of Public Policy) and USCG (United States Coast Guard) are responsible for implementing certain aspects of SC programs.\n\nCitations:\n- SAMM C1.3.2.8: \"Defense Finance and Accounting Service Performs accounting, billing, disbursing, and collecting functions for SC Programs\"\n- Defense Financial Services Act\n\nKey Personnel Authorities:\nThe Joint Chiefs of Staff provide implementation guidance to the SECDEF on SC programs.\n\nOrganizational Structure:\nDFAS is part of DoD's Defense Finance Division (DFD), which reports directly to the Secretary of Defense. The DFD is responsible for managing and administering various financial functions within DoD, including accounting, billing, disbursing, and collecting funds for SC programs.\n\nReporting Relationships and Coordination:\nThe relationships between DFAS and other organizations are as follows: \n- NIPO (National Institute of Public Policy) implements certain aspects of SC programs.\n- USCG (United States Coast Guard) is responsible for implementing some U.S. Marine Corps SC programs, such as foreign military financing and grant aid.\n\nI don't have enough information to provide a comprehensive answer regarding the organizational structure or reporting relationships between DFAS and other organizations.",
+      "score": 4,
+      "max_score": 5,
+      "percentage": 80.0,
+      "feedback": "\u2713 Excellent keyword coverage (5/5) | \u2713 Correct section cited | \u26a0 Too long (328 words)",
+      "success": true,
+      "metadata": {
+        "intent": "organization",
+        "entities_found": 3,
+        "execution_time": 32.02
+      }
+    },
+    {
+      "question_id": "Q7",
+      "question": "Which organization manages FMS cases for the Navy?",
+      "category": "Organizations",
+      "expected_section": "C1.3.2.6.1.2",
+      "answer": "Based on the provided context and specific relationships from the database, I can provide an accurate answer.\n\nThe organization that manages FMS cases for the Navy is U.S. Army Security Assistance Command (USASAC) (U.S. Army Security Assistance Command), under AMC (Amphibious Command). Specifically, it is responsible for approved Security Cooperation (SC) (Security Cooperation) programs, including defense articles and services, non-institutional training, and technical assistance.\n\nUSASAC's primary responsibility is to execute FMS cases, which involves the following steps:\n\n1. Program Executive Office (PEO): USASAC works with PEOs to develop and execute FMS cases.\n2. Foreign Military Sales (FMS) Case: The case includes documentation of the SC program, including the type of assistance provided, recipient country, and terms of the agreement.\n\nTherefore, based on these specific relationships from the database:\n\n* \"I don't have enough information.\"\n\nNote: For complete and authoritative information, please refer to the full SAMM Chapter 1 documentation.",
+      "score": 1,
+      "max_score": 5,
+      "percentage": 20.0,
+      "feedback": "\u2717 Poor keyword coverage (0/2) | \u2717 Missing or incorrect section citation | \u2713 Good length (149 words)",
+      "success": true,
+      "metadata": {
+        "intent": "ORGANIZATION",
+        "entities_found": 2,
+        "execution_time": 33.18
+      }
+    },
+    {
+      "question_id": "Q8",
+      "question": "What are the primary legislative authorities for Security Assistance?",
+      "category": "Legal Authorities",
+      "expected_section": "C1.2.1",
+      "answer": "{\n\"final_answer\": \"The primary legislative authorities for Security Assistance are the Foreign Assistance Act (FAA) of 1961 and Annual appropriations acts for Foreign Operations, Export Financing and Related Programs.\",\n\"approver\": \"<org or ''>\",\n\"reasoning\": \"Security assistance authorizations and appropriations are provided primarily under three public laws: FAA of 1961, as amended; Arms Export Control Act (AECA) of 1976, as amended; and annual appropriations acts for Foreign Operations, Export Financing and Related Programs. These laws provide the continuous supervision and general direction of the Secretary of State to best serve U.S. foreign policy interests.\",\n\"citations\": [\"SAMM C1.2\", \"SAMM From Vector DB\", \"SAMM Document 1\", \"SAMM Document 2\"]\n}\n\n",
+      "score": 4,
+      "max_score": 5,
+      "percentage": 80.0,
+      "feedback": "\u2713 Excellent keyword coverage (4/4) | \u2717 Missing or incorrect section citation | \u2713 Good length (107 words)",
+      "success": true,
+      "metadata": {
+        "intent": "general",
+        "entities_found": 4,
+        "execution_time": 32.91
+      }
+    },
+    {
+      "question_id": "Q9",
+      "question": "What is the role of the Department of State in Security Assistance?",
+      "category": "Authority",
+      "expected_section": "C1.3.1",
+      "answer": "{\n\"final_answer\": \"The Department of State plays a crucial role in the provision and management of Security Assistance (SA) programs, which are subsets of Security Cooperation (SC). As the primary agency responsible for continuous supervision and general direction of SA programs under Title 22 authorities, the Secretary of State supervises and provides general direction to DoD Components. This includes overseeing the sale and transfer of defense articles and services, as well as providing guidance on SC program implementation.\",\n\"approver\": \"Department of State\",\n\"reasoning\": \"This definition is based on the specific relationships between Security Assistance (SA), Department of State (DoS), Defense Security Cooperation Agency (DSCA), and Security Cooperation (SC). The SAMM Chapter 1 content confirms that SA programs are subsets of SC, which requires a deeper understanding of these entities' roles.\",\n\"citations\": [\"SAMM C1.3.2.2\", \"SAMM From Vector DB\"]\n",
+      "score": 3,
+      "max_score": 5,
+      "percentage": 60.0,
+      "feedback": "~ Partial keyword coverage (2/3) | \u2717 Missing or incorrect section citation | \u2713 Good length (137 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 4,
+        "execution_time": 24.59
+      }
+    },
+    {
+      "question_id": "Q10",
+      "question": "What is an Implementing Agency?",
+      "category": "Definitions",
+      "expected_section": "C1.3.2.6",
+      "answer": "{\n\"final_answer\": \"An Implementing Agency (IA) is the defense agency responsible for executing Security Cooperation (SC) programs and activities in accordance with policies and criteria established by State, as advised by the Secretary of Defense (SecDef).\",\n\"approver\": \"\",\n\"reasoning\": \"According to SAMM C1.3.2.6, an Implementing Agency is defined as a defense agency responsible for executing SC programs.\",\n\"citations\": [\"ise. C1.3.2.6.\", \"SAMM From Vector DB\", \"Table C1.\", \"T1.\", \"T2B.\", \"OUSD(P)\", \"Defense Security Cooperation Agency (DSCA)\", \"SECDEF\", \"CJCS\", \"Do D international military and civilian personnel exchange programs\", \"USDP\"]\n}\n\n",
+      "score": 4,
+      "max_score": 5,
+      "percentage": 80.0,
+      "feedback": "~ Partial keyword coverage (2/4) | \u2713 Correct section cited | \u2713 Good length (87 words)",
+      "success": true,
+      "metadata": {
+        "intent": "definition",
+        "entities_found": 2,
+        "execution_time": 23.64
+      }
+    }
+  ]
+}

@@ -1,0 +1,4098 @@
+{
+  "pattern_c5_1_lor": {
+    "results": [
+      {
+        "test_id": 201,
+        "query": "What is a Letter of Request LOR?",
+        "expected": [
+          "lor",
+          "letter of request"
+        ],
+        "extracted": [
+          "Letter of Request",
+          "LOR"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "letter of request"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 1.89,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 25,
+            "vector_db": 0
+          },
+          "entities": [
+            "Letter of Request",
+            "LOR"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.94,
+          "question": "What is a Letter of Request LOR?",
+          "relationships": [
+            "Letter of Request starts FMS case",
+            "Letter of Request requires CTA",
+            "Letter of Request submitted to DSCA",
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 202,
+        "query": "What format should an LOR have?",
+        "expected": [
+          "lor",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "letter of request"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 24.76,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What format should an LOR have?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor",
+            "c1326113 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 203,
+        "query": "What is the LOR checklist?",
+        "expected": [
+          "lor",
+          "lor checklist",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "LOR checklist",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "letter of request",
+            "lor checklist"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.43,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "LOR checklist",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the LOR checklist?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor",
+            "c1326113 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 204,
+        "query": "How do I submit an LOR to DSCA IOPS?",
+        "expected": [
+          "lor",
+          "dsca",
+          "iops",
+          "dsca iops",
+          "letter of request",
+          "defense security cooperation agency",
+          "international operations"
+        ],
+        "extracted": [
+          "DSCA",
+          "LOR",
+          "DSCA IOPS",
+          "IOPS",
+          "Defense Security Cooperation Agency",
+          "Letter Of Request",
+          "International Operations"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.2857,
+          "true_positives": [
+            "defense security cooperation agency",
+            "letter of request",
+            "international operations",
+            "iops",
+            "dsca iops",
+            "dsca",
+            "lor"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": [
+            "international operations",
+            "dsca iops"
+          ]
+        },
+        "response_time": 0.46,
+        "status": "success",
+        "entity_confidence": 0.9042857142857142,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 27,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "LOR",
+            "DSCA IOPS",
+            "IOPS",
+            "Defense Security Cooperation Agency",
+            "Letter Of Request",
+            "International Operations"
+          ],
+          "entity_confidence": 0.9042857142857142,
+          "entity_metrics": {
+            "f1_score": 0.5714,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "process",
+          "intent_confidence": 0.94,
+          "question": "How do I submit an LOR to DSCA IOPS?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "DSCA IOPS handles eligibility changes",
+            "DSCA IOPS coordinates FMS-Only designations",
+            "DSCA IOPS approves MANPADS discussions",
+            "Defense Security Cooperation Agency directs"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 205,
+        "query": "What makes an LOR actionable?",
+        "expected": [
+          "lor",
+          "lor actionable",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "LOR Actionable",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "letter of request",
+            "lor actionable"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.66,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "LOR Actionable",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.63,
+          "question": "What makes an LOR actionable?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "LOR Actionable meets C5.1.7 checklist",
+            "LOR Actionable enables case development",
+            "LOR Actionable submitted by purchaser",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_1_lor",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0571
+    }
+  },
+  "pattern_c5_2_lor_processing": {
+    "results": [
+      {
+        "test_id": 206,
+        "query": "What is LOR Actionable status?",
+        "expected": [
+          "lor actionable",
+          "lor",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "LOR Actionable",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "letter of request",
+            "lor actionable"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.31,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "LOR Actionable",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is LOR Actionable status?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "LOR Actionable meets C5.1.7 checklist",
+            "LOR Actionable enables case development",
+            "LOR Actionable submitted by purchaser",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 207,
+        "query": "What is LOR Complete?",
+        "expected": [
+          "lor complete",
+          "lor",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "LOR Complete",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "letter of request",
+            "lor complete"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.43,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "LOR Complete",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is LOR Complete?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor",
+            "c1326113 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 208,
+        "query": "What is LOR Insufficient?",
+        "expected": [
+          "lor insufficient",
+          "lor",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "LOR Insufficient",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "letter of request",
+            "lor insufficient"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.29,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "LOR Insufficient",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is LOR Insufficient?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 209,
+        "query": "What are LOR actionable criteria in Table C5.T3A?",
+        "expected": [
+          "lor",
+          "lor actionable",
+          "actionable criteria",
+          "table c5.t3a",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "LOR Actionable",
+          "actionable criteria",
+          "Table C5.T3A",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.2,
+          "true_positives": [
+            "lor actionable",
+            "letter of request",
+            "actionable criteria",
+            "table c5.t3a",
+            "lor"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": [
+            "actionable criteria"
+          ]
+        },
+        "response_time": 6.37,
+        "status": "success",
+        "entity_confidence": 0.899,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "LOR Actionable",
+            "actionable criteria",
+            "Table C5.T3A",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.899,
+          "entity_metrics": {
+            "f1_score": 0.3333,
+            "hallucination_rate": 0.75,
+            "precision": 0.25,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What are LOR actionable criteria in Table C5.T3A?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "LOR Actionable meets C5.1.7 checklist",
+            "LOR Actionable enables case development",
+            "LOR Actionable submitted by purchaser",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 210,
+        "query": "How does the IA assess an LOR?",
+        "expected": [
+          "ia",
+          "lor",
+          "implementing agency",
+          "letter of request"
+        ],
+        "extracted": [
+          "IA",
+          "LOR",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "ia",
+            "letter of request"
+          ],
+          "false_positives": [],
+          "false_negatives": [
+            "implementing agency"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 0.39,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 29,
+            "vector_db": 0
+          },
+          "entities": [
+            "IA",
+            "LOR",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How does the IA assess an LOR?",
+          "relationships": [
+            "IA executes programs",
+            "IA provides articles and services",
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "defense_intelligence_agency_dia coordinateswith defense_security_cooperation_agency_dsca",
+            "defense_security_cooperation_agency_dsca coordinateswith defense_intelligence_agency_dia",
+            "c1322 references defense_intelligence_agency_dia",
+            "deputy_under_secretary_of_the_air_force_for_international_affairs_safia ispartof department_of_the_air_force_daf",
+            "c1326132 references deputy_under_secretary_of_the_air_force_for_international_affairs_safia"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_2_lor_processing",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.95,
+      "avg_f1": 0.9714,
+      "avg_hallucination_rate": 0.04
+    }
+  },
+  "pattern_c5_3_case_types": {
+    "results": [
+      {
+        "test_id": 211,
+        "query": "What is a Defined Order case?",
+        "expected": [
+          "defined order",
+          "defined order case"
+        ],
+        "extracted": [
+          "Defined Order",
+          "Defined Order case"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.5,
+          "true_positives": [
+            "defined order",
+            "defined order case"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": [
+            "defined order case"
+          ]
+        },
+        "response_time": 4.87,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "Defined Order",
+            "Defined Order case"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is a Defined Order case?",
+          "relationships": [
+            "Defined Order specific items",
+            "Defined Order detailed requirements",
+            "Defined Order fixed quantities"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 212,
+        "query": "What is a Blanket Order case?",
+        "expected": [
+          "blanket order",
+          "blanket order case"
+        ],
+        "extracted": [
+          "Blanket Order",
+          "Blanket Order case"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.5,
+          "true_positives": [
+            "blanket order",
+            "blanket order case"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": [
+            "blanket order case"
+          ]
+        },
+        "response_time": 4.89,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "Blanket Order",
+            "Blanket Order case"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is a Blanket Order case?",
+          "relationships": [
+            "Blanket Order recurring support",
+            "Blanket Order flexible quantities",
+            "Blanket Order multi-year"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 213,
+        "query": "What is a CLSSA Cooperative Logistics Supply Support Arrangement?",
+        "expected": [
+          "clssa",
+          "cooperative logistics supply support arrangement"
+        ],
+        "extracted": [
+          "CLSSA",
+          "Cooperative Logistics Supply Support Arrangement"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "clssa",
+            "cooperative logistics supply support arrangement"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.85,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "CLSSA",
+            "Cooperative Logistics Supply Support Arrangement"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a CLSSA Cooperative Logistics Supply Support Arrangement?",
+          "relationships": [
+            "CLSSA cooperative logistics",
+            "CLSSA supply support",
+            "CLSSA stock replenishment",
+            "9889f76c-2af0-4737-9502-a37e88e9d252 SUPPORTS 0fdc9e89-93df-4498-87c5-f45002ab7561",
+            "9889f76c-2af0-4737-9502-a37e88e9d252 FACILITATES 1dde71bb-c728-4d2a-b64a-25b23730d8c1",
+            "951a56fc-6c72-4207-a962-e19b8ab6614b IS_TYPE_OF 9889f76c-2af0-4737-9502-a37e88e9d252",
+            "d401ec97-bb74-4d4f-b03e-0ce5158f938a AUTHORIZES 9889f76c-2af0-4737-9502-a37e88e9d252",
+            "70008b46-cc76-4dfe-b5b2-c896bbb743e8 ENABLES 1dde71bb-c728-4d2a-b64a-25b23730d8c1"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 214,
+        "query": "What is the difference between FMSO I and FMSO II?",
+        "expected": [
+          "fmso",
+          "fmso i",
+          "fmso ii",
+          "foreign military sales order"
+        ],
+        "extracted": [
+          "FMSO",
+          "FMSO I",
+          "FMSO II",
+          "Foreign Military Sales Order",
+          "Foreign Military Sales Order I",
+          "Foreign Military Sales Order Ii"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "hallucination_rate": 0.3333,
+          "true_positives": [
+            "fmso i",
+            "fmso",
+            "foreign military sales order",
+            "fmso ii"
+          ],
+          "false_positives": [
+            "foreign military sales order i",
+            "foreign military sales order ii"
+          ],
+          "false_negatives": [],
+          "hallucinations": [
+            "foreign military sales order i",
+            "foreign military sales order ii"
+          ]
+        },
+        "response_time": 0.31,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMSO",
+            "FMSO I",
+            "FMSO II",
+            "Foreign Military Sales Order",
+            "Foreign Military Sales Order I",
+            "Foreign Military Sales Order Ii"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.91,
+          "question": "What is the difference between FMSO I and FMSO II?",
+          "relationships": [
+            "FMSO I initial order",
+            "FMSO I major equipment",
+            "FMSO I system procurement",
+            "FMSO II follow-on support",
+            "FMSO II spare parts",
+            "FMSO II sustainment"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 215,
+        "query": "What is Category C case development?",
+        "expected": [
+          "category c",
+          "case development"
+        ],
+        "extracted": [
+          "case development",
+          "Category C"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "case development",
+            "category c"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.25,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "case development",
+            "Category C"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is Category C case development?",
+          "relationships": [
+            "Category C up to 120 days",
+            "Category C complex cases",
+            "Category C extensive coordination",
+            "c8215f1a-a123-4c92-bcb0-004fd5768321 connects 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "c8215f1a-a123-4c92-bcb0-004fd5768321 connects 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "c8215f1a-a123-4c92-bcb0-004fd5768321 part_of 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "dsca manages c8215f1a-a123-4c92-bcb0-004fd5768321",
+            "9df49e57-5b64-412c-b3e7-d567f35fb1f6 initiates c8215f1a-a123-4c92-bcb0-004fd5768321"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_3_case_types",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9333,
+      "avg_recall": 1.0,
+      "avg_f1": 0.96,
+      "avg_hallucination_rate": 0.2667
+    }
+  },
+  "pattern_c5_4_standards": {
+    "results": [
+      {
+        "test_id": 216,
+        "query": "What is the case development standard for Category A?",
+        "expected": [
+          "category a",
+          "case development",
+          "case development standard"
+        ],
+        "extracted": [
+          "case development",
+          "Category A",
+          "case development standard"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "case development",
+            "case development standard",
+            "category a"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.6,
+        "status": "success",
+        "entity_confidence": 0.8899999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 3,
+            "vector_db": 0
+          },
+          "entities": [
+            "case development",
+            "Category A",
+            "case development standard"
+          ],
+          "entity_confidence": 0.8899999999999999,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is the case development standard for Category A?",
+          "relationships": [
+            "Category A up to 60 days",
+            "Category A simple cases",
+            "Category A standard processing"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 217,
+        "query": "What is a CDEF Case Development Extenuating Factor?",
+        "expected": [
+          "cdef",
+          "case development extenuating factor",
+          "case development"
+        ],
+        "extracted": [
+          "case development",
+          "CDEF",
+          "Case Development Extenuating Factor"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "case development",
+            "case development extenuating factor",
+            "cdef"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.0,
+        "status": "success",
+        "entity_confidence": 0.8899999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "case development",
+            "CDEF",
+            "Case Development Extenuating Factor"
+          ],
+          "entity_confidence": 0.8899999999999999,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a CDEF Case Development Extenuating Factor?",
+          "relationships": [
+            "CDEF Case Development Extenuating Factor",
+            "CDEF extends processing time",
+            "CDEF documented justification",
+            "c8215f1a-a123-4c92-bcb0-004fd5768321 connects 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "c8215f1a-a123-4c92-bcb0-004fd5768321 connects 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "c8215f1a-a123-4c92-bcb0-004fd5768321 part_of 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "dsca manages c8215f1a-a123-4c92-bcb0-004fd5768321",
+            "9df49e57-5b64-412c-b3e7-d567f35fb1f6 initiates c8215f1a-a123-4c92-bcb0-004fd5768321"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 218,
+        "query": "What is a CPOHOLD?",
+        "expected": [
+          "cpohold",
+          "case processing office hold"
+        ],
+        "extracted": [
+          "CPOHOLD",
+          "Case Processing Office Hold"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "cpohold",
+            "case processing office hold"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.92,
+        "status": "success",
+        "entity_confidence": 0.8187500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "CPOHOLD",
+            "Case Processing Office Hold"
+          ],
+          "entity_confidence": 0.8187500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a CPOHOLD?",
+          "relationships": [
+            "CPOHOLD Case Processing Office Hold",
+            "CPOHOLD delays LOA",
+            "CPOHOLD requires resolution"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 219,
+        "query": "How long does Category B case development take?",
+        "expected": [
+          "category b",
+          "case development"
+        ],
+        "extracted": [
+          "case development",
+          "Category B"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "category b",
+            "case development"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.47,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 3,
+            "vector_db": 0
+          },
+          "entities": [
+            "case development",
+            "Category B"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.77,
+          "question": "How long does Category B case development take?",
+          "relationships": [
+            "Category B up to 90 days",
+            "Category B moderate complexity",
+            "Category B some coordination"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 220,
+        "query": "What is the 150 day standard for?",
+        "expected": [],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.67,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is the 150 day standard for?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_4_standards",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c5_5_pa": {
+    "results": [
+      {
+        "test_id": 221,
+        "query": "What is P&A Price and Availability data?",
+        "expected": [
+          "p&a",
+          "price and availability"
+        ],
+        "extracted": [
+          "P&A",
+          "Price and Availability"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "price and availability",
+            "p&a"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.68,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "P&A",
+            "Price and Availability"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What is P&A Price and Availability data?",
+          "relationships": [
+            "united_states_indo-pacific_command_usindopacom isa combatant_command_ccmd",
+            "c13210 references united_states_indo-pacific_command_usindopacom",
+            "united_states_space_command_usspacecom isa combatant_command_ccmd",
+            "c13210 references united_states_space_command_usspacecom",
+            "54907e95-2c88-47e0-917e-088e344a2f25 MAINTAINED_BY e0eefd35-5847-4a26-848e-19996209a637",
+            "f62e8811-c628-45de-bbc0-738f428e1035 abbreviated_as a5684d5b-5003-46d7-9228-51966b6e5bbd",
+            "f62e8811-c628-45de-bbc0-738f428e1035 provided_by 687a7b9d-d2a7-493f-8bb1-0ebb03017e32",
+            "f62e8811-c628-45de-bbc0-738f428e1035 informs b1cdb45d-9506-4ee2-859e-c7eeee6919c6",
+            "f62e8811-c628-45de-bbc0-738f428e1035 contains cfa188de-7adb-4063-9e1d-db9ddd5d5d70",
+            "f62e8811-c628-45de-bbc0-738f428e1035 based_on f7d3f387-fc5b-4c48-89c8-f3c19e1dac54"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 222,
+        "query": "How long does P&A preparation take?",
+        "expected": [
+          "p&a",
+          "price and availability"
+        ],
+        "extracted": [
+          "P&A",
+          "Price And Availability"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "price and availability",
+            "p&a"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.16,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "P&A",
+            "Price And Availability"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.77,
+          "question": "How long does P&A preparation take?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 223,
+        "query": "Is P&A valid for LOA preparation?",
+        "expected": [
+          "p&a",
+          "loa",
+          "price and availability",
+          "letter of offer and acceptance"
+        ],
+        "extracted": [
+          "LOA",
+          "P&A",
+          "Letter Of Offer And Acceptance",
+          "Price And Availability"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "letter of offer and acceptance",
+            "price and availability",
+            "p&a",
+            "loa"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.98,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 30,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOA",
+            "P&A",
+            "Letter Of Offer And Acceptance",
+            "Price And Availability"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.64,
+          "question": "Is P&A valid for LOA preparation?",
+          "relationships": [
+            "letter_of_offer_and_acceptance_loa isprovidedto partner_nation",
+            "partner_nation receives letter_of_offer_and_acceptance_loa",
+            "5093dca6-e3da-4075-afa9-9699e369f2d8 documentsfor 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "ab80e488-55f6-4074-af01-295e69f39469 coordinateson 5093dca6-e3da-4075-afa9-9699e369f2d8",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 isa 16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7",
+            "united_states_indo-pacific_command_usindopacom isa combatant_command_ccmd",
+            "c13210 references united_states_indo-pacific_command_usindopacom",
+            "united_states_space_command_usspacecom isa combatant_command_ccmd",
+            "c13210 references united_states_space_command_usspacecom",
+            "54907e95-2c88-47e0-917e-088e344a2f25 MAINTAINED_BY e0eefd35-5847-4a26-848e-19996209a637"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 224,
+        "query": "What is in P&A data per Table C5.T5?",
+        "expected": [
+          "p&a",
+          "table c5.t5",
+          "price and availability"
+        ],
+        "extracted": [
+          "P&A",
+          "Table C5.T5",
+          "Price And Availability"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "price and availability",
+            "table c5.t5",
+            "p&a"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.72,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "P&A",
+            "Table C5.T5",
+            "Price And Availability"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.5,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.59,
+          "question": "What is in P&A data per Table C5.T5?",
+          "relationships": [
+            "united_states_indo-pacific_command_usindopacom isa combatant_command_ccmd",
+            "c13210 references united_states_indo-pacific_command_usindopacom",
+            "united_states_space_command_usspacecom isa combatant_command_ccmd",
+            "c13210 references united_states_space_command_usspacecom",
+            "54907e95-2c88-47e0-917e-088e344a2f25 MAINTAINED_BY e0eefd35-5847-4a26-848e-19996209a637"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 225,
+        "query": "Who prepares P&A data?",
+        "expected": [
+          "p&a",
+          "price and availability"
+        ],
+        "extracted": [
+          "P&A",
+          "Price And Availability"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "price and availability",
+            "p&a"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.93,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "P&A",
+            "Price And Availability"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "authority",
+          "intent_confidence": 0.48,
+          "question": "Who prepares P&A data?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_5_pa",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c5_6_loa": {
+    "results": [
+      {
+        "test_id": 226,
+        "query": "What is an LOA Letter of Offer and Acceptance?",
+        "expected": [
+          "loa",
+          "letter of offer and acceptance"
+        ],
+        "extracted": [
+          "Letter of Offer and Acceptance",
+          "LOA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "letter of offer and acceptance",
+            "loa"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.39,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "Letter of Offer and Acceptance",
+            "LOA"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.94,
+          "question": "What is an LOA Letter of Offer and Acceptance?",
+          "relationships": [
+            "letter_of_offer_and_acceptance_loa isprovidedto partner_nation",
+            "partner_nation receives letter_of_offer_and_acceptance_loa",
+            "16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7 abbreviatedas 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 isa 16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7",
+            "dsca issues 16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7",
+            "5093dca6-e3da-4075-afa9-9699e369f2d8 documentsfor 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "ab80e488-55f6-4074-af01-295e69f39469 coordinateson 5093dca6-e3da-4075-afa9-9699e369f2d8"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 227,
+        "query": "What are LOA Standard Terms and Conditions?",
+        "expected": [
+          "loa",
+          "standard terms and conditions",
+          "letter of offer and acceptance"
+        ],
+        "extracted": [
+          "LOA",
+          "Standard Terms and Conditions",
+          "Letter Of Offer And Acceptance"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "standard terms and conditions",
+            "letter of offer and acceptance",
+            "loa"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.26,
+        "status": "success",
+        "entity_confidence": 0.8558333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOA",
+            "Standard Terms and Conditions",
+            "Letter Of Offer And Acceptance"
+          ],
+          "entity_confidence": 0.8558333333333334,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What are LOA Standard Terms and Conditions?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 228,
+        "query": "How is an LOA prepared in DSAMS?",
+        "expected": [
+          "loa",
+          "dsams",
+          "letter of offer and acceptance",
+          "defense security assistance management system"
+        ],
+        "extracted": [
+          "LOA",
+          "DSAMS",
+          "Letter Of Offer And Acceptance",
+          "Defense Security Assistance Management System"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsams",
+            "letter of offer and acceptance",
+            "defense security assistance management system",
+            "loa"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.33,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 19,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOA",
+            "DSAMS",
+            "Letter Of Offer And Acceptance",
+            "Defense Security Assistance Management System"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How is an LOA prepared in DSAMS?",
+          "relationships": [
+            "DSAMS case management",
+            "DSAMS LOA preparation",
+            "DSAMS financial tracking",
+            "letter_of_offer_and_acceptance_loa isprovidedto partner_nation",
+            "partner_nation receives letter_of_offer_and_acceptance_loa",
+            "5093dca6-e3da-4075-afa9-9699e369f2d8 documentsfor 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "ab80e488-55f6-4074-af01-295e69f39469 coordinateson 5093dca6-e3da-4075-afa9-9699e369f2d8",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 isa 16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 229,
+        "query": "What is an LOA Amendment vs Modification?",
+        "expected": [
+          "loa",
+          "loa amendment",
+          "letter of offer and acceptance"
+        ],
+        "extracted": [
+          "LOA",
+          "LOA Amendment",
+          "Letter Of Offer And Acceptance"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "loa amendment",
+            "letter of offer and acceptance",
+            "loa"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.37,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 20,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOA",
+            "LOA Amendment",
+            "Letter Of Offer And Acceptance"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.91,
+          "question": "What is an LOA Amendment vs Modification?",
+          "relationships": [
+            "letter_of_offer_and_acceptance_loa isprovidedto partner_nation",
+            "partner_nation receives letter_of_offer_and_acceptance_loa",
+            "5093dca6-e3da-4075-afa9-9699e369f2d8 documentsfor 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "ab80e488-55f6-4074-af01-295e69f39469 coordinateson 5093dca6-e3da-4075-afa9-9699e369f2d8",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 isa 16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7",
+            "f853ca52-ac83-48a5-b99b-a50ba22015d4 modifies 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "f853ca52-ac83-48a5-b99b-a50ba22015d4 IS_TYPE_OF 9cf88967-7197-4f5a-b500-403cd3916fd4",
+            "9df49e57-5b64-412c-b3e7-d567f35fb1f6 may_request f853ca52-ac83-48a5-b99b-a50ba22015d4",
+            "526e6081-9bf3-446a-87cd-43b3b887ed7f tracks f853ca52-ac83-48a5-b99b-a50ba22015d4"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 230,
+        "query": "What is LOA restatement?",
+        "expected": [
+          "loa",
+          "restatement",
+          "letter of offer and acceptance"
+        ],
+        "extracted": [
+          "State",
+          "LOA",
+          "restatement",
+          "Letter Of Offer And Acceptance"
+        ],
+        "metrics": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571,
+          "hallucination_rate": 0.25,
+          "true_positives": [
+            "letter of offer and acceptance",
+            "restatement",
+            "loa"
+          ],
+          "false_positives": [
+            "state"
+          ],
+          "false_negatives": [],
+          "hallucinations": [
+            "state"
+          ]
+        },
+        "response_time": 0.48,
+        "status": "success",
+        "entity_confidence": 0.8712500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 30,
+            "vector_db": 0
+          },
+          "entities": [
+            "State",
+            "LOA",
+            "restatement",
+            "Letter Of Offer And Acceptance"
+          ],
+          "entity_confidence": 0.8712500000000001,
+          "entity_metrics": {
+            "f1_score": 0.8,
+            "hallucination_rate": 0.3333,
+            "precision": 0.6667,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is LOA restatement?",
+          "relationships": [
+            "united_states_transportation_command_ustranscom isa combatant_command_ccmd",
+            "c13210 references united_states_transportation_command_ustranscom",
+            "united_states_northern_command_usnorthcom isa combatant_command_ccmd",
+            "c13210 references united_states_northern_command_usnorthcom",
+            "department_of_state_dos determineseligibilityof recipient_country",
+            "letter_of_offer_and_acceptance_loa isprovidedto partner_nation",
+            "partner_nation receives letter_of_offer_and_acceptance_loa",
+            "5093dca6-e3da-4075-afa9-9699e369f2d8 documentsfor 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "ab80e488-55f6-4074-af01-295e69f39469 coordinateson 5093dca6-e3da-4075-afa9-9699e369f2d8",
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159 isa 16c8d5f2-cd02-4f09-ac4f-7c76b4d046d7"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_6_loa",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.95,
+      "avg_recall": 1.0,
+      "avg_f1": 0.9714,
+      "avg_hallucination_rate": 0.05
+    }
+  },
+  "pattern_c5_7_cta": {
+    "results": [
+      {
+        "test_id": 231,
+        "query": "What is a CTA Country Team Assessment?",
+        "expected": [
+          "cta",
+          "country team assessment"
+        ],
+        "extracted": [
+          "CTA",
+          "Country Team Assessment"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "country team assessment",
+            "cta"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.95,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "CTA",
+            "Country Team Assessment"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a CTA Country Team Assessment?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 232,
+        "query": "When is a CTA required for an LOR?",
+        "expected": [
+          "cta",
+          "lor",
+          "country team assessment",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "CTA",
+          "Letter Of Request",
+          "Country Team Assessment"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "country team assessment",
+            "lor",
+            "cta",
+            "letter of request"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.76,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "CTA",
+            "Letter Of Request",
+            "Country Team Assessment"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.91,
+          "question": "When is a CTA required for an LOR?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor",
+            "c1326113 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 233,
+        "query": "What elements are required in a CTA per Table C5.T1?",
+        "expected": [
+          "cta",
+          "table c5.t1",
+          "country team assessment"
+        ],
+        "extracted": [
+          "CTA",
+          "Table C5.T1",
+          "Country Team Assessment"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "country team assessment",
+            "cta",
+            "table c5.t1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.58,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "CTA",
+            "Table C5.T1",
+            "Country Team Assessment"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.59,
+          "question": "What elements are required in a CTA per Table C5.T1?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 234,
+        "query": "Who signs a CTA?",
+        "expected": [
+          "cta",
+          "country team assessment"
+        ],
+        "extracted": [
+          "CTA",
+          "Country Team Assessment"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "country team assessment",
+            "cta"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.68,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "CTA",
+            "Country Team Assessment"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.48,
+          "question": "Who signs a CTA?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 235,
+        "query": "Does CCMD need to endorse a CTA?",
+        "expected": [
+          "cta",
+          "ccmd",
+          "country team assessment",
+          "combatant command"
+        ],
+        "extracted": [
+          "CCMD",
+          "CTA",
+          "Country Team Assessment"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "country team assessment",
+            "cta",
+            "ccmd"
+          ],
+          "false_positives": [],
+          "false_negatives": [
+            "combatant command"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 11.92,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "CCMD",
+            "CTA",
+            "Country Team Assessment"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.64,
+          "question": "Does CCMD need to endorse a CTA?",
+          "relationships": [
+            "combatant_command_ccmd isresponsiblefor security_cooperation",
+            "combatant_command_ccmd ispartof department_of_defense_dod",
+            "c13210 references combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "united_states_space_command_usspacecom isa combatant_command_ccmd"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_7_cta",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.95,
+      "avg_f1": 0.9714,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c5_8_special_items": {
+    "results": [
+      {
+        "test_id": 236,
+        "query": "What is required for MTCR Category I ISR UAV?",
+        "expected": [
+          "mtcr category i",
+          "mtcr",
+          "isr uav",
+          "isr",
+          "missile technology control regime",
+          "intelligence surveillance reconnaissance"
+        ],
+        "extracted": [
+          "MTCR Category I",
+          "MTCR",
+          "ISR UAV",
+          "ISR",
+          "Missile Technology Control Regime",
+          "Intelligence Surveillance Reconnaissance"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.1667,
+          "true_positives": [
+            "mtcr category i",
+            "missile technology control regime",
+            "isr uav",
+            "mtcr",
+            "isr",
+            "intelligence surveillance reconnaissance"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": [
+            "intelligence surveillance reconnaissance"
+          ]
+        },
+        "response_time": 6.14,
+        "status": "success",
+        "entity_confidence": 0.8783333333333333,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "MTCR Category I",
+            "MTCR",
+            "ISR UAV",
+            "ISR",
+            "Missile Technology Control Regime",
+            "Intelligence Surveillance Reconnaissance"
+          ],
+          "entity_confidence": 0.8783333333333333,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is required for MTCR Category I ISR UAV?",
+          "relationships": [
+            "MTCR Category I missile technology",
+            "MTCR Category I highest sensitivity",
+            "MTCR Category I DSCA/OUSD(P) approval"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 237,
+        "query": "What CTA elements are needed for NVDs?",
+        "expected": [
+          "nvds",
+          "cta",
+          "night vision devices",
+          "country team assessment"
+        ],
+        "extracted": [
+          "NVDs",
+          "CTA",
+          "Night Vision Devices",
+          "Country Team Assessment"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "country team assessment",
+            "cta",
+            "nvds",
+            "night vision devices"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 17.07,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 2,
+            "vector_db": 0
+          },
+          "entities": [
+            "NVDs",
+            "CTA",
+            "Night Vision Devices",
+            "Country Team Assessment"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.5,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.48,
+          "question": "What CTA elements are needed for NVDs?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 238,
+        "query": "What is the LOR Advisory for MANPADS?",
+        "expected": [
+          "lor",
+          "lor advisory",
+          "manpads",
+          "letter of request",
+          "man-portable air defense system"
+        ],
+        "extracted": [
+          "LOR",
+          "MANPADS",
+          "LOR Advisory",
+          "Letter Of Request",
+          "Man-Portable Air Defense System"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "letter of request",
+            "lor advisory",
+            "manpads",
+            "man-portable air defense system"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.49,
+        "status": "success",
+        "entity_confidence": 0.868,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 19,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "MANPADS",
+            "LOR Advisory",
+            "Letter Of Request",
+            "Man-Portable Air Defense System"
+          ],
+          "entity_confidence": 0.868,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.3333,
+            "precision": 0.3333,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the LOR Advisory for MANPADS?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "MANPADS special controls",
+            "MANPADS IOPS/WPN approval",
+            "MANPADS highest scrutiny",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 239,
+        "query": "What is required for working dogs LOR?",
+        "expected": [
+          "working dogs",
+          "lor",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "working dogs",
+          "working dog",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "letter of request",
+            "working dogs"
+          ],
+          "false_positives": [
+            "working dog"
+          ],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.66,
+        "status": "success",
+        "entity_confidence": 0.8712500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "working dogs",
+            "working dog",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8712500000000001,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.6667,
+            "precision": 0.3333,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is required for working dogs LOR?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor",
+            "c1326113 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 240,
+        "query": "What is SO-P Special Operations Peculiar?",
+        "expected": [
+          "so-p",
+          "special operations peculiar"
+        ],
+        "extracted": [
+          "SO-P",
+          "Special Operations Peculiar"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "so-p",
+            "special operations peculiar"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.24,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "SO-P",
+            "Special Operations Peculiar"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is SO-P Special Operations Peculiar?",
+          "relationships": [
+            "SO-P Special Operations-Peculiar",
+            "SO-P USSOCOM coordination",
+            "SO-P SOF AT&L-IO"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_8_special_items",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.95,
+      "avg_recall": 1.0,
+      "avg_f1": 0.9714,
+      "avg_hallucination_rate": 0.0333
+    }
+  },
+  "pattern_c5_9_response_types": {
+    "results": [
+      {
+        "test_id": 241,
+        "query": "What is a hybrid FMS response?",
+        "expected": [
+          "hybrid",
+          "fms",
+          "foreign military sales"
+        ],
+        "extracted": [
+          "FMS",
+          "hybrid",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.6667,
+          "true_positives": [
+            "hybrid",
+            "fms",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": [
+            "fms",
+            "foreign military sales"
+          ]
+        },
+        "response_time": 0.58,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "hybrid",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is a hybrid FMS response?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 242,
+        "query": "What is a negotiated response?",
+        "expected": [
+          "negotiated response"
+        ],
+        "extracted": [
+          "negotiated response"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "negotiated response"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.11,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "negotiated response"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is a negotiated response?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 243,
+        "query": "What is NTE Not-to-Exceed pricing?",
+        "expected": [
+          "nte",
+          "not-to-exceed"
+        ],
+        "extracted": [
+          "NTE",
+          "Not-to-Exceed"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "nte",
+            "not-to-exceed"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.0,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "NTE",
+            "Not-to-Exceed"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is NTE Not-to-Exceed pricing?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 244,
+        "query": "What is Firm Fixed Price FFP?",
+        "expected": [
+          "ffp",
+          "firm fixed price"
+        ],
+        "extracted": [
+          "FFP",
+          "Firm Fixed Price"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "firm fixed price",
+            "ffp"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.63,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "FFP",
+            "Firm Fixed Price"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is Firm Fixed Price FFP?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 245,
+        "query": "What responses can the IA provide to an LOR?",
+        "expected": [
+          "ia",
+          "lor",
+          "implementing agency",
+          "letter of request"
+        ],
+        "extracted": [
+          "IA",
+          "LOR",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "lor",
+            "ia",
+            "letter of request"
+          ],
+          "false_positives": [],
+          "false_negatives": [
+            "implementing agency"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 5.61,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "IA",
+            "LOR",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.64,
+          "question": "What responses can the IA provide to an LOR?",
+          "relationships": [
+            "IA executes programs",
+            "IA provides articles and services",
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "defense_intelligence_agency_dia coordinateswith defense_security_cooperation_agency_dsca",
+            "defense_security_cooperation_agency_dsca coordinateswith defense_intelligence_agency_dia",
+            "c1322 references defense_intelligence_agency_dia",
+            "deputy_under_secretary_of_the_air_force_for_international_affairs_safia ispartof department_of_the_air_force_daf",
+            "c1326132 references deputy_under_secretary_of_the_air_force_for_international_affairs_safia"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_9_response_types",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.95,
+      "avg_f1": 0.9714,
+      "avg_hallucination_rate": 0.1333
+    }
+  },
+  "pattern_c5_10_dsca_org": {
+    "results": [
+      {
+        "test_id": 246,
+        "query": "What does IOPS/GEX/CWD do?",
+        "expected": [
+          "iops/gex/cwd",
+          "iops/gex",
+          "iops",
+          "case writing and development division",
+          "international operations global execution directorate",
+          "international operations"
+        ],
+        "extracted": [
+          "IOPS",
+          "IOPS/GEX",
+          "IOPS/GEX/CWD",
+          "International Operations",
+          "International Operations Global Execution Directorate",
+          "Case Writing And Development Division"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.3333,
+          "true_positives": [
+            "iops/gex",
+            "international operations",
+            "iops/gex/cwd",
+            "iops",
+            "case writing and development division",
+            "international operations global execution directorate"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": [
+            "international operations",
+            "international operations global execution directorate"
+          ]
+        },
+        "response_time": 6.35,
+        "status": "success",
+        "entity_confidence": 0.8524999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "IOPS",
+            "IOPS/GEX",
+            "IOPS/GEX/CWD",
+            "International Operations",
+            "International Operations Global Execution Directorate",
+            "Case Writing And Development Division"
+          ],
+          "entity_confidence": 0.8524999999999999,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.8,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What does IOPS/GEX/CWD do?",
+          "relationships": [
+            "IOPS/GEX/CWD case writing",
+            "IOPS/GEX/CWD LOA development",
+            "IOPS/GEX/CWD DSAMS entry",
+            "47152071-1ee7-46c2-af16-f92be32eb245 part_of dsca",
+            "47152071-1ee7-46c2-af16-f92be32eb245 reports_to dsca",
+            "47152071-1ee7-46c2-af16-f92be32eb245 operates_under dsca",
+            "47152071-1ee7-46c2-af16-f92be32eb245 processes 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "47152071-1ee7-46c2-af16-f92be32eb245 receives 9df49e57-5b64-412c-b3e7-d567f35fb1f6"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 247,
+        "query": "What is the role of the CPD Country Portfolio Director?",
+        "expected": [
+          "cpd",
+          "country portfolio director"
+        ],
+        "extracted": [
+          "CPD",
+          "Country Portfolio Director"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "country portfolio director",
+            "cpd"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.32,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [
+            "CPD",
+            "Country Portfolio Director"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.86,
+          "question": "What is the role of the CPD Country Portfolio Director?",
+          "relationships": [
+            "CPD Country Portfolio Director",
+            "CPD manages country cases",
+            "CPD DSCA primary POC",
+            "60ec381b-b891-4683-9037-6fa69220ae5e reviews 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "60ec381b-b891-4683-9037-6fa69220ae5e works_in dsca",
+            "60ec381b-b891-4683-9037-6fa69220ae5e WORKS_AT dsca",
+            "60ec381b-b891-4683-9037-6fa69220ae5e COORDINATES_WITH 7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "60ec381b-b891-4683-9037-6fa69220ae5e COORDINATES_WITH 7c699ddc-188b-49ed-9af8-adc9d70919e8",
+            "ab569302-8dd2-4f52-95b5-e24188abc13e reviews 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "ab569302-8dd2-4f52-95b5-e24188abc13e MANAGES 0fdc9e89-93df-4498-87c5-f45002ab7561"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 248,
+        "query": "What does IOPS/WPN handle?",
+        "expected": [
+          "iops/wpn",
+          "iops",
+          "weapons directorate",
+          "international operations"
+        ],
+        "extracted": [
+          "IOPS",
+          "IOPS/WPN",
+          "International Operations",
+          "Weapons Directorate"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.25,
+          "true_positives": [
+            "iops",
+            "iops/wpn",
+            "international operations",
+            "weapons directorate"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": [
+            "international operations"
+          ]
+        },
+        "response_time": 5.02,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "IOPS",
+            "IOPS/WPN",
+            "International Operations",
+            "Weapons Directorate"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What does IOPS/WPN handle?",
+          "relationships": [
+            "IOPS/WPN approves MANPADS discussions",
+            "IOPS/WPN coordinates weapons transfers",
+            "47152071-1ee7-46c2-af16-f92be32eb245 part_of dsca",
+            "47152071-1ee7-46c2-af16-f92be32eb245 reports_to dsca",
+            "47152071-1ee7-46c2-af16-f92be32eb245 operates_under dsca",
+            "47152071-1ee7-46c2-af16-f92be32eb245 processes 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "47152071-1ee7-46c2-af16-f92be32eb245 receives 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "c1326263 references nga_director_international_operations_and_partnerships",
+            "dsca has_office 51b10875-0788-4d75-a8b0-4e54ea1342ae",
+            "2bba6817-6cac-445c-86e0-2abf58c7cd7b part_of 47152071-1ee7-46c2-af16-f92be32eb245"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 249,
+        "query": "Who approves a CPOHOLD?",
+        "expected": [
+          "cpohold",
+          "case processing office hold"
+        ],
+        "extracted": [
+          "CPOHOLD",
+          "Case Processing Office Hold"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "cpohold",
+            "case processing office hold"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.19,
+        "status": "success",
+        "entity_confidence": 0.8187500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "CPOHOLD",
+            "Case Processing Office Hold"
+          ],
+          "entity_confidence": 0.8187500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.77,
+          "question": "Who approves a CPOHOLD?",
+          "relationships": [
+            "CPOHOLD Case Processing Office Hold",
+            "CPOHOLD delays LOA",
+            "CPOHOLD requires resolution"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 250,
+        "query": "What is OBO/FPRE/FRC responsible for?",
+        "expected": [
+          "obo/fpre/frc",
+          "obo/fpre",
+          "obo",
+          "financial reporting and compliance division",
+          "financial policy and regional execution directorate",
+          "office of business operations"
+        ],
+        "extracted": [
+          "OBO",
+          "OBO/FPRE",
+          "OBO/FPRE/FRC",
+          "Office Of Business Operations",
+          "Financial Policy And Regional Execution Directorate",
+          "Financial Reporting And Compliance Division"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.1667,
+          "true_positives": [
+            "financial policy and regional execution directorate",
+            "office of business operations",
+            "financial reporting and compliance division",
+            "obo/fpre",
+            "obo/fpre/frc",
+            "obo"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": [
+            "financial policy and regional execution directorate"
+          ]
+        },
+        "response_time": 7.44,
+        "status": "success",
+        "entity_confidence": 0.8524999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 3,
+            "vector_db": 0
+          },
+          "entities": [
+            "OBO",
+            "OBO/FPRE",
+            "OBO/FPRE/FRC",
+            "Office Of Business Operations",
+            "Financial Policy And Regional Execution Directorate",
+            "Financial Reporting And Compliance Division"
+          ],
+          "entity_confidence": 0.8524999999999999,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What is OBO/FPRE/FRC responsible for?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_10_dsca_org",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.15
+    }
+  },
+  "pattern_c5_11_yockey": {
+    "results": [
+      {
+        "test_id": 251,
+        "query": "What is a Yockey Waiver?",
+        "expected": [
+          "yockey waiver"
+        ],
+        "extracted": [
+          "Yockey Waiver"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "yockey waiver"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.05,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "Yockey Waiver"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is a Yockey Waiver?",
+          "relationships": [
+            "Yockey Waiver pre-OT&E release",
+            "Yockey Waiver developmental items",
+            "Yockey Waiver USD(A&S) approval"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 252,
+        "query": "When is a Yockey Waiver required?",
+        "expected": [
+          "yockey waiver"
+        ],
+        "extracted": [
+          "Yockey Waiver"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "yockey waiver"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.38,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "Yockey Waiver"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.77,
+          "question": "When is a Yockey Waiver required?",
+          "relationships": [
+            "Yockey Waiver pre-OT&E release",
+            "Yockey Waiver developmental items",
+            "Yockey Waiver USD(A&S) approval"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 253,
+        "query": "Who approves Yockey Waivers?",
+        "expected": [
+          "yockey waiver"
+        ],
+        "extracted": [
+          "Yockey Waiver"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "yockey waiver"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.05,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "Yockey Waiver"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.77,
+          "question": "Who approves Yockey Waivers?",
+          "relationships": [
+            "Yockey Waiver pre-OT&E release",
+            "Yockey Waiver developmental items",
+            "Yockey Waiver USD(A&S) approval"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 254,
+        "query": "Does NPOR require a Yockey Waiver?",
+        "expected": [
+          "npor",
+          "yockey waiver",
+          "non-program of record"
+        ],
+        "extracted": [
+          "Yockey Waiver"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "yockey waiver"
+          ],
+          "false_positives": [],
+          "false_negatives": [
+            "non-program of record",
+            "npor"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 6.23,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "Yockey Waiver"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "verification",
+          "intent_confidence": 0.77,
+          "question": "Does NPOR require a Yockey Waiver?",
+          "relationships": [
+            "Yockey Waiver pre-OT&E release",
+            "Yockey Waiver developmental items",
+            "Yockey Waiver USD(A&S) approval"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_11_yockey",
+      "total_tests": 4,
+      "successful": 4,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.8333,
+      "avg_f1": 0.875,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c5_12_systems": {
+    "results": [
+      {
+        "test_id": 255,
+        "query": "What is DSAMS?",
+        "expected": [
+          "dsams",
+          "defense security assistance management system"
+        ],
+        "extracted": [
+          "DSAMS",
+          "Defense Security Assistance Management System"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsams",
+            "defense security assistance management system"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.57,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSAMS",
+            "Defense Security Assistance Management System"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is DSAMS?",
+          "relationships": [
+            "DSAMS case management",
+            "DSAMS LOA preparation",
+            "DSAMS financial tracking",
+            "526e6081-9bf3-446a-87cd-43b3b887ed7f managed_by dsca",
+            "526e6081-9bf3-446a-87cd-43b3b887ed7f operated_by dsca",
+            "526e6081-9bf3-446a-87cd-43b3b887ed7f used_by dsca",
+            "526e6081-9bf3-446a-87cd-43b3b887ed7f used_by 7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "526e6081-9bf3-446a-87cd-43b3b887ed7f used_by b73ba44b-2ab0-466e-9968-1c309a613de2"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 256,
+        "query": "How is LOR data entered in DSAMS?",
+        "expected": [
+          "lor",
+          "dsams",
+          "letter of request",
+          "defense security assistance management system"
+        ],
+        "extracted": [
+          "LOR",
+          "DSAMS",
+          "Letter Of Request",
+          "Defense Security Assistance Management System"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsams",
+            "lor",
+            "letter of request",
+            "defense security assistance management system"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.13,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "DSAMS",
+            "Letter Of Request",
+            "Defense Security Assistance Management System"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.4,
+            "hallucination_rate": 0.5,
+            "precision": 0.5,
+            "recall": 0.3333
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.64,
+          "question": "How is LOR data entered in DSAMS?",
+          "relationships": [
+            "LOR initiates FMS process",
+            "LOR submitted by SCO",
+            "LOR must meet actionable criteria",
+            "DSAMS case management",
+            "DSAMS LOA preparation",
+            "DSAMS financial tracking",
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 257,
+        "query": "What is the MASL Military Articles and Services List?",
+        "expected": [
+          "masl",
+          "military articles and services list"
+        ],
+        "extracted": [
+          "MASL",
+          "Military Articles and Services List"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "masl",
+            "military articles and services list"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.17,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "MASL",
+            "Military Articles and Services List"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the MASL Military Articles and Services List?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 258,
+        "query": "What is CTS Case Tracking System?",
+        "expected": [
+          "cts",
+          "case tracking system"
+        ],
+        "extracted": [
+          "CTS",
+          "Case Tracking System"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "cts",
+            "case tracking system"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.53,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "CTS",
+            "Case Tracking System"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is CTS Case Tracking System?",
+          "relationships": [
+            "CTS Case Tracking System",
+            "CTS status monitoring",
+            "CTS milestone tracking",
+            "82d6e0a7-55df-4b5f-9e47-03f845e53bfb TRACKS 22ecad7d-d1df-44d3-96c0-22a2b0c5f036",
+            "82d6e0a7-55df-4b5f-9e47-03f845e53bfb USED_BY 7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "82d6e0a7-55df-4b5f-9e47-03f845e53bfb USED_BY dsca",
+            "82d6e0a7-55df-4b5f-9e47-03f845e53bfb TRACKS 9cf88967-7197-4f5a-b500-403cd3916fd4",
+            "82d6e0a7-55df-4b5f-9e47-03f845e53bfb TRACKS 23bc94f0-60eb-4b90-b43f-0af77345c96d"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 259,
+        "query": "What is SCIP used for?",
+        "expected": [
+          "scip",
+          "security cooperation information portal"
+        ],
+        "extracted": [
+          "SCIP",
+          "Security Cooperation Information Portal"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "scip",
+            "security cooperation information portal"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.55,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "SCIP",
+            "Security Cooperation Information Portal"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 1.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is SCIP used for?",
+          "relationships": [
+            "SCIP information portal",
+            "SCIP case data",
+            "SCIP customer access"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 260,
+        "query": "How are case milestones tracked?",
+        "expected": [],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.03,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "relationship",
+          "intent_confidence": 0.48,
+          "question": "How are case milestones tracked?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c5_12_systems",
+      "total_tests": 6,
+      "successful": 6,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  }
+}

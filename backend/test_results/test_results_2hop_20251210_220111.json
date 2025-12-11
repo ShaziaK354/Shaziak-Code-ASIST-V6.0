@@ -1,0 +1,894 @@
+{
+  "timestamp": "2025-12-10T22:01:11.743058",
+  "kg_stats": {
+    "entities": 71,
+    "relationships": 88
+  },
+  "tests": [
+    {
+      "id": "Q4",
+      "question": "Who supervises Security Assistance programs?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "SA --[supervised_by]--> SECSTATE",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Secretary of State",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SECSTATE",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "continuous supervision",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "general direction",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SA --[supervised_by]--> SECSTATE",
+        "SA --[subset_of]--> SC",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[authorized_by]--> FAA",
+        "SA --[authorized_by]--> AECA",
+        "SA --[authorized_by]--> APPROP_ACTS",
+        "SA --[administered_by]--> DOD",
+        "SA --[supervised_by]--> SECSTATE --[coordinates_with]--> SECDEF",
+        "SA --[subset_of]--> SC --[managed_by]--> SECDEF",
+        "SA --[subset_of]--> SC --[authorized_by]--> TITLE10"
+      ],
+      "authority_chains": {
+        "SA": [
+          {
+            "from": "sa",
+            "to": "secstate",
+            "type": "supervised_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "SA": "Group of programs authorized under Title 22 by which the US provides defense articles, military educ"
+      }
+    },
+    {
+      "id": "Q2",
+      "question": "What is the difference between SC and SA?",
+      "category": "comparison",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "SA --[subset_of]--> SC",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "subset",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Title 10",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Title 22",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SA --[subset_of]--> SC",
+        "SC --[authorized_by]--> TITLE10",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[supervised_by]--> SECSTATE",
+        "SC --[managed_by]--> SECDEF",
+        "SC --[funded_by]--> DOD_APPROP_ACTS",
+        "SA --[administered_by]--> DOD"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "SC": "All activities undertaken by DoD to encourage and enable international partners to work with the Uni",
+        "SA": "Group of programs authorized under Title 22 by which the US provides defense articles, military educ"
+      }
+    },
+    {
+      "id": "Q5",
+      "question": "What is DSCA's role?",
+      "category": "role",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "DSCA --[reports_to]--> USD(P)",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "directs",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "administers",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "USD(P)",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "DSCA --[administers]--> SC",
+        "DSCA --[administers]--> FMS",
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[provides_guidance_to]--> IA",
+        "DSCA --[administers]--> SC --[managed_by]--> SECDEF",
+        "DSCA --[administers]--> SC --[authorized_by]--> TITLE10",
+        "DSCA --[administers]--> SC --[funded_by]--> DOD_APPROP_ACTS",
+        "DSCA --[administers]--> FMS --[part_of]--> SA",
+        "DSCA --[administers]--> FMS --[authorized_by]--> AECA",
+        "DSCA --[reports_to]--> USD(P) --[reports_to]--> SECDEF"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "DSCA": "Directs, administers, and provides guidance to DoD Components for SC programs"
+      }
+    },
+    {
+      "id": "Q_DSCA_CHAIN",
+      "question": "Who does DSCA report to?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "DSCA --[reports_to]--> USD(P)",
+          "found": true
+        },
+        {
+          "type": "expected_path",
+          "expected": "USD(P) --[reports_to]--> SECDEF",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "USD(P)",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SECDEF",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[administers]--> SC",
+        "DSCA --[administers]--> FMS",
+        "DSCA --[provides_guidance_to]--> IA",
+        "DSCA --[reports_to]--> USD(P) --[reports_to]--> SECDEF",
+        "DSCA --[reports_to]--> USD(P) --[develops_policy_for]--> SC",
+        "DSCA --[reports_to]--> USD(P) --[advises]--> SECDEF",
+        "DSCA --[administers]--> SC --[managed_by]--> SECDEF",
+        "DSCA --[administers]--> SC --[authorized_by]--> TITLE10",
+        "DSCA --[administers]--> FMS --[authorized_by]--> AECA"
+      ],
+      "authority_chains": {
+        "DSCA": [
+          {
+            "from": "dsca",
+            "to": "usd(p)",
+            "type": "reports_to"
+          },
+          {
+            "from": "usd(p)",
+            "to": "secdef",
+            "type": "reports_to"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "DSCA": "Directs, administers, and provides guidance to DoD Components for SC programs"
+      }
+    },
+    {
+      "id": "Q_FMS_AUTH",
+      "question": "What authorizes FMS?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_content",
+          "expected": "AECA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Arms Export Control Act",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA",
+        "FMS --[part_of]--> SA --[authorized_by]--> TITLE22",
+        "FMS --[part_of]--> SA --[authorized_by]--> FAA",
+        "FMS --[part_of]--> SA --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA --[authorized_by]--> APPROP_ACTS",
+        "FMS --[part_of]--> SA --[supervised_by]--> SECSTATE",
+        "FMS --[part_of]--> SA --[subset_of]--> SC",
+        "FMS --[part_of]--> SA --[administered_by]--> DOD"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "FMS": "Government-to-government sale of defense articles, services, and training"
+      }
+    },
+    {
+      "id": "Q_SA_SUPERVISION",
+      "question": "Who provides continuous supervision of SA?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "SA --[supervised_by]--> SECSTATE",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Secretary of State",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SECSTATE",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SA --[supervised_by]--> SECSTATE",
+        "SA --[subset_of]--> SC",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[authorized_by]--> FAA",
+        "SA --[authorized_by]--> AECA",
+        "SA --[authorized_by]--> APPROP_ACTS",
+        "SA --[administered_by]--> DOD",
+        "SA --[supervised_by]--> SECSTATE --[coordinates_with]--> SECDEF",
+        "SA --[subset_of]--> SC --[managed_by]--> SECDEF",
+        "SA --[subset_of]--> SC --[authorized_by]--> TITLE10"
+      ],
+      "authority_chains": {
+        "SA": [
+          {
+            "from": "sa",
+            "to": "secstate",
+            "type": "supervised_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "SA": "Group of programs authorized under Title 22 by which the US provides defense articles, military educ"
+      }
+    },
+    {
+      "id": "Q_FMS_CHAIN",
+      "question": "What is the supervision chain for FMS?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "FMS --[part_of]--> SA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SECSTATE",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA",
+        "FMS --[part_of]--> SA --[supervised_by]--> SECSTATE",
+        "FMS --[part_of]--> SA --[subset_of]--> SC",
+        "FMS --[part_of]--> SA --[authorized_by]--> TITLE22",
+        "FMS --[part_of]--> SA --[authorized_by]--> FAA",
+        "FMS --[part_of]--> SA --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA --[authorized_by]--> APPROP_ACTS",
+        "FMS --[part_of]--> SA --[administered_by]--> DOD"
+      ],
+      "authority_chains": {
+        "FMS": [
+          {
+            "from": "fms",
+            "to": "sa",
+            "type": "part_of"
+          },
+          {
+            "from": "sa",
+            "to": "secstate",
+            "type": "supervised_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "FMS": "Government-to-government sale of defense articles, services, and training"
+      }
+    },
+    {
+      "id": "Q_NAVY_FMS",
+      "question": "Who is responsible for Navy FMS cases?",
+      "category": "responsibility",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "NIPO --[manages]--> FMS",
+          "found": true
+        },
+        {
+          "type": "expected_path",
+          "expected": "NIPO --[is_IA_for]--> DEPT_NAVY",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "NIPO",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Navy",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "manages",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "FMS",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA",
+        "NIPO --[is_IA_for]--> DEPT_NAVY",
+        "NIPO --[manages]--> FMS",
+        "FMS --[part_of]--> SA --[subset_of]--> SC",
+        "FMS --[part_of]--> SA --[supervised_by]--> SECSTATE",
+        "NIPO --[manages]--> FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA --[authorized_by]--> TITLE22",
+        "FMS --[part_of]--> SA --[authorized_by]--> FAA",
+        "FMS --[part_of]--> SA --[authorized_by]--> AECA"
+      ],
+      "authority_chains": {
+        "FMS": [
+          {
+            "from": "fms",
+            "to": "sa",
+            "type": "part_of"
+          },
+          {
+            "from": "sa",
+            "to": "secstate",
+            "type": "supervised_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "NIPO": "Implementing Agency for Department of the Navy, manages Navy FMS cases",
+        "FMS": "Government-to-government sale of defense articles, services, and training",
+        "DEPT_NAVY": "Military department responsible for Navy and Marine Corps SC programs"
+      }
+    },
+    {
+      "id": "Q_DFAS_ROLE",
+      "question": "What role does DFAS play in Security Cooperation?",
+      "category": "role",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "DFAS --[performs_accounting]--> SC",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "accounting",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "billing",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "disbursing",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "collecting",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SC --[authorized_by]--> TITLE10",
+        "DFAS --[provides_services_for]--> SC",
+        "DFAS --[performs_accounting]--> SC",
+        "DFAS --[performs_billing]--> SC",
+        "DFAS --[performs_disbursing]--> SC",
+        "DFAS --[performs_collecting]--> SC",
+        "SC --[managed_by]--> SECDEF",
+        "SC --[funded_by]--> DOD_APPROP_ACTS",
+        "DFAS --[provides_services_for]--> SC --[authorized_by]--> TITLE10",
+        "DFAS --[performs_accounting]--> SC --[authorized_by]--> TITLE10"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "DFAS": "Performs accounting, billing, disbursing, and collecting functions for SC programs",
+        "SC": "All activities undertaken by DoD to encourage and enable international partners to work with the Uni"
+      }
+    },
+    {
+      "id": "Q_JCS_ADVICE",
+      "question": "Who provides military advice on Security Cooperation?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "JCS --[provides_military_advice]--> SECDEF",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Joint Chiefs",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "military advice",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SECDEF",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SC --[managed_by]--> SECDEF",
+        "SC --[authorized_by]--> TITLE10",
+        "JCS --[provides_military_advice]--> SECDEF",
+        "JCS --[reviews_with]--> USD(P)",
+        "SC --[funded_by]--> DOD_APPROP_ACTS",
+        "SC --[authorized_by]--> TITLE10 --[authorizes]--> NDAA",
+        "JCS --[reviews_with]--> USD(P) --[reports_to]--> SECDEF",
+        "JCS --[reviews_with]--> USD(P) --[advises]--> SECDEF",
+        "JCS --[reviews_with]--> USD(P) --[develops_policy_for]--> SC"
+      ],
+      "authority_chains": {
+        "SC": [
+          {
+            "from": "sc",
+            "to": "secdef",
+            "type": "managed_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "JCS": "Joint Chiefs of Staff - Provides military advice on SC to SECDEF, reviews campaign plans with USD(P)",
+        "SC": "All activities undertaken by DoD to encourage and enable international partners to work with the Uni",
+        "SECDEF": "Head of Department of Defense, oversees Security Cooperation"
+      }
+    },
+    {
+      "id": "Q_IAS",
+      "question": "What are the Implementing Agencies for each military department?",
+      "category": "responsibility",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "DASA_DEC --[is_IA_for]--> DEPT_ARMY",
+          "found": true
+        },
+        {
+          "type": "expected_path",
+          "expected": "NIPO --[is_IA_for]--> DEPT_NAVY",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "DASA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "NIPO",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SAF/IA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Army",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Navy",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Air Force",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "DASA_DEC --[is_IA_for]--> DEPT_ARMY",
+        "NIPO --[is_IA_for]--> DEPT_NAVY",
+        "NIPO --[manages]--> FMS",
+        "SAF_IA --[is_IA_for]--> DEPT_AIR_FORCE",
+        "NIPO --[manages]--> FMS --[authorized_by]--> AECA",
+        "NIPO --[manages]--> FMS --[part_of]--> SA"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "DASA_DEC": "Implementing Agency for Department of the Army",
+        "NIPO": "Implementing Agency for Department of the Navy, manages Navy FMS cases",
+        "SAF_IA": "Implementing Agency for Department of the Air Force",
+        "DEPT_ARMY": "Military department responsible for Army SC programs",
+        "DEPT_NAVY": "Military department responsible for Navy and Marine Corps SC programs",
+        "DEPT_AIR_FORCE": "Military department responsible for Air Force and Space Force SC programs"
+      }
+    },
+    {
+      "id": "Q_SCO_SUPERVISION",
+      "question": "Who supervises Security Cooperation Organizations (SCOs)?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "CCDRS --[supervises]--> SCO",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Combatant Commander",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "CCDR",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "supervise",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SCO",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "CCDRS --[supervises]--> SCO",
+        "CCDRS --[develops_campaign_plans_for]--> SC",
+        "SCO --[submits]--> LOR",
+        "CCDRS --[supervises]--> SCO --[submits]--> LOR",
+        "CCDRS --[develops_campaign_plans_for]--> SC --[managed_by]--> SECDEF",
+        "CCDRS --[develops_campaign_plans_for]--> SC --[authorized_by]--> TITLE10",
+        "CCDRS --[develops_campaign_plans_for]--> SC --[funded_by]--> DOD_APPROP_ACTS",
+        "SCO --[submits]--> LOR --[initiates]--> FMS"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "CCDRS": "Develop campaign plans for SC, supervise SCOs, execute GEF",
+        "SCO": "In-country organization managing SC activities with partner nations"
+      }
+    },
+    {
+      "id": "Q_DOS_ROLE",
+      "question": "What does Department of State do for Security Assistance?",
+      "category": "role",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "DOS --[supervises]--> SA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "supervises",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "general direction",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Security Assistance",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SA --[subset_of]--> SC",
+        "SA --[supervised_by]--> SECSTATE",
+        "DOS --[supervises]--> SA",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[authorized_by]--> FAA",
+        "SA --[authorized_by]--> AECA",
+        "SA --[authorized_by]--> APPROP_ACTS",
+        "DOS --[provides_general_direction]--> SA",
+        "SA --[administered_by]--> DOD",
+        "DOS --[supervises]--> SA --[subset_of]--> SC"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "DOS": "Continuous supervision of SA, general direction of SA programs, export license reviews",
+        "SA": "Group of programs authorized under Title 22 by which the US provides defense articles, military educ"
+      }
+    },
+    {
+      "id": "Q_FMS_AUDIT",
+      "question": "Who audits FMS contracts?",
+      "category": "responsibility",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "DCAA --[performs_auditing]--> FMS",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "DCAA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "audit",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "contract",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA",
+        "DCAA --[performs_auditing]--> FMS",
+        "FMS --[part_of]--> SA --[subset_of]--> SC",
+        "FMS --[part_of]--> SA --[supervised_by]--> SECSTATE",
+        "DCAA --[performs_auditing]--> FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA --[authorized_by]--> TITLE22",
+        "FMS --[part_of]--> SA --[authorized_by]--> FAA",
+        "FMS --[part_of]--> SA --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA --[authorized_by]--> APPROP_ACTS"
+      ],
+      "authority_chains": {
+        "FMS": [
+          {
+            "from": "fms",
+            "to": "sa",
+            "type": "part_of"
+          },
+          {
+            "from": "sa",
+            "to": "secstate",
+            "type": "supervised_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "DCAA": "Contract auditing, financial advisory, FMS support",
+        "FMS": "Government-to-government sale of defense articles, services, and training"
+      }
+    },
+    {
+      "id": "Q_DLA_ROLE",
+      "question": "What is the role of DLA in Security Cooperation?",
+      "category": "role",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "DLA --[provides_logistics_for]--> SC",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "logistics",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "DLA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Defense Logistics",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SC --[authorized_by]--> TITLE10",
+        "DLA --[provides_logistics_for]--> SC",
+        "SC --[managed_by]--> SECDEF",
+        "SC --[funded_by]--> DOD_APPROP_ACTS",
+        "DLA --[provides_logistics_for]--> SC --[authorized_by]--> TITLE10",
+        "SC --[authorized_by]--> TITLE10 --[authorizes]--> NDAA",
+        "DLA --[provides_logistics_for]--> SC --[managed_by]--> SECDEF",
+        "DLA --[provides_logistics_for]--> SC --[funded_by]--> DOD_APPROP_ACTS"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "DLA": "Defense Logistics Agency - Provides logistics support including cataloging, EDA, medical equipment, ",
+        "SC": "All activities undertaken by DoD to encourage and enable international partners to work with the Uni"
+      }
+    },
+    {
+      "id": "Q_CAMPAIGN_PLANS",
+      "question": "Who develops campaign plans for Security Cooperation?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "CCDRS --[develops_campaign_plans_for]--> SC",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "CCDR",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Combatant Commander",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "campaign plan",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SC --[managed_by]--> SECDEF",
+        "CCDRS --[supervises]--> SCO",
+        "SC --[authorized_by]--> TITLE10",
+        "CCDRS --[develops_campaign_plans_for]--> SC",
+        "SC --[funded_by]--> DOD_APPROP_ACTS",
+        "CCDRS --[develops_campaign_plans_for]--> SC --[managed_by]--> SECDEF",
+        "CCDRS --[supervises]--> SCO --[submits]--> LOR",
+        "CCDRS --[develops_campaign_plans_for]--> SC --[authorized_by]--> TITLE10",
+        "SC --[authorized_by]--> TITLE10 --[authorizes]--> NDAA",
+        "CCDRS --[develops_campaign_plans_for]--> SC --[funded_by]--> DOD_APPROP_ACTS"
+      ],
+      "authority_chains": {
+        "SC": [
+          {
+            "from": "sc",
+            "to": "secdef",
+            "type": "managed_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "CCDRS": "Develop campaign plans for SC, supervise SCOs, execute GEF",
+        "SC": "All activities undertaken by DoD to encourage and enable international partners to work with the Uni"
+      }
+    },
+    {
+      "id": "Q_ARMY_FMS",
+      "question": "Who handles Army FMS materiel programs?",
+      "category": "responsibility",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "USASAC --[responsible_for]--> FMS",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "USASAC",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Army",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "materiel",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "FMS",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA",
+        "USASAC --[responsible_for]--> FMS",
+        "FMS --[part_of]--> SA --[subset_of]--> SC",
+        "FMS --[part_of]--> SA --[supervised_by]--> SECSTATE",
+        "USASAC --[responsible_for]--> FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA --[authorized_by]--> TITLE22",
+        "FMS --[part_of]--> SA --[authorized_by]--> FAA",
+        "FMS --[part_of]--> SA --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA --[authorized_by]--> APPROP_ACTS"
+      ],
+      "authority_chains": {
+        "FMS": [
+          {
+            "from": "fms",
+            "to": "sa",
+            "type": "part_of"
+          },
+          {
+            "from": "sa",
+            "to": "secstate",
+            "type": "supervised_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "USASAC": "Responsible for Army Materiel Programs (FMS) under AMC",
+        "FMS": "Government-to-government sale of defense articles, services, and training",
+        "DEPT_ARMY": "Military department responsible for Army SC programs"
+      }
+    }
+  ],
+  "summary": {
+    "total": 17,
+    "passed": 17,
+    "partial": 0,
+    "failed": 0
+  }
+}

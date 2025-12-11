@@ -1,0 +1,10 @@
+{
+  "intent_corrections": {},
+  "entity_corrections": {},
+  "answer_corrections": {
+    "decdc09459888de1522685239182efc1": "DSCA (Defense Security Cooperation Agency) is responsible for administering DoD security assistance programs.",
+    "6e76515ef368b5255ac26864a0ca0029": "MANUAL TEST: The threshold for Congressional notification is  million for major defense equipment sales. This answer was saved manually via PowerShell to test if hash matching works.",
+    "e841ed314364432f2a22b772ff7f7856": "DSCA (Defense Security Cooperation Agency) is the primary Department of Defense organization responsible for:\n\n1. **Security Assistance Programs**: Administering Foreign Military Sales (FMS), Foreign Military Financing (FMF), and other security assistance programs\n\n2. **Security Cooperation**: Managing security cooperation activities with partner nations and international organizations\n\n3. **Arms Transfer**: Overseeing the transfer of defense articles, services, and training to foreign governments\n\n4. **Congressional Notifications**: Coordinating Congressional notifications for arms sales over statutory thresholds ($100M for major defense equipment)\n\n5. **SAMM Management**: Publishing and maintaining the Security Assistance Management Manual (SAMM) which provides policy and procedures guidance\n\nDSCA works closely with the Department of State, military services, and defense agencies to support U.S. foreign policy and national security objectives through security cooperation.\n\n---\nThis answer has been edited and verified via HITL dashboard.\nTest Date: November 21, 2025"
+  },
+  "correction_history": []
+}

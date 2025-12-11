@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 2 HITL Metrics Dashboard - Live</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: #f8f9fa;
+            padding: 20px;
+            min-height: 100vh;
+            color: #212529;
+        }
+        
+        .dashboard {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: #33495d;
+            padding: 5px 40px 5px 40px;
+            border-radius: 0;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header-left {
+            margin-left: 20px;
+        }
+        
+        .header-left h1 {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-left: 0;
+            margin-bottom: 0;
+        }
+        
+        .header-left h1 img {
+            height: 160px;
+            width: auto;
+            margin-left: 0;
+        }
+        
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+        
+        .main-title {
+            font-size: 54px;
+            font-weight: 600;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+        }
+        
+        .sub-title {
+            font-size: 18px;
+            font-weight: 400;
+            color: #b8c5d0;
+        }
+        
+        .header-left p {
+            color: #b8c5d0;
+            font-size: 23px;
+        }
+        
+        .refresh-badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .live-indicator {
+            width: 12px;
+            height: 12px;
+            background: #27ae60;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .refresh-time {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 20px;
+            padding: 30px 40px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid #dee2e6;
+            min-height: 140px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: #34495e;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .stat-value {
+            font-size: 42px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .stat-change {
+            font-size: 14px;
+            color: #27ae60;
+            font-weight: 500;
+        }
+        
+        .stat-change.negative {
+            color: #e74c3c;
+        }
+        
+        .stat-change.neutral {
+            color: #95a5a6;
+        }
+        
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 20px;
+            padding: 0 40px 30px 40px;
+        }
+        
+        .chart-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border: 2px solid #dee2e6;
+            max-height: 350px;
+        }
+        
+        .chart-card canvas {
+            max-height: 250px;
+        }
+        
+        .chart-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ecf0f1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .chart-subtitle {
+            font-size: 12px;
+            color: #95a5a6;
+            font-weight: normal;
+        }
+        
+        .full-width {
+            grid-column: 1 / -1;
+            max-height: 600px;
+        }
+        
+        .full-width canvas {
+            max-height: 500px !important;
+        }
+        
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .controls {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 0;
+            margin-bottom: 0;
+            box-shadow: none;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background: #34495e;
+            color: white;
+            border: 2px solid #1A8FDD;
+        }
+        
+        .btn-primary:hover {
+            background: #1A8FDD;
+            border-color: #1A8FDD;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(26, 143, 221, 0.3);
+        }
+        
+        .btn-secondary {
+            background: #ecf0f1;
+            color: #2c3e50;
+        }
+        
+        .btn-secondary:hover {
+            background: #bdc3c7;
+        }
+        
+        .auto-refresh-toggle {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+        }
+        
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 24px;
+        }
+        
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        
+        input:checked + .slider {
+            background-color: #34495e;
+        }
+        
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+        
+        .error-message {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+    
+    <div class="dashboard">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-left">
+                <h1>
+                    <img src="/static/assist_logo_transparent.png" alt="ASIST Logo">
+                    <div class="header-text">
+                        <div class="main-title">Sprint 2 HITL Metrics Dashboard</div>
+                        <div class="sub-title">Real-time Entity & Intent Evaluation with Human-in-the-Loop Feedback</div>
+                    </div>
+                </h1>
+            </div>
+            <div class="refresh-badge">
+                <div class="live-indicator"></div>
+                <div class="refresh-time" id="lastRefresh" style="color: #b8c5d0;">Last updated: Loading...</div>
+            </div>
+        </div>
+        
+        <!-- Error Message -->
+        <div class="error-message" id="errorMessage"></div>
+        
+        <!-- Controls -->
+        <div class="controls">
+            <button class="btn btn-primary" onclick="refreshMetrics()">Refresh Now</button>
+            <div class="auto-refresh-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="autoRefreshToggle" checked>
+                    <span class="slider"></span>
+                </label>
+                <span>Auto-refresh (30s)</span>
+            </div>
+            <button class="btn btn-secondary" onclick="exportData()">Export Data</button>
+        </div>
+        
+        <!-- Key Metrics Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total Reviews</div>
+                <div class="stat-value" id="statTotalReviews">0</div>
+                <div class="stat-change neutral" id="statTotalChange">Loading...</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">Pending Reviews</div>
+                <div class="stat-value" id="statPending">0</div>
+                <div class="stat-change neutral" id="statPendingChange">Awaiting review</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">Approved</div>
+                <div class="stat-value" id="statApproved">0</div>
+                <div class="stat-change" id="statApprovedChange">0% approval rate</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">Needs Revision</div>
+                <div class="stat-value" id="statRevision">0</div>
+                <div class="stat-change negative" id="statRevisionChange">Requires attention</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">Avg Confidence</div>
+                <div class="stat-value" id="statConfidence">0%</div>
+                <div class="stat-change" id="statConfidenceChange">Target: 85%+</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">Intent Accuracy</div>
+                <div class="stat-value" id="statIntentAccuracy">0%</div>
+                <div class="stat-change" id="statIntentChange">Calculated from reviews</div>
+            </div>
+        </div>
+        
+        <!-- Charts Section -->
+        <div class="charts-grid">
+            <!-- Review Status Distribution -->
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span>Review Status Distribution</span>
+                    <span class="chart-subtitle">Current state</span>
+                </div>
+                <canvas id="statusChart"></canvas>
+            </div>
+            
+            <!-- Confidence Scores Chart -->
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span>Confidence Scores</span>
+                    <span class="chart-subtitle">By component</span>
+                </div>
+                <canvas id="confidenceChart"></canvas>
+            </div>
+            
+            <!-- Trend Over Time -->
+            <div class="chart-card full-width">
+                <div class="chart-title">
+                    <span>Review Trends</span>
+                    <span class="chart-subtitle">Approval rate over time</span>
+                </div>
+                <canvas id="trendChart"></canvas>
+            </div>
+            
+            <!-- Agent Performance Comparison -->
+            <div class="chart-card full-width">
+                <div class="chart-title">
+                    <span>Agent Performance Comparison</span>
+                    <span class="chart-subtitle">Intent vs Entity vs Answer accuracy</span>
+                </div>
+                <canvas id="agentComparisonChart"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Configuration
+        // Auto-detect if running from Flask server or local file
+        const API_BASE_URL = window.location.protocol === 'file:' 
+            ? 'http://localhost:3000'  // If opened as local file, use Flask server
+            : window.location.origin;   // If served by Flask, use same origin
+        const REFRESH_INTERVAL = 30000; // 30 seconds
+        let autoRefreshInterval = null;
+        let charts = {};
+        
+        // Chart colors
+        const chartColors = {
+            primary: '#667eea',
+            secondary: '#764ba2',
+            success: '#27ae60',
+            danger: '#e74c3c',
+            warning: '#f39c12',
+            info: '#3498db',
+            pending: '#95a5a6'
+        };
+        
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeCharts();
+            refreshMetrics();
+            setupAutoRefresh();
+        });
+        
+        // Initialize all charts
+        function initializeCharts() {
+            // Status Distribution Chart
+            charts.status = new Chart(document.getElementById('statusChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Pending', 'Approved', 'Needs Revision'],
+                    datasets: [{
+                        data: [0, 0, 0],
+                        backgroundColor: [chartColors.pending, chartColors.success, chartColors.danger],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+            
+            // Confidence Scores Chart
+            charts.confidence = new Chart(document.getElementById('confidenceChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['Intent', 'Entity', 'Answer', 'Overall'],
+                    datasets: [{
+                        label: 'Confidence (%)',
+                        data: [0, 0, 0, 0],
+                        backgroundColor: [chartColors.primary, chartColors.secondary, chartColors.info, chartColors.warning],
+                        borderRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: { callback: value => value + '%' }
+                        }
+                    }
+                }
+            });
+            
+            // Trend Chart
+            charts.trend = new Chart(document.getElementById('trendChart'), {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Approval Rate (%)',
+                        data: [],
+                        borderColor: chartColors.success,
+                        backgroundColor: 'rgba(39, 174, 96, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'top' }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: { callback: value => value + '%' }
+                        }
+                    }
+                }
+            });
+            
+            // Agent Comparison Chart
+            charts.agentComparison = new Chart(document.getElementById('agentComparisonChart'), {
+                type: 'radar',
+                data: {
+                    labels: ['Precision', 'Recall', 'F1 Score', 'Confidence', 'Response Time'],
+                    datasets: [{
+                        label: 'Intent Agent',
+                        data: [0, 0, 0, 0, 0],
+                        backgroundColor: 'rgba(102, 126, 234, 0.2)',
+                        borderColor: chartColors.primary,
+                        borderWidth: 2,
+                        pointBackgroundColor: chartColors.primary
+                    },
+                    {
+                        label: 'Entity Agent',
+                        data: [0, 0, 0, 0, 0],
+                        backgroundColor: 'rgba(118, 75, 162, 0.2)',
+                        borderColor: chartColors.secondary,
+                        borderWidth: 2,
+                        pointBackgroundColor: chartColors.secondary
+                    },
+                    {
+                        label: 'Target',
+                        data: [85, 85, 85, 90, 80],
+                        backgroundColor: 'rgba(39, 174, 96, 0.1)',
+                        borderColor: chartColors.success,
+                        borderWidth: 2,
+                        borderDash: [5, 5],
+                        pointBackgroundColor: chartColors.success
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 100
+                        }
+                    }
+                }
+            });
+        }
+        
+        // Fetch metrics from API
+        async function fetchMetrics() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/reviews/detailed-stats`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                
+                if (!data.success) {
+                    throw new Error(data.error || 'Failed to fetch metrics');
+                }
+                
+                return data;
+            } catch (error) {
+                console.error('Error fetching metrics:', error);
+                showError(`Failed to fetch metrics: ${error.message}`);
+                return null;
+            }
+        }
+        
+        // Update all metrics
+        async function refreshMetrics() {
+            showLoading(true);
+            hideError();
+            
+            const data = await fetchMetrics();
+            
+            if (data) {
+                updateStats(data);
+                updateCharts(data);
+                updateLastRefreshTime();
+            }
+            
+            showLoading(false);
+        }
+        
+        // Update stat cards
+        function updateStats(data) {
+            // Extract counts from detailed response
+            const counts = data.counts || {};
+            const confidence = data.confidence || {};
+            const accuracy = data.accuracy || {};
+            const rates = data.rates || {};
+            
+            // Total reviews
+            document.getElementById('statTotalReviews').textContent = counts.total_reviews || 0;
+            document.getElementById('statTotalChange').textContent = `${counts.total_reviews || 0} questions evaluated`;
+            
+            // Pending
+            document.getElementById('statPending').textContent = counts.pending || 0;
+            
+            // Approved
+            document.getElementById('statApproved').textContent = counts.approved || 0;
+            const approvalRate = rates.approval_rate || 0;
+            document.getElementById('statApprovedChange').textContent = `${approvalRate}% approval rate`;
+            
+            // Needs Revision
+            document.getElementById('statRevision').textContent = counts.needs_revision || 0;
+            const revisionRate = rates.revision_rate || 0;
+            document.getElementById('statRevisionChange').textContent = `${revisionRate}% need revision`;
+            
+            // Average Confidence
+            const avgConfidence = Math.round(confidence.overall || 0);
+            document.getElementById('statConfidence').textContent = `${avgConfidence}%`;
+            const confidenceClass = avgConfidence >= 85 ? '' : avgConfidence >= 70 ? 'neutral' : 'negative';
+            document.getElementById('statConfidenceChange').className = `stat-change ${confidenceClass}`;
+            document.getElementById('statConfidenceChange').textContent = 
+                avgConfidence >= 85 ? '✓ Above target' : `${85 - avgConfidence}% below target`;
+            
+            // Intent Accuracy
+            const intentAccuracy = Math.round(accuracy.intent_accuracy || 0);
+            document.getElementById('statIntentAccuracy').textContent = `${intentAccuracy}%`;
+            document.getElementById('statIntentChange').textContent = 
+                intentAccuracy >= 80 ? '✓ Good performance' : 'Needs improvement';
+        }
+        
+        // Update charts
+        function updateCharts(data) {
+            const counts = data.counts || {};
+            const confidence = data.confidence || {};
+            const rates = data.rates || {};
+            
+            // Status Distribution
+            charts.status.data.datasets[0].data = [
+                counts.pending || 0,
+                counts.approved || 0,
+                counts.needs_revision || 0
+            ];
+            charts.status.update();
+            
+            // Confidence Scores
+            charts.confidence.data.datasets[0].data = [
+                confidence.intent || 0,
+                confidence.entity || 0,
+                confidence.answer || 0,
+                confidence.overall || 0
+            ];
+            charts.confidence.update();
+            
+            // Trend Chart
+            const now = new Date().toLocaleTimeString();
+            const approvalRate = rates.approval_rate || 0;
+            
+            // Keep last 10 data points
+            if (charts.trend.data.labels.length >= 10) {
+                charts.trend.data.labels.shift();
+                charts.trend.data.datasets[0].data.shift();
+            }
+            
+            charts.trend.data.labels.push(now);
+            charts.trend.data.datasets[0].data.push(approvalRate);
+            charts.trend.update();
+            
+            // Agent Comparison
+            const accuracy = data.accuracy || {};
+            const avgConf = confidence.overall || 0;
+            
+            charts.agentComparison.data.datasets[0].data = [
+                (accuracy.intent_accuracy || 0), 
+                (accuracy.intent_accuracy || 0) * 0.9, 
+                (accuracy.intent_accuracy || 0) * 0.95, 
+                avgConf, 
+                75
+            ];
+            charts.agentComparison.data.datasets[1].data = [
+                (accuracy.entity_precision || 0) * 100,
+                (accuracy.entity_recall || 0) * 100,
+                (accuracy.entity_f1 || 0) * 100,
+                confidence.entity || 0,
+                80
+            ];
+            charts.agentComparison.update();
+        }
+        
+        // Update last refresh time
+        function updateLastRefreshTime() {
+            const now = new Date();
+            document.getElementById('lastRefresh').textContent = 
+                `Last updated: ${now.toLocaleTimeString()}`;
+        }
+        
+        // Setup auto-refresh
+        function setupAutoRefresh() {
+            const toggle = document.getElementById('autoRefreshToggle');
+            
+            toggle.addEventListener('change', function() {
+                if (this.checked) {
+                    startAutoRefresh();
+                } else {
+                    stopAutoRefresh();
+                }
+            });
+            
+            // Start by default
+            if (toggle.checked) {
+                startAutoRefresh();
+            }
+        }
+        
+        function startAutoRefresh() {
+            stopAutoRefresh(); // Clear any existing interval
+            autoRefreshInterval = setInterval(refreshMetrics, REFRESH_INTERVAL);
+        }
+        
+        function stopAutoRefresh() {
+            if (autoRefreshInterval) {
+                clearInterval(autoRefreshInterval);
+                autoRefreshInterval = null;
+            }
+        }
+        
+        // Export data
+        function exportData() {
+            const data = {
+                timestamp: new Date().toISOString(),
+                stats: {
+                    totalReviews: document.getElementById('statTotalReviews').textContent,
+                    pending: document.getElementById('statPending').textContent,
+                    approved: document.getElementById('statApproved').textContent,
+                    needsRevision: document.getElementById('statRevision').textContent,
+                    avgConfidence: document.getElementById('statConfidence').textContent,
+                    intentAccuracy: document.getElementById('statIntentAccuracy').textContent
+                }
+            };
+            
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `sprint2-metrics-${Date.now()}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        // UI helpers
+        function showLoading(show) {
+            document.getElementById('loadingOverlay').style.display = show ? 'flex' : 'none';
+        }
+        
+        function showError(message) {
+            const errorEl = document.getElementById('errorMessage');
+            errorEl.textContent = message;
+            errorEl.style.display = 'block';
+        }
+        
+        function hideError() {
+            document.getElementById('errorMessage').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

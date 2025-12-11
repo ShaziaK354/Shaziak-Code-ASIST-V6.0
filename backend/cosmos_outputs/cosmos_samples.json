@@ -1,0 +1,1540 @@
+{
+  "timestamp": "2025-12-10T22:39:41.312534",
+  "samples_per_label": 3,
+  "vertex_samples": {
+    "Abbreviation": {
+      "count": 4,
+      "samples": []
+    },
+    "Activity": {
+      "count": 9,
+      "samples": []
+    },
+    "Agreement": {
+      "count": 28,
+      "samples": []
+    },
+    "Attribute": {
+      "count": 4,
+      "samples": []
+    },
+    "Authority": {
+      "count": 2,
+      "samples": []
+    },
+    "Capability": {
+      "count": 7,
+      "samples": []
+    },
+    "Case": {
+      "count": 4,
+      "samples": []
+    },
+    "Category": {
+      "count": 6,
+      "samples": []
+    },
+    "Classification": {
+      "count": 6,
+      "samples": []
+    },
+    "Code": {
+      "count": 29,
+      "samples": []
+    },
+    "Commercial": {
+      "count": 10,
+      "samples": []
+    },
+    "Component": {
+      "count": 5,
+      "samples": []
+    },
+    "Concept": {
+      "count": 112,
+      "samples": []
+    },
+    "Contract Document": {
+      "count": 2,
+      "samples": []
+    },
+    "Credential": {
+      "count": 3,
+      "samples": []
+    },
+    "Criteria": {
+      "count": 1,
+      "samples": []
+    },
+    "Data": {
+      "count": 3,
+      "samples": []
+    },
+    "Date": {
+      "count": 6,
+      "samples": []
+    },
+    "Defense Item": {
+      "count": 1,
+      "samples": []
+    },
+    "Defense Service": {
+      "count": 1,
+      "samples": []
+    },
+    "Document": {
+      "count": 112,
+      "samples": []
+    },
+    "Domain": {
+      "count": 1,
+      "samples": []
+    },
+    "Entity": {
+      "count": 80,
+      "samples": []
+    },
+    "Entity Group": {
+      "count": 2,
+      "samples": []
+    },
+    "Equipment": {
+      "count": 11,
+      "samples": []
+    },
+    "Event": {
+      "count": 1,
+      "samples": []
+    },
+    "Financial": {
+      "count": 107,
+      "samples": []
+    },
+    "Financial Mechanism": {
+      "count": 1,
+      "samples": []
+    },
+    "Financial Process": {
+      "count": 2,
+      "samples": []
+    },
+    "Form": {
+      "count": 7,
+      "samples": []
+    },
+    "Funding": {
+      "count": 1,
+      "samples": []
+    },
+    "Identifier": {
+      "count": 12,
+      "samples": []
+    },
+    "Item": {
+      "count": 48,
+      "samples": []
+    },
+    "Legal Authority": {
+      "count": 7,
+      "samples": []
+    },
+    "LegalFramework": {
+      "count": 1,
+      "samples": []
+    },
+    "Legislation": {
+      "count": 1,
+      "samples": []
+    },
+    "Location": {
+      "count": 19,
+      "samples": []
+    },
+    "Logistics Support": {
+      "count": 1,
+      "samples": []
+    },
+    "Materiel": {
+      "count": 1,
+      "samples": []
+    },
+    "Metric": {
+      "count": 3,
+      "samples": []
+    },
+    "Objective": {
+      "count": 1,
+      "samples": []
+    },
+    "Office": {
+      "count": 13,
+      "samples": []
+    },
+    "Organization": {
+      "count": 117,
+      "samples": []
+    },
+    "Organization Group": {
+      "count": 5,
+      "samples": []
+    },
+    "Partner": {
+      "count": 14,
+      "samples": []
+    },
+    "Partner Group": {
+      "count": 1,
+      "samples": []
+    },
+    "Plan": {
+      "count": 2,
+      "samples": []
+    },
+    "Policy": {
+      "count": 14,
+      "samples": []
+    },
+    "Position": {
+      "count": 40,
+      "samples": []
+    },
+    "Position Group": {
+      "count": 2,
+      "samples": []
+    },
+    "Procedure": {
+      "count": 3,
+      "samples": []
+    },
+    "Process": {
+      "count": 105,
+      "samples": []
+    },
+    "Program": {
+      "count": 21,
+      "samples": []
+    },
+    "Program Case": {
+      "count": 1,
+      "samples": []
+    },
+    "Regulation": {
+      "count": 54,
+      "samples": []
+    },
+    "Requirement": {
+      "count": 1,
+      "samples": []
+    },
+    "Resource": {
+      "count": 4,
+      "samples": []
+    },
+    "Service": {
+      "count": 39,
+      "samples": []
+    },
+    "Specification": {
+      "count": 4,
+      "samples": []
+    },
+    "Standard": {
+      "count": 1,
+      "samples": []
+    },
+    "Status": {
+      "count": 2,
+      "samples": []
+    },
+    "Strategy": {
+      "count": 1,
+      "samples": []
+    },
+    "System": {
+      "count": 20,
+      "samples": []
+    },
+    "Technical Assistance": {
+      "count": 1,
+      "samples": []
+    },
+    "Technology": {
+      "count": 3,
+      "samples": []
+    },
+    "Template": {
+      "count": 2,
+      "samples": []
+    },
+    "Term": {
+      "count": 2,
+      "samples": []
+    },
+    "Terms": {
+      "count": 1,
+      "samples": []
+    },
+    "Timeframe": {
+      "count": 5,
+      "samples": []
+    },
+    "Unit": {
+      "count": 4,
+      "samples": []
+    },
+    "Weapon": {
+      "count": 18,
+      "samples": []
+    },
+    "Weapon System": {
+      "count": 1,
+      "samples": []
+    },
+    "case_type": {
+      "count": 9,
+      "samples": []
+    },
+    "code": {
+      "count": 2,
+      "samples": []
+    },
+    "concept": {
+      "count": 46,
+      "samples": []
+    },
+    "document": {
+      "count": 82,
+      "samples": []
+    },
+    "dod_directive": {
+      "count": 13,
+      "samples": []
+    },
+    "entity": {
+      "count": 108,
+      "samples": []
+    },
+    "equipment": {
+      "count": 6,
+      "samples": []
+    },
+    "executive_order": {
+      "count": 1,
+      "samples": []
+    },
+    "financial": {
+      "count": 12,
+      "samples": []
+    },
+    "funding": {
+      "count": 9,
+      "samples": []
+    },
+    "legal_authority": {
+      "count": 12,
+      "samples": []
+    },
+    "location": {
+      "count": 5,
+      "samples": []
+    },
+    "ontology": {
+      "count": 1,
+      "samples": []
+    },
+    "organization": {
+      "count": 161,
+      "samples": []
+    },
+    "policy": {
+      "count": 1,
+      "samples": []
+    },
+    "position": {
+      "count": 29,
+      "samples": []
+    },
+    "process": {
+      "count": 60,
+      "samples": []
+    },
+    "program": {
+      "count": 26,
+      "samples": []
+    },
+    "regulation": {
+      "count": 10,
+      "samples": []
+    },
+    "role": {
+      "count": 16,
+      "samples": []
+    },
+    "section": {
+      "count": 415,
+      "samples": []
+    },
+    "status": {
+      "count": 20,
+      "samples": []
+    },
+    "system": {
+      "count": 22,
+      "samples": []
+    },
+    "term": {
+      "count": 9,
+      "samples": []
+    },
+    "timeframe": {
+      "count": 1,
+      "samples": []
+    }
+  },
+  "edge_samples": {
+    "reportsto": {
+      "count": 23,
+      "samples": [
+        {
+          "source": [
+            "defense_security_cooperation_agency_dsca",
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "target": [
+            "under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "Under Secretary of Defense for Personnel and Readiness (USD(P&R))"
+          ],
+          "label": "reportsto"
+        },
+        {
+          "source": [
+            "assistant_secretary",
+            "Assistant Secretary"
+          ],
+          "target": [
+            "deputy_under_secretary",
+            "Deputy Under Secretary"
+          ],
+          "label": "reportsto"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "usdp",
+            "USD(P)"
+          ],
+          "label": "reportsto"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "under_secretary_of_defense_for_policy",
+            "Under Secretary of Defense for Policy"
+          ],
+          "label": "reportsto"
+        },
+        {
+          "source": [
+            "deputy_under_secretary",
+            "Deputy Under Secretary"
+          ],
+          "target": [
+            "usdp",
+            "USD(P)"
+          ],
+          "label": "reportsto"
+        }
+      ]
+    },
+    "administers": {
+      "count": 8,
+      "samples": [
+        {
+          "source": [
+            "department_of_defense_dod",
+            "Department of Defense (DoD)"
+          ],
+          "target": [
+            "security_assistance",
+            "Security Assistance"
+          ],
+          "label": "administers"
+        },
+        {
+          "source": [
+            "department_of_defense_dod",
+            "Department of Defense (DoD)"
+          ],
+          "target": [
+            "security_cooperation",
+            "Security Cooperation"
+          ],
+          "label": "administers"
+        },
+        {
+          "source": [
+            "defense_security_cooperation_agency_dsca",
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "target": [
+            "security_cooperation",
+            "Security Cooperation"
+          ],
+          "label": "administers"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "foreign_military_sales",
+            "Foreign Military Sales"
+          ],
+          "label": "administers"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "88a1feae-1a0f-4912-a080-df786ce29fb0",
+            "DoD Components"
+          ],
+          "label": "administers"
+        }
+      ]
+    },
+    "coordinates_with": {
+      "count": 38,
+      "samples": [
+        {
+          "source": [
+            "Implementing Agency (IA)"
+          ],
+          "target": [
+            "Contracting Officer"
+          ],
+          "label": "coordinates_with"
+        },
+        {
+          "source": [
+            "Central Intelligence Agency (CIA)"
+          ],
+          "target": [
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "label": "coordinates_with"
+        },
+        {
+          "source": [
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "target": [
+            "Department of State (State)"
+          ],
+          "label": "coordinates_with"
+        },
+        {
+          "source": [
+            "National Security Council (NSC)"
+          ],
+          "target": [
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "label": "coordinates_with"
+        },
+        {
+          "source": [
+            "usdp",
+            "USD(P)"
+          ],
+          "target": [
+            "7e8231f3-effc-45e0-969a-a1d46812c9f9",
+            "USD(R&E)"
+          ],
+          "label": "coordinates_with"
+        }
+      ]
+    },
+    "oversees": {
+      "count": 39,
+      "samples": [
+        {
+          "source": [
+            "defense_security_cooperation_agency_dsca",
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "target": [
+            "defense_attachés_datts",
+            "Defense Attachés (DATTs)"
+          ],
+          "label": "oversees"
+        },
+        {
+          "source": [
+            "defense_security_cooperation_agency_dsca",
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "target": [
+            "senior_defense_officials_sdo",
+            "Senior Defense Officials (SDO)"
+          ],
+          "label": "oversees"
+        },
+        {
+          "source": [
+            "under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "Under Secretary of Defense for Personnel and Readiness (USD(P&R))"
+          ],
+          "target": [
+            "security_cooperation_organization_manpower",
+            "Security Cooperation Organization Manpower"
+          ],
+          "label": "oversees"
+        },
+        {
+          "source": [
+            "navy_international_programs_office_nipo",
+            "Navy International Programs Office (NIPO)"
+          ],
+          "target": [
+            "international_military_education_and_training_imet",
+            "International Military Education and Training (IMET)"
+          ],
+          "label": "oversees"
+        },
+        {
+          "source": [
+            "us_congress",
+            "U.S. Congress"
+          ],
+          "target": [
+            "exports",
+            "Exports"
+          ],
+          "label": "oversees"
+        }
+      ]
+    },
+    "reports_to": {
+      "count": 3,
+      "samples": [
+        {
+          "source": [
+            "President of the United States"
+          ],
+          "target": [
+            "United States Congress"
+          ],
+          "label": "reports_to"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "1f8deb65-6110-4419-844f-38bc174f9611",
+            "USD(P&R)"
+          ],
+          "label": "reports_to"
+        },
+        {
+          "source": [
+            "47152071-1ee7-46c2-af16-f92be32eb245",
+            "IOPS"
+          ],
+          "target": [
+            "dsca",
+            "DSCA"
+          ],
+          "label": "reports_to"
+        }
+      ]
+    },
+    "coordinateswith": {
+      "count": 84,
+      "samples": [
+        {
+          "source": [
+            "program_executive_office_peo",
+            "Program Executive Office (PEO)"
+          ],
+          "target": [
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec",
+            "Office of the Deputy Assistant Secretary of the Army for Defense Exports and Cooperation (DASA (DE&C))"
+          ],
+          "label": "coordinateswith"
+        },
+        {
+          "source": [
+            "defense_security_cooperation_agency_dsca",
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "target": [
+            "combatant_command_ccmd",
+            "Combatant Command (CCMD)"
+          ],
+          "label": "coordinateswith"
+        },
+        {
+          "source": [
+            "department_of_state_dos",
+            "Department of State (DoS)"
+          ],
+          "target": [
+            "department_of_defense_dod",
+            "Department of Defense (DoD)"
+          ],
+          "label": "coordinateswith"
+        },
+        {
+          "source": [
+            "under_secretary_of_defense_for_research_and_engineering_usdre",
+            "Under Secretary of Defense for Research and Engineering (USD(R&E))"
+          ],
+          "target": [
+            "under_secretary_of_defense_for_policy_usdp",
+            "Under Secretary of Defense for Policy (USD(P))"
+          ],
+          "label": "coordinateswith"
+        },
+        {
+          "source": [
+            "defense_intelligence_agency_dia",
+            "Defense Intelligence Agency (DIA)"
+          ],
+          "target": [
+            "defense_security_cooperation_agency_dsca",
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "label": "coordinateswith"
+        }
+      ]
+    },
+    "provides": {
+      "count": 58,
+      "samples": [
+        {
+          "source": [
+            "Letter of Offer and Acceptance (LOA)"
+          ],
+          "target": [
+            "Defense Articles"
+          ],
+          "label": "provides"
+        },
+        {
+          "source": [
+            "Letter of Offer and Acceptance (LOA)"
+          ],
+          "target": [
+            "Defense Services"
+          ],
+          "label": "provides"
+        },
+        {
+          "source": [
+            "Cooperative Logistics Supply Support Arrangement (CLSSA)"
+          ],
+          "target": [
+            "Spare Parts"
+          ],
+          "label": "provides"
+        },
+        {
+          "source": [
+            "Defense Contractor"
+          ],
+          "target": [
+            "Defense Articles"
+          ],
+          "label": "provides"
+        },
+        {
+          "source": [
+            "security_assistance",
+            "Security Assistance"
+          ],
+          "target": [
+            "international_military_education_and_training_imet",
+            "International Military Education and Training (IMET)"
+          ],
+          "label": "provides"
+        }
+      ]
+    },
+    "manages": {
+      "count": 31,
+      "samples": [
+        {
+          "source": [
+            "Implementing Agency (IA)"
+          ],
+          "target": [
+            "Cooperative Logistics Supply Support Arrangement (CLSSA)"
+          ],
+          "label": "manages"
+        },
+        {
+          "source": [
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec",
+            "Office of the Deputy Assistant Secretary of the Army for Defense Exports and Cooperation (DASA (DE&C))"
+          ],
+          "target": [
+            "international_armaments_cooperation",
+            "International Armaments Cooperation"
+          ],
+          "label": "manages"
+        },
+        {
+          "source": [
+            "navy_international_programs_office_nipo",
+            "Navy International Programs Office (NIPO)"
+          ],
+          "target": [
+            "pre-letter_of_request_activities",
+            "Pre-Letter of Request Activities"
+          ],
+          "label": "manages"
+        },
+        {
+          "source": [
+            "department_of_the_navy_don",
+            "Department of the Navy (DoN)"
+          ],
+          "target": [
+            "building_partner_capacity_bpc",
+            "Building Partner Capacity (BPC)"
+          ],
+          "label": "manages"
+        },
+        {
+          "source": [
+            "790567ca-e528-40d2-8f0f-7bd3a5824118",
+            "USD(C)"
+          ],
+          "target": [
+            "2aa3dcdf-0018-42bd-84b4-39aabcad0e5c",
+            "DoD appropriation accounts"
+          ],
+          "label": "manages"
+        }
+      ]
+    },
+    "part_of": {
+      "count": 30,
+      "samples": [
+        {
+          "source": [
+            "b89d1fcb-ffff-4465-88fe-8f3a5eb104a6",
+            "SA activities"
+          ],
+          "target": [
+            "95ba0a78-0e2b-43f6-b736-6ce8d7c7c03c",
+            "DoD SC programs"
+          ],
+          "label": "part_of"
+        },
+        {
+          "source": [
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "LOA"
+          ],
+          "target": [
+            "7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "FMS"
+          ],
+          "label": "part_of"
+        },
+        {
+          "source": [
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "LOA"
+          ],
+          "target": [
+            "foreign_military_sales",
+            "Foreign Military Sales"
+          ],
+          "label": "part_of"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "9a001a29-e619-4b96-b168-c24f353f478b",
+            "DoD"
+          ],
+          "label": "part_of"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "d6bac6a8-ee5b-462e-a3a9-a17cde1e4bb5",
+            "Department of Defense"
+          ],
+          "label": "part_of"
+        }
+      ]
+    },
+    "MANAGES": {
+      "count": 19,
+      "samples": [
+        {
+          "source": [
+            "3728966a-b198-491f-a479-ac429f971eef",
+            "FMS case administration"
+          ],
+          "target": [
+            "0fdc9e89-93df-4498-87c5-f45002ab7561",
+            "FMS case"
+          ],
+          "label": "MANAGES"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "7fba19d5-2e59-425d-91d8-3aedede09ea3",
+            "FMS program"
+          ],
+          "label": "MANAGES"
+        },
+        {
+          "source": [
+            "ab569302-8dd2-4f52-95b5-e24188abc13e",
+            "DSCA Country Portfolio Director"
+          ],
+          "target": [
+            "0fdc9e89-93df-4498-87c5-f45002ab7561",
+            "FMS case"
+          ],
+          "label": "MANAGES"
+        },
+        {
+          "source": [
+            "7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "IA"
+          ],
+          "target": [
+            "5887f82a-d6e5-4c2f-9b17-f6baf09fd898",
+            "contract administration"
+          ],
+          "label": "MANAGES"
+        },
+        {
+          "source": [
+            "5887f82a-d6e5-4c2f-9b17-f6baf09fd898",
+            "contract administration"
+          ],
+          "target": [
+            "caed3ec7-f0a6-4606-9149-43e25fa4bab9",
+            "Contract"
+          ],
+          "label": "MANAGES"
+        }
+      ]
+    },
+    "COORDINATES_WITH": {
+      "count": 36,
+      "samples": [
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "IA"
+          ],
+          "label": "COORDINATES_WITH"
+        },
+        {
+          "source": [
+            "7c699ddc-188b-49ed-9af8-adc9d70919e8",
+            "State"
+          ],
+          "target": [
+            "dsca",
+            "DSCA"
+          ],
+          "label": "COORDINATES_WITH"
+        },
+        {
+          "source": [
+            "60ec381b-b891-4683-9037-6fa69220ae5e",
+            "DSCA CPD"
+          ],
+          "target": [
+            "7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "IA"
+          ],
+          "label": "COORDINATES_WITH"
+        },
+        {
+          "source": [
+            "60ec381b-b891-4683-9037-6fa69220ae5e",
+            "DSCA CPD"
+          ],
+          "target": [
+            "7c699ddc-188b-49ed-9af8-adc9d70919e8",
+            "State"
+          ],
+          "label": "COORDINATES_WITH"
+        },
+        {
+          "source": [
+            "fe0150c3-1dff-4e7b-a91f-e623b12e7448",
+            "SDR processing"
+          ],
+          "target": [
+            "65cfc5e9-eef4-4f84-a530-0c8abd88b90a",
+            "Contracting Officer"
+          ],
+          "label": "COORDINATES_WITH"
+        }
+      ]
+    },
+    "OVERSEES": {
+      "count": 7,
+      "samples": [
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "IA"
+          ],
+          "label": "OVERSEES"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "FMS"
+          ],
+          "label": "OVERSEES"
+        },
+        {
+          "source": [
+            "d3adeb21-907b-4b80-9a57-1aa337b479d5",
+            "Chief of Mission"
+          ],
+          "target": [
+            "1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8",
+            "SCO"
+          ],
+          "label": "OVERSEES"
+        },
+        {
+          "source": [
+            "usdp",
+            "USD(P)"
+          ],
+          "target": [
+            "dsca",
+            "DSCA"
+          ],
+          "label": "OVERSEES"
+        },
+        {
+          "source": [
+            "d8e96378-3fbc-4f5d-a50c-3753806f5c4f",
+            "CCMD"
+          ],
+          "target": [
+            "1bb45b44-2f22-4f2d-bba3-e4c8db43a5f8",
+            "SCO"
+          ],
+          "label": "OVERSEES"
+        }
+      ]
+    },
+    "PART_OF": {
+      "count": 46,
+      "samples": [
+        {
+          "source": [
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "LOA"
+          ],
+          "target": [
+            "0fdc9e89-93df-4498-87c5-f45002ab7561",
+            "FMS case"
+          ],
+          "label": "PART_OF"
+        },
+        {
+          "source": [
+            "97ed72ca-a575-4a5b-8469-23d4cc6ae989",
+            "LOA terms and conditions"
+          ],
+          "target": [
+            "94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "LOA"
+          ],
+          "label": "PART_OF"
+        },
+        {
+          "source": [
+            "dsca",
+            "DSCA"
+          ],
+          "target": [
+            "9a001a29-e619-4b96-b168-c24f353f478b",
+            "DoD"
+          ],
+          "label": "PART_OF"
+        },
+        {
+          "source": [
+            "7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "IA"
+          ],
+          "target": [
+            "667e1ab5-5fba-4f76-91cd-9bd0626ba696",
+            "DoD Component"
+          ],
+          "label": "PART_OF"
+        },
+        {
+          "source": [
+            "2ecdb70c-b266-4bf9-a9a4-1cc33141495b",
+            "Offer Expiration Date"
+          ],
+          "target": [
+            "97ed72ca-a575-4a5b-8469-23d4cc6ae989",
+            "LOA terms and conditions"
+          ],
+          "label": "PART_OF"
+        }
+      ]
+    },
+    "supervises": {
+      "count": 3,
+      "samples": [
+        {
+          "source": [
+            "secretary_of_state_secstate",
+            "Secretary of State (SECSTATE)"
+          ],
+          "target": [
+            "security_assistance",
+            "Security Assistance"
+          ],
+          "label": "supervises"
+        },
+        {
+          "source": [
+            "Defense Security Cooperation Agency (DSCA)"
+          ],
+          "target": [
+            "Implementing Agency (IA)"
+          ],
+          "label": "supervises"
+        },
+        {
+          "source": [
+            "Geographic Combatant Command (CCMD)"
+          ],
+          "target": [
+            "Security Cooperation Organization (SCO)"
+          ],
+          "label": "supervises"
+        }
+      ]
+    },
+    "authorizedby": {
+      "count": 10,
+      "samples": [
+        {
+          "source": [
+            "security_cooperation",
+            "Security Cooperation"
+          ],
+          "target": [
+            "title_22",
+            "Title 22"
+          ],
+          "label": "authorizedby"
+        },
+        {
+          "source": [
+            "security_cooperation",
+            "Security Cooperation"
+          ],
+          "target": [
+            "title_10",
+            "Title 10"
+          ],
+          "label": "authorizedby"
+        },
+        {
+          "source": [
+            "security_assistance",
+            "Security Assistance"
+          ],
+          "target": [
+            "arms_export_control_act_aeca",
+            "Arms Export Control Act (AECA)"
+          ],
+          "label": "authorizedby"
+        },
+        {
+          "source": [
+            "security_assistance",
+            "Security Assistance"
+          ],
+          "target": [
+            "foreign_assistance_act_faa_of_1961",
+            "Foreign Assistance Act (FAA) of 1961"
+          ],
+          "label": "authorizedby"
+        },
+        {
+          "source": [
+            "bc4e3ead-0122-4bb1-b42f-e9aa0f38c307",
+            "delegation"
+          ],
+          "target": [
+            "1dcc1218-cce2-4342-b982-5f25f62270a5",
+            "10 U.S.C. 333.a.(2)"
+          ],
+          "label": "authorizedby"
+        }
+      ]
+    },
+    "includes": {
+      "count": 48,
+      "samples": [
+        {
+          "source": [
+            "Letter of Offer and Acceptance (LOA)"
+          ],
+          "target": [
+            "Payment Schedule"
+          ],
+          "label": "includes"
+        },
+        {
+          "source": [
+            "Letter of Offer and Acceptance (LOA)"
+          ],
+          "target": [
+            "Military Articles and Services List (MASL)"
+          ],
+          "label": "includes"
+        },
+        {
+          "source": [
+            "national_security_objectives",
+            "National Security Objectives"
+          ],
+          "target": [
+            "allied_and_friendly_military_capabilities",
+            "Allied and Friendly Military Capabilities"
+          ],
+          "label": "includes"
+        },
+        {
+          "source": [
+            "security_cooperation",
+            "Security Cooperation"
+          ],
+          "target": [
+            "building_partner_capacity_bpc",
+            "Building Partner Capacity (BPC)"
+          ],
+          "label": "includes"
+        },
+        {
+          "source": [
+            "military_department_mildep",
+            "Military Department (MILDEP)"
+          ],
+          "target": [
+            "department_of_the_navy_don",
+            "Department of the Navy (DoN)"
+          ],
+          "label": "includes"
+        }
+      ]
+    },
+    "REPORTS_TO": {
+      "count": 4,
+      "samples": [
+        {
+          "source": [
+            "7cd530f5-9eeb-40d0-82a4-a4b473d26e02",
+            "IA"
+          ],
+          "target": [
+            "dsca",
+            "DSCA"
+          ],
+          "label": "REPORTS_TO"
+        },
+        {
+          "source": [
+            "usdp",
+            "USD(P)"
+          ],
+          "target": [
+            "8dcbcf8f-2d30-4885-a47c-ef0831bb25f4",
+            "Secretary of Defense"
+          ],
+          "label": "REPORTS_TO"
+        },
+        {
+          "source": [
+            "56465336-5b3f-4751-844e-31b0c534a37e",
+            "CFD"
+          ],
+          "target": [
+            "86db7a07-b6f6-418f-82fb-a85cb862238c",
+            "DSCA (OBO/FPRE)"
+          ],
+          "label": "REPORTS_TO"
+        },
+        {
+          "source": [
+            "b73ba44b-2ab0-466e-9968-1c309a613de2",
+            "Implementing Agency"
+          ],
+          "target": [
+            "dsca",
+            "DSCA"
+          ],
+          "label": "REPORTS_TO"
+        }
+      ]
+    },
+    "PROVIDES": {
+      "count": 8,
+      "samples": [
+        {
+          "source": [
+            "e0eefd35-5847-4a26-848e-19996209a637",
+            "DLA"
+          ],
+          "target": [
+            "defense_articles",
+            "Defense Articles"
+          ],
+          "label": "PROVIDES"
+        },
+        {
+          "source": [
+            "e0eefd35-5847-4a26-848e-19996209a637",
+            "DLA"
+          ],
+          "target": [
+            "1dde71bb-c728-4d2a-b64a-25b23730d8c1",
+            "logistics support"
+          ],
+          "label": "PROVIDES"
+        },
+        {
+          "source": [
+            "cd98167a-b4f6-4b5a-bcb9-1093ae9f415a",
+            "purchaser"
+          ],
+          "target": [
+            "d6436e12-6b52-4964-baf2-6827d6a0bbb5",
+            "Initial Deposit"
+          ],
+          "label": "PROVIDES"
+        },
+        {
+          "source": [
+            "15eb261c-6bf6-4130-b5f7-657107ad1624",
+            "MILDEP"
+          ],
+          "target": [
+            "defense_articles",
+            "Defense Articles"
+          ],
+          "label": "PROVIDES"
+        },
+        {
+          "source": [
+            "4e867b47-f9d4-461c-9ae4-47b17d4943e5",
+            "PML"
+          ],
+          "target": [
+            "04a95936-c55c-46d5-9dba-b15f82f7b4db",
+            "program management services"
+          ],
+          "label": "PROVIDES"
+        }
+      ]
+    },
+    "INCLUDES": {
+      "count": 33,
+      "samples": [
+        {
+          "source": [
+            "04e90385-0490-42d3-a910-17f80628503f",
+            "case identifier"
+          ],
+          "target": [
+            "4b33e0bb-f5da-4258-86c9-a62ebde837b3",
+            "F/AD"
+          ],
+          "label": "INCLUDES"
+        },
+        {
+          "source": [
+            "1676ed06-09ba-4faf-9ab5-4443e53e0ab9",
+            "case funds"
+          ],
+          "target": [
+            "d6436e12-6b52-4964-baf2-6827d6a0bbb5",
+            "Initial Deposit"
+          ],
+          "label": "INCLUDES"
+        },
+        {
+          "source": [
+            "ac74b545-8153-4d3b-a3d0-896b1d18cc41",
+            "DTS"
+          ],
+          "target": [
+            "e0119d03-99cf-4c59-b978-2f14cebeb4cd",
+            "AMC"
+          ],
+          "label": "INCLUDES"
+        },
+        {
+          "source": [
+            "ac74b545-8153-4d3b-a3d0-896b1d18cc41",
+            "DTS"
+          ],
+          "target": [
+            "33860771-cddf-4483-a903-047ebc323d17",
+            "SDDC"
+          ],
+          "label": "INCLUDES"
+        },
+        {
+          "source": [
+            "ac74b545-8153-4d3b-a3d0-896b1d18cc41",
+            "DTS"
+          ],
+          "target": [
+            "3a130548-e804-4bb7-9895-4275070120e9",
+            "MSC"
+          ],
+          "label": "INCLUDES"
+        }
+      ]
+    },
+    "AUTHORIZED_BY": {
+      "count": 10,
+      "samples": [
+        {
+          "source": [
+            "bdf93e85-c02b-4a68-bb94-ab579450f57c",
+            "BPC program"
+          ],
+          "target": [
+            "d401ec97-bb74-4d4f-b03e-0ce5158f938a",
+            "AECA"
+          ],
+          "label": "AUTHORIZED_BY"
+        },
+        {
+          "source": [
+            "65cfc5e9-eef4-4f84-a530-0c8abd88b90a",
+            "Contracting Officer"
+          ],
+          "target": [
+            "3675cfb8-e826-4f10-9866-955c746b4c42",
+            "FAR"
+          ],
+          "label": "AUTHORIZED_BY"
+        },
+        {
+          "source": [
+            "8bde4ac3-8074-4aa6-9069-18ec261ff435",
+            "FMF"
+          ],
+          "target": [
+            "77f19bf7-c21c-4556-aafe-28762ed53ac0",
+            "AECA Section 23"
+          ],
+          "label": "AUTHORIZED_BY"
+        },
+        {
+          "source": [
+            "6cb37d54-4f57-474c-827b-b12d1e90b196",
+            "CAS"
+          ],
+          "target": [
+            "33e9e22f-26e8-4166-9df6-da1a0f94d5a8",
+            "AECA Section 21"
+          ],
+          "label": "AUTHORIZED_BY"
+        },
+        {
+          "source": [
+            "c959c199-048a-4230-afe5-1403e2e526fc",
+            "waiver"
+          ],
+          "target": [
+            "d401ec97-bb74-4d4f-b03e-0ce5158f938a",
+            "AECA"
+          ],
+          "label": "AUTHORIZED_BY"
+        }
+      ]
+    },
+    "ADMINISTERS": {
+      "count": 2,
+      "samples": [
+        {
+          "source": [
+            "2275bcee-2dcd-4305-9da7-21706cd55cb1",
+            "CO"
+          ],
+          "target": [
+            "5887f82a-d6e5-4c2f-9b17-f6baf09fd898",
+            "contract administration"
+          ],
+          "label": "ADMINISTERS"
+        },
+        {
+          "source": [
+            "07a6c3d6-28c1-4a62-9b34-d52fc3ab4956",
+            "FMS system"
+          ],
+          "target": [
+            "ba8c123f-af8b-4150-93f4-2025c5b9cb6e",
+            "BPC case"
+          ],
+          "label": "ADMINISTERS"
+        }
+      ]
+    }
+  }
+}

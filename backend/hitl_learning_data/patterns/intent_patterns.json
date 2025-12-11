@@ -1,0 +1,28 @@
+{
+  "procedural\u2192factual_lookup": {
+    "count": 3,
+    "examples": [
+      {
+        "question": "What is CN?",
+        "timestamp": "2025-11-25T07:13:55.107544+00:00"
+      },
+      {
+        "question": "Define LOA",
+        "timestamp": "2025-11-25T07:13:55.109586+00:00"
+      },
+      {
+        "question": "What is FMS?",
+        "timestamp": "2025-11-25T07:13:55.111584+00:00"
+      }
+    ]
+  },
+  "factual_lookup\u2192procedural": {
+    "count": 1,
+    "examples": [
+      {
+        "question": "How do I process CN?",
+        "timestamp": "2025-11-25T07:13:55.113711+00:00"
+      }
+    ]
+  }
+}

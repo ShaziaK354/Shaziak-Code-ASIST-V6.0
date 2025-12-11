@@ -1,0 +1,3535 @@
+{
+  "pattern_c4_1_eligibility": {
+    "results": [
+      {
+        "test_id": 101,
+        "query": "What determines FMS eligibility?",
+        "expected": [
+          "fms",
+          "eligibility",
+          "foreign military sales"
+        ],
+        "extracted": [
+          "FMS",
+          "eligibility",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "eligibility",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 26.76,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 31,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "eligibility",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.63,
+          "question": "What determines FMS eligibility?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "7c699ddc-188b-49ed-9af8-adc9d70919e8 determines 58fdbcf1-22b6-4977-be62-03d33f1dca74",
+            "2c2429ee-8354-44f8-b04b-83592d1a1de6 EVALUATED_FOR 4dcbf7ce-64f9-456a-a00b-f98a0c194407",
+            "2c2429ee-8354-44f8-b04b-83592d1a1de6 EVALUATED_FOR ce4629b9-93e0-4792-a661-8bff3fb55165",
+            "8e77ea4b-ea58-4f7c-a4e3-b3dea7e32f9f DETERMINES c68e382d-083c-46a8-9b8e-5cfb2aacc13e"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 102,
+        "query": "How does a country become eligible for FMS?",
+        "expected": [
+          "fms",
+          "eligibility",
+          "foreign military sales"
+        ],
+        "extracted": [
+          "FMS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [
+            "eligibility"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 0.79,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How does a country become eligible for FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 103,
+        "query": "What is a Presidential Determination?",
+        "expected": [
+          "presidential determination"
+        ],
+        "extracted": [
+          "Presidential Determination"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "presidential determination"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.23,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "Presidential Determination"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is a Presidential Determination?",
+          "relationships": [
+            "Presidential Determination determines FMS eligibility",
+            "Presidential Determination authorizes sales",
+            "Presidential Determination criteria in C4.T1",
+            "8e77ea4b-ea58-4f7c-a4e3-b3dea7e32f9f BASED_ON affa9e37-78c1-452b-844d-c1c8342ce92f",
+            "8e77ea4b-ea58-4f7c-a4e3-b3dea7e32f9f DETERMINES c68e382d-083c-46a8-9b8e-5cfb2aacc13e",
+            "8e77ea4b-ea58-4f7c-a4e3-b3dea7e32f9f REQUIRED_FOR 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "7b8e4f97-f66c-4c46-9595-35a05476690e REQUIRES 8e77ea4b-ea58-4f7c-a4e3-b3dea7e32f9f",
+            "d401ec97-bb74-4d4f-b03e-0ce5158f938a REQUIRES 8e77ea4b-ea58-4f7c-a4e3-b3dea7e32f9f"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 104,
+        "query": "What can cause a country to lose FMS eligibility?",
+        "expected": [
+          "fms",
+          "eligibility",
+          "foreign military sales"
+        ],
+        "extracted": [
+          "FMS",
+          "eligibility",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "eligibility",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.48,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 31,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "eligibility",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "factual",
+          "intent_confidence": 0.64,
+          "question": "What can cause a country to lose FMS eligibility?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "7c699ddc-188b-49ed-9af8-adc9d70919e8 determines 58fdbcf1-22b6-4977-be62-03d33f1dca74",
+            "2c2429ee-8354-44f8-b04b-83592d1a1de6 EVALUATED_FOR 4dcbf7ce-64f9-456a-a00b-f98a0c194407",
+            "2c2429ee-8354-44f8-b04b-83592d1a1de6 EVALUATED_FOR ce4629b9-93e0-4792-a661-8bff3fb55165",
+            "8e77ea4b-ea58-4f7c-a4e3-b3dea7e32f9f DETERMINES c68e382d-083c-46a8-9b8e-5cfb2aacc13e"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 105,
+        "query": "Who handles FMS eligibility questions at DSCA SPP?",
+        "expected": [
+          "fms",
+          "eligibility",
+          "dsca",
+          "spp",
+          "dsca spp",
+          "foreign military sales",
+          "defense security cooperation agency",
+          "strategy plans and policy"
+        ],
+        "extracted": [
+          "DSCA",
+          "FMS",
+          "DSCA SPP",
+          "SPP",
+          "eligibility",
+          "Defense Security Cooperation Agency",
+          "Foreign Military Sales",
+          "Strategy Plans And Policy"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca",
+            "strategy plans and policy",
+            "fms",
+            "dsca spp",
+            "eligibility",
+            "defense security cooperation agency",
+            "spp",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.93,
+        "status": "success",
+        "entity_confidence": 0.9140625,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 32,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "FMS",
+            "DSCA SPP",
+            "SPP",
+            "eligibility",
+            "Defense Security Cooperation Agency",
+            "Foreign Military Sales",
+            "Strategy Plans And Policy"
+          ],
+          "entity_confidence": 0.9140625,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.0,
+            "precision": 0.4,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "authority",
+          "intent_confidence": 0.68,
+          "question": "Who handles FMS eligibility questions at DSCA SPP?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "DSCA SPP handles eligibility questions",
+            "DSCA SPP issues DCS preferences",
+            "DSCA SPP coordinates FMS policy",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_1_eligibility",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.9333,
+      "avg_f1": 0.96,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_2_fms_dcs": {
+    "results": [
+      {
+        "test_id": 106,
+        "query": "What is the difference between FMS and DCS?",
+        "expected": [
+          "fms",
+          "dcs",
+          "foreign military sales",
+          "direct commercial sales"
+        ],
+        "extracted": [
+          "FMS",
+          "DCS",
+          "Foreign Military Sales",
+          "Direct Commercial Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "direct commercial sales",
+            "fms",
+            "dcs",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.53,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 35,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "DCS",
+            "Foreign Military Sales",
+            "Direct Commercial Sales"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.94,
+          "question": "What is the difference between FMS and DCS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "direct_commercial_sales_dcs referenced_in c12",
+            "direct_commercial_sales_dcs isreviewedby department_of_state_dos",
+            "direct_commercial_sales_dcs isapprovedby department_of_state_dos",
+            "c1326212 references direct_commercial_sales_dcs",
+            "department_of_state_dos reviews_and_approves direct_commercial_sales_dcs"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 107,
+        "query": "What is FMS-Only?",
+        "expected": [
+          "fms-only",
+          "fms",
+          "foreign military sales",
+          "foreign military sales only"
+        ],
+        "extracted": [
+          "FMS",
+          "FMS-Only",
+          "Foreign Military Sales",
+          "Foreign Military Sales Only"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "foreign military sales only",
+            "fms",
+            "fms-only",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.45,
+        "status": "success",
+        "entity_confidence": 0.8456250000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "FMS-Only",
+            "Foreign Military Sales",
+            "Foreign Military Sales Only"
+          ],
+          "entity_confidence": 0.8456250000000001,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is FMS-Only?",
+          "relationships": [
+            "FMS-Only designated by State",
+            "FMS-Only requires FMS channel",
+            "FMS-Only sensitive items",
+            "FMS-Only criteria in C4.3.5",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 108,
+        "query": "What items are FMS-Only?",
+        "expected": [
+          "fms-only",
+          "fms",
+          "foreign military sales",
+          "foreign military sales only"
+        ],
+        "extracted": [
+          "FMS",
+          "FMS-Only",
+          "Foreign Military Sales",
+          "Foreign Military Sales Only"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "foreign military sales only",
+            "fms",
+            "fms-only",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.74,
+        "status": "success",
+        "entity_confidence": 0.8456250000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "FMS-Only",
+            "Foreign Military Sales",
+            "Foreign Military Sales Only"
+          ],
+          "entity_confidence": 0.8456250000000001,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.64,
+          "question": "What items are FMS-Only?",
+          "relationships": [
+            "FMS-Only designated by State",
+            "FMS-Only requires FMS channel",
+            "FMS-Only sensitive items",
+            "FMS-Only criteria in C4.3.5",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 109,
+        "query": "What is DCS preference?",
+        "expected": [
+          "dcs",
+          "dcs preference",
+          "direct commercial sales"
+        ],
+        "extracted": [
+          "DCS",
+          "DCS preference",
+          "Direct Commercial Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "direct commercial sales",
+            "dcs preference",
+            "dcs"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.45,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 19,
+            "vector_db": 0
+          },
+          "entities": [
+            "DCS",
+            "DCS preference",
+            "Direct Commercial Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is DCS preference?",
+          "relationships": [
+            "DCS preference issued by DSCA SPP",
+            "DCS preference valid for one year",
+            "direct_commercial_sales_dcs referenced_in c12",
+            "direct_commercial_sales_dcs isreviewedby department_of_state_dos",
+            "direct_commercial_sales_dcs isapprovedby department_of_state_dos",
+            "c1326212 references direct_commercial_sales_dcs",
+            "department_of_state_dos reviews_and_approves direct_commercial_sales_dcs"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 110,
+        "query": "Can a purchaser request both FMS and DCS concurrently?",
+        "expected": [
+          "fms",
+          "dcs",
+          "foreign military sales",
+          "direct commercial sales"
+        ],
+        "extracted": [
+          "FMS",
+          "DCS",
+          "Foreign Military Sales",
+          "Direct Commercial Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "direct commercial sales",
+            "fms",
+            "dcs",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 10.32,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 35,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "DCS",
+            "Foreign Military Sales",
+            "Direct Commercial Sales"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.68,
+          "question": "Can a purchaser request both FMS and DCS concurrently?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "direct_commercial_sales_dcs referenced_in c12",
+            "direct_commercial_sales_dcs isreviewedby department_of_state_dos",
+            "direct_commercial_sales_dcs isapprovedby department_of_state_dos",
+            "c1326212 references direct_commercial_sales_dcs",
+            "department_of_state_dos reviews_and_approves direct_commercial_sales_dcs"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_2_fms_dcs",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_3_tpa": {
+    "results": [
+      {
+        "test_id": 111,
+        "query": "What is the Total Package Approach?",
+        "expected": [
+          "total package approach",
+          "tpa"
+        ],
+        "extracted": [
+          "Total Package Approach",
+          "TPA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "tpa",
+            "total package approach"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.0,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "Total Package Approach",
+            "TPA"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is the Total Package Approach?",
+          "relationships": [
+            "TPA Total Package Approach",
+            "TPA ensures sustainability",
+            "TPA includes training and support"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 112,
+        "query": "What does TPA include?",
+        "expected": [
+          "tpa",
+          "total package approach"
+        ],
+        "extracted": [
+          "TPA",
+          "Total Package Approach"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "tpa",
+            "total package approach"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.56,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "TPA",
+            "Total Package Approach"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What does TPA include?",
+          "relationships": [
+            "TPA Total Package Approach",
+            "TPA ensures sustainability",
+            "TPA includes training and support"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 113,
+        "query": "Why is TPA important for FMS?",
+        "expected": [
+          "tpa",
+          "fms",
+          "total package approach",
+          "foreign military sales"
+        ],
+        "extracted": [
+          "FMS",
+          "TPA",
+          "Foreign Military Sales",
+          "Total Package Approach"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "tpa",
+            "fms",
+            "foreign military sales",
+            "total package approach"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.41,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "TPA",
+            "Foreign Military Sales",
+            "Total Package Approach"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "explanation",
+          "intent_confidence": 0.91,
+          "question": "Why is TPA important for FMS?",
+          "relationships": [
+            "TPA Total Package Approach",
+            "TPA ensures sustainability",
+            "TPA includes training and support",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_3_tpa",
+      "total_tests": 3,
+      "successful": 3,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_4_equipment": {
+    "results": [
+      {
+        "test_id": 114,
+        "query": "What is SME Significant Military Equipment?",
+        "expected": [
+          "sme",
+          "significant military equipment"
+        ],
+        "extracted": [
+          "SME",
+          "Significant Military Equipment"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "sme",
+            "significant military equipment"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.34,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "SME",
+            "Significant Military Equipment"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is SME Significant Military Equipment?",
+          "relationships": [
+            "SME Significant Military Equipment",
+            "SME on USML",
+            "SME asterisk designation",
+            "5f19bfed-a1a6-458b-bde5-84c767699e66 IS_TYPE_OF 978b5527-c70a-4d8c-9160-7ac6e1b57b5c",
+            "b54959c5-bb65-46ec-8bd6-88a35d0c49ff DESIGNATED_AS 5f19bfed-a1a6-458b-bde5-84c767699e66"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 115,
+        "query": "What is MDE Major Defense Equipment?",
+        "expected": [
+          "mde",
+          "major defense equipment"
+        ],
+        "extracted": [
+          "MDE",
+          "Major Defense Equipment"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "mde",
+            "major defense equipment"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.31,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 16,
+            "vector_db": 0
+          },
+          "entities": [
+            "MDE",
+            "Major Defense Equipment"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is MDE Major Defense Equipment?",
+          "relationships": [
+            "MDE Major Defense Equipment",
+            "MDE over $50M R&D or $200M production",
+            "MDE SME subset",
+            "978b5527-c70a-4d8c-9160-7ac6e1b57b5c type_of cc7c037f-329c-41f9-bae8-0aa6554dcc76",
+            "978b5527-c70a-4d8c-9160-7ac6e1b57b5c requires 86f0d81c-5773-4565-99c1-fecc495c2ebd",
+            "978b5527-c70a-4d8c-9160-7ac6e1b57b5c requires 7a1836a3-acce-4a41-9e3b-c0a95153c047",
+            "978b5527-c70a-4d8c-9160-7ac6e1b57b5c triggers b8c8dc24-9720-428d-8d1b-e98e98ca2440",
+            "978b5527-c70a-4d8c-9160-7ac6e1b57b5c governed_by d401ec97-bb74-4d4f-b03e-0ce5158f938a",
+            "b3e9ffd3-a9c5-4d04-8333-7f45d9bc7f96 abbreviated_as 978b5527-c70a-4d8c-9160-7ac6e1b57b5c",
+            "b3e9ffd3-a9c5-4d04-8333-7f45d9bc7f96 has 60a794cc-2332-4211-bf98-222a4259919f"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 116,
+        "query": "What is the USML?",
+        "expected": [
+          "usml",
+          "united states munitions list"
+        ],
+        "extracted": [
+          "USML",
+          "United States Munitions List"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "united states munitions list",
+            "usml"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.31,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 13,
+            "vector_db": 0
+          },
+          "entities": [
+            "USML",
+            "United States Munitions List"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the USML?",
+          "relationships": [
+            "USML designates defense articles",
+            "USML lists SME",
+            "USML 22 CFR part 121",
+            "united_states_munitions_list_usml referenced_in c12",
+            "united_states_munitions_list_usml is_part_of international_traffic_in_arms_regulations_itar",
+            "department_of_state_dos reviews_and_approves united_states_munitions_list_usml",
+            "87eb9eb6-6547-44f8-b448-9b598d28ae2b LISTS defense_articles",
+            "87eb9eb6-6547-44f8-b448-9b598d28ae2b REGULATED_BY e3723df5-80b7-4f5f-b48b-700ace330497"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 117,
+        "query": "What are defense articles?",
+        "expected": [
+          "defense articles"
+        ],
+        "extracted": [
+          "defense articles"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "defense articles"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.15,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "defense articles"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 1.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": false,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What are defense articles?",
+          "relationships": [
+            "2c020ef0-f298-4f61-94af-b348ae64950f providedto 981e92fa-1650-4b44-8af5-6d2df6d0409b",
+            "2c020ef0-f298-4f61-94af-b348ae64950f requested_in 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "2c020ef0-f298-4f61-94af-b348ae64950f offered_in 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "2c020ef0-f298-4f61-94af-b348ae64950f SOLD_VIA 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "2c020ef0-f298-4f61-94af-b348ae64950f PRICED_ON 94dab1d0-0add-4f1e-a85d-f5aaf97b2159"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 118,
+        "query": "What is GFE Government Furnished Equipment?",
+        "expected": [
+          "gfe",
+          "government furnished equipment"
+        ],
+        "extracted": [
+          "GFE",
+          "Government Furnished Equipment"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "gfe",
+            "government furnished equipment"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.35,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "GFE",
+            "Government Furnished Equipment"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is GFE Government Furnished Equipment?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_4_equipment",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_5_targeting": {
+    "results": [
+      {
+        "test_id": 119,
+        "query": "What is GEOINT Geospatial Intelligence?",
+        "expected": [
+          "geoint",
+          "geospatial intelligence"
+        ],
+        "extracted": [
+          "GEOINT",
+          "Geospatial Intelligence"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "geoint",
+            "geospatial intelligence"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.16,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "GEOINT",
+            "Geospatial Intelligence"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is GEOINT Geospatial Intelligence?",
+          "relationships": [
+            "GEOINT from NGA",
+            "GEOINT supports targeting",
+            "GEOINT mission data",
+            "GEOINT C4.4.16"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 120,
+        "query": "What is C4ISR?",
+        "expected": [
+          "c4isr",
+          "command control communications computer intelligence surveillance reconnaissance"
+        ],
+        "extracted": [
+          "C4ISR",
+          "Command Control Communications Computer Intelligence Surveillance Reconnaissance"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "command control communications computer intelligence surveillance reconnaissance",
+            "c4isr"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.19,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "C4ISR",
+            "Command Control Communications Computer Intelligence Surveillance Reconnaissance"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.86,
+          "question": "What is C4ISR?",
+          "relationships": [
+            "C4ISR requires CCDR interoperability requirement",
+            "C4ISR C4.4.17"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 121,
+        "query": "What is ATD Advanced Target Development?",
+        "expected": [
+          "atd",
+          "advanced target development"
+        ],
+        "extracted": [
+          "ATD",
+          "Advanced Target Development"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "atd",
+            "advanced target development"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.8,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "ATD",
+            "Advanced Target Development"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is ATD Advanced Target Development?",
+          "relationships": [
+            "ATD Advanced Target Development",
+            "ATD includes TCM, weaponeering, CDE",
+            "dbb47f77-72dc-4d3a-96ff-33b174176d12 ENABLES e79d9b71-32a5-44d7-bd0f-22c01c8ebe91",
+            "37c66e4c-ca05-43af-b2b8-4b4f81e55cc6 INCLUDE dbb47f77-72dc-4d3a-96ff-33b174176d12"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 122,
+        "query": "What is TCM Target Coordinate Mensuration?",
+        "expected": [
+          "tcm",
+          "target coordinate mensuration"
+        ],
+        "extracted": [
+          "TCM",
+          "Target Coordinate Mensuration"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "target coordinate mensuration",
+            "tcm"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.39,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "TCM",
+            "Target Coordinate Mensuration"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is TCM Target Coordinate Mensuration?",
+          "relationships": [
+            "TCM Target Coordinate Mensuration",
+            "TCM generates precise coordinates",
+            "TCM for coordinate-seeking weapons"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 123,
+        "query": "What is CDE Collateral Damage Estimation?",
+        "expected": [
+          "cde",
+          "collateral damage estimation"
+        ],
+        "extracted": [
+          "CDE",
+          "Collateral Damage Estimation"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "collateral damage estimation",
+            "cde"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.28,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 8,
+            "vector_db": 0
+          },
+          "entities": [
+            "CDE",
+            "Collateral Damage Estimation"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is CDE Collateral Damage Estimation?",
+          "relationships": [
+            "CDE Collateral Damage Estimation",
+            "CDE assesses civilian risk",
+            "CDE prevents collateral damage",
+            "secretary_of_defense_secdef isadvisedby under_secretary_of_defense_for_acquisition_and_sustainment_usdas",
+            "secretary_of_defense_secdef receivesauthorityfrom national_defense_authorization_act_ndaa",
+            "secretary_of_defense_secdef isrepresentedby under_secretary_of_defense_for_policy_usdp",
+            "secretary_of_defense_secdef delegatesauthorityto defense_security_cooperation_agency_dsca",
+            "secretary_of_defense_secdef isrepresentedby defense_security_cooperation_agency_dsca"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 124,
+        "query": "What targeting and weaponeering is required?",
+        "expected": [
+          "targeting",
+          "weaponeering"
+        ],
+        "extracted": [
+          "weaponeering",
+          "targeting"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "weaponeering",
+            "targeting"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 9.3,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 2,
+            "vector_db": 0
+          },
+          "entities": [
+            "weaponeering",
+            "targeting"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.47,
+          "question": "What targeting and weaponeering is required?",
+          "relationships": [
+            "091f1e4f-004c-4eb9-abab-c7932330ebbb PART_OF 37c66e4c-ca05-43af-b2b8-4b4f81e55cc6"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_5_targeting",
+      "total_tests": 6,
+      "successful": 6,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_6_eum": {
+    "results": [
+      {
+        "test_id": 125,
+        "query": "What is EUM End Use Monitoring?",
+        "expected": [
+          "eum",
+          "end use monitoring"
+        ],
+        "extracted": [
+          "EUM",
+          "End Use Monitoring"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "eum",
+            "end use monitoring"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 9.46,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "EUM",
+            "End Use Monitoring"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is EUM End Use Monitoring?",
+          "relationships": [
+            "b54959c5-bb65-46ec-8bd6-88a35d0c49ff SUBJECT_TO fce7dfb3-986c-45c4-b828-f78724c80d73",
+            "944912f0-b77e-4d53-ba58-5097a56b2e7b REQUIRES fce7dfb3-986c-45c4-b828-f78724c80d73"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 126,
+        "query": "What is EEUM Enhanced End Use Monitoring?",
+        "expected": [
+          "eeum",
+          "enhanced end use monitoring",
+          "eum",
+          "end use monitoring"
+        ],
+        "extracted": [
+          "End Use Monitoring",
+          "EEUM",
+          "Enhanced End Use Monitoring",
+          "EUM"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "eum",
+            "eeum",
+            "enhanced end use monitoring",
+            "end use monitoring"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 10.39,
+        "status": "success",
+        "entity_confidence": 0.9099999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 1,
+            "vector_db": 0
+          },
+          "entities": [
+            "End Use Monitoring",
+            "EEUM",
+            "Enhanced End Use Monitoring",
+            "EUM"
+          ],
+          "entity_confidence": 0.9099999999999999,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is EEUM Enhanced End Use Monitoring?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 127,
+        "query": "What are retransfer restrictions?",
+        "expected": [
+          "retransfer",
+          "retransfer restrictions"
+        ],
+        "extracted": [
+          "retransfer",
+          "retransfer restrictions"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "retransfer restrictions",
+            "retransfer"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.58,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "retransfer",
+            "retransfer restrictions"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are retransfer restrictions?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_6_eum",
+      "total_tests": 3,
+      "successful": 3,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_7_special_items": {
+    "results": [
+      {
+        "test_id": 128,
+        "query": "What are NVD Night Vision Devices?",
+        "expected": [
+          "nvd",
+          "night vision device",
+          "nvds",
+          "night vision devices"
+        ],
+        "extracted": [
+          "NVD",
+          "Night Vision Device",
+          "Night Vision Devices",
+          "NVDS"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "night vision device",
+            "nvd",
+            "night vision devices",
+            "nvds"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 9.24,
+        "status": "success",
+        "entity_confidence": 0.8712500000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 12,
+            "vector_db": 0
+          },
+          "entities": [
+            "NVD",
+            "Night Vision Device",
+            "Night Vision Devices",
+            "NVDS"
+          ],
+          "entity_confidence": 0.8712500000000001,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What are NVD Night Vision Devices?",
+          "relationships": [
+            "NVD requires case-by-case review",
+            "NVD DTSA policy",
+            "NVD EUM requirements",
+            "NVD C4.4.14",
+            "b54959c5-bb65-46ec-8bd6-88a35d0c49ff TYPE_OF defense_articles",
+            "b54959c5-bb65-46ec-8bd6-88a35d0c49ff LISTED_IN a1e00271-b102-4525-ab46-cd41d64fa88c",
+            "b54959c5-bb65-46ec-8bd6-88a35d0c49ff DESIGNATED_AS 5f19bfed-a1a6-458b-bde5-84c767699e66",
+            "b54959c5-bb65-46ec-8bd6-88a35d0c49ff REGULATED_BY 0b540372-8563-43e5-8058-ca2abf8b1881",
+            "b54959c5-bb65-46ec-8bd6-88a35d0c49ff GUIDANCE_IN ad5fd82e-468d-4583-943e-c599ba818b80"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 129,
+        "query": "How are NVDs controlled by DTSA?",
+        "expected": [
+          "nvds",
+          "dtsa",
+          "night vision devices",
+          "defense technology security administration"
+        ],
+        "extracted": [
+          "DTSA",
+          "NVDs",
+          "Defense Technology Security Administration",
+          "Night Vision Devices"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "defense technology security administration",
+            "night vision devices",
+            "dtsa",
+            "nvds"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 10.42,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 14,
+            "vector_db": 0
+          },
+          "entities": [
+            "DTSA",
+            "NVDs",
+            "Defense Technology Security Administration",
+            "Night Vision Devices"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.48,
+          "question": "How are NVDs controlled by DTSA?",
+          "relationships": [
+            "DTSA NVD export policy",
+            "DTSA case-by-case review",
+            "DTSA technology transfer",
+            "defense_technology_security_administration_dtsa implements technology_security_policy",
+            "defense_technology_security_administration_dtsa coordinateswith under_secretary_of_defense_for_policy_usdp",
+            "c1321 references defense_technology_security_administration_dtsa",
+            "under_secretary_of_defense_for_policy_usdp coordinateswith defense_technology_security_administration_dtsa",
+            "431cf727-e9c2-4d00-bc74-b3daf641e3b9 implements_under_direction_of usdp"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 130,
+        "query": "What is MANPADS policy?",
+        "expected": [
+          "manpads",
+          "man-portable air defense system"
+        ],
+        "extracted": [
+          "MANPADS",
+          "Man-Portable Air Defense System"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "man-portable air defense system",
+            "manpads"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 9.69,
+        "status": "success",
+        "entity_confidence": 0.7925,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "MANPADS",
+            "Man-Portable Air Defense System"
+          ],
+          "entity_confidence": 0.7925,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is MANPADS policy?",
+          "relationships": [
+            "MANPADS requires DSCA IOPS/WPN approval",
+            "MANPADS Stinger systems",
+            "MANPADS special controls",
+            "MANPADS C4.4.12",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf CLASSIFIED_AS 7769b3a3-58ba-4bf5-a10d-9cd26441ede3",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf MUST_USE ac74b545-8153-4d3b-a3d0-896b1d18cc41",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf TYPE_OF defense_articles",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf REQUIRES_APPROVAL_FROM d7a24796-93e9-4057-85c5-e12e4e41065e",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf SUBJECT_TO 029588c3-212d-4803-86e5-9525fdf22df1"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 131,
+        "query": "How are Stinger MANPADS controlled?",
+        "expected": [
+          "stinger",
+          "manpads",
+          "man-portable air defense system"
+        ],
+        "extracted": [
+          "MANPADS",
+          "Stinger",
+          "Man-Portable Air Defense System"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "man-portable air defense system",
+            "manpads",
+            "stinger"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 9.98,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 12,
+            "vector_db": 0
+          },
+          "entities": [
+            "MANPADS",
+            "Stinger",
+            "Man-Portable Air Defense System"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.48,
+          "question": "How are Stinger MANPADS controlled?",
+          "relationships": [
+            "MANPADS requires DSCA IOPS/WPN approval",
+            "MANPADS Stinger systems",
+            "MANPADS special controls",
+            "MANPADS C4.4.12",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf CLASSIFIED_AS 7769b3a3-58ba-4bf5-a10d-9cd26441ede3",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf MUST_USE ac74b545-8153-4d3b-a3d0-896b1d18cc41",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf TYPE_OF defense_articles",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf REQUIRES_APPROVAL_FROM d7a24796-93e9-4057-85c5-e12e4e41065e",
+            "132a3884-ebdc-41d6-8027-3c9397e890bf SUBJECT_TO 029588c3-212d-4803-86e5-9525fdf22df1",
+            "45241506-ccb3-4cec-a805-5c046aec4ce9 IS_TYPE_OF 132a3884-ebdc-41d6-8027-3c9397e890bf"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 132,
+        "query": "What cluster munitions are restricted under FMS?",
+        "expected": [
+          "fms",
+          "cluster munitions",
+          "foreign military sales"
+        ],
+        "extracted": [
+          "FMS",
+          "cluster munitions",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "foreign military sales",
+            "cluster munitions"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 8.72,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "cluster munitions",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.64,
+          "question": "What cluster munitions are restricted under FMS?",
+          "relationships": [
+            "cluster munitions restricted",
+            "cluster munitions 99% functioning rate required",
+            "cluster munitions C4.5.2",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_7_special_items",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_8_dsca_offices": {
+    "results": [
+      {
+        "test_id": 133,
+        "query": "What does DSCA SPP do?",
+        "expected": [
+          "dsca",
+          "spp",
+          "dsca spp",
+          "defense security cooperation agency",
+          "strategy plans and policy"
+        ],
+        "extracted": [
+          "DSCA",
+          "DSCA SPP",
+          "SPP",
+          "Defense Security Cooperation Agency",
+          "Strategy Plans And Policy"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca",
+            "strategy plans and policy",
+            "dsca spp",
+            "defense security cooperation agency",
+            "spp"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.48,
+        "status": "success",
+        "entity_confidence": 0.9249999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 26,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "DSCA SPP",
+            "SPP",
+            "Defense Security Cooperation Agency",
+            "Strategy Plans And Policy"
+          ],
+          "entity_confidence": 0.9249999999999999,
+          "entity_metrics": {
+            "f1_score": 0.4,
+            "hallucination_rate": 0.0,
+            "precision": 0.3333,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What does DSCA SPP do?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "DSCA SPP handles eligibility questions",
+            "DSCA SPP issues DCS preferences",
+            "DSCA SPP coordinates FMS policy",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 134,
+        "query": "What is DSCA IOPS?",
+        "expected": [
+          "dsca",
+          "iops",
+          "dsca iops",
+          "defense security cooperation agency",
+          "international operations"
+        ],
+        "extracted": [
+          "DSCA",
+          "DSCA IOPS",
+          "IOPS",
+          "Defense Security Cooperation Agency",
+          "International Operations"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca",
+            "international operations",
+            "iops",
+            "dsca iops",
+            "defense security cooperation agency"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.49,
+        "status": "success",
+        "entity_confidence": 0.9249999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 32,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "DSCA IOPS",
+            "IOPS",
+            "Defense Security Cooperation Agency",
+            "International Operations"
+          ],
+          "entity_confidence": 0.9249999999999999,
+          "entity_metrics": {
+            "f1_score": 0.4,
+            "hallucination_rate": 0.0,
+            "precision": 0.3333,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is DSCA IOPS?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "DSCA IOPS handles eligibility changes",
+            "DSCA IOPS coordinates FMS-Only designations",
+            "DSCA IOPS approves MANPADS discussions",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 135,
+        "query": "What does IOPS/WPN handle?",
+        "expected": [
+          "iops/wpn",
+          "iops",
+          "weapons directorate",
+          "international operations"
+        ],
+        "extracted": [
+          "IOPS",
+          "IOPS/WPN",
+          "International Operations",
+          "Weapons Directorate"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "weapons directorate",
+            "iops/wpn",
+            "international operations",
+            "iops"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.97,
+        "status": "success",
+        "entity_confidence": 0.8325,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "IOPS",
+            "IOPS/WPN",
+            "International Operations",
+            "Weapons Directorate"
+          ],
+          "entity_confidence": 0.8325,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What does IOPS/WPN handle?",
+          "relationships": [
+            "IOPS/WPN approves MANPADS discussions",
+            "IOPS/WPN coordinates weapons transfers",
+            "47152071-1ee7-46c2-af16-f92be32eb245 part_of dsca",
+            "47152071-1ee7-46c2-af16-f92be32eb245 reports_to dsca",
+            "47152071-1ee7-46c2-af16-f92be32eb245 operates_under dsca",
+            "47152071-1ee7-46c2-af16-f92be32eb245 processes 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "47152071-1ee7-46c2-af16-f92be32eb245 receives 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "c1326263 references nga_director_international_operations_and_partnerships",
+            "dsca has_office 51b10875-0788-4d75-a8b0-4e54ea1342ae",
+            "2bba6817-6cac-445c-86e0-2abf58c7cd7b part_of 47152071-1ee7-46c2-af16-f92be32eb245"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 136,
+        "query": "Who at DSCA IOPS coordinates FMS-Only?",
+        "expected": [
+          "fms-only",
+          "dsca",
+          "iops",
+          "dsca iops",
+          "fms",
+          "foreign military sales",
+          "defense security cooperation agency",
+          "international operations",
+          "foreign military sales only"
+        ],
+        "extracted": [
+          "DSCA",
+          "FMS",
+          "DSCA IOPS",
+          "IOPS",
+          "FMS-Only",
+          "Defense Security Cooperation Agency",
+          "Foreign Military Sales",
+          "International Operations",
+          "Foreign Military Sales Only"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca",
+            "foreign military sales only",
+            "fms",
+            "fms-only",
+            "international operations",
+            "iops",
+            "dsca iops",
+            "defense security cooperation agency",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.37,
+        "status": "success",
+        "entity_confidence": 0.8986111111111111,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 32,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "FMS",
+            "DSCA IOPS",
+            "IOPS",
+            "FMS-Only",
+            "Defense Security Cooperation Agency",
+            "Foreign Military Sales",
+            "International Operations",
+            "Foreign Military Sales Only"
+          ],
+          "entity_confidence": 0.8986111111111111,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.0,
+            "precision": 0.4,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "authority",
+          "intent_confidence": 0.68,
+          "question": "Who at DSCA IOPS coordinates FMS-Only?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "DSCA IOPS handles eligibility changes",
+            "DSCA IOPS coordinates FMS-Only designations",
+            "DSCA IOPS approves MANPADS discussions",
+            "FMS-Only designated by State",
+            "FMS-Only requires FMS channel",
+            "FMS-Only sensitive items",
+            "FMS-Only criteria in C4.3.5"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_8_dsca_offices",
+      "total_tests": 4,
+      "successful": 4,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_9_competition": {
+    "results": [
+      {
+        "test_id": 137,
+        "query": "What is an international competition?",
+        "expected": [
+          "international competition",
+          "competition"
+        ],
+        "extracted": [
+          "international competition",
+          "competition"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "international competition",
+            "competition"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.67,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "international competition",
+            "competition"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is an international competition?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 138,
+        "query": "Who leads international competition - DSCA or MILDEP?",
+        "expected": [
+          "dsca",
+          "mildep",
+          "international competition",
+          "competition",
+          "defense security cooperation agency"
+        ],
+        "extracted": [
+          "DSCA",
+          "MILDEP",
+          "international competition",
+          "competition",
+          "Defense Security Cooperation Agency"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca",
+            "international competition",
+            "competition",
+            "mildep",
+            "defense security cooperation agency"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.81,
+        "status": "success",
+        "entity_confidence": 0.9560000000000001,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 26,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "MILDEP",
+            "international competition",
+            "competition",
+            "Defense Security Cooperation Agency"
+          ],
+          "entity_confidence": 0.9560000000000001,
+          "entity_metrics": {
+            "f1_score": 0.5714,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.64,
+          "question": "Who leads international competition - DSCA or MILDEP?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 139,
+        "query": "How does DoD handle competition?",
+        "expected": [
+          "dod",
+          "competition",
+          "department of defense"
+        ],
+        "extracted": [
+          "DoD",
+          "competition"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "competition",
+            "dod"
+          ],
+          "false_positives": [],
+          "false_negatives": [
+            "department of defense"
+          ],
+          "hallucinations": []
+        },
+        "response_time": 0.28,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "DoD",
+            "competition"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.86,
+          "question": "How does DoD handle competition?",
+          "relationships": [
+            "department_of_defense_dod administers security_assistance",
+            "department_of_defense_dod isreimbursedfor military_assistance_drawdown",
+            "department_of_defense_dod haspart combatant_command_ccmd",
+            "department_of_defense_dod haspart joint_chiefs_of_staff_jcs",
+            "department_of_defense_dod administers security_cooperation"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_9_competition",
+      "total_tests": 3,
+      "successful": 3,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.8889,
+      "avg_f1": 0.9333,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_10_legal": {
+    "results": [
+      {
+        "test_id": 140,
+        "query": "What AECA laws govern FMS?",
+        "expected": [
+          "fms",
+          "aeca",
+          "foreign military sales",
+          "arms export control act"
+        ],
+        "extracted": [
+          "FMS",
+          "AECA",
+          "Foreign Military Sales",
+          "Arms Export Control Act"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "foreign military sales",
+            "fms",
+            "arms export control act",
+            "aeca"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.88,
+        "status": "success",
+        "entity_confidence": 0.8875,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 39,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "AECA",
+            "Foreign Military Sales",
+            "Arms Export Control Act"
+          ],
+          "entity_confidence": 0.8875,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "compliance",
+          "intent_confidence": 0.94,
+          "question": "What AECA laws govern FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "c131 cites aeca_section_25a1_22_usc_2765a1",
+            "javits_report isrequiredby aeca_section_25a1_22_usc_2765a1",
+            "javits_report required_by aeca_section_25a1_22_usc_2765a1",
+            "arms_export_control_act_aeca_of_1976 referenced_in c121",
+            "secretary_of_state_secstate legal_basis arms_export_control_act_aeca_of_1976"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 141,
+        "query": "What is the NDP National Disclosure Policy?",
+        "expected": [
+          "ndp",
+          "national disclosure policy"
+        ],
+        "extracted": [
+          "NDP",
+          "National Disclosure Policy"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "ndp",
+            "national disclosure policy"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.16,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "NDP",
+            "National Disclosure Policy"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is the NDP National Disclosure Policy?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 142,
+        "query": "What are DFARS requirements for FMS?",
+        "expected": [
+          "dfars",
+          "fms",
+          "foreign military sales"
+        ],
+        "extracted": [
+          "FMS",
+          "DFARS",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "foreign military sales",
+            "dfars"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.45,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 37,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "DFARS",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.8,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "non_samm",
+          "intent_confidence": 0.92,
+          "question": "What are DFARS requirements for FMS?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "646f3505-bacf-41da-89a3-dc5e7cd5723a SUPPLEMENTS 3675cfb8-e826-4f10-9866-955c746b4c42",
+            "646f3505-bacf-41da-89a3-dc5e7cd5723a APPLIES_TO f3f07e22-3248-49cd-adb2-2d8163c5e722",
+            "646f3505-bacf-41da-89a3-dc5e7cd5723a GOVERNS f3f07e22-3248-49cd-adb2-2d8163c5e722",
+            "646f3505-bacf-41da-89a3-dc5e7cd5723a IMPLEMENTED_BY 15eb261c-6bf6-4130-b5f7-657107ad1624",
+            "646f3505-bacf-41da-89a3-dc5e7cd5723a APPLIES_TO 3d4071d2-0892-4e56-9b13-3c1304348780"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 143,
+        "query": "How is FMS information classification handled?",
+        "expected": [
+          "fms",
+          "classification",
+          "foreign military sales"
+        ],
+        "extracted": [
+          "FMS",
+          "classification",
+          "Foreign Military Sales"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "fms",
+            "classification",
+            "foreign military sales"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.5,
+        "status": "success",
+        "entity_confidence": 0.8383333333333334,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 27,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "classification",
+            "Foreign Military Sales"
+          ],
+          "entity_confidence": 0.8383333333333334,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How is FMS information classification handled?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "978b5527-c70a-4d8c-9160-7ac6e1b57b5c type_of cc7c037f-329c-41f9-bae8-0aa6554dcc76",
+            "d6bac6a8-ee5b-462e-a3a9-a17cde1e4bb5 establishes cc7c037f-329c-41f9-bae8-0aa6554dcc76"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_10_legal",
+      "total_tests": 4,
+      "successful": 4,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_11_coproduction": {
+    "results": [
+      {
+        "test_id": 144,
+        "query": "What is coproduction?",
+        "expected": [
+          "coproduction"
+        ],
+        "extracted": [
+          "coproduction"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "coproduction"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 4.21,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "coproduction"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is coproduction?",
+          "relationships": [
+            "coproduction requires DSCA approval",
+            "coproduction DoDI 5530.03",
+            "coproduction technology transfer"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 145,
+        "query": "How are coproduction agreements authorized by DSCA?",
+        "expected": [
+          "coproduction",
+          "dsca",
+          "defense security cooperation agency"
+        ],
+        "extracted": [
+          "DSCA",
+          "coproduction",
+          "Defense Security Cooperation Agency"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "dsca",
+            "defense security cooperation agency",
+            "coproduction"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.29,
+        "status": "success",
+        "entity_confidence": 0.9333333333333333,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "coproduction",
+            "Defense Security Cooperation Agency"
+          ],
+          "entity_confidence": 0.9333333333333333,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "authority",
+          "intent_confidence": 0.64,
+          "question": "How are coproduction agreements authorized by DSCA?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "coproduction requires DSCA approval",
+            "coproduction DoDI 5530.03",
+            "coproduction technology transfer",
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 146,
+        "query": "What is DoDI 5530.03 coproduction?",
+        "expected": [
+          "dodi 5530.03",
+          "coproduction"
+        ],
+        "extracted": [
+          "coproduction",
+          "DoDI 5530.03"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "coproduction",
+            "dodi 5530.03"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 6.86,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "coproduction",
+            "DoDI 5530.03"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.59,
+          "question": "What is DoDI 5530.03 coproduction?",
+          "relationships": [
+            "coproduction requires DSCA approval",
+            "coproduction DoDI 5530.03",
+            "coproduction technology transfer"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_11_coproduction",
+      "total_tests": 3,
+      "successful": 3,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_c4_12_documents": {
+    "results": [
+      {
+        "test_id": 147,
+        "query": "What is P&A Price and Availability?",
+        "expected": [
+          "p&a",
+          "price and availability"
+        ],
+        "extracted": [
+          "P&A",
+          "Price and Availability"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "p&a",
+            "price and availability"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 5.42,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "P&A",
+            "Price and Availability"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.55,
+          "question": "What is P&A Price and Availability?",
+          "relationships": [
+            "united_states_indo-pacific_command_usindopacom isa combatant_command_ccmd",
+            "c13210 references united_states_indo-pacific_command_usindopacom",
+            "united_states_space_command_usspacecom isa combatant_command_ccmd",
+            "c13210 references united_states_space_command_usspacecom",
+            "54907e95-2c88-47e0-917e-088e344a2f25 MAINTAINED_BY e0eefd35-5847-4a26-848e-19996209a637",
+            "f62e8811-c628-45de-bbc0-738f428e1035 abbreviated_as a5684d5b-5003-46d7-9228-51966b6e5bbd",
+            "f62e8811-c628-45de-bbc0-738f428e1035 provided_by 687a7b9d-d2a7-493f-8bb1-0ebb03017e32",
+            "f62e8811-c628-45de-bbc0-738f428e1035 informs b1cdb45d-9506-4ee2-859e-c7eeee6919c6",
+            "f62e8811-c628-45de-bbc0-738f428e1035 contains cfa188de-7adb-4063-9e1d-db9ddd5d5d70",
+            "f62e8811-c628-45de-bbc0-738f428e1035 based_on f7d3f387-fc5b-4c48-89c8-f3c19e1dac54"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 148,
+        "query": "What is a PAR Pre-LOR Assessment Request?",
+        "expected": [
+          "par",
+          "pre-lor assessment request",
+          "lor",
+          "letter of request"
+        ],
+        "extracted": [
+          "LOR",
+          "PAR",
+          "Pre-LOR Assessment Request",
+          "Letter Of Request"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "par",
+            "pre-lor assessment request",
+            "letter of request",
+            "lor"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.37,
+        "status": "success",
+        "entity_confidence": 0.8843749999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "LOR",
+            "PAR",
+            "Pre-LOR Assessment Request",
+            "Letter Of Request"
+          ],
+          "entity_confidence": 0.8843749999999999,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 0.5,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is a PAR Pre-LOR Assessment Request?",
+          "relationships": [
+            "partner_nation submits letter_of_request_lor",
+            "c1326123 references letter_of_request_lor",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "c1326 references letter_of_request_lor",
+            "c1326113 references letter_of_request_lor"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 149,
+        "query": "What is CN Congressional Notification?",
+        "expected": [
+          "cn",
+          "congressional notification"
+        ],
+        "extracted": [
+          "CN",
+          "Congressional Notification"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "cn",
+            "congressional notification"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.33,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 21,
+            "vector_db": 0
+          },
+          "entities": [
+            "CN",
+            "Congressional Notification"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is CN Congressional Notification?",
+          "relationships": [
+            "7a1836a3-acce-4a41-9e3b-c0a95153c047 triggered_by 15215b8e-2569-4b42-a055-dbf17dfa7c72",
+            "7a1836a3-acce-4a41-9e3b-c0a95153c047 coordinated_by dsca",
+            "7a1836a3-acce-4a41-9e3b-c0a95153c047 supported_by 7c699ddc-188b-49ed-9af8-adc9d70919e8",
+            "7a1836a3-acce-4a41-9e3b-c0a95153c047 tracked_in 526e6081-9bf3-446a-87cd-43b3b887ed7f",
+            "7a1836a3-acce-4a41-9e3b-c0a95153c047 required_by 6889de0d-544d-4caa-8970-849f0463401b",
+            "b8c8dc24-9720-428d-8d1b-e98e98ca2440 required_by 6889de0d-544d-4caa-8970-849f0463401b",
+            "b8c8dc24-9720-428d-8d1b-e98e98ca2440 submitted_to 397e7276-4ce2-4a95-a986-7d707d465216",
+            "b8c8dc24-9720-428d-8d1b-e98e98ca2440 abbreviated_as 7a1836a3-acce-4a41-9e3b-c0a95153c047",
+            "b8c8dc24-9720-428d-8d1b-e98e98ca2440 triggered_by 15215b8e-2569-4b42-a055-dbf17dfa7c72",
+            "b8c8dc24-9720-428d-8d1b-e98e98ca2440 sent_to 9bab9bfe-33de-49a0-ac39-f6efa951daf1"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 150,
+        "query": "What is the MASL Military Articles and Services List?",
+        "expected": [
+          "masl",
+          "military articles and services list"
+        ],
+        "extracted": [
+          "MASL",
+          "Military Articles and Services List"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": [
+            "masl",
+            "military articles and services list"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "hallucinations": []
+        },
+        "response_time": 0.23,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "MASL",
+            "Military Articles and Services List"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.0,
+            "hallucination_rate": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the MASL Military Articles and Services List?",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_c4_12_documents",
+      "total_tests": 4,
+      "successful": 4,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  }
+}

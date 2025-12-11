@@ -1,0 +1,3261 @@
+{
+  "pattern_1_direct_acronym": {
+    "results": [
+      {
+        "test_id": 1,
+        "query": "What is DSCA?",
+        "expected": [
+          "dsca"
+        ],
+        "extracted": [
+          "DSCA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.66,
+        "status": "success",
+        "entity_confidence": 0.915,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA"
+          ],
+          "entity_confidence": 0.915,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is DSCA?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts",
+            "defense_security_cooperation_agency_dsca haspart office_of_strategy_plans_and_policy_spp"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 2,
+        "query": "What does DFAS do?",
+        "expected": [
+          "dfas"
+        ],
+        "extracted": [
+          "DFAS"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 23.23,
+        "status": "success",
+        "entity_confidence": 0.915,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "DFAS"
+          ],
+          "entity_confidence": 0.915,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What does DFAS do?",
+          "relationships": [
+            "DFAS performs accounting",
+            "DFAS performs billing",
+            "DFAS performs disbursing",
+            "DFAS performs collecting",
+            "defense_finance_and_accounting_service_dfas responsiblefor collecting",
+            "defense_finance_and_accounting_service_dfas responsiblefor billing",
+            "defense_finance_and_accounting_service_dfas relatedto security_cooperation",
+            "defense_finance_and_accounting_service_dfas responsiblefor disbursements",
+            "defense_finance_and_accounting_service_dfas responsiblefor accounting"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 3,
+        "query": "Define FMS",
+        "expected": [
+          "fms"
+        ],
+        "extracted": [
+          "FMS"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.49,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "incomplete",
+          "intent_confidence": 0.91,
+          "question": "Define FMS",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 4,
+        "query": "What is SC?",
+        "expected": [
+          "sc"
+        ],
+        "extracted": [
+          "SC"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 4.46,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "SC"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.85,
+          "question": "What is SC?",
+          "relationships": [
+            "SC includes SA",
+            "SC Title 10 authorized",
+            "system_command_syscom ispartof department_of_the_navy_don",
+            "navy_international_programs_office_nipo directs system_command_syscom",
+            "c1326123 references system_command_syscom",
+            "c1326122 references system_command_syscom",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 5,
+        "query": "Explain IMET",
+        "expected": [
+          "imet"
+        ],
+        "extracted": [
+          "IMET"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.19,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 11,
+            "vector_db": 0
+          },
+          "entities": [
+            "IMET"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "incomplete",
+          "intent_confidence": 0.91,
+          "question": "Explain IMET",
+          "relationships": [
+            "international_military_education_and_training_imet referenced_in c12",
+            "c1326123 references international_military_education_and_training_imet",
+            "security_assistance provides international_military_education_and_training_imet",
+            "c131 references international_military_education_and_training_imet",
+            "navy_international_programs_office_nipo oversees international_military_education_and_training_imet"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 6,
+        "query": "What is USD(P)?",
+        "expected": [
+          "usd(p)"
+        ],
+        "extracted": [
+          "USD(P)"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 4.53,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "USD(P)"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.66,
+          "question": "What is USD(P)?",
+          "relationships": [
+            "USD(P) oversees DSCA",
+            "USD(P) develops SC guidance",
+            "USD(P) coordinates DoD SC policy"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 7,
+        "query": "What is DLA?",
+        "expected": [
+          "dla"
+        ],
+        "extracted": [
+          "DLA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.18,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 12,
+            "vector_db": 0
+          },
+          "entities": [
+            "DLA"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is DLA?",
+          "relationships": [
+            "DLA provides logistics support",
+            "DLA manages consumable items",
+            "c1326231 explains defense_logistics_agency_dla",
+            "c1326233 explains defense_logistics_agency_dla",
+            "c1326232 explains defense_logistics_agency_dla",
+            "c1326232 references director_dla",
+            "c1326233 references director_dla"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 8,
+        "query": "What does DCMA do?",
+        "expected": [
+          "dcma"
+        ],
+        "extracted": [
+          "DCMA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 4.71,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "DCMA"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What does DCMA do?",
+          "relationships": [
+            "DCMA performs contract administration",
+            "DCMA provides quality assurance",
+            "defense_contract_management_agency_dcma responsiblefor quality_assurance",
+            "defense_contract_management_agency_dcma responsiblefor contract_administration",
+            "defense_contract_management_agency_dcma responsiblefor product_acceptance",
+            "c1326211 explains defense_contract_management_agency_dcma",
+            "c1326213 explains defense_contract_management_agency_dcma"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_1_direct_acronym",
+      "total_tests": 8,
+      "successful": 8,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_2_full_name": {
+    "results": [
+      {
+        "test_id": 9,
+        "query": "What is Security Cooperation?",
+        "expected": [
+          "sc",
+          "security cooperation"
+        ],
+        "extracted": [
+          "Security Cooperation"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "response_time": 0.19,
+        "status": "success",
+        "entity_confidence": 1.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "Security Cooperation"
+          ],
+          "entity_confidence": 1.0,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is Security Cooperation?",
+          "relationships": [
+            "Security Cooperation includes Security Assistance",
+            "Security Cooperation authorized under Title 10",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts",
+            "defense_security_cooperation_agency_dsca haspart office_of_strategy_plans_and_policy_spp"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 10,
+        "query": "Explain Security Assistance",
+        "expected": [
+          "sa",
+          "security assistance"
+        ],
+        "extracted": [
+          "Security Assistance"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "response_time": 0.19,
+        "status": "success",
+        "entity_confidence": 1.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "Security Assistance"
+          ],
+          "entity_confidence": 1.0,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "incomplete",
+          "intent_confidence": 0.91,
+          "question": "Explain Security Assistance",
+          "relationships": [
+            "SecurityAssistance relationship isSubsetOf",
+            "Security Assistance is subset of Security Cooperation",
+            "Security Assistance authorized under Title 22",
+            "security_assistance authorizedby arms_export_control_act_aeca",
+            "security_assistance provides international_military_education_and_training_imet",
+            "security_assistance isfundedby grant",
+            "security_assistance isfundedby continuing_resolution_authority_cra",
+            "security_assistance isapprovedby us_congress"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 11,
+        "query": "What is Foreign Military Sales?",
+        "expected": [
+          "fms",
+          "foreign military sales"
+        ],
+        "extracted": [
+          "Foreign Military Sales",
+          "ITAR"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.5,
+          "true_positives": 1,
+          "false_positives": 1,
+          "false_negatives": 1
+        },
+        "response_time": 0.33,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 17,
+            "vector_db": 0
+          },
+          "entities": [
+            "Foreign Military Sales",
+            "ITAR"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.8,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.94,
+          "question": "What is Foreign Military Sales?",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "united_states_munitions_list_usml is_part_of international_traffic_in_arms_regulations_itar",
+            "0c3c4252-08f7-470a-9123-b36116116ad4 REGULATES defense_articles",
+            "0c3c4252-08f7-470a-9123-b36116116ad4 COMPLEMENTS d401ec97-bb74-4d4f-b03e-0ce5158f938a",
+            "0c3c4252-08f7-470a-9123-b36116116ad4 ENFORCED_BY 7c699ddc-188b-49ed-9af8-adc9d70919e8",
+            "0c3c4252-08f7-470a-9123-b36116116ad4 APPLIES_TO defense_articles"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 12,
+        "query": "Describe Defense Security Cooperation Agency",
+        "expected": [
+          "dsca",
+          "defense security cooperation agency"
+        ],
+        "extracted": [
+          "Defense Security Cooperation Agency",
+          "Security Cooperation"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "hallucination_rate": 0.5,
+          "true_positives": 1,
+          "false_positives": 1,
+          "false_negatives": 1
+        },
+        "response_time": 16.19,
+        "status": "success",
+        "entity_confidence": 1.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "Defense Security Cooperation Agency",
+            "Security Cooperation"
+          ],
+          "entity_confidence": 1.0,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.68,
+          "question": "Describe Defense Security Cooperation Agency",
+          "relationships": [
+            "Defense Security Cooperation Agency directs",
+            "Defense Security Cooperation Agency administers",
+            "Defense Security Cooperation Agency provides guidance",
+            "Security Cooperation includes Security Assistance",
+            "Security Cooperation authorized under Title 10",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts",
+            "defense_security_cooperation_agency_dsca haspart office_of_strategy_plans_and_policy_spp"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 13,
+        "query": "What is the Foreign Assistance Act?",
+        "expected": [
+          "faa",
+          "foreign assistance act"
+        ],
+        "extracted": [
+          "Foreign Assistance Act"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "response_time": 0.2,
+        "status": "success",
+        "entity_confidence": 1.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "Foreign Assistance Act"
+          ],
+          "entity_confidence": 1.0,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is the Foreign Assistance Act?",
+          "relationships": [
+            "foreign_assistance_act_faa_of_1961 referenced_in c121",
+            "foreign_assistance_act_faa_of_1961 authorizes president_of_the_united_states",
+            "security_assistance authorizedby foreign_assistance_act_faa_of_1961",
+            "secretary_of_state_secstate legal_basis foreign_assistance_act_faa_of_1961"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_2_full_name",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.8,
+      "avg_recall": 0.5,
+      "avg_f1": 0.6,
+      "avg_hallucination_rate": 0.2
+    }
+  },
+  "pattern_3_relationships": {
+    "results": [
+      {
+        "test_id": 14,
+        "query": "Who supervises Security Assistance?",
+        "expected": [
+          "sa",
+          "security assistance",
+          "dos",
+          "department of state"
+        ],
+        "extracted": [
+          "Security Assistance"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 3
+        },
+        "response_time": 0.17,
+        "status": "success",
+        "entity_confidence": 1.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "Security Assistance"
+          ],
+          "entity_confidence": 1.0,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.91,
+          "question": "Who supervises Security Assistance?",
+          "relationships": [
+            "SecurityAssistance relationship isSubsetOf",
+            "Security Assistance is subset of Security Cooperation",
+            "Security Assistance authorized under Title 22",
+            "security_assistance authorizedby arms_export_control_act_aeca",
+            "security_assistance provides international_military_education_and_training_imet",
+            "security_assistance isfundedby grant",
+            "security_assistance isfundedby continuing_resolution_authority_cra",
+            "security_assistance isapprovedby us_congress"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 15,
+        "query": "What is the difference between SC and SA?",
+        "expected": [
+          "sc",
+          "sa"
+        ],
+        "extracted": [
+          "SC",
+          "SA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.32,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 30,
+            "vector_db": 0
+          },
+          "entities": [
+            "SC",
+            "SA"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.91,
+          "question": "What is the difference between SC and SA?",
+          "relationships": [
+            "SC includes SA",
+            "SC Title 10 authorized",
+            "SA subset of SC",
+            "SA Title 22 authorized",
+            "system_command_syscom ispartof department_of_the_navy_don",
+            "navy_international_programs_office_nipo directs system_command_syscom",
+            "c1326123 references system_command_syscom",
+            "c1326122 references system_command_syscom",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec receivesauthorityfrom assistant_secretary_of_the_army_acquisition_logistics_and_technology_asa_alt"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 16,
+        "query": "Who directs DSCA?",
+        "expected": [
+          "dsca",
+          "usd(p)"
+        ],
+        "extracted": [
+          "DSCA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "response_time": 4.69,
+        "status": "success",
+        "entity_confidence": 0.915,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA"
+          ],
+          "entity_confidence": 0.915,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "authority",
+          "intent_confidence": 0.64,
+          "question": "Who directs DSCA?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts",
+            "defense_security_cooperation_agency_dsca haspart office_of_strategy_plans_and_policy_spp"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 17,
+        "query": "What role does DoS play in FMS?",
+        "expected": [
+          "dos",
+          "fms",
+          "department of state"
+        ],
+        "extracted": [
+          "DoS",
+          "FMS"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "response_time": 6.15,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 21,
+            "vector_db": 0
+          },
+          "entities": [
+            "DoS",
+            "FMS"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.64,
+          "question": "What role does DoS play in FMS?",
+          "relationships": [
+            "DoS supervises",
+            "DoS reviews",
+            "DoS approves",
+            "department_of_state_dos determineseligibilityof recipient_country",
+            "department_of_state_dos submits_to us_congress",
+            "department_of_state_dos ensures_eligibility_under faa_section_503_22_usc_2311",
+            "department_of_state_dos coordinateswith department_of_defense_dod",
+            "department_of_state_dos prepares javits_report",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 18,
+        "query": "What is the relationship between DoD and State for SA?",
+        "expected": [
+          "dod",
+          "dos",
+          "sa"
+        ],
+        "extracted": [
+          "State",
+          "DoD",
+          "SA"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "hallucination_rate": 0.3333,
+          "true_positives": 2,
+          "false_positives": 1,
+          "false_negatives": 1
+        },
+        "response_time": 0.47,
+        "status": "success",
+        "entity_confidence": 0.8899999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 45,
+            "vector_db": 0
+          },
+          "entities": [
+            "State",
+            "DoD",
+            "SA"
+          ],
+          "entity_confidence": 0.8899999999999999,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "relationship",
+          "intent_confidence": 0.91,
+          "question": "What is the relationship between DoD and State for SA?",
+          "relationships": [
+            "SA subset of SC",
+            "SA Title 22 authorized",
+            "united_states_transportation_command_ustranscom isa combatant_command_ccmd",
+            "c13210 references united_states_transportation_command_ustranscom",
+            "united_states_northern_command_usnorthcom isa combatant_command_ccmd",
+            "c13210 references united_states_northern_command_usnorthcom",
+            "department_of_state_dos determineseligibilityof recipient_country",
+            "department_of_defense_dod administers security_assistance",
+            "department_of_defense_dod isreimbursedfor military_assistance_drawdown",
+            "department_of_defense_dod haspart combatant_command_ccmd"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_3_relationships",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9333,
+      "avg_recall": 0.6167,
+      "avg_f1": 0.7067,
+      "avg_hallucination_rate": 0.0667
+    }
+  },
+  "pattern_4_multi_entity": {
+    "results": [
+      {
+        "test_id": 19,
+        "query": "How do DSCA and DFAS work together?",
+        "expected": [
+          "dsca",
+          "dfas"
+        ],
+        "extracted": [
+          "DSCA",
+          "DFAS"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.3,
+        "status": "success",
+        "entity_confidence": 0.96125,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 26,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA",
+            "DFAS"
+          ],
+          "entity_confidence": 0.96125,
+          "entity_metrics": {
+            "f1_score": 0.8,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "process",
+          "intent_confidence": 0.94,
+          "question": "How do DSCA and DFAS work together?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "DFAS performs accounting",
+            "DFAS performs billing",
+            "DFAS performs disbursing",
+            "DFAS performs collecting",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 20,
+        "query": "Compare FMS and DCS",
+        "expected": [
+          "fms",
+          "dcs"
+        ],
+        "extracted": [
+          "FMS",
+          "DCS"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.3,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 26,
+            "vector_db": 0
+          },
+          "entities": [
+            "FMS",
+            "DCS"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.94,
+          "question": "Compare FMS and DCS",
+          "relationships": [
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms",
+            "c1326253 references foreign_military_sales_fms",
+            "c1326232 references foreign_military_sales_fms",
+            "direct_commercial_sales_dcs referenced_in c12",
+            "direct_commercial_sales_dcs isreviewedby department_of_state_dos",
+            "direct_commercial_sales_dcs isapprovedby department_of_state_dos",
+            "c1326212 references direct_commercial_sales_dcs",
+            "department_of_state_dos reviews_and_approves direct_commercial_sales_dcs"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 21,
+        "query": "What authorities cover SC and SA?",
+        "expected": [
+          "sc",
+          "sa"
+        ],
+        "extracted": [
+          "SC",
+          "SA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 5.03,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 30,
+            "vector_db": 0
+          },
+          "entities": [
+            "SC",
+            "SA"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.64,
+          "question": "What authorities cover SC and SA?",
+          "relationships": [
+            "SC includes SA",
+            "SC Title 10 authorized",
+            "SA subset of SC",
+            "SA Title 22 authorized",
+            "system_command_syscom ispartof department_of_the_navy_don",
+            "navy_international_programs_office_nipo directs system_command_syscom",
+            "c1326123 references system_command_syscom",
+            "c1326122 references system_command_syscom",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec receivesauthorityfrom assistant_secretary_of_the_army_acquisition_logistics_and_technology_asa_alt"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 22,
+        "query": "What do USASAC and SATFA handle?",
+        "expected": [
+          "usasac",
+          "satfa"
+        ],
+        "extracted": [
+          "USASAC",
+          "SATFA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 14.02,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 9,
+            "vector_db": 0
+          },
+          "entities": [
+            "USASAC",
+            "SATFA"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 0.8,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.68,
+          "question": "What do USASAC and SATFA handle?",
+          "relationships": [
+            "us_army_security_assistance_command_usasac ispartof army_material_command_amc",
+            "us_army_security_assistance_command_usasac isdirectedby army_material_command_amc",
+            "c1326113 references us_army_security_assistance_command_usasac",
+            "army_material_command_amc haspart us_army_security_assistance_command_usasac",
+            "department_of_the_army_da haspart us_army_security_assistance_command_usasac",
+            "security_assistance_training_field_activity_satfa ispartof army_training_and_doctrine_command_tradoc",
+            "army_training_and_doctrine_command_tradoc haspart security_assistance_training_field_activity_satfa"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 23,
+        "query": "Explain Title 10 and Title 22",
+        "expected": [
+          "title 10",
+          "title 22"
+        ],
+        "extracted": [
+          "Title 10",
+          "Title 22"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.29,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 18,
+            "vector_db": 0
+          },
+          "entities": [
+            "Title 10",
+            "Title 22"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.94,
+          "question": "Explain Title 10 and Title 22",
+          "relationships": [
+            "title_10_usc authorizes security_cooperation",
+            "c1326243 references title_10_usc",
+            "c122 references title_10_usc",
+            "c1326241 cites title_10_usc_333a2",
+            "c1326243 references title_10_usc_333",
+            "security_cooperation authorizedby title_22",
+            "245e4436-6509-415f-8636-99e9e41f17e4 fundedthrough title_22",
+            "7b71b565-e769-4618-b457-4e75131c3bc6 isa title_22",
+            "d401ec97-bb74-4d4f-b03e-0ce5158f938a isa title_22",
+            "4c84f852-a32a-4f4f-80d5-75a030b4f412 AUTHORIZED_BY title_22"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_4_multi_entity",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_5_legal_authorities": {
+    "results": [
+      {
+        "test_id": 24,
+        "query": "What legal authorities govern SA?",
+        "expected": [
+          "sa",
+          "faa",
+          "aeca"
+        ],
+        "extracted": [
+          "SA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 2
+        },
+        "response_time": 5.07,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "SA"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.48,
+          "question": "What legal authorities govern SA?",
+          "relationships": [
+            "SA subset of SC",
+            "SA Title 22 authorized",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec receivesauthorityfrom assistant_secretary_of_the_army_acquisition_logistics_and_technology_asa_alt",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec coordinateswith us_army_corps_of_engineers_usace",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec coordinateswith army_material_command_amc",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec manages international_armaments_cooperation",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec isauthorizedby army_regulation_ar_12-1_security_assistance_training_and_export_policy"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 25,
+        "query": "What is Title 10 vs Title 22?",
+        "expected": [
+          "title 10",
+          "title 22"
+        ],
+        "extracted": [
+          "Title 10",
+          "Title 22"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.3,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 18,
+            "vector_db": 0
+          },
+          "entities": [
+            "Title 10",
+            "Title 22"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.94,
+          "question": "What is Title 10 vs Title 22?",
+          "relationships": [
+            "title_10_usc authorizes security_cooperation",
+            "c1326243 references title_10_usc",
+            "c122 references title_10_usc",
+            "c1326241 cites title_10_usc_333a2",
+            "c1326243 references title_10_usc_333",
+            "security_cooperation authorizedby title_22",
+            "245e4436-6509-415f-8636-99e9e41f17e4 fundedthrough title_22",
+            "7b71b565-e769-4618-b457-4e75131c3bc6 isa title_22",
+            "d401ec97-bb74-4d4f-b03e-0ce5158f938a isa title_22",
+            "4c84f852-a32a-4f4f-80d5-75a030b4f412 AUTHORIZED_BY title_22"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 26,
+        "query": "Explain Executive Order 13637",
+        "expected": [
+          "executive order 13637",
+          "e.o. 13637",
+          "eo 13637"
+        ],
+        "extracted": [
+          "Executive Order",
+          "Executive Order 13637"
+        ],
+        "metrics": {
+          "precision": 0.5,
+          "recall": 0.3333,
+          "f1": 0.4,
+          "hallucination_rate": 0.5,
+          "true_positives": 1,
+          "false_positives": 1,
+          "false_negatives": 2
+        },
+        "response_time": 0.32,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "Executive Order",
+            "Executive Order 13637"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "Explain Executive Order 13637",
+          "relationships": [
+            "executive_order_eo_13637 delegatesauthorityto secretary_of_state_secstate",
+            "executive_order_eo_13637 delegatesauthorityto secretary_of_defense_secdef",
+            "c123 references executive_order_eo_13637",
+            "secretary_of_state_secstate receivesauthorityfrom executive_order_eo_13637",
+            "c131 cites executive_order_eo_13637",
+            "19312ba0-ec40-4a2f-932e-0993de9588f1 affects security_assistance",
+            "19312ba0-ec40-4a2f-932e-0993de9588f1 delegatesauthorityto 8dcbcf8f-2d30-4885-a47c-ef0831bb25f4",
+            "19312ba0-ec40-4a2f-932e-0993de9588f1 issuedby 15ae4795-e41d-4573-a3c5-52a0ab2f746b",
+            "19312ba0-ec40-4a2f-932e-0993de9588f1 affects security_cooperation",
+            "19312ba0-ec40-4a2f-932e-0993de9588f1 implements d797b866-37bc-4ee1-88f2-ba13b97911f6"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 27,
+        "query": "What does the AECA authorize?",
+        "expected": [
+          "aeca"
+        ],
+        "extracted": [
+          "AECA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.16,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "AECA"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "compliance",
+          "intent_confidence": 0.91,
+          "question": "What does the AECA authorize?",
+          "relationships": [
+            "c131 cites aeca_section_25a1_22_usc_2765a1",
+            "javits_report isrequiredby aeca_section_25a1_22_usc_2765a1",
+            "javits_report required_by aeca_section_25a1_22_usc_2765a1",
+            "arms_export_control_act_aeca_of_1976 referenced_in c121",
+            "secretary_of_state_secstate legal_basis arms_export_control_act_aeca_of_1976"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 28,
+        "query": "How does the FAA affect IMET?",
+        "expected": [
+          "faa",
+          "imet"
+        ],
+        "extracted": [
+          "IMET",
+          "FAA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.31,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "IMET",
+            "FAA"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "compliance",
+          "intent_confidence": 0.94,
+          "question": "How does the FAA affect IMET?",
+          "relationships": [
+            "international_military_education_and_training_imet referenced_in c12",
+            "c1326123 references international_military_education_and_training_imet",
+            "security_assistance provides international_military_education_and_training_imet",
+            "c131 references international_military_education_and_training_imet",
+            "navy_international_programs_office_nipo oversees international_military_education_and_training_imet",
+            "faa_section_505_22_usc_2314 requiresassurancesfrom recipient_country",
+            "faa_section_505_22_usc_2314 referenced_in c12",
+            "department_of_state_dos obtains_assurances_under faa_section_505_22_usc_2314",
+            "faa_section_503_22_usc_2311 referenced_in c12",
+            "department_of_state_dos ensures_eligibility_under faa_section_503_22_usc_2311"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_5_legal_authorities",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9,
+      "avg_recall": 0.7333,
+      "avg_f1": 0.78,
+      "avg_hallucination_rate": 0.1
+    }
+  },
+  "pattern_6_roles": {
+    "results": [
+      {
+        "test_id": 29,
+        "query": "What are DSCA's responsibilities?",
+        "expected": [
+          "dsca"
+        ],
+        "extracted": [
+          "DSCA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.17,
+        "status": "success",
+        "entity_confidence": 0.915,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "DSCA"
+          ],
+          "entity_confidence": 0.915,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "authority",
+          "intent_confidence": 0.91,
+          "question": "What are DSCA's responsibilities?",
+          "relationships": [
+            "DSCA directs DoD SC programs",
+            "DSCA administers SA",
+            "DSCA provides guidance to DoD Components",
+            "defense_security_cooperation_agency_dsca reportsto under_secretary_of_defense_for_personnel_and_readiness_usdpr",
+            "defense_security_cooperation_agency_dsca coordinateswith combatant_command_ccmd",
+            "defense_security_cooperation_agency_dsca actsas executive_agent_ea",
+            "defense_security_cooperation_agency_dsca oversees defense_attach\u00e9s_datts",
+            "defense_security_cooperation_agency_dsca haspart office_of_strategy_plans_and_policy_spp"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 30,
+        "query": "What does the Secretary of State do for SA?",
+        "expected": [
+          "secretary of state",
+          "secstate",
+          "sa"
+        ],
+        "extracted": [
+          "State",
+          "Secretary of State",
+          "SA"
+        ],
+        "metrics": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "hallucination_rate": 0.3333,
+          "true_positives": 2,
+          "false_positives": 1,
+          "false_negatives": 1
+        },
+        "response_time": 5.7,
+        "status": "success",
+        "entity_confidence": 0.8899999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 38,
+            "vector_db": 0
+          },
+          "entities": [
+            "State",
+            "Secretary of State",
+            "SA"
+          ],
+          "entity_confidence": 0.8899999999999999,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.64,
+          "question": "What does the Secretary of State do for SA?",
+          "relationships": [
+            "Secretary of State provides continuous supervision",
+            "Secretary of State provides general direction",
+            "Secretary of State determines program scope",
+            "SA subset of SC",
+            "SA Title 22 authorized",
+            "united_states_transportation_command_ustranscom isa combatant_command_ccmd",
+            "c13210 references united_states_transportation_command_ustranscom",
+            "united_states_northern_command_usnorthcom isa combatant_command_ccmd",
+            "c13210 references united_states_northern_command_usnorthcom",
+            "department_of_state_dos determineseligibilityof recipient_country"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 31,
+        "query": "Who is the Implementing Agency for Army?",
+        "expected": [
+          "ia",
+          "implementing agency",
+          "da",
+          "dasa (de&c)"
+        ],
+        "extracted": [
+          "Implementing Agency"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 3
+        },
+        "response_time": 5.49,
+        "status": "success",
+        "entity_confidence": 1.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "Implementing Agency"
+          ],
+          "entity_confidence": 1.0,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.64,
+          "question": "Who is the Implementing Agency for Army?",
+          "relationships": [
+            "Implementing Agency executes SC programs",
+            "Implementing Agency provides defense articles",
+            "Implementing Agency provides defense services",
+            "9aec3320-3914-4321-a5e7-e79f90264ff8 supplements security_assistance_management_manual",
+            "9aec3320-3914-4321-a5e7-e79f90264ff8 creates ee3ccd4f-4755-4664-bea4-8c12c82313b3",
+            "9aec3320-3914-4321-a5e7-e79f90264ff8 submits_to office_of_strategy_plans_and_policy_spp",
+            "office_of_strategy_plans_and_policy_spp receives 9aec3320-3914-4321-a5e7-e79f90264ff8",
+            "b73ba44b-2ab0-466e-9968-1c309a613de2 abbreviatedas 7cd530f5-9eeb-40d0-82a4-a4b473d26e02"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 32,
+        "query": "What role does USD(P) play?",
+        "expected": [
+          "usd(p)"
+        ],
+        "extracted": [
+          "USD(P)"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 5.09,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "USD(P)"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.64,
+          "question": "What role does USD(P) play?",
+          "relationships": [
+            "USD(P) oversees DSCA",
+            "USD(P) develops SC guidance",
+            "USD(P) coordinates DoD SC policy"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 33,
+        "query": "What does CJCS do for SC?",
+        "expected": [
+          "cjcs",
+          "sc"
+        ],
+        "extracted": [
+          "CJCS",
+          "SC"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 11.42,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "CJCS",
+            "SC"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "distinction",
+          "intent_confidence": 0.66,
+          "question": "What does CJCS do for SC?",
+          "relationships": [
+            "CJCS advises SECDEF on SC",
+            "CJCS reviews campaign plans",
+            "CJCS assigns priorities",
+            "SC includes SA",
+            "SC Title 10 authorized",
+            "c1329 cites chairman_of_the_joint_chiefs_of_staff_instruction_cjcsi_411001f",
+            "c1329 references chairman_of_the_joint_chiefs_of_staff_cjcs",
+            "c1326272 references chairman_of_the_joint_chiefs_of_staff_cjcs",
+            "ee983430-0b37-442e-a898-e7d1eeedf9af coordinates_with dsca",
+            "ee983430-0b37-442e-a898-e7d1eeedf9af provides_coordination_for cbb586e3-5c9f-4531-b856-ab015491ebe4"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_6_roles",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 0.9333,
+      "avg_recall": 0.7833,
+      "avg_f1": 0.8133,
+      "avg_hallucination_rate": 0.0667
+    }
+  },
+  "pattern_7_concepts": {
+    "results": [
+      {
+        "test_id": 34,
+        "query": "What is continuous supervision?",
+        "expected": [
+          "continuous supervision"
+        ],
+        "extracted": [
+          "continuous supervision"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.1,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "continuous supervision"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is continuous supervision?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 35,
+        "query": "Define general direction in SA context",
+        "expected": [
+          "general direction",
+          "sa"
+        ],
+        "extracted": [
+          "SA",
+          "general direction"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.26,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 15,
+            "vector_db": 0
+          },
+          "entities": [
+            "SA",
+            "general direction"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.94,
+          "question": "Define general direction in SA context",
+          "relationships": [
+            "SA subset of SC",
+            "SA Title 22 authorized",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec receivesauthorityfrom assistant_secretary_of_the_army_acquisition_logistics_and_technology_asa_alt",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec coordinateswith us_army_corps_of_engineers_usace",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec coordinateswith army_material_command_amc",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec manages international_armaments_cooperation",
+            "office_of_the_deputy_assistant_secretary_of_the_army_for_defense_exports_and_cooperation_dasa_dec isauthorizedby army_regulation_ar_12-1_security_assistance_training_and_export_policy"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 36,
+        "query": "What are defense articles?",
+        "expected": [
+          "defense articles"
+        ],
+        "extracted": [
+          "defense articles"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.15,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "defense articles"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 1.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": false,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What are defense articles?",
+          "relationships": [
+            "2c020ef0-f298-4f61-94af-b348ae64950f providedto 981e92fa-1650-4b44-8af5-6d2df6d0409b",
+            "2c020ef0-f298-4f61-94af-b348ae64950f requested_in 9df49e57-5b64-412c-b3e7-d567f35fb1f6",
+            "2c020ef0-f298-4f61-94af-b348ae64950f offered_in 94dab1d0-0add-4f1e-a85d-f5aaf97b2159",
+            "2c020ef0-f298-4f61-94af-b348ae64950f SOLD_VIA 7b8e4f97-f66c-4c46-9595-35a05476690e",
+            "2c020ef0-f298-4f61-94af-b348ae64950f PRICED_ON 94dab1d0-0add-4f1e-a85d-f5aaf97b2159"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 37,
+        "query": "Explain Building Partner Capacity",
+        "expected": [
+          "bpc",
+          "building partner capacity"
+        ],
+        "extracted": [
+          "Building Partner Capacity"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "response_time": 0.16,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 8,
+            "vector_db": 0
+          },
+          "entities": [
+            "Building Partner Capacity"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "Explain Building Partner Capacity",
+          "relationships": [
+            "building_partner_capacity_bpc supports national_security_objectives",
+            "building_partner_capacity_bpc ispartof security_cooperation",
+            "c112 references building_partner_capacity_bpc",
+            "security_cooperation includes building_partner_capacity_bpc",
+            "c1326243 references building_partner_capacity_bpc"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 38,
+        "query": "What is a campaign plan?",
+        "expected": [
+          "campaign plan"
+        ],
+        "extracted": [
+          "campaign plan"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.18,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "campaign plan"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is a campaign plan?",
+          "relationships": [
+            "4edaa147-8e58-47cd-982e-aa617721ac89 includes 4ca1dfee-3257-4338-b607-352e8ae9a10e",
+            "usdp develops 4edaa147-8e58-47cd-982e-aa617721ac89",
+            "1b7c6870-3efa-4737-82b2-769c39452bd8 develops 4edaa147-8e58-47cd-982e-aa617721ac89",
+            "security_cooperation alignwith 4edaa147-8e58-47cd-982e-aa617721ac89",
+            "8dcbcf8f-2d30-4885-a47c-ef0831bb25f4 approves 4edaa147-8e58-47cd-982e-aa617721ac89"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_7_concepts",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.9,
+      "avg_f1": 0.9333,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_8_defense_agencies": {
+    "results": [
+      {
+        "test_id": 39,
+        "query": "What does DCMA do for SC?",
+        "expected": [
+          "dcma",
+          "sc"
+        ],
+        "extracted": [
+          "DCMA",
+          "SC"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 5.17,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 22,
+            "vector_db": 0
+          },
+          "entities": [
+            "DCMA",
+            "SC"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "organization",
+          "intent_confidence": 0.64,
+          "question": "What does DCMA do for SC?",
+          "relationships": [
+            "DCMA performs contract administration",
+            "DCMA provides quality assurance",
+            "SC includes SA",
+            "SC Title 10 authorized",
+            "defense_contract_management_agency_dcma responsiblefor quality_assurance",
+            "defense_contract_management_agency_dcma responsiblefor contract_administration",
+            "defense_contract_management_agency_dcma responsiblefor product_acceptance",
+            "c1326211 explains defense_contract_management_agency_dcma",
+            "c1326213 explains defense_contract_management_agency_dcma",
+            "system_command_syscom ispartof department_of_the_navy_don"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 40,
+        "query": "Explain DISA's role",
+        "expected": [
+          "disa"
+        ],
+        "extracted": [
+          "DISA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.17,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 5,
+            "vector_db": 0
+          },
+          "entities": [
+            "DISA"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "incomplete",
+          "intent_confidence": 0.91,
+          "question": "Explain DISA's role",
+          "relationships": [
+            "c1326223 explains defense_information_systems_agency_disa",
+            "c1326222 explains defense_information_systems_agency_disa",
+            "c1326221 explains defense_information_systems_agency_disa"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 41,
+        "query": "What is DLA's responsibility in FMS?",
+        "expected": [
+          "dla",
+          "fms"
+        ],
+        "extracted": [
+          "DLA",
+          "FMS"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.3,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 27,
+            "vector_db": 0
+          },
+          "entities": [
+            "DLA",
+            "FMS"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.94,
+          "question": "What is DLA's responsibility in FMS?",
+          "relationships": [
+            "DLA provides logistics support",
+            "DLA manages consumable items",
+            "c1326231 explains defense_logistics_agency_dla",
+            "c1326233 explains defense_logistics_agency_dla",
+            "c1326232 explains defense_logistics_agency_dla",
+            "c1326232 references director_dla",
+            "c1326233 references director_dla",
+            "foreign_military_sales_fms supports national_security_objectives",
+            "foreign_military_sales_fms ispartof security_assistance",
+            "c1326212 references foreign_military_sales_fms"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 42,
+        "query": "How does DTRA support SC?",
+        "expected": [
+          "dtra",
+          "sc"
+        ],
+        "extracted": [
+          "DTRA",
+          "SC"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.3,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "DTRA",
+            "SC"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "process",
+          "intent_confidence": 0.91,
+          "question": "How does DTRA support SC?",
+          "relationships": [
+            "DTRA supports CWMD programs",
+            "DTRA builds partner capacity",
+            "SC includes SA",
+            "SC Title 10 authorized",
+            "c1326241 references dtra_director",
+            "director_dsca delegatesresponsibilityto dtra_director",
+            "c1326242 explains defense_threat_reduction_agency_dtra",
+            "c1326241 explains defense_threat_reduction_agency_dtra",
+            "c1326243 explains defense_threat_reduction_agency_dtra",
+            "system_command_syscom ispartof department_of_the_navy_don"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 43,
+        "query": "What does MDA provide?",
+        "expected": [
+          "mda"
+        ],
+        "extracted": [
+          "MDA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 4.41,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "MDA"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What does MDA provide?",
+          "relationships": [
+            "MDA develops missile defense systems",
+            "MDA executes THAAD FMS",
+            "c1326252 explains missile_defense_agency_mda",
+            "c1326251 explains missile_defense_agency_mda",
+            "c1326253 explains missile_defense_agency_mda"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 44,
+        "query": "Explain NGA's SC activities",
+        "expected": [
+          "nga",
+          "sc"
+        ],
+        "extracted": [
+          "NGA",
+          "SC"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 5.59,
+        "status": "success",
+        "entity_confidence": 0.87,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 23,
+            "vector_db": 0
+          },
+          "entities": [
+            "NGA",
+            "SC"
+          ],
+          "entity_confidence": 0.87,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "organization",
+          "intent_confidence": 0.68,
+          "question": "Explain NGA's SC activities",
+          "relationships": [
+            "SC includes SA",
+            "SC Title 10 authorized",
+            "c1326263 references nga_director_international_operations_and_partnerships",
+            "c1326263 explains national_geospatial-intelligence_agency_nga",
+            "c1326261 explains national_geospatial-intelligence_agency_nga",
+            "c1326262 explains national_geospatial-intelligence_agency_nga",
+            "system_command_syscom ispartof department_of_the_navy_don",
+            "navy_international_programs_office_nipo directs system_command_syscom",
+            "c1326123 references system_command_syscom",
+            "c1326122 references system_command_syscom"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 45,
+        "query": "What does NSA do for foreign partners?",
+        "expected": [
+          "nsa"
+        ],
+        "extracted": [
+          "NSA",
+          "foreign partner",
+          "foreign partners"
+        ],
+        "metrics": {
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "hallucination_rate": 0.6667,
+          "true_positives": 1,
+          "false_positives": 2,
+          "false_negatives": 0
+        },
+        "response_time": 5.84,
+        "status": "success",
+        "entity_confidence": 0.8899999999999999,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 24,
+            "vector_db": 0
+          },
+          "entities": [
+            "NSA",
+            "foreign partner",
+            "foreign partners"
+          ],
+          "entity_confidence": 0.8899999999999999,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.3333,
+            "precision": 0.6667,
+            "recall": 0.6667
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": false,
+            "precision": false,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.68,
+          "question": "What does NSA do for foreign partners?",
+          "relationships": [
+            "c1326272 explains national_security_agency_nsa",
+            "c1326271 explains national_security_agency_nsa",
+            "c1326273 explains national_security_agency_nsa",
+            "fa6ee51c-f7e6-4907-b41f-1abf4558cc1b DEFINES 1e6f19d9-4805-463a-80a6-fd4e0ad2bd4c",
+            "fa6ee51c-f7e6-4907-b41f-1abf4558cc1b COORDINATES_WITH dsca",
+            "2c020ef0-f298-4f61-94af-b348ae64950f providedto 981e92fa-1650-4b44-8af5-6d2df6d0409b",
+            "d6bfc4f0-f81d-42f0-93b2-27a6b6a225e4 providedto 981e92fa-1650-4b44-8af5-6d2df6d0409b",
+            "b0012d5a-4f61-41a6-88e4-7b667db30514 providedto 981e92fa-1650-4b44-8af5-6d2df6d0409b",
+            "f1109ffd-f688-4a7f-9ea2-1887109f793d purposeis 80eed3bd-5204-4ca8-8222-d2201db50c41",
+            "313ef895-4963-4fd3-a515-e70dd12631f9 purposeis 80eed3bd-5204-4ca8-8222-d2201db50c41"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_8_defense_agencies",
+      "total_tests": 7,
+      "successful": 7,
+      "failed": 0,
+      "avg_precision": 0.9048,
+      "avg_recall": 1.0,
+      "avg_f1": 0.9286,
+      "avg_hallucination_rate": 0.0952
+    }
+  },
+  "pattern_9_mildep": {
+    "results": [
+      {
+        "test_id": 46,
+        "query": "Who is the Army IA?",
+        "expected": [
+          "ia",
+          "da",
+          "dasa (de&c)"
+        ],
+        "extracted": [
+          "IA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 2
+        },
+        "response_time": 4.83,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 14,
+            "vector_db": 0
+          },
+          "entities": [
+            "IA"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "authority",
+          "intent_confidence": 0.64,
+          "question": "Who is the Army IA?",
+          "relationships": [
+            "IA executes programs",
+            "IA provides articles and services",
+            "defense_intelligence_agency_dia coordinateswith defense_security_cooperation_agency_dsca",
+            "defense_security_cooperation_agency_dsca coordinateswith defense_intelligence_agency_dia",
+            "c1322 references defense_intelligence_agency_dia",
+            "deputy_under_secretary_of_the_air_force_for_international_affairs_safia ispartof department_of_the_air_force_daf",
+            "c1326132 references deputy_under_secretary_of_the_air_force_for_international_affairs_safia"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 47,
+        "query": "What is NIPO?",
+        "expected": [
+          "nipo"
+        ],
+        "extracted": [
+          "NIPO"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.17,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 7,
+            "vector_db": 0
+          },
+          "entities": [
+            "NIPO"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 1.0,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "entity_metrics_passed": {
+            "f1_score": true,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": true
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is NIPO?",
+          "relationships": [
+            "NIPO manages DoN SC programs",
+            "NIPO oversees Navy IA functions",
+            "navy_international_programs_office_nipo directs system_command_syscom",
+            "navy_international_programs_office_nipo ispartof department_of_the_navy_don",
+            "navy_international_programs_office_nipo receives letter_of_request_lor",
+            "navy_international_programs_office_nipo issubordinateto assistant_secretary_of_the_navy_research_development_and_acquisition_asn_rda",
+            "navy_international_programs_office_nipo oversees international_military_education_and_training_imet"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 48,
+        "query": "Explain SAF/IA role",
+        "expected": [
+          "saf/ia"
+        ],
+        "extracted": [
+          "SAF/IA"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.12,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 0,
+            "vector_db": 0
+          },
+          "entities": [
+            "SAF/IA"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.5,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.3333
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "incomplete",
+          "intent_confidence": 0.91,
+          "question": "Explain SAF/IA role",
+          "relationships": [
+            "SAF/IA leads Air Force SC",
+            "SAF/IA coordinates AFSAC and AFSAT"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 49,
+        "query": "What does USASAC handle?",
+        "expected": [
+          "usasac"
+        ],
+        "extracted": [
+          "USASAC"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 4.81,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 6,
+            "vector_db": 0
+          },
+          "entities": [
+            "USASAC"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.64,
+          "question": "What does USASAC handle?",
+          "relationships": [
+            "us_army_security_assistance_command_usasac ispartof army_material_command_amc",
+            "us_army_security_assistance_command_usasac isdirectedby army_material_command_amc",
+            "c1326113 references us_army_security_assistance_command_usasac",
+            "army_material_command_amc haspart us_army_security_assistance_command_usasac",
+            "department_of_the_army_da haspart us_army_security_assistance_command_usasac"
+          ],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 50,
+        "query": "What is AFSAC?",
+        "expected": [
+          "afsac"
+        ],
+        "extracted": [
+          "AFSAC"
+        ],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.15,
+        "status": "success",
+        "entity_confidence": 0.85,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 4,
+            "vector_db": 0
+          },
+          "entities": [
+            "AFSAC"
+          ],
+          "entity_confidence": 0.85,
+          "entity_metrics": {
+            "f1_score": 0.6667,
+            "hallucination_rate": 0.0,
+            "precision": 1.0,
+            "recall": 0.5
+          },
+          "entity_metrics_passed": {
+            "f1_score": false,
+            "hallucination_rate": true,
+            "precision": true,
+            "recall": false
+          },
+          "intent": "definition",
+          "intent_confidence": 0.91,
+          "question": "What is AFSAC?",
+          "relationships": [
+            "air_force_security_assistance_and_cooperation_afsac_directorate ispartof department_of_the_air_force_daf",
+            "department_of_the_air_force_daf haspart air_force_security_assistance_and_cooperation_afsac_directorate",
+            "c13261331 references air_force_security_assistance_and_cooperation_afsac_directorate"
+          ],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_9_mildep",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.8667,
+      "avg_f1": 0.9,
+      "avg_hallucination_rate": 0.0
+    }
+  },
+  "pattern_10_hallucination_tests": {
+    "results": [
+      {
+        "test_id": 51,
+        "query": "What is the weather today?",
+        "expected": [],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 4.34,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What is the weather today?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 52,
+        "query": "Tell me about programs",
+        "expected": [],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 4.28,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "general",
+          "intent_confidence": 0.59,
+          "question": "Tell me about programs",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 53,
+        "query": "What are the activities?",
+        "expected": [],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 4.29,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "definition",
+          "intent_confidence": 0.83,
+          "question": "What are the activities?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 54,
+        "query": "Hello, how are you?",
+        "expected": [],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 4.34,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "general",
+          "intent_confidence": 0.48,
+          "question": "Hello, how are you?",
+          "relationships": [],
+          "status": "success"
+        }
+      },
+      {
+        "test_id": 55,
+        "query": "Explain policy",
+        "expected": [],
+        "extracted": [],
+        "metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "hallucination_rate": 0.0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "response_time": 0.07,
+        "status": "success",
+        "entity_confidence": 0.0,
+        "raw_response": {
+          "data_sources": {
+            "cosmos_gremlin": 10,
+            "vector_db": 0
+          },
+          "entities": [],
+          "entity_confidence": 0.0,
+          "entity_metrics": {},
+          "entity_metrics_passed": {},
+          "intent": "incomplete",
+          "intent_confidence": 0.75,
+          "question": "Explain policy",
+          "relationships": [],
+          "status": "success"
+        }
+      }
+    ],
+    "summary": {
+      "pattern": "pattern_10_hallucination_tests",
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_f1": 1.0,
+      "avg_hallucination_rate": 0.0
+    }
+  }
+}

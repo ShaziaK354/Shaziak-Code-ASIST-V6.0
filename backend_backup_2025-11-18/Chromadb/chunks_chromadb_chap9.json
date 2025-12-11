@@ -1,0 +1,272 @@
+{
+  "documents": [
+    "There are many key financial functions performed during the life cycle of a Foreign Military Sales (FMS) case. Two critical financial functions are the development of pricing estimates for the Letter of Offer and Acceptance (LOA) documents and billing and reporting of security assistance (SA) costs incurred/collected. This chapter provides an overview of SA policies and procedures for financial management.",
+    "The FMS program must be managed to recover the full costs of defense articles and defense services from the stocks of the Department of Defense and Coast Guard in accordance with the Arms Export Control Act (AECA). The Letter of Offer and Acceptance (LOA) mandates that the purchaser pay the full cost regardless of the estimated LOA cost for the individual case or the estimated values that were provided on the case. Modifications and Amendments are used to update case values as necessary when changes to the program occur.",
+    "Sales may be made under FMS only if the eligible purchaser agrees to pay in U.S. dollars. AECA, Section 21 (22 U.S.C. 2761) and AECA Section 22 (22 U.S.C. 2762) authorize reciprocal arrangements under limited circumstances.",
+    "Pre-Letter of Request (LOR) activities are those necessary to assist the purchaser in defining requirements in sufficient detail to produce a complete LOR. A complete LOR is one that contains all of the information necessary for the Implementing Agency (IA) to develop an LOA response. Pre-LOR activities include research and analysis, meetings, briefings, responses to requests for proposals and participation in international competitions, equipment demonstrations, and travel directly related to those efforts. Case development activities are those required to prepare LOA Data (LOAD) quality data after an LOR is complete.",
+    "No more than eight percent of the total FMS Administrative Surcharge funds allocated to an IA in a fiscal year may be expended on pre-LOR activities. Requests for an exception to policy to exceed the eight percent limit on IA expenditure of FMS Administrative Surcharge funds on pre-LOR activities require DSCA Director approval.",
+    "When pricing FMS case items, the price depends on the source of supply (e.g., available from stock, ordered from procurement, Working Capital Fund (WCF)), and whether the item is to be replaced with a similar or improved item, or involves manpower or training. DoD 7000.14-R, Volume 15, Chapter 7, provides detailed information on pricing policies.",
+    "The FMS Trust Fund is used for payments received from purchasers and disbursements made against implemented FMS cases. This fund is cited directly on contracts for the procurement of defense articles and/or services for the purchaser, or it is used to reimburse DoD Component appropriations for deliveries from DoD stocks or services performed by DoD employees. DSCA manages the FMS Trust Fund and is responsible for the solvency of each purchaser's FMS Trust Fund account.",
+    "The purchaser may request USG-furnished engineering services, or costs may be incurred, when providing these services as part of production. These services are offered on Foreign Military Sales (FMS) cases and are reported and/or billed the same as other services. Estimated costs to provide engineering services are included in the estimated unit cost of the purchased item. Such costs also include the pro-rata share of government-furnished testing and evaluation services.",
+    "The Implementing Agency (IA) may determine that USG program management services are necessary for successful program implementation and execution in accordance with the Foreign Military Sales Case-Related Manpower Functions and Funding Source Matrix. For LOAs or case line items accepted after August 1, 2006, any program management services will be included on well-defined, services line items on the case. The tailored line item description note for each of these line items must include details describing exactly what services will be provided and the length of time they will be performed.",
+    "For FMS cases, manpower requirements listed on LOAs are generated and validated through the Manpower Travel Data Sheets (MTDS) in the Defense Security Assistance Management System (DSAMS). The MTDS is in a standardized format for capturing and auditing all case-funded military, civilian, or USG contracted full-time equivalent (FTE) manpower, travel, and personnel support costs. The MTDS is not required for Title 10 and Title 22 BPC cases because the costs for these types of activities are researched, validated and reported to DSCA and Congress before BPC LOA development begins.",
+    "DoD 7000.14-R, Volume 15, Chapter 7, provides detailed guidance for the pricing of training on FMS cases and under the International Military Education and Training (IMET) funded program. The following paragraphs provide additional policy applicable to the various tuition rates (Rates A-E).",
+    "Under Arms Export Control Act (AECA), section 21(a)(1)(C) (22 U.S.C. 2761(a)(1)(C)), countries purchasing education and training via an FMS case and using national funds are to be charged the incremental rate (Rate C) if they are concurrently in receipt of IMET funds (receiving IMET funds in the same fiscal year as the case). If a country is not concurrently in receipt of IMET, it is not eligible for incremental pricing of education and training paid on LOAs accepted/signed after the end of the fiscal year of its IMET funding allocation.",
+    "DoD 7000.14.-R, Volume 15, Chapter 7, and DoDD 2140.02 provide detailed guidance on establishing NC charges and pricing these costs on LOA documents. These costs do not apply to cases that are fully financed with non-repayable Foreign Military Financing (FMF) or non-repayable Military Assistance Program (MAP) funds. Nonrecurring costs are recoverable via policies and procedures included in DoD directives.",
+    "The DoD Components submit requests to establish an NC to the DSCA (IOPS/GEX) using the formats and pricing methodology in DoD 7000.14.-R, Volume 15, Chapter 7. Detailed worksheets accompanying NC recoupment charge establishment requests will be marked Controlled Unclassified Information unless circumstances require formal classification. DSCA (IOPS/GEX) staffs the package within DSCA, Under Secretary of Defense for Acquisition and Sustainment (USD (A&S)), and (USD (C). After coordination, the Director, DSCA approves or disapproves the NC charge and the DSAMS NC table is updated.",
+    "From August 1, 2006 through July 2, 2012, DSCA implemented an effectiveness measure to reduce the volume of small dollar cases. It was recognized that a certain level of FMS administrative support was required in the implementation and execution of these cases. Based on analysis of data, the amount determined appropriate to charge was $15,000. DSCA rescinded the application of the SCML effective with cases accepted on/after July 3, 2012. DSCA reserves the right to reinstitute the application of the SCML.",
+    "When selling defense articles to eligible foreign countries and international organizations from DoD stock under Section 21 of the AECA, as amended (22 U.S.C. 2761), the IA must determine whether to categorize an FMS sale as one with intent to replace or not to replace. If, at the time an agreement for sale of a defense article under Section 21 was entered into, the IA does not intend to replace the defense article being sold, then the price charged to the purchaser will be the actual value of the defense article being sold, which is DoD's acquisition cost of the item being sold, less any depreciation.",
+    "If, at the time an agreement for sale of a defense article under Section 21 is entered into, the IA intends to replace the defense article being sold with any defense article to address a loss of capability or readiness from such sale, then the amount charged to the purchaser for the cost of the replacement article must be either: the estimated amount to replace the article sold with the identical type, model, and series of defense articles, less any depreciation; OR when replacement with an article will not meet IA requirements, the estimated amount necessary to replace the article sold with a newer model, modified version, or variant that serves as a functional equivalent.",
+    "Costs associated with administering the Foreign Military Sales (FMS) program must always be paid and/or collected (Arms Export Control Act (AECA), section 21(e)(1) (22 U.S.C. 2761(e)(1))). If a waiver of the FMS Administrative Surcharge for the purchaser is approved in one of the circumstances described below, it must still be recouped from another funding source. DoD 7000.14-R, Volume 15, Chapter 7, and AECA, section 21(e)(2)) (22 U.S.C. 2761(e)(2)) allow the Implementing Agency (IA) to waive or reduce FMS Administrative Surcharges.",
+    "The AECA, section 21(h) (22 U.S.C. 2761(h)) allows the USG to provide quality assurance, inspection, Contract Administration Services (CAS), and contract audit defense services without charge to certain foreign governments who have reciprocal agreements. The waiver under each agreement applies only to new FMS LOAs with implementation dates on or after the effective date of the reciprocal agreement.",
+    "Nonrecurring Cost (NC) charges may be waived or reduced for: sales that would significantly advance U.S. interests in NATO standardization; standardization with the Armed Forces of Japan, Australia, the Republic of Korea, Israel, New Zealand; or foreign procurement in the United States under co-production arrangements. For the sale of Major Defense Equipment (MDE) also being procured for U.S. Armed Forces and resulting in a cost savings to the U.S. on the U.S.-procured equipment that substantially offsets the revenue lost. For sales when imposition of the charge would likely result in the loss of the sale.",
+    "Foreign Military Sales (FMS) partners are encouraged to use national funds (cash) for security assistance (SA) payments. If an FMS partner uses third-party funds, such as donations or private financing (without USG guarantee) for an FMS payment, then the USG will treat those funds as national funds. Potential FMS partners who use third-party funds, which may include third-party financing or donations, must understand that any third-party entity does not have access or rights to materiel or services provided under the Letter of Offer and Acceptance (LOA) without advance approval of the Department of State (State).",
+    "Bank Letters of Credit (BLOC) permits the use of a Letter of Credit (LC), a type of third-party loan funding from a commercial bank, Export Credit Agency, or other lending institution, to make payments. The USG should treat these payments the same as national funds. In all cases, the LC must be in U.S. dollars. The LC may serve as a replacement for national funds held in the FMS Trust Fund or Interest-Bearing Account, to make routine payments due under the LOAs.",
+    "When the purchase cannot be financed by other means, credit financing or credit guarantees can be extended if allowed by U.S. law, or if allocated by the State within the annual Foreign Military Financing (FMF) ceiling imposed by U.S. law. The Arms Export Control Act (AECA), section 23 (22 U.S.C 2763), authorizes the President to finance procurement of defense articles and services for foreign countries and international organizations.",
+    "AECA, section 23(g)(1) (22 U.S.C. 2763(g)(1)), requires Congressional notification of LOAs, Amendments, and commercial contracts for $100M or greater that are partially or totally funded with FMS credit cash flow financing. These notifications are developed by DSCA (Office of International Operations, Regional Execution Directorate (IOPS/REX)) based on data provided for LOA or Amendment countersignature or for review of commercial contracts. Cash flow financing notifications occur concurrently with formal AECA, section 36(b) (22 U.S.C. 2776(b)) notifications."
+  ],
+  "metadatas": [
+    {
+      "section_id": "C9.1.1",
+      "section_title": "Overview of Financial Management",
+      "chapter": "C9",
+      "parent_section": "C9.1",
+      "level": 3,
+      "char_count": 409,
+      "entities_mentioned": "FMS,LOA,SA"
+    },
+    {
+      "section_id": "C9.3.1",
+      "section_title": "Sales from Stock",
+      "chapter": "C9",
+      "parent_section": "C9.3",
+      "level": 3,
+      "char_count": 526,
+      "entities_mentioned": "FMS,DoD,AECA,LOA"
+    },
+    {
+      "section_id": "C9.3.2",
+      "section_title": "Payment in United States Dollars",
+      "chapter": "C9",
+      "parent_section": "C9.3",
+      "level": 3,
+      "char_count": 223,
+      "entities_mentioned": "FMS,AECA,USG"
+    },
+    {
+      "section_id": "C9.3.4",
+      "section_title": "Pre-Letter of Request and Case Development Activities",
+      "chapter": "C9",
+      "parent_section": "C9.3",
+      "level": 3,
+      "char_count": 626,
+      "entities_mentioned": "LOR,IA,LOA,LOAD"
+    },
+    {
+      "section_id": "C9.3.4.2",
+      "section_title": "Limits on Pre-Letter of Request Expenditures",
+      "chapter": "C9",
+      "parent_section": "C9.3.4",
+      "level": 4,
+      "char_count": 329,
+      "entities_mentioned": "FMS,IA,DSCA"
+    },
+    {
+      "section_id": "C9.3.5",
+      "section_title": "Letter of Offer and Acceptance Pricing",
+      "chapter": "C9",
+      "parent_section": "C9.3",
+      "level": 3,
+      "char_count": 348,
+      "entities_mentioned": "FMS,LOA,WCF,DoD"
+    },
+    {
+      "section_id": "C9.3.10",
+      "section_title": "Foreign Military Sales Trust Fund",
+      "chapter": "C9",
+      "parent_section": "C9.3",
+      "level": 3,
+      "char_count": 473,
+      "entities_mentioned": "FMS,DoD,DSCA"
+    },
+    {
+      "section_id": "C9.4.1",
+      "section_title": "Government-Furnished Engineering Services",
+      "chapter": "C9",
+      "parent_section": "C9.4",
+      "level": 3,
+      "char_count": 475,
+      "entities_mentioned": "USG,FMS"
+    },
+    {
+      "section_id": "C9.4.2.3",
+      "section_title": "FMS Program Management Services",
+      "chapter": "C9",
+      "parent_section": "C9.4.2",
+      "level": 4,
+      "char_count": 595,
+      "entities_mentioned": "IA,USG,FMS,LOA"
+    },
+    {
+      "section_id": "C9.4.2.4",
+      "section_title": "FMS and BPC Manpower Reporting Requirement",
+      "chapter": "C9",
+      "parent_section": "C9.4.2",
+      "level": 4,
+      "char_count": 584,
+      "entities_mentioned": "FMS,BPC,LOA,MTDS,DSAMS,USG,DSCA"
+    },
+    {
+      "section_id": "C9.4.3",
+      "section_title": "Training Pricing",
+      "chapter": "C9",
+      "parent_section": "C9.4",
+      "level": 3,
+      "char_count": 291,
+      "entities_mentioned": "DoD,FMS,IMET"
+    },
+    {
+      "section_id": "C9.4.3.1",
+      "section_title": "Change in Status of IMET Recipient Country",
+      "chapter": "C9",
+      "parent_section": "C9.4.3",
+      "level": 4,
+      "char_count": 543,
+      "entities_mentioned": "AECA,FMS,IMET,LOA"
+    },
+    {
+      "section_id": "C9.4.5",
+      "section_title": "Nonrecurring Cost Recoupment Charges",
+      "chapter": "C9",
+      "parent_section": "C9.4",
+      "level": 3,
+      "char_count": 408,
+      "entities_mentioned": "DoD,NC,LOA,FMF,MAP"
+    },
+    {
+      "section_id": "C9.4.5.1",
+      "section_title": "Nonrecurring Cost Approval Process",
+      "chapter": "C9",
+      "parent_section": "C9.4.5",
+      "level": 4,
+      "char_count": 585,
+      "entities_mentioned": "DoD,NC,DSCA,IOPS/GEX,USD(A&S),DSAMS"
+    },
+    {
+      "section_id": "C9.4.7",
+      "section_title": "Small Case Management Line",
+      "chapter": "C9",
+      "parent_section": "C9.4",
+      "level": 3,
+      "char_count": 509,
+      "entities_mentioned": "DSCA,FMS,SCML"
+    },
+    {
+      "section_id": "C9.4.8",
+      "section_title": "Defense Articles Sold via FMS from Stock",
+      "chapter": "C9",
+      "parent_section": "C9.4",
+      "level": 3,
+      "char_count": 609,
+      "entities_mentioned": "FMS,DoD,AECA,IA"
+    },
+    {
+      "section_id": "C9.4.8.2",
+      "section_title": "Sale With Intent to Replace the Defense Article",
+      "chapter": "C9",
+      "parent_section": "C9.4.8",
+      "level": 4,
+      "char_count": 683,
+      "entities_mentioned": "IA"
+    },
+    {
+      "section_id": "C9.6.1",
+      "section_title": "Waiver of FMS Administrative Surcharge",
+      "chapter": "C9",
+      "parent_section": "C9.6",
+      "level": 3,
+      "char_count": 539,
+      "entities_mentioned": "FMS,AECA,DoD,IA"
+    },
+    {
+      "section_id": "C9.6.2",
+      "section_title": "Waiver of Contract Administration Services",
+      "chapter": "C9",
+      "parent_section": "C9.6",
+      "level": 3,
+      "char_count": 401,
+      "entities_mentioned": "AECA,USG,CAS,FMS,LOA"
+    },
+    {
+      "section_id": "C9.6.3",
+      "section_title": "Waiver of Nonrecurring Cost Recoupment Charge",
+      "chapter": "C9",
+      "parent_section": "C9.6",
+      "level": 3,
+      "char_count": 613,
+      "entities_mentioned": "NC,NATO,MDE"
+    },
+    {
+      "section_id": "C9.7.1",
+      "section_title": "National Funds",
+      "chapter": "C9",
+      "parent_section": "C9.7",
+      "level": 3,
+      "char_count": 620,
+      "entities_mentioned": "FMS,SA,USG,LOA"
+    },
+    {
+      "section_id": "C9.7.1.2",
+      "section_title": "Bank Letter of Credit",
+      "chapter": "C9",
+      "parent_section": "C9.7.1",
+      "level": 4,
+      "char_count": 466,
+      "entities_mentioned": "BLOC,LC,USG,FMS,LOA"
+    },
+    {
+      "section_id": "C9.7.2",
+      "section_title": "FMS Credit Sales and Guarantees",
+      "chapter": "C9",
+      "parent_section": "C9.7",
+      "level": 3,
+      "char_count": 439,
+      "entities_mentioned": "FMS,FMF,AECA"
+    },
+    {
+      "section_id": "C9.7.2.5",
+      "section_title": "Cash Flow Financing",
+      "chapter": "C9",
+      "parent_section": "C9.7.2",
+      "level": 4,
+      "char_count": 565,
+      "entities_mentioned": "AECA,LOA,FMS,DSCA,IOPS/REX"
+    }
+  ],
+  "ids": [
+    "C9.1.1_3a9f7dc4",
+    "C9.3.1_d0a5e8f6",
+    "C9.3.2_daaf285f",
+    "C9.3.4_7d106414",
+    "C9.3.4.2_d54ea658",
+    "C9.3.5_fb3ef6e9",
+    "C9.3.10_46689adc",
+    "C9.4.1_f18c12ef",
+    "C9.4.2.3_5772b07d",
+    "C9.4.2.4_3ac3bed3",
+    "C9.4.3_d58bcd4f",
+    "C9.4.3.1_d00b3b1d",
+    "C9.4.5_6e5b49cb",
+    "C9.4.5.1_2962f6c0",
+    "C9.4.7_55f9cdfa",
+    "C9.4.8_8ede0ba4",
+    "C9.4.8.2_d924ddfa",
+    "C9.6.1_454874d4",
+    "C9.6.2_d7c29ea8",
+    "C9.6.3_6eba1626",
+    "C9.7.1_e9da5518",
+    "C9.7.1.2_f8afe68b",
+    "C9.7.2_10b938ea",
+    "C9.7.2.5_224975f8"
+  ]
+}

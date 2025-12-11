@@ -1,0 +1,85 @@
+{
+  "documents": [
+    "The Foreign Military Sales (FMS) process begins when an eligible foreign country or international organization requests information on defense articles or services, including training, being considered for purchase.",
+    "Requests are generally referred to as Letters of Request (LORs), whether provided through formal correspondence, requests for proposal (RFPs), discussions, electronic mail (e-mail), letters, or messages.",
+    "Although no specific format is required for an LOR, it must be in writing and partner nations are strongly encouraged to work with SCOs to ensure LORs address the items identified using the LOR checklist.",
+    "If the request is received verbally, a memorandum for record (MFR) must document the conversation and outline the required information.",
+    "USG responses to Letters of Request (LORs) include Price and Availability (P&A) data, Letters of Offer and Acceptance (LOAs), and other appropriate actions.",
+    "P&A data are rough order of magnitude estimates of cost and availability of defense articles or services.",
+    "The Letter of Offer and Acceptance (LOA) is the legal instrument used by the USG to sell defense articles, defense services including training, and design and construction services."
+  ],
+  "metadatas": [
+    {
+      "section_id": "C5.1.1",
+      "section_title": "General",
+      "chapter": "C5",
+      "parent_section": "C5.1",
+      "level": 3,
+      "char_count": 215,
+      "entities_mentioned": "FMS"
+    },
+    {
+      "section_id": "C5.1.2",
+      "section_title": "Letter of Request Format and Information Requirements",
+      "chapter": "C5",
+      "parent_section": "C5.1",
+      "level": 3,
+      "char_count": 203,
+      "entities_mentioned": ""
+    },
+    {
+      "section_id": "C5.1.2.1",
+      "section_title": "Format Requirements",
+      "chapter": "C5",
+      "parent_section": "C5.1.2",
+      "level": 4,
+      "char_count": 204,
+      "entities_mentioned": "LOR"
+    },
+    {
+      "section_id": "C5.1.3",
+      "section_title": "Letter of Request Submission Procedures",
+      "chapter": "C5",
+      "parent_section": "C5.1",
+      "level": 3,
+      "char_count": 135,
+      "entities_mentioned": ""
+    },
+    {
+      "section_id": "C5.2.1",
+      "section_title": "Types of Letter of Request Responses",
+      "chapter": "C5",
+      "parent_section": "C5.2",
+      "level": 3,
+      "char_count": 156,
+      "entities_mentioned": "USG,P&A"
+    },
+    {
+      "section_id": "C5.3.1",
+      "section_title": "Definition",
+      "chapter": "C5",
+      "parent_section": "C5.3",
+      "level": 3,
+      "char_count": 105,
+      "entities_mentioned": "P&A"
+    },
+    {
+      "section_id": "C5.4.1",
+      "section_title": "Definition",
+      "chapter": "C5",
+      "parent_section": "C5.4",
+      "level": 3,
+      "char_count": 181,
+      "entities_mentioned": "USG,LOA"
+    }
+  ],
+  "ids": [
+    "C5.1.1_40a9ee71",
+    "C5.1.2_abb319bf",
+    "C5.1.2.1_9bb3b8c5",
+    "C5.1.3_3dd60b46",
+    "C5.2.1_e5a479a2",
+    "C5.3.1_8a781f32",
+    "C5.4.1_c891200f"
+  ]
+}

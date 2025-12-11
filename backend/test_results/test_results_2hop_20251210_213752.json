@@ -1,0 +1,345 @@
+{
+  "timestamp": "2025-12-10T21:37:52.580532",
+  "kg_stats": {
+    "entities": 44,
+    "relationships": 51
+  },
+  "tests": [
+    {
+      "id": "Q4",
+      "question": "Who supervises Security Assistance programs?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "SA --[supervised_by]--> SECSTATE",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Secretary of State",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SECSTATE",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "continuous supervision",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "general direction",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SA --[supervised_by]--> SECSTATE",
+        "SA --[subset_of]--> SC",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[authorized_by]--> FAA",
+        "SA --[authorized_by]--> AECA",
+        "SA --[authorized_by]--> APPROP_ACTS",
+        "SA --[administered_by]--> DOD",
+        "SA --[supervised_by]--> SECSTATE --[coordinates_with]--> SECDEF",
+        "SA --[subset_of]--> SC --[managed_by]--> SECDEF",
+        "SA --[subset_of]--> SC --[authorized_by]--> TITLE10"
+      ],
+      "authority_chains": {
+        "SA": [
+          {
+            "from": "sa",
+            "to": "secstate",
+            "type": "supervised_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "SA": "Group of programs authorized under Title 22 by which the US provides defense articles, military educ"
+      }
+    },
+    {
+      "id": "Q2",
+      "question": "What is the difference between SC and SA?",
+      "category": "comparison",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "SA --[subset_of]--> SC",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "subset",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Title 10",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Title 22",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SA --[subset_of]--> SC",
+        "SC --[authorized_by]--> TITLE10",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[supervised_by]--> SECSTATE",
+        "SC --[managed_by]--> SECDEF",
+        "SA --[administered_by]--> DOD"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "SC": "All activities undertaken by DoD to encourage and enable international partners to work with the Uni",
+        "SA": "Group of programs authorized under Title 22 by which the US provides defense articles, military educ"
+      }
+    },
+    {
+      "id": "Q5",
+      "question": "What is DSCA's role?",
+      "category": "role",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "DSCA --[reports_to]--> USD(P)",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "directs",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "administers",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "USD(P)",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "DSCA --[administers]--> SC",
+        "DSCA --[administers]--> FMS",
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[administers]--> SC --[managed_by]--> SECDEF",
+        "DSCA --[administers]--> SC --[authorized_by]--> TITLE10",
+        "DSCA --[administers]--> FMS --[part_of]--> SA",
+        "DSCA --[administers]--> FMS --[authorized_by]--> AECA",
+        "DSCA --[reports_to]--> USD(P) --[reports_to]--> SECDEF",
+        "DSCA --[reports_to]--> USD(P) --[develops_policy_for]--> SC",
+        "DSCA --[reports_to]--> USD(P) --[advises]--> SECDEF"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "DSCA": "Directs, administers, and provides guidance to DoD Components for SC programs"
+      }
+    },
+    {
+      "id": "Q_DSCA_CHAIN",
+      "question": "Who does DSCA report to?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "DSCA --[reports_to]--> USD(P)",
+          "found": true
+        },
+        {
+          "type": "expected_path",
+          "expected": "USD(P) --[reports_to]--> SECDEF",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "USD(P)",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SECDEF",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[administers]--> SC",
+        "DSCA --[administers]--> FMS",
+        "DSCA --[reports_to]--> USD(P) --[reports_to]--> SECDEF",
+        "DSCA --[reports_to]--> USD(P) --[develops_policy_for]--> SC",
+        "DSCA --[reports_to]--> USD(P) --[advises]--> SECDEF",
+        "DSCA --[administers]--> SC --[managed_by]--> SECDEF",
+        "DSCA --[administers]--> SC --[authorized_by]--> TITLE10",
+        "DSCA --[administers]--> FMS --[authorized_by]--> AECA",
+        "DSCA --[administers]--> FMS --[part_of]--> SA"
+      ],
+      "authority_chains": {
+        "DSCA": [
+          {
+            "from": "dsca",
+            "to": "usd(p)",
+            "type": "reports_to"
+          },
+          {
+            "from": "usd(p)",
+            "to": "secdef",
+            "type": "reports_to"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "DSCA": "Directs, administers, and provides guidance to DoD Components for SC programs"
+      }
+    },
+    {
+      "id": "Q_FMS_AUTH",
+      "question": "What authorizes FMS?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_content",
+          "expected": "AECA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Arms Export Control Act",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA",
+        "FMS --[part_of]--> SA --[authorized_by]--> TITLE22",
+        "FMS --[part_of]--> SA --[authorized_by]--> FAA",
+        "FMS --[part_of]--> SA --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA --[authorized_by]--> APPROP_ACTS",
+        "FMS --[part_of]--> SA --[supervised_by]--> SECSTATE",
+        "FMS --[part_of]--> SA --[subset_of]--> SC",
+        "FMS --[part_of]--> SA --[administered_by]--> DOD"
+      ],
+      "authority_chains": {},
+      "entity_definitions": {
+        "FMS": "Government-to-government sale of defense articles, services, and training"
+      }
+    },
+    {
+      "id": "Q_SA_SUPERVISION",
+      "question": "Who provides continuous supervision of SA?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "SA --[supervised_by]--> SECSTATE",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "Secretary of State",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SECSTATE",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "SA --[supervised_by]--> SECSTATE",
+        "SA --[subset_of]--> SC",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[authorized_by]--> FAA",
+        "SA --[authorized_by]--> AECA",
+        "SA --[authorized_by]--> APPROP_ACTS",
+        "SA --[administered_by]--> DOD",
+        "SA --[supervised_by]--> SECSTATE --[coordinates_with]--> SECDEF",
+        "SA --[subset_of]--> SC --[managed_by]--> SECDEF",
+        "SA --[subset_of]--> SC --[authorized_by]--> TITLE10"
+      ],
+      "authority_chains": {
+        "SA": [
+          {
+            "from": "sa",
+            "to": "secstate",
+            "type": "supervised_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "SA": "Group of programs authorized under Title 22 by which the US provides defense articles, military educ"
+      }
+    },
+    {
+      "id": "Q_FMS_CHAIN",
+      "question": "What is the supervision chain for FMS?",
+      "category": "authority",
+      "status": "PASS",
+      "checks": [
+        {
+          "type": "expected_path",
+          "expected": "FMS --[part_of]--> SA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SA",
+          "found": true
+        },
+        {
+          "type": "expected_content",
+          "expected": "SECSTATE",
+          "found": true
+        }
+      ],
+      "paths_found": [
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA",
+        "FMS --[part_of]--> SA --[supervised_by]--> SECSTATE",
+        "FMS --[part_of]--> SA --[subset_of]--> SC",
+        "FMS --[part_of]--> SA --[authorized_by]--> TITLE22",
+        "FMS --[part_of]--> SA --[authorized_by]--> FAA",
+        "FMS --[part_of]--> SA --[authorized_by]--> AECA",
+        "FMS --[part_of]--> SA --[authorized_by]--> APPROP_ACTS",
+        "FMS --[part_of]--> SA --[administered_by]--> DOD"
+      ],
+      "authority_chains": {
+        "FMS": [
+          {
+            "from": "fms",
+            "to": "sa",
+            "type": "part_of"
+          },
+          {
+            "from": "sa",
+            "to": "secstate",
+            "type": "supervised_by"
+          }
+        ]
+      },
+      "entity_definitions": {
+        "FMS": "Government-to-government sale of defense articles, services, and training"
+      }
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "partial": 0,
+    "failed": 0
+  }
+}

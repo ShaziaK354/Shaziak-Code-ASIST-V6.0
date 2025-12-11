@@ -1,0 +1,732 @@
+{
+  "timestamp": "2025-12-10T23:37:39.053040",
+  "summary": {
+    "total": 36,
+    "passed": 15,
+    "partial": 20,
+    "failed": 1,
+    "pass_rate": 41.66666666666667
+  },
+  "results": [
+    {
+      "id": "Q4",
+      "question": "Who supervises Security Assistance programs?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 2,
+      "checks_total": 5,
+      "paths": [
+        "SA --[supervised_by]--> SECSTATE",
+        "SA --[supervised_by]--> DOS",
+        "SA --[subset_of]--> SC",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[authorized_by]--> FAA",
+        "SA --[authorized_by]--> AECA",
+        "SA --[administered_by]--> DOD",
+        "SA --[authorized_by]--> APPROP_ACTS",
+        "SA --[primary_site_for_reverse]--> DFAS-IN",
+        "SA --[contains]--> FMS"
+      ]
+    },
+    {
+      "id": "Q2",
+      "question": "What is the difference between SC and SA?",
+      "status": "FAIL",
+      "paths_found": 10,
+      "checks_passed": 0,
+      "checks_total": 4,
+      "paths": [
+        "SA --[supervised_by]--> SECSTATE",
+        "SA --[supervised_by]--> DOS",
+        "SC --[authorized_by]--> TITLE10",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[authorized_by]--> FAA",
+        "SA --[authorized_by]--> AECA",
+        "SA --[authorized_by]--> APPROP_ACTS",
+        "SC --[managed_by]--> SECDEF",
+        "SC --[funded_by]--> DOD_APPROP_ACTS",
+        "SC --[includes]--> SA"
+      ]
+    },
+    {
+      "id": "Q5",
+      "question": "What is DSCA's role?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 5,
+      "paths": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[reports_to]--> USDPR",
+        "DSCA --[part_of]--> DOD",
+        "DSCA --[part_of]--> DEPARTMENT_OF_DEFENSE",
+        "DSCA --[manages]--> SECURITY_COOPERATION_ACTIVITIES",
+        "DSCA --[manages]--> IMET",
+        "DSCA --[manages]--> SECURITY_ASSISTANCE_PROGRAMS",
+        "DSCA --[manages]--> FMS_CASES",
+        "DSCA --[manages]--> FMS_CASE_DEVELOPMENT",
+        "DSCA --[manages]--> LOR_PROCESSING"
+      ]
+    },
+    {
+      "id": "Q_DSCA_CHAIN",
+      "question": "Who does DSCA report to?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "paths": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[reports_to]--> USDPR",
+        "DSCA --[part_of]--> DOD",
+        "DSCA --[part_of]--> DEPARTMENT_OF_DEFENSE",
+        "DSCA --[contains]--> CPD",
+        "DSCA --[administers]--> SC",
+        "DSCA --[administers]--> FMS",
+        "DSCA --[provides_guidance_to]--> IA",
+        "DSCA --[receivesauthorityfrom]--> SECTION_36_AECA",
+        "DSCA --[providesguidanceto]--> US_AIR_FORCE"
+      ]
+    },
+    {
+      "id": "Q_FMS_AUTH",
+      "question": "What authorizes FMS?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 1,
+      "checks_total": 2,
+      "paths": [
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[governed_by]--> DOD_FMR",
+        "FMS --[implemented_by]--> IMPLEMENTING_AGENCY",
+        "FMS --[implemented_by]--> MILDEP",
+        "FMS --[part_of]--> SA",
+        "FMS --[isa]--> SECURITY_COOPERATION",
+        "FMS --[isa]--> SECURITY_ASSISTANCE",
+        "FMS --[provides]--> DEFENSE_EQUIPMENT",
+        "FMS --[managedby]--> DSCA",
+        "FMS --[provides]--> DEFENSE_ARTICLES"
+      ]
+    },
+    {
+      "id": "Q_SA_SUPERVISION",
+      "question": "Who provides continuous supervision of SA?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 2,
+      "checks_total": 3,
+      "paths": [
+        "SA --[subset_of]--> SC",
+        "SA --[supervised_by]--> SECSTATE",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[authorized_by]--> FAA",
+        "SA --[authorized_by]--> AECA",
+        "SA --[administered_by]--> DOD",
+        "SA --[authorized_by]--> APPROP_ACTS",
+        "SA --[primary_site_for_reverse]--> DFAS-IN",
+        "SA --[supervised_by]--> DOS",
+        "SA --[contains]--> FMS"
+      ]
+    },
+    {
+      "id": "Q_FMS_CHAIN",
+      "question": "What is the supervision chain for FMS?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "paths": [
+        "FMS --[part_of]--> SA",
+        "FMS --[contains]--> FMS_CASE",
+        "FMS --[contains]--> MDE",
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[isa]--> SECURITY_COOPERATION",
+        "FMS --[isa]--> SECURITY_ASSISTANCE",
+        "FMS --[provides]--> DEFENSE_EQUIPMENT",
+        "FMS --[managedby]--> DSCA",
+        "FMS --[provides]--> DEFENSE_ARTICLES",
+        "FMS --[provides]--> DEFENSE_SERVICES"
+      ]
+    },
+    {
+      "id": "Q_NAVY_FMS",
+      "question": "Who is responsible for Navy FMS cases?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "paths": [
+        "NIPO --[manages]--> FMS",
+        "FMS --[managed_by]--> NIPO",
+        "FMS --[managedby]--> DSCA",
+        "NIPO --[is_IA_for]--> DEPT_NAVY",
+        "FMS --[part_of]--> SA",
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[isa]--> SECURITY_COOPERATION",
+        "FMS --[isa]--> SECURITY_ASSISTANCE",
+        "FMS --[provides]--> DEFENSE_EQUIPMENT",
+        "FMS --[provides]--> DEFENSE_ARTICLES"
+      ]
+    },
+    {
+      "id": "Q_DFAS_ROLE",
+      "question": "What role does DFAS play in Security Cooperation?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 4,
+      "checks_total": 6,
+      "paths": [
+        "DFAS --[part_of]--> DOD",
+        "SC --[authorized_by]--> TITLE10",
+        "DFAS --[manages]--> TRUST_FUND",
+        "DFAS --[manages]--> DISBURSEMENT",
+        "DFAS --[manages]--> COLLECTIONS",
+        "DFAS --[provides_services_for]--> SC",
+        "DFAS --[processes]--> CASE_FUNDS",
+        "DFAS --[tracks]--> FMS_CASE",
+        "DFAS --[bills]--> PURCHASER",
+        "DFAS --[handles]--> INITIAL_DEPOSIT"
+      ]
+    },
+    {
+      "id": "Q_JCS_ADVICE",
+      "question": "Who provides military advice on Security Cooperation?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 5,
+      "paths": [
+        "SC --[supported_by]--> DOC",
+        "JCS --[provides_military_advice]--> SECDEF",
+        "JCS --[reviews_with]--> USD(P)",
+        "SC --[managed_by]--> SECDEF",
+        "SC --[authorized_by]--> TITLE10",
+        "SC --[funded_by]--> DOD_APPROP_ACTS",
+        "SC --[includes]--> SA",
+        "SC --[administered_by]--> DSCA",
+        "SC --[receives_services_from]--> DFAS",
+        "SC --[implemented_by]--> DOD"
+      ]
+    },
+    {
+      "id": "Q_IAS",
+      "question": "What are the Implementing Agencies for each military department?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 6,
+      "checks_total": 7,
+      "paths": [
+        "NIPO --[manages]--> FMS",
+        "DASA_DEC --[is_IA_for]--> DEPT_ARMY",
+        "NIPO --[is_IA_for]--> DEPT_NAVY",
+        "SAF_IA --[is_IA_for]--> DEPT_AIR_FORCE",
+        "DEPT_ARMY --[has_ia]--> DASA_DEC",
+        "DEPT_NAVY --[has_ia]--> NIPO",
+        "DEPT_AIR_FORCE --[has_ia]--> SAF_IA",
+        "NIPO --[manages]--> FMS --[part_of]--> SA",
+        "NIPO --[manages]--> FMS --[authorized_by]--> AECA",
+        "NIPO --[manages]--> FMS --[isa]--> SECURITY_COOPERATION"
+      ]
+    },
+    {
+      "id": "Q_SCO_SUPERVISION",
+      "question": "Who supervises Security Cooperation Organizations (SCOs)?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 5,
+      "checks_total": 6,
+      "paths": [
+        "SCO --[supervised_by]--> CCDRS",
+        "CCDRS --[supervises]--> SCO",
+        "SCO --[overseen_by]--> CCMD",
+        "SCO --[overseen_by]--> CHIEF_OF_MISSION",
+        "CCDRS --[develops_campaign_plans_for]--> SC",
+        "CCDRS --[plans]--> SECURITY_COOPERATION_ACTIVITIES",
+        "CCDRS --[develops]--> CAMPAIGN_PLANS",
+        "CCDRS --[reportsto]--> SECRETARY_OF_DEFENSE",
+        "CCDRS --[develops]--> THEATER_CAMPAIGN_PLANS",
+        "CCDRS --[establisheson]--> SECURITY_COOPERATION_OBJECTIVES"
+      ]
+    },
+    {
+      "id": "Q_DOS_ROLE",
+      "question": "What does Department of State do for Security Assistance?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 5,
+      "paths": [
+        "SA --[supervised_by]--> SECSTATE",
+        "SA --[supervised_by]--> DOS",
+        "SA --[authorized_by]--> TITLE22",
+        "SA --[authorized_by]--> FAA",
+        "SA --[authorized_by]--> AECA",
+        "SA --[authorized_by]--> APPROP_ACTS",
+        "DOS --[supervises]--> SA",
+        "DOS --[same_as]--> DEPARTMENT_OF_STATE",
+        "DOS --[contains]--> DDTC",
+        "SA --[subset_of]--> SC"
+      ]
+    },
+    {
+      "id": "Q_FMS_AUDIT",
+      "question": "Who audits FMS contracts?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "paths": [
+        "DCAA --[performs_auditing]--> FMS",
+        "FMS --[audited_by]--> DCAA",
+        "FMS --[part_of]--> SA",
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[isa]--> SECURITY_COOPERATION",
+        "FMS --[isa]--> SECURITY_ASSISTANCE",
+        "FMS --[provides]--> DEFENSE_EQUIPMENT",
+        "FMS --[managedby]--> DSCA",
+        "FMS --[provides]--> DEFENSE_ARTICLES",
+        "FMS --[provides]--> DEFENSE_SERVICES"
+      ]
+    },
+    {
+      "id": "Q_DLA_ROLE",
+      "question": "What is the role of DLA in Security Cooperation?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 5,
+      "checks_total": 6,
+      "paths": [
+        "DLA --[part_of]--> DOD",
+        "SC --[authorized_by]--> TITLE10",
+        "DLA --[provides_logistics_for]--> SC",
+        "DLA --[supports]--> FMS",
+        "DLA --[provides]--> DEFENSE_ARTICLES",
+        "DLA --[executes]--> CONTRACT",
+        "DLA --[coordinates_with]--> IA",
+        "DLA --[handles]--> SDR",
+        "DLA --[maintains]--> MAPAD",
+        "DLA --[provides]--> LOGISTICS_SUPPORT"
+      ]
+    },
+    {
+      "id": "Q_CAMPAIGN_PLANS",
+      "question": "Who develops campaign plans for Security Cooperation?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 5,
+      "paths": [
+        "SC --[authorized_by]--> TITLE10",
+        "CCDRS --[supervises]--> SCO",
+        "CCDRS --[develops_campaign_plans_for]--> SC",
+        "CCDRS --[plans]--> SECURITY_COOPERATION_ACTIVITIES",
+        "CCDRS --[develops]--> CAMPAIGN_PLANS",
+        "CCDRS --[reportsto]--> SECRETARY_OF_DEFENSE",
+        "CCDRS --[develops]--> THEATER_CAMPAIGN_PLANS",
+        "CCDRS --[establisheson]--> SECURITY_COOPERATION_OBJECTIVES",
+        "CCDRS --[coordinateswith]--> USDP",
+        "CCDRS --[providesrequirementsto]--> DSCA"
+      ]
+    },
+    {
+      "id": "Q_ARMY_FMS",
+      "question": "Who handles Army FMS materiel programs?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 4,
+      "paths": [
+        "FMS --[part_of]--> SA",
+        "FMS --[authorized_by]--> AECA",
+        "USASAC --[responsible_for]--> FMS",
+        "FMS --[isa]--> SECURITY_COOPERATION",
+        "FMS --[isa]--> SECURITY_ASSISTANCE",
+        "FMS --[provides]--> DEFENSE_EQUIPMENT",
+        "FMS --[managedby]--> DSCA",
+        "FMS --[provides]--> DEFENSE_ARTICLES",
+        "FMS --[provides]--> DEFENSE_SERVICES",
+        "FMS --[provides]--> TRAINING"
+      ]
+    },
+    {
+      "id": "Q_DOD_STRUCTURE",
+      "question": "What organizations are part of DOD?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "paths": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[reports_to]--> USDPR",
+        "DSCA --[part_of]--> DOD",
+        "DSCA --[part_of]--> DEPARTMENT_OF_DEFENSE",
+        "DLA --[part_of]--> DOD",
+        "DOD --[manages]--> SDAF_ACCOUNT",
+        "DEPARTMENT_OF_DEFENSE --[manages]--> FOREIGN_MILITARY_SALES",
+        "DSCA --[manages]--> SECURITY_COOPERATION_ACTIVITIES",
+        "DSCA --[manages]--> IMET",
+        "DSCA --[manages]--> SECURITY_ASSISTANCE_PROGRAMS"
+      ]
+    },
+    {
+      "id": "Q_EXECUTIVE_AGENT",
+      "question": "Who acts as Executive Agent for Security Cooperation?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 1,
+      "checks_total": 3,
+      "paths": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[reports_to]--> USDPR",
+        "DSCA --[part_of]--> DOD",
+        "DSCA --[part_of]--> DEPARTMENT_OF_DEFENSE",
+        "DSCA --[manages]--> SECURITY_COOPERATION_ACTIVITIES",
+        "DSCA --[manages]--> IMET",
+        "DSCA --[manages]--> SECURITY_ASSISTANCE_PROGRAMS",
+        "DSCA --[manages]--> FMS_CASES",
+        "DSCA --[manages]--> FMS_CASE_DEVELOPMENT",
+        "DSCA --[manages]--> LOR_PROCESSING"
+      ]
+    },
+    {
+      "id": "Q_LOA_PROCESS",
+      "question": "What is the LOA process?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "paths": [
+        "LOA --[part_of]--> FOREIGN_MILITARY_SALES",
+        "LOA --[formalizes]--> FMS",
+        "LOA --[isa]--> LETTER_OF_OFFER_AND_ACCEPTANCE",
+        "LOA --[responds_to]--> LOR",
+        "LOA --[responds_to]--> LETTER_OF_REQUEST",
+        "LOA --[issued_by]--> DSCA",
+        "LOA --[issued_by]--> DEFENSE_SECURITY_COOPERATION_AGENCY",
+        "LOA --[prepared_by]--> IA",
+        "LOA --[prepared_by]--> IMPLEMENTING_AGENCY",
+        "LOA --[provides]--> COST_ESTIMATE"
+      ]
+    },
+    {
+      "id": "Q_LOR_PROCESS",
+      "question": "Who receives Letter of Request?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 1,
+      "checks_total": 2,
+      "paths": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[reports_to]--> USDPR",
+        "DSCA --[part_of]--> DOD",
+        "DSCA --[part_of]--> DEPARTMENT_OF_DEFENSE",
+        "DSCA --[manages]--> SECURITY_COOPERATION_ACTIVITIES",
+        "DSCA --[manages]--> IMET",
+        "DSCA --[manages]--> SECURITY_ASSISTANCE_PROGRAMS",
+        "DSCA --[manages]--> FMS_CASES",
+        "DSCA --[manages]--> FMS_CASE_DEVELOPMENT",
+        "DSCA --[manages]--> LOR_PROCESSING"
+      ]
+    },
+    {
+      "id": "Q_SECTION_36",
+      "question": "What is Section 36 of AECA about?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 1,
+      "checks_total": 2,
+      "paths": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[reports_to]--> USDPR",
+        "DSCA --[part_of]--> DOD",
+        "DSCA --[part_of]--> DEPARTMENT_OF_DEFENSE",
+        "DSCA --[manages]--> SECURITY_COOPERATION_ACTIVITIES",
+        "DSCA --[manages]--> IMET",
+        "DSCA --[manages]--> SECURITY_ASSISTANCE_PROGRAMS",
+        "DSCA --[manages]--> FMS_CASES",
+        "DSCA --[manages]--> FMS_CASE_DEVELOPMENT",
+        "DSCA --[manages]--> LOR_PROCESSING"
+      ]
+    },
+    {
+      "id": "Q_DOD_DIRECTIVE",
+      "question": "What DOD Directives govern DSCA?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 1,
+      "checks_total": 2,
+      "paths": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[reports_to]--> USDPR",
+        "DSCA --[part_of]--> DOD",
+        "DSCA --[part_of]--> DEPARTMENT_OF_DEFENSE",
+        "DSCA --[manages]--> SECURITY_COOPERATION_ACTIVITIES",
+        "DSCA --[manages]--> IMET",
+        "DSCA --[manages]--> SECURITY_ASSISTANCE_PROGRAMS",
+        "DSCA --[manages]--> FMS_CASES",
+        "DSCA --[manages]--> FMS_CASE_DEVELOPMENT",
+        "DSCA --[manages]--> LOR_PROCESSING"
+      ]
+    },
+    {
+      "id": "Q_CCMD_ROLE",
+      "question": "What does Geographic Combatant Command do for SC?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 6,
+      "paths": [
+        "COMBATANT_COMMAND --[part_of]--> DOD",
+        "CCMD --[may_participate_in]--> PCR",
+        "CCMD --[same_as]--> COMBATANT_COMMAND",
+        "CCMD --[oversees]--> SCO",
+        "CCMD --[reviews]--> MAPAD",
+        "CCMD --[facilitates]--> CISMOA",
+        "CCMD --[coordinates_with]--> USTRANSCOM",
+        "CCMD --[coordinates_with]--> DSCA",
+        "CCMD --[provides_copies_to_reverse]--> IA",
+        "CCMD --[info_copy_to_reverse]--> LOR"
+      ]
+    },
+    {
+      "id": "Q_IMET",
+      "question": "Who manages IMET program?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "paths": [
+        "DSCA --[manages]--> SECURITY_COOPERATION_ACTIVITIES",
+        "DSCA --[manages]--> IMET",
+        "DSCA --[manages]--> SECURITY_ASSISTANCE_PROGRAMS",
+        "DSCA --[manages]--> FMS_CASES",
+        "DSCA --[manages]--> FMS_CASE_DEVELOPMENT",
+        "DSCA --[manages]--> LOR_PROCESSING",
+        "DSCA --[manages]--> FMS_TRUST_FUND",
+        "DSCA --[manages]--> AECA",
+        "DSCA --[manages]--> FMF",
+        "DSCA --[manages]--> EXECUTIVE_ORDER_13637"
+      ]
+    },
+    {
+      "id": "Q_BPC",
+      "question": "What is Building Partner Capacity?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "paths": [
+        "BPC --[authorized_by]--> TITLE_10",
+        "BPC --[authorized_by]--> TITLE_22",
+        "BPC --[authorized_by]--> AECA",
+        "BPC --[supports]--> PARTNER_NATION",
+        "BPC --[complements]--> FMS",
+        "BPC --[administered_under]--> FMS_SYSTEM",
+        "BPC --[implemented_by]--> BPC_PROGRAM",
+        "BUILDING_PARTNER_CAPACITY --[uses]--> FMS",
+        "BUILDING_PARTNER_CAPACITY --[subset_of]--> SECURITY_COOPERATION",
+        "BPC --[complements]--> FMS --[part_of]--> SA"
+      ]
+    },
+    {
+      "id": "Q_SDR",
+      "question": "What is SDR (Supply Discrepancy Report)?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 5,
+      "paths": [
+        "DLA --[part_of]--> DOD",
+        "DLA --[contains]--> DLA_DISPOSITION_SERVICES",
+        "DLA --[contains]--> DLA_DISTRIBUTION",
+        "DLA --[contains]--> DLA_TRANSACTION_SERVICES",
+        "DLA --[contains]--> DLA_TROOP_SUPPORT",
+        "SDR --[handled_by]--> DLA",
+        "SDR --[processed_by]--> IA",
+        "SDR --[handled_by]--> SDR_PROCESSING",
+        "SDR --[is_type_of_reverse]--> DISCREPANCY_REPORT",
+        "SDR --[applies_to_reverse]--> DFARS"
+      ]
+    },
+    {
+      "id": "Q_DCAA_AUDIT",
+      "question": "What does DCAA do for contracts?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "paths": [
+        "DCAA --[performs_auditing]--> FMS",
+        "DEFENSE_CONTRACT_AUDIT_AGENCY_DCAA --[explain_by]--> C1327",
+        "DCAA --[performs_auditing]--> FMS --[part_of]--> SA",
+        "DCAA --[performs_auditing]--> FMS --[authorized_by]--> AECA",
+        "DCAA --[performs_auditing]--> FMS --[isa]--> SECURITY_COOPERATION",
+        "DCAA --[performs_auditing]--> FMS --[isa]--> SECURITY_ASSISTANCE",
+        "DCAA --[performs_auditing]--> FMS --[provides]--> DEFENSE_EQUIPMENT",
+        "DCAA --[performs_auditing]--> FMS --[managedby]--> DSCA",
+        "DCAA --[performs_auditing]--> FMS --[provides]--> DEFENSE_ARTICLES",
+        "DCAA --[performs_auditing]--> FMS --[provides]--> DEFENSE_SERVICES"
+      ]
+    },
+    {
+      "id": "Q_USDP_ROLE",
+      "question": "What is USD(P) responsible for?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "paths": [
+        "USD(P) --[reports_to]--> SECDEF",
+        "USD(P) --[develops_policy_for]--> SC",
+        "USD(P) --[receives_reports_from]--> DSCA",
+        "USD(P) --[reviews_with_reverse]--> JCS",
+        "USDP --[oversees]--> SECURITY_COOPERATION",
+        "USDP --[determines_priorities_for]--> DIVERSION_OF_MATERIEL",
+        "USDP --[determines_priorities_for]--> DIVERSION_OF_EQUIPMENT",
+        "USDP --[consults_with]--> DIRECTOR_DSCA",
+        "USDP --[coordinates_with]--> USDRE",
+        "USDP --[leads_development_of]--> TECHNOLOGY_SECURITY_POLICIES"
+      ]
+    },
+    {
+      "id": "Q_DEFENSE_ARTICLES",
+      "question": "Who provides Defense Articles?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 5,
+      "checks_total": 5,
+      "paths": [
+        "DLA --[provides]--> DEFENSE_ARTICLES",
+        "DLA --[provides]--> LOGISTICS_SUPPORT",
+        "DEFENSE_ARTICLES --[provided_by]--> IA",
+        "DEFENSE_ARTICLES --[provided_by]--> LETTER_OF_OFFER_AND_ACCEPTANCE_LOA",
+        "DEFENSE_ARTICLES --[provided_by]--> SECURITY_ASSISTANCE",
+        "DEFENSE_ARTICLES --[provided_by]--> DEFENSE_CONTRACTOR",
+        "DEFENSE_ARTICLES --[provided_by]--> MILITARY_DEPARTMENTS",
+        "DEFENSE_ARTICLES --[provided_by]--> UNITED_STATES",
+        "DEFENSE_ARTICLES --[provided_by]--> MILDEP",
+        "DLA --[supports]--> FMS"
+      ]
+    },
+    {
+      "id": "Q_STATE_COORDINATION",
+      "question": "Who does DSCA coordinate with for SA?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 2,
+      "checks_total": 5,
+      "paths": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[reports_to]--> USDPR",
+        "DSCA --[part_of]--> DOD",
+        "DSCA --[part_of]--> DEPARTMENT_OF_DEFENSE",
+        "DSCA --[contains]--> CPD",
+        "DEPARTMENT_OF_STATE --[contains]--> PM",
+        "STATE --[contains]--> BUREAU_OF_POLITICAL_MILITARY_AFFAIRS",
+        "STATE --[contains]--> PM",
+        "STATE --[contains]--> REGIONAL_BUREAU",
+        "DSCA --[administers]--> SC"
+      ]
+    },
+    {
+      "id": "Q_3HOP_DSCA_CHAIN",
+      "question": "What is the reporting chain from DSCA?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "paths": [
+        "DSCA --[reports_to]--> USD(P)",
+        "DSCA --[reports_to]--> USDPR",
+        "DSCA --[part_of]--> DOD",
+        "DSCA --[part_of]--> DEPARTMENT_OF_DEFENSE",
+        "DSCA --[contains]--> CPD",
+        "DSCA --[administers]--> SC",
+        "DSCA --[administers]--> FMS",
+        "DSCA --[provides_guidance_to]--> IA",
+        "DSCA --[receivesauthorityfrom]--> SECTION_36_AECA",
+        "DSCA --[providesguidanceto]--> US_AIR_FORCE"
+      ]
+    },
+    {
+      "id": "Q_3HOP_FMS_AUTHORITY",
+      "question": "What is the full authority chain for FMS?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "paths": [
+        "FMS --[part_of]--> SA",
+        "FMS --[contains]--> FMS_CASE",
+        "FMS --[contains]--> MDE",
+        "FMS --[authorized_by]--> AECA",
+        "FMS --[isa]--> SECURITY_COOPERATION",
+        "FMS --[isa]--> SECURITY_ASSISTANCE",
+        "FMS --[provides]--> DEFENSE_EQUIPMENT",
+        "FMS --[managedby]--> DSCA",
+        "FMS --[provides]--> DEFENSE_ARTICLES",
+        "FMS --[provides]--> DEFENSE_SERVICES"
+      ]
+    },
+    {
+      "id": "Q_3HOP_LOA_CHAIN",
+      "question": "What is the complete chain for LOA?",
+      "status": "PARTIAL",
+      "paths_found": 10,
+      "checks_passed": 1,
+      "checks_total": 2,
+      "paths": [
+        "LOA --[part_of]--> FOREIGN_MILITARY_SALES",
+        "LOA --[contains]--> PRICE_AND_AVAILABILITY",
+        "LOA --[contains]--> LOA_TERMS_AND_CONDITIONS",
+        "LOA --[contains]--> FAD",
+        "LOA --[contains]--> DELIVERY_SCHEDULE",
+        "LOA --[contains]--> PAYMENT_SCHEDULE",
+        "LOA --[contains]--> STANDARD_TERMS_AND_CONDITIONS",
+        "LOA --[formalizes]--> FMS",
+        "LOA --[isa]--> LETTER_OF_OFFER_AND_ACCEPTANCE",
+        "LOA --[responds_to]--> LOR"
+      ]
+    },
+    {
+      "id": "Q_3HOP_NIPO_CHAIN",
+      "question": "How does NIPO connect to the authority structure?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "paths": [
+        "NIPO --[is_IA_for]--> DEPT_NAVY",
+        "NIPO --[manages]--> FMS",
+        "NIPO --[manages]--> FMS --[authorized_by]--> AECA",
+        "NIPO --[manages]--> FMS --[governed_by]--> DOD_FMR",
+        "NIPO --[manages]--> FMS --[implemented_by]--> IMPLEMENTING_AGENCY",
+        "NIPO --[manages]--> FMS --[implemented_by]--> MILDEP",
+        "NIPO --[manages]--> FMS --[part_of]--> SA",
+        "NIPO --[manages]--> FMS --[isa]--> SECURITY_COOPERATION",
+        "NIPO --[manages]--> FMS --[isa]--> SECURITY_ASSISTANCE",
+        "NIPO --[manages]--> FMS --[provides]--> DEFENSE_EQUIPMENT"
+      ]
+    },
+    {
+      "id": "Q_3HOP_DLA_CHAIN",
+      "question": "What is DLA's connection to DOD?",
+      "status": "PASS",
+      "paths_found": 10,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "paths": [
+        "DLA --[part_of]--> DOD",
+        "DLA --[provides_logistics_for]--> SC",
+        "DLA --[supports]--> FMS",
+        "DLA --[provides]--> DEFENSE_ARTICLES",
+        "DLA --[executes]--> CONTRACT",
+        "DLA --[coordinates_with]--> IA",
+        "DLA --[handles]--> SDR",
+        "DLA --[maintains]--> MAPAD",
+        "DLA --[provides]--> LOGISTICS_SUPPORT",
+        "DLA --[coordinates_with]--> USTRANSCOM"
+      ]
+    }
+  ]
+}

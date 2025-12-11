@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HITL Review Interface - ASIST Production</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+            background: #f8f9fa;
+            padding: 20px;
+            color: #212529;
+        }
+        
+        .container { max-width: 1400px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
+        .header { background: #e8e8e8; color: #2c3e50; padding: 5px 40px 5px 0; border-bottom: 4px solid #34495e; display: flex; justify-content: space-between; align-items: center; }
+        .header-left { margin-left: 0; }
+        .header-left h1 { display: flex; align-items: center; gap: 13.5px; margin-left: 0; margin-bottom: 0; }
+        .header-left h1 img { height: 185px; width: auto; margin-left: 0; }
+        .header-text { display: flex; flex-direction: column; gap: 3px; }
+        .main-title { font-size: 44px; font-weight: 600; color: #2c3e50; letter-spacing: -0.5px; }
+        .sub-title { font-size: 23px; font-weight: 400; color: #5a6c7d; }
+        
+        .user-badge { background: #ffffff; border: 2px solid #34495e; color: #2c3e50; padding: 8px 16px; border-radius: 20px; font-size: 14px; margin-bottom: 10px; display: inline-block; }
+        .refresh-btn { background: #34495e; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 14px; }
+        .refresh-btn:hover { background: #2c3e50; }
+        
+        .breadcrumb { background: #ecf0f1; padding: 12px 40px; font-size: 13px; color: #7f8c8d; border-bottom: 1px solid #dee2e6; }
+        .status-card { border: 2px solid #dee2e6; border-radius: 8px; padding: 25px; margin: 30px 40px; background: #f8f9fa; }
+        .status-header { font-size: 18px; font-weight: 600; margin-bottom: 20px; color: #2c3e50; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #34495e; padding-bottom: 10px; }
+        .question-display { font-size: 20px; font-weight: 500; margin-bottom: 25px; padding: 20px; background: white; border-left: 4px solid #34495e; border-radius: 4px; color: #2c3e50; }
+        
+        .agent-status { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 20px; }
+        .agent-item { padding: 20px; border-radius: 8px; border: 2px solid; background: white; transition: transform 0.2s; }
+        .agent-item:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .agent-pass { border-color: #27ae60; }
+        .agent-caution { border-color: #f39c12; }
+        .agent-review { border-color: #e74c3c; }
+        .agent-label { font-size: 11px; color: #7f8c8d; text-transform: uppercase; font-weight: 700; letter-spacing: 1px; margin-bottom: 8px; }
+        .agent-value { font-size: 18px; font-weight: 600; color: #2c3e50; display: flex; align-items: center; justify-content: space-between; }
+        
+        .status-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 4px; font-size: 12px; font-weight: 600; text-transform: uppercase; }
+        .badge-pass { background: #d4edda; color: #155724; }
+        .badge-caution { background: #fff3cd; color: #856404; }
+        .badge-review { background: #f8d7da; color: #721c24; }
+        .confidence-badge { display: inline-block; padding: 4px 10px; border-radius: 4px; font-size: 13px; font-weight: 600; }
+        .conf-high { background: #27ae60; color: white; }
+        .conf-medium { background: #f39c12; color: white; }
+        .conf-low { background: #e74c3c; color: white; }
+        
+        .expandable { border: 2px solid #dee2e6; border-radius: 8px; margin: 20px 40px; overflow: hidden; background: white; }
+        .expand-header { background: #34495e; color: white; padding: 15px 25px; cursor: pointer; display: flex; justify-content: space-between; font-weight: 600; font-size: 15px; }
+        .expand-header:hover { background: #2c3e50; }
+        .expand-content { padding: 25px; display: none; }
+        .expand-content.active { display: block; }
+        
+        .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 20px; }
+        .metric-card { background: #f8f9fa; padding: 15px; border-radius: 6px; text-align: center; border: 1px solid #dee2e6; }
+        .metric-label { font-size: 11px; color: #7f8c8d; text-transform: uppercase; font-weight: 700; margin-bottom: 8px; }
+        .metric-value { font-size: 24px; font-weight: 700; color: #2c3e50; }
+        
+        .section-divider { border: none; border-top: 2px dashed #dee2e6; margin: 20px 0; }
+        .entity-list { display: flex; flex-wrap: wrap; gap: 8px; }
+        .entity-tag { display: inline-block; padding: 6px 12px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+        .entity-correct { background: #d4edda; color: #155724; }
+        .entity-hallucination { background: #f8d7da; color: #721c24; }
+        .entity-missing { background: #fff3cd; color: #856404; }
+        
+        .issue-box { background: #fff5f5; border: 2px solid #e74c3c; border-radius: 8px; padding: 20px; margin: 20px 0; }
+        .issue-title { font-size: 16px; font-weight: 700; color: #c0392b; margin-bottom: 12px; }
+        .issue-detail { font-size: 13px; line-height: 1.8; color: #2c3e50; }
+        
+        .action-list-header { font-weight: 700; font-size: 14px; margin: 20px 0 10px 0; color: #2c3e50; text-transform: uppercase; }
+        .action-list { list-style: none; padding: 0; }
+        .action-list li { padding: 10px 15px; margin-bottom: 8px; background: #ecf0f1; border-left: 4px solid #27ae60; border-radius: 4px; font-size: 13px; cursor: pointer; transition: all 0.2s; }
+        .action-list li:hover { background: #d5dbdb; border-left-color: #229954; transform: translateX(5px); }
+        
+        .decision-panel { background: #ecf0f1; padding: 30px 40px; margin: 30px 40px; border-radius: 8px; border: 2px solid #34495e; }
+        .decision-header { font-size: 20px; font-weight: 700; color: #2c3e50; margin-bottom: 20px; text-transform: uppercase; }
+        .alert { background: #fff3cd; border: 2px solid #f39c12; padding: 15px; border-radius: 6px; margin-bottom: 20px; font-size: 14px; line-height: 1.6; }
+        
+        .button-group { display: flex; gap: 15px; flex-wrap: wrap; }
+        .btn { padding: 12px 24px; border: none; border-radius: 6px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s; text-transform: uppercase; letter-spacing: 0.5px; }
+        .btn-accept { background: #48a868; color: white; }
+        .btn-accept:hover { background: #3d8f57; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(72,168,104,0.3); }
+        .btn-reject { background: #dc4c52; color: white; }
+        .btn-reject:hover { background: #c4353b; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(220,76,82,0.3); }
+        .btn-context { background: #f5c842; color: white; }
+        .btn-context:hover { background: #e0b534; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(245,200,66,0.3); }
+        .btn-escalate { background: #eb8c3a; color: white; }
+        .btn-details { background: #7a8491; color: white; }
+        
+        .footer { background: #34495e; color: white; padding: 20px 40px; display: flex; justify-content: space-between; font-size: 12px; }
+        
+        .loading { text-align: center; padding: 60px; color: #7f8c8d; }
+        .spinner { border: 4px solid #f3f3f3; border-top: 4px solid #27ae60; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto 20px; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        
+        .no-reviews { text-align: center; padding: 60px; }
+        .no-reviews-icon { font-size: 64px; margin-bottom: 20px; }
+        
+        .nav-buttons { margin: 20px 40px; display: flex; gap: 10px; justify-content: center; }
+        .nav-btn { padding: 10px 20px; background: #95a5a6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; }
+        .nav-btn:disabled { background: #95a5a6; cursor: not-allowed; opacity: 0.6; }
+        .nav-btn:not(:disabled):hover { background: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-left">
+                <h1>
+                    <img src="data:image/png;base64,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" alt="ASIST Logo">
+                    <div class="header-text">
+                        <div class="main-title">HITL Review Interface</div>
+                        <div class="sub-title">Agentic AI Quality Assurance System</div>
+                    </div>
+                </h1>
+            </div>
+            <div class="header-right">
+                <div class="user-badge" id="currentUser">Loading...</div>
+                <button class="refresh-btn" onclick="loadCurrentReview()">🔄 Refresh</button>
+            </div>
+        </div>
+
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <span>Home</span> <span>›</span> <span>Review Queue</span> <span>›</span> <span id="breadcrumbItem">Loading...</span>
+        </div>
+
+        <!-- Main Content -->
+        <div id="mainContent">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading review item...</p>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="nav-buttons" id="navButtons" style="display: none;">
+            <button class="nav-btn" onclick="previousReview()" id="prevBtn">⬅️ Previous</button>
+            <span style="padding: 10px; color: #7f8c8d;" id="reviewCounter">-</span>
+            <button class="nav-btn" onclick="nextReview()" id="nextBtn">Next ➡️</button>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-left" id="footerLeft">
+                ASIST Evaluation System | Loading...
+            </div>
+            <div class="footer-right" id="footerRight">
+                Timestamp: <span id="timestamp">-</span> | Version: 2.1.0
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const API_BASE_URL = 'http://localhost:3000/api';
+        const CURRENT_USER = 'Travis'; // Change to 'Megan' or get from login
+        
+        let reviewQueue = [];
+        let currentIndex = 0;
+
+        // Initialize
+        document.getElementById('currentUser').textContent = `👤 ${CURRENT_USER}`;
+        loadReviewQueue();
+
+        // Load review queue
+        async function loadReviewQueue() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/reviews/pending`);
+                const data = await response.json();
+
+                if (data.success && data.reviews && data.reviews.length > 0) {
+                    reviewQueue = data.reviews;
+                    currentIndex = 0;
+                    displayReview(reviewQueue[currentIndex]);
+                    updateNavigation();
+                } else {
+                    displayNoReviews();
+                }
+            } catch (error) {
+                console.error('Error loading reviews:', error);
+                displayError(error);
+            }
+        }
+
+        // Display single review
+        function displayReview(review) {
+            const mainContent = document.getElementById('mainContent');
+            const navButtons = document.getElementById('navButtons');
+            
+            // Update breadcrumb
+            document.getElementById('breadcrumbItem').textContent = `Question ID: ${review.reviewId.substring(0, 8)}`;
+            
+            // Determine agent statuses
+            const intentStatus = getAgentStatus(review.confidenceIntent);
+            const entityStatus = getAgentStatus(review.confidenceEntity);
+            const answerStatus = getAgentStatus(review.confidenceAnswer);
+            
+            mainContent.innerHTML = `
+                <!-- Status Card -->
+                <div class="status-card">
+                    <div class="status-header">Review Status Summary</div>
+                    
+                    <div class="question-display">
+                        <strong>User Question:</strong><br>
+                        ${review.question}
+                    </div>
+                    
+                    <div class="agent-status">
+                        <div class="agent-item agent-${intentStatus.class}">
+                            <div class="agent-label">Agent 1: Intent Classification</div>
+                            <div class="agent-value">
+                                <span>${review.aiResponse.intent || 'Unknown'}</span>
+                                <span class="status-badge badge-${intentStatus.class}">${intentStatus.text}</span>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="confidence-badge conf-${getConfidenceLevel(review.confidenceIntent)}">
+                                    ${(review.confidenceIntent * 100).toFixed(0)}% Confidence
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="agent-item agent-${entityStatus.class}">
+                            <div class="agent-label">Agent 2: Entity Extraction</div>
+                            <div class="agent-value">
+                                <span>${review.aiResponse.entities ? review.aiResponse.entities.length : 0} Entities</span>
+                                <span class="status-badge badge-${entityStatus.class}">${entityStatus.text}</span>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="confidence-badge conf-${getConfidenceLevel(review.confidenceEntity)}">
+                                    ${(review.confidenceEntity * 100).toFixed(0)}% Confidence
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="agent-item agent-${answerStatus.class}">
+                            <div class="agent-label">Agent 3: Answer Generation</div>
+                            <div class="agent-value">
+                                <span>${review.aiResponse.answer ? review.aiResponse.answer.length : 0} chars</span>
+                                <span class="status-badge badge-${answerStatus.class}">${answerStatus.text}</span>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="confidence-badge conf-${getConfidenceLevel(review.confidenceAnswer)}">
+                                    ${(review.confidenceAnswer * 100).toFixed(0)}% Confidence
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agent 1 Details -->
+                <div class="expandable">
+                    <div class="expand-header" onclick="toggleExpand(this)">
+                        <span>AGENT 1: Intent Classification Analysis</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="expand-content">
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <div class="metric-label">Classification</div>
+                                <div class="metric-value" style="font-size: 16px;">${review.aiResponse.intent || 'Unknown'}</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Confidence</div>
+                                <div class="metric-value">${(review.confidenceIntent * 100).toFixed(0)}%</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Status</div>
+                                <div class="metric-value" style="font-size: 16px; color: ${intentStatus.color};">${intentStatus.text}</div>
+                            </div>
+                        </div>
+                        
+                        ${review.confidenceIntent < 0.7 ? `
+                        <div class="issue-box">
+                            <div class="issue-title">Low Confidence Detected</div>
+                            <div class="issue-detail">
+                                <strong>Issue:</strong> Intent classification confidence is below threshold (${(review.confidenceIntent * 100).toFixed(0)}%).<br><br>
+                                <strong>Recommendation:</strong> Manual review required to verify correct intent classification.
+                            </div>
+                        </div>
+                        ` : ''}
+                        
+                        <div class="action-list-header">HITL Decision Options</div>
+                        <ul class="action-list">
+                            <li onclick="acceptAgentResult(1)">✓ Accept Intent Classification</li>
+                            <li onclick="rerunAgent(1)">Re-run Agent 1</li>
+                            <li onclick="manualOverride(1)">✏️ Manual Override</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Agent 2 Details -->
+                <div class="expandable">
+                    <div class="expand-header" onclick="toggleExpand(this)">
+                        <span>AGENT 2: Entity Extraction Analysis</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="expand-content">
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <div class="metric-label">Entities Found</div>
+                                <div class="metric-value">${review.aiResponse.entities ? review.aiResponse.entities.length : 0}</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Confidence</div>
+                                <div class="metric-value">${(review.confidenceEntity * 100).toFixed(0)}%</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Status</div>
+                                <div class="metric-value" style="font-size: 16px; color: ${entityStatus.color};">${entityStatus.text}</div>
+                            </div>
+                        </div>
+                        
+                        <hr class="section-divider">
+                        
+                        <div style="margin: 20px 0;">
+                            <strong style="display: block; margin-bottom: 12px;">Extracted Entities:</strong>
+                            <div class="entity-list">
+                                ${review.aiResponse.entities && review.aiResponse.entities.length > 0 ? 
+                                    review.aiResponse.entities.map(entity => 
+                                        `<span class="entity-tag entity-correct">VALID: ${entity}</span>`
+                                    ).join('') : 
+                                    '<span style="color: #7f8c8d;">No entities extracted</span>'}
+                            </div>
+                        </div>
+                        
+                        ${review.confidenceEntity < 0.7 ? `
+                        <div class="issue-box">
+                            <div class="issue-title">Low Confidence in Entity Extraction</div>
+                            <div class="issue-detail">
+                                <strong>Issue:</strong> Entity extraction confidence is below threshold (${(review.confidenceEntity * 100).toFixed(0)}%).<br><br>
+                                <strong>Recommendation:</strong> Verify all entities are correct and complete.
+                            </div>
+                        </div>
+                        ` : ''}
+                        
+                        <div class="action-list-header">HITL Decision Options</div>
+                        <ul class="action-list">
+                            <li onclick="acceptAgentResult(2)">✓ Accept Entity Extraction</li>
+                            <li onclick="addEntity()">➕ Add Missing Entity</li>
+                            <li onclick="removeEntity()">➖ Remove Incorrect Entity</li>
+                            <li onclick="rerunAgent(2)">Re-run Agent 2</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Agent 3 Details -->
+                <div class="expandable">
+                    <div class="expand-header" onclick="toggleExpand(this)">
+                        <span>AGENT 3: Answer Generation Analysis</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="expand-content">
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <div class="metric-label">Answer Length</div>
+                                <div class="metric-value">${review.aiResponse.answer ? review.aiResponse.answer.length : 0}</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Confidence</div>
+                                <div class="metric-value">${(review.confidenceAnswer * 100).toFixed(0)}%</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Status</div>
+                                <div class="metric-value" style="font-size: 16px; color: ${answerStatus.color};">${answerStatus.text}</div>
+                            </div>
+                        </div>
+                        
+                        <hr class="section-divider">
+                        
+                        <div style="margin: 20px 0;">
+                            <strong style="display: block; margin-bottom: 12px;">Generated Answer:</strong>
+                            <div style="background: #f8f9fa; padding: 20px; border-radius: 6px; border-left: 4px solid #3498db; font-size: 14px; line-height: 1.8;">
+                                ${review.aiResponse.answer || 'No answer generated'}
+                            </div>
+                        </div>
+                        
+                        ${review.confidenceAnswer < 0.7 ? `
+                        <div class="issue-box">
+                            <div class="issue-title">Low Confidence in Answer Quality</div>
+                            <div class="issue-detail">
+                                <strong>Issue:</strong> Answer generation confidence is below threshold (${(review.confidenceAnswer * 100).toFixed(0)}%).<br><br>
+                                <strong>Recommendation:</strong> Review answer for accuracy and completeness.
+                            </div>
+                        </div>
+                        ` : ''}
+                        
+                        <div class="action-list-header">HITL Decision Options</div>
+                        <ul class="action-list">
+                            <li onclick="acceptAgentResult(3)">✓ Accept Answer</li>
+                            <li onclick="editAnswer()">✏️ Edit Answer</li>
+                            <li onclick="rerunAgent(3)">Regenerate Answer</li>
+                            <li onclick="escalateToSME()">👤 Escalate to SME</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Decision Panel -->
+                <div class="decision-panel">
+                    <div class="decision-header">HITL Decision Required</div>
+                    
+                    ${review.confidenceOverall < 0.7 ? `
+                    <div class="alert">
+                        <strong>RECOMMENDATION:</strong> Overall confidence is ${(review.confidenceOverall * 100).toFixed(0)}%, which is below the 70% threshold. Manual review and correction recommended before acceptance.
+                    </div>
+                    ` : `
+                    <div class="alert" style="background: #d4edda; border-color: #27ae60;">
+                        <strong>✓ RECOMMENDATION:</strong> Overall confidence is ${(review.confidenceOverall * 100).toFixed(0)}%. System performance is good. You may approve this response.
+                    </div>
+                    `}
+                    
+                    <div class="button-group">
+                        <button class="btn btn-accept" onclick="submitDecision('${review.reviewId}', 'approved')">✓ Accept Answer</button>
+                        <button class="btn btn-reject" onclick="submitDecision('${review.reviewId}', 'rejected')">✗ Reject Answer</button>
+                        <button class="btn btn-context" onclick="submitDecision('${review.reviewId}', 'needs_revision')">✏️ Needs Revision</button>
+                        <button class="btn btn-escalate" onclick="escalateReview('${review.reviewId}')">⬆️ Escalate</button>
+                        <button class="btn btn-details" onclick="viewFullDetails('${review.reviewId}')">📄 Full Details</button>
+                    </div>
+                    
+                    <div style="margin-top: 20px; padding: 20px; background: white; border: 2px solid #3498db; border-radius: 8px;">
+                        <strong style="display: block; margin-bottom: 15px;">💬 Feedback (Optional):</strong>
+                        <textarea id="feedback-${review.reviewId}" style="width: 100%; min-height: 80px; padding: 10px; border: 2px solid #dee2e6; border-radius: 5px; font-family: inherit;" placeholder="Provide detailed feedback here..."></textarea>
+                    </div>
+                </div>
+            `;
+            
+            // Update footer
+            document.getElementById('footerLeft').textContent = `Review Session | Question ID: ${review.reviewId.substring(0, 8)} | Priority: ${review.priority.toUpperCase()}`;
+            document.getElementById('timestamp').textContent = new Date().toLocaleString();
+            
+            // Show navigation
+            navButtons.style.display = 'flex';
+        }
+
+        // Toggle expandable sections
+        function toggleExpand(header) {
+            const content = header.nextElementSibling;
+            const arrow = header.querySelector('span:last-child');
+            
+            if (content.classList.contains('active')) {
+                content.classList.remove('active');
+                arrow.textContent = '▼';
+            } else {
+                content.classList.add('active');
+                arrow.textContent = '▲';
+            }
+        }
+
+        // Get agent status
+        function getAgentStatus(confidence) {
+            if (confidence >= 0.8) {
+                return { class: 'pass', text: 'PASS', color: '#27ae60' };
+            } else if (confidence >= 0.6) {
+                return { class: 'caution', text: 'CAUTION', color: '#f39c12' };
+            } else {
+                return { class: 'review', text: '<img src="data:image/webp;base64,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" style="height: 1em; vertical-align: middle;">', color: '#e74c3c' };
+            }
+        }
+
+        // Get confidence level
+        function getConfidenceLevel(confidence) {
+            if (confidence >= 0.8) return 'high';
+            if (confidence >= 0.6) return 'medium';
+            return 'low';
+        }
+
+        // Submit decision
+        async function submitDecision(reviewId, status) {
+            const feedback = document.getElementById(`feedback-${reviewId}`).value;
+            
+            if (!feedback && status !== 'approved') {
+                if (!confirm('No feedback provided. Continue anyway?')) {
+                    return;
+                }
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/reviews/${reviewId}/submit`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        status: status,
+                        feedback: feedback,
+                        reviewer: CURRENT_USER
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    alert(`Review ${status} successfully!`);
+                    nextReview();
+                } else {
+                    alert('❌ Error: ' + (data.error || 'Unknown error'));
+                }
+            } catch (error) {
+                console.error('Error submitting review:', error);
+                alert('❌ Error submitting review. Please try again.');
+            }
+        }
+
+        // Navigation functions
+        function previousReview() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                displayReview(reviewQueue[currentIndex]);
+                updateNavigation();
+            }
+        }
+
+        function nextReview() {
+            if (currentIndex < reviewQueue.length - 1) {
+                currentIndex++;
+                displayReview(reviewQueue[currentIndex]);
+                updateNavigation();
+            } else {
+                // Load more reviews
+                loadReviewQueue();
+            }
+        }
+
+        function updateNavigation() {
+            document.getElementById('prevBtn').disabled = currentIndex === 0;
+            document.getElementById('nextBtn').disabled = false; // Always allow next (will reload if needed)
+            document.getElementById('reviewCounter').textContent = `${currentIndex + 1} of ${reviewQueue.length}`;
+        }
+
+        function loadCurrentReview() {
+            if (reviewQueue.length > 0) {
+                displayReview(reviewQueue[currentIndex]);
+            } else {
+                loadReviewQueue();
+            }
+        }
+
+        // Display no reviews
+        function displayNoReviews() {
+            document.getElementById('mainContent').innerHTML = `
+                <div class="no-reviews">
+                    <div class="no-reviews-icon"></div>
+                    <h2>All Caught Up!</h2>
+                    <p>No pending reviews at the moment.</p>
+                    <button class="refresh-btn" onclick="loadReviewQueue()" style="margin-top: 20px;">
+                        Check Again
+                    </button>
+                </div>
+            `;
+            document.getElementById('navButtons').style.display = 'none';
+        }
+
+        // Display error
+        function displayError(error) {
+            document.getElementById('mainContent').innerHTML = `
+                <div class="no-reviews">
+                    <div class="no-reviews-icon"></div>
+                    <h2>Error Loading Reviews</h2>
+                    <p>Please check if backend is running.</p>
+                    <p style="color: #999; font-size: 12px; margin-top: 10px;">${error.message}</p>
+                    <button class="refresh-btn" onclick="loadReviewQueue()" style="margin-top: 20px;">
+                        Try Again
+                    </button>
+                </div>
+            `;
+            document.getElementById('navButtons').style.display = 'none';
+        }
+
+        // Placeholder functions for actions
+        function acceptAgentResult(agentNum) {
+    const review = reviewQueue[currentIndex];
+    
+    if (!review) {
+        alert('No review data available');
+        return;
+    }
+    
+    if (confirm(`✓ Accept Agent ${agentNum} result?\n\nThis will mark this agent's output as verified.`)) {
+        // Show success message
+        const successDiv = document.createElement('div');
+        successDiv.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #27ae60;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 10000;
+            font-weight: 600;
+            animation: slideIn 0.3s ease-out;
+        `;
+        successDiv.innerHTML = `✓ Agent ${agentNum} result accepted!`;
+        document.body.appendChild(successDiv);
+        
+        // Add animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from { transform: translateX(400px); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Remove after 3 seconds
+        setTimeout(() => {
+            successDiv.style.animation = 'slideIn 0.3s ease-out reverse';
+            setTimeout(() => successDiv.remove(), 300);
+        }, 3000);
+        
+        console.log(`Agent ${agentNum} accepted for review ${review.reviewId}`);
+            }
+        }
+
+        function rerunAgent(agentNum) {
+    const review = reviewQueue[currentIndex];
+    
+    if (!review) {
+        alert('No review data available');
+        return;
+    }
+    
+    if (confirm(`🔄 Re-run Agent ${agentNum}?\n\nThis will process the agent again with current data.`)) {
+        // Show loading message
+        const loadingDiv = document.createElement('div');
+        loadingDiv.id = 'rerunLoading';
+        loadingDiv.style.cssText = `
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 30px 50px;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            z-index: 10000;
+            text-align: center;
+        `;
+        loadingDiv.innerHTML = `
+            <div class="spinner" style="margin: 0 auto 15px;"></div>
+            <div style="font-size: 16px; font-weight: 600; color: #2c3e50;">
+                Re-running Agent ${agentNum}...
+            </div>
+            <div style="font-size: 13px; color: #7f8c8d; margin-top: 8px;">
+                Please wait...
+            </div>
+        `;
+        document.body.appendChild(loadingDiv);
+        
+        // Simulate API call (2 seconds)
+        setTimeout(() => {
+            loadingDiv.remove();
+            
+            // Show success message
+            const successDiv = document.createElement('div');
+            successDiv.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #3498db;
+                color: white;
+                padding: 20px 30px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                z-index: 10000;
+                font-weight: 600;
+            `;
+            successDiv.innerHTML = `🔄 Agent ${agentNum} re-run completed!`;
+            document.body.appendChild(successDiv);
+            
+            // Remove after 3 seconds
+            setTimeout(() => {
+                successDiv.style.opacity = '0';
+                successDiv.style.transition = 'opacity 0.3s';
+                setTimeout(() => successDiv.remove(), 300);
+            }, 3000);
+            
+            console.log(`Agent ${agentNum} re-run for review ${review.reviewId}`);
+        }, 2000);
+    }
+}
+
+        function manualOverride(agentNum) {
+    const review = reviewQueue[currentIndex];
+    
+    if (!review) {
+        alert('No review data available');
+        return;
+    }
+    
+    let promptMessage = '';
+    let currentValue = '';
+    
+    // Different prompts based on agent
+    if (agentNum === 1) {
+        promptMessage = 'Enter new Intent Classification:';
+        currentValue = review.aiResponse?.intent || '';
+    } else if (agentNum === 2) {
+        promptMessage = 'Enter entities (comma-separated):';
+        currentValue = review.aiResponse?.entities ? review.aiResponse.entities.join(', ') : '';
+    } else if (agentNum === 3) {
+        promptMessage = 'Enter new Answer:';
+        currentValue = review.aiResponse?.answer || '';
+    }
+    
+    const newValue = prompt(`✏️ Manual Override - Agent ${agentNum}\n\n${promptMessage}\n\nCurrent: ${currentValue.substring(0, 100)}${currentValue.length > 100 ? '...' : ''}`);
+    
+    if (newValue !== null && newValue.trim() !== '') {
+        // Show success message
+        const successDiv = document.createElement('div');
+        successDiv.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #f39c12;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 10000;
+            font-weight: 600;
+        `;
+        successDiv.innerHTML = `✏️ Agent ${agentNum} manually overridden!`;
+        document.body.appendChild(successDiv);
+        
+        // Remove after 3 seconds
+        setTimeout(() => {
+            successDiv.style.opacity = '0';
+            successDiv.style.transition = 'opacity 0.3s';
+            setTimeout(() => successDiv.remove(), 300);
+        }, 3000);
+        
+        console.log(`Agent ${agentNum} manual override: ${newValue.substring(0, 50)}...`);
+    }
+}
+
+function addEntity() {
+    const review = reviewQueue[currentIndex];
+    
+    if (!review) {
+        alert('No review data available');
+        return;
+    }
+    
+    // Step 1: Get entity name
+    const entityName = prompt('➕ ADD NEW ENTITY\n\nStep 1/2: Enter entity name:\n(Example: FMS, Navy, DoD)');
+    
+    if (!entityName || entityName.trim() === '') {
+        return; // User cancelled
+    }
+    
+    // Step 2: Create modal with dropdown for entity type
+    const modal = document.createElement('div');
+    modal.id = 'entityTypeModal';
+    modal.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        padding: 20px;
+    `;
+    
+    modal.innerHTML = `
+        <div style="background: white; padding: 30px; border-radius: 10px; max-width: 600px; width: 100%;">
+            <h3 style="margin: 0 0 20px 0; color: #2c3e50;">➕ Select Entity Type</h3>
+            
+            <div style="margin-bottom: 20px;">
+                <strong style="display: block; margin-bottom: 10px;">Entity Name:</strong>
+                <div style="background: #e8f5e9; padding: 12px; border-radius: 5px; font-size: 16px;">
+                    ${entityName}
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #2c3e50;">
+                    Step 2/2: Select Entity Type:
+                </label>
+                <select id="entityTypeSelect" style="width: 100%; padding: 12px; font-size: 15px; border: 2px solid #dee2e6; border-radius: 5px; background: white;">
+                    <option value="">-- Select Type --</option>
+                    <option value="Organization">Organization (Agencies, Commands, Departments)</option>
+                    <option value="Document">Document (Manuals, Reports, Plans)</option>
+                    <option value="Letter of Offer and Acceptance (LOA)">Letter of Offer and Acceptance (LOA)</option>
+                    <option value="Letter of Request (LOR)">Letter of Request (LOR)</option>
+                    <option value="Concept">Concept (Principles, Strategic Ideas)</option>
+                    <option value="Roles">Roles (Positions, Titles, Responsibilities)</option>
+                    <option value="Location">Location (Countries, Regions, Areas)</option>
+                    <option value="Legislation/Regulations/Law">Legislation/Regulations/Law</option>
+                    <option value="Program">Program (SC Initiatives, FMS, IMET)</option>
+                    <option value="Processes">Processes (Workflows, Procedures)</option>
+                    <option value="Tools/Technologies/Systems">Tools/Technologies/Systems</option>
+                    <option value="Funding Mechanism">Funding Mechanism (Appropriations, Grants)</option>
+                    <option value="Legal Authority">Legal Authority</option>
+                    <option value="Policy">Policy (Strategic Guidance, Directives)</option>
+                    <option value="Defense Articles/Equipment">Defense Articles/Equipment</option>
+                    <option value="Time period">Time period (Fiscal Years, Dates)</option>
+                    <option value="Activities/Defense Services">Activities/Defense Services</option>
+                    <option value="Other">Other (Undefined - needs SME)</option>
+                </select>
+            </div>
+            
+            <div style="display: flex; gap: 10px; justify-content: flex-end;">
+                <button onclick="document.getElementById('entityTypeModal').remove()" 
+                    style="background: #95a5a6; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer; font-weight: 600;">
+                    Cancel
+                </button>
+                <button onclick="submitEntityType('${entityName.replace(/'/g, "\\'")}');" 
+                    style="background: #27ae60; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer; font-weight: 600;">
+                    Add Entity
+                </button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+}
+
+// Helper function to submit entity
+function submitEntityType(entityName) {
+    const entityType = document.getElementById('entityTypeSelect').value;
+    
+    if (!entityType) {
+        alert('Please select an entity type!');
+        return;
+    }
+    
+    // Remove modal
+    document.getElementById('entityTypeModal').remove();
+    
+    // Show success message
+    const successDiv = document.createElement('div');
+    successDiv.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #27ae60;
+        color: white;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        z-index: 10000;
+        font-weight: 600;
+    `;
+    successDiv.innerHTML = `
+        ➕ Entity Added Successfully!<br>
+        <div style="font-size: 14px; margin-top: 8px; opacity: 0.95; background: rgba(255,255,255,0.2); padding: 8px; border-radius: 4px;">
+            <strong>${entityName}</strong><br>
+            Type: ${entityType}
+        </div>
+    `;
+    document.body.appendChild(successDiv);
+    
+    // Remove after 4 seconds
+    setTimeout(() => {
+        successDiv.style.opacity = '0';
+        successDiv.style.transition = 'opacity 0.3s';
+        setTimeout(() => successDiv.remove(), 300);
+    }, 4000);
+    
+    const review = reviewQueue[currentIndex];
+    console.log(`Entity added: ${entityName} (${entityType}) to review ${review.reviewId}`);
+}
+
+        function removeEntity() {
+    const review = reviewQueue[currentIndex];
+    
+    if (!review) {
+        alert('No review data available');
+        return;
+    }
+    
+    const entities = review.aiResponse?.entities || [];
+    
+    if (entities.length === 0) {
+        alert('No entities available to remove!');
+        return;
+    }
+    
+    // Create modal with entity list
+    const modal = document.createElement('div');
+    modal.id = 'removeEntityModal';
+    modal.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        padding: 20px;
+    `;
+    
+    modal.innerHTML = `
+        <div style="background: white; padding: 30px; border-radius: 10px; max-width: 600px; width: 100%;">
+            <h3 style="margin: 0 0 20px 0; color: #e74c3c;">➖ Remove Entity</h3>
+            
+            <div style="margin-bottom: 25px;">
+                <label style="display: block; margin-bottom: 10px; font-weight: 600; color: #2c3e50;">
+                    Select entity to remove:
+                </label>
+                <select id="entityRemoveSelect" style="width: 100%; padding: 12px; font-size: 15px; border: 2px solid #dee2e6; border-radius: 5px; background: white;">
+                    <option value="">-- Select Entity --</option>
+                    ${entities.map((entity, index) => `
+                        <option value="${index}">${entity}</option>
+                    `).join('')}
+                </select>
+            </div>
+            
+            <div style="background: #fff3cd; padding: 15px; border-radius: 5px; border-left: 4px solid #f39c12; margin-bottom: 20px;">
+                <strong>⚠️ Warning:</strong> This action will mark the entity as incorrect.
+            </div>
+            
+            <div style="display: flex; gap: 10px; justify-content: flex-end;">
+                <button onclick="document.getElementById('removeEntityModal').remove()" 
+                    style="background: #95a5a6; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer; font-weight: 600;">
+                    Cancel
+                </button>
+                <button onclick="submitRemoveEntity()" 
+                    style="background: #e74c3c; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer; font-weight: 600;">
+                    Remove Entity
+                </button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+}
+
+// Helper function to remove entity
+function submitRemoveEntity() {
+    const review = reviewQueue[currentIndex];
+    const selectElement = document.getElementById('entityRemoveSelect');
+    const selectedIndex = selectElement.value;
+    
+    if (!selectedIndex && selectedIndex !== '0') {
+        alert('Please select an entity to remove!');
+        return;
+    }
+    
+    const entityName = review.aiResponse.entities[selectedIndex];
+    
+    // Remove modal
+    document.getElementById('removeEntityModal').remove();
+    
+    // Show success message
+    const successDiv = document.createElement('div');
+    successDiv.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #e74c3c;
+        color: white;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        z-index: 10000;
+        font-weight: 600;
+    `;
+    successDiv.innerHTML = `
+        ➖ Entity Removed!<br>
+        <div style="font-size: 14px; margin-top: 8px; opacity: 0.95; background: rgba(255,255,255,0.2); padding: 8px; border-radius: 4px;">
+            <strong>${entityName}</strong> has been marked as incorrect
+        </div>
+    `;
+    document.body.appendChild(successDiv);
+    
+    // Remove after 4 seconds
+    setTimeout(() => {
+        successDiv.style.opacity = '0';
+        successDiv.style.transition = 'opacity 0.3s';
+        setTimeout(() => successDiv.remove(), 300);
+    }, 4000);
+    
+    console.log(`Entity removed: ${entityName} from review ${review.reviewId}`);
+}
+
+        function editAnswer() {
+    const review = reviewQueue[currentIndex];
+    
+    if (!review) {
+        alert('No review data available');
+        return;
+    }
+    
+    const currentAnswer = review.aiResponse?.answer || review.finalAnswer || '';
+    
+    // Create modal with textarea
+    const modal = document.createElement('div');
+    modal.id = 'editAnswerModal';
+    modal.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        padding: 20px;
+    `;
+    
+    modal.innerHTML = `
+        <div style="background: white; padding: 30px; border-radius: 10px; max-width: 900px; width: 100%; max-height: 90vh; overflow-y: auto;">
+            <h3 style="margin: 0 0 20px 0; color: #2c3e50;">✏️ Edit Answer</h3>
+            
+            <div style="margin-bottom: 15px;">
+                <strong style="display: block; margin-bottom: 8px; color: #7f8c8d;">Question:</strong>
+                <div style="background: #f8f9fa; padding: 12px; border-radius: 5px; font-size: 14px; border-left: 4px solid #3498db;">
+                    ${review.question}
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <label style="display: block; margin-bottom: 10px; font-weight: 600; color: #2c3e50;">
+                    Edit Generated Answer:
+                </label>
+                <textarea id="answerEditor" style="width: 100%; min-height: 300px; padding: 15px; font-size: 14px; border: 2px solid #dee2e6; border-radius: 5px; font-family: inherit; line-height: 1.6; resize: vertical;">${currentAnswer}</textarea>
+                <div style="margin-top: 8px; font-size: 12px; color: #7f8c8d;">
+                    Character count: <span id="charCount">${currentAnswer.length}</span>
+                </div>
+            </div>
+            
+            <div style="background: #e8f5e9; padding: 15px; border-radius: 5px; border-left: 4px solid #27ae60; margin-bottom: 20px;">
+                <strong>💡 Tip:</strong> Make sure your edits maintain accuracy and completeness of the answer.
+            </div>
+            
+            <div style="display: flex; gap: 10px; justify-content: flex-end;">
+                <button onclick="document.getElementById('editAnswerModal').remove()" 
+                    style="background: #95a5a6; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer; font-weight: 600;">
+                    Cancel
+                </button>
+                <button onclick="submitEditedAnswer()" 
+                    style="background: #27ae60; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer; font-weight: 600;">
+                    Save Changes
+                </button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    
+    // Add character counter
+    const textarea = document.getElementById('answerEditor');
+    const charCountSpan = document.getElementById('charCount');
+    textarea.addEventListener('input', function() {
+        charCountSpan.textContent = this.value.length;
+    });
+}
+
+// Helper function to save edited answer
+function submitEditedAnswer() {
+    const review = reviewQueue[currentIndex];
+    const editedAnswer = document.getElementById('answerEditor').value;
+    
+    if (!editedAnswer.trim()) {
+        alert('Answer cannot be empty!');
+        return;
+    }
+    
+    // Remove modal
+    document.getElementById('editAnswerModal').remove();
+    
+    // Show success message
+    const successDiv = document.createElement('div');
+    successDiv.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #27ae60;
+        color: white;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        z-index: 10000;
+        font-weight: 600;
+    `;
+    successDiv.innerHTML = `
+        ✏️ Answer Updated Successfully!<br>
+        <div style="font-size: 13px; margin-top: 8px; opacity: 0.95;">
+            Changes have been saved
+        </div>
+    `;
+    document.body.appendChild(successDiv);
+    
+    // Remove after 3 seconds
+    setTimeout(() => {
+        successDiv.style.opacity = '0';
+        successDiv.style.transition = 'opacity 0.3s';
+        setTimeout(() => successDiv.remove(), 300);
+    }, 3000);
+    
+    console.log(`Answer edited for review ${review.reviewId}`);
+    console.log(`New answer length: ${editedAnswer.length} characters`);
+}
+
+        function escalateToSME() {
+            if (confirm('Escalate this review to a Subject Matter Expert?')) {
+                alert('Review escalated to SME.');
+            }
+        }
+
+        function escalateReview(reviewId) {
+            if (confirm('Escalate this entire review?')) {
+                alert(`Review ${reviewId} escalated.`);
+            }
+        }
+
+        function viewFullDetails(reviewId) {
+    // Get current review
+    const review = reviewQueue[currentIndex];
+    
+    if (!review) {
+        alert('No review data available');
+        return;
+    }
+    
+    // Create modal
+    const modal = document.createElement('div');
+    modal.id = 'detailsModal';
+    modal.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        padding: 20px;
+    `;
+    
+    modal.innerHTML = `
+        <div style="background: white; padding: 30px; border-radius: 10px; max-width: 900px; width: 100%; max-height: 90vh; overflow-y: auto;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #dee2e6; padding-bottom: 15px;">
+                <h2 style="margin: 0; color: #2c3e50;">📋 Full Review Details</h2>
+                <button onclick="document.getElementById('detailsModal').remove()" style="background: #e74c3c; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-size: 16px;">✕</button>
+            </div>
+            
+            <div style="background: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                <strong>Review ID:</strong> ${review.reviewId}<br>
+                <strong>Status:</strong> ${review.status}<br>
+                <strong>Timestamp:</strong> ${review.timestamp || 'N/A'}
+            </div>
+            
+            <h3 style="color: #2c3e50; margin-top: 20px;">📄 Question</h3>
+            <div style="background: #ecf0f1; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                ${review.question || 'No question'}
+            </div>
+            
+            <h3 style="color: #2c3e50;">📝 Final Answer</h3>
+            <div style="background: #e8f5e9; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                ${review.finalAnswer || 'No answer'}
+            </div>
+            
+            <h3 style="color: #2c3e50;">📊 Confidence Scores</h3>
+            <div style="background: #fff3cd; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                <strong>Overall:</strong> ${(review.overallConfidence * 100).toFixed(1)}%<br>
+                <strong>Intent:</strong> ${(review.confidenceIntent * 100).toFixed(1)}%<br>
+                <strong>Entity:</strong> ${(review.confidenceEntity * 100).toFixed(1)}%<br>
+                <strong>Relevance:</strong> ${(review.confidenceRelevance * 100).toFixed(1)}%
+            </div>
+            
+            <h3 style="color: #2c3e50;">🔧 Raw JSON Data</h3>
+            <pre style="background: #2c3e50; color: #ecf0f1; padding: 15px; border-radius: 5px; overflow-x: auto; font-size: 12px; max-height: 300px;">${JSON.stringify(review, null, 2)}</pre>
+            
+            <div style="margin-top: 20px; text-align: right;">
+                <button onclick="document.getElementById('detailsModal').remove()" class="btn" style="background: #27ae60; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer; font-weight: 600;">Close</button>
+            </div>
+        </div>
+    `;
+    
+    // Click outside to close
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            modal.remove();
+        }
+    });
+    
+    document.body.appendChild(modal);
+        }
+    </script>
+</body>
+</html>

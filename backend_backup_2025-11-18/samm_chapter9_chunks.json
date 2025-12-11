@@ -1,0 +1,4034 @@
+[
+  {
+    "chunk_id": "samm_c9_c9_1_1",
+    "content": "There are many key financial functions performed during the life cycle of a Foreign Military Sales (FMS) case. Two critical financial functions are the development of pricing estimates for the Letter of Offer and Acceptance (LOA) documents and billing and reporting of security assistance (SA) costs incurred/collected. This chapter provides an overview of SA policies and procedures for financial management. See DoD 7000.14-R, DoD Financial Management Regulation (DoD FMR), Volume 15.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.1.1",
+      "section_title": "There are many key financial functions performed during the life cycle of a Foreign Military Sales (FMS) case.",
+      "section_hierarchy": [
+        "C9",
+        "C9.1",
+        "C9.1.1"
+      ],
+      "parent_section": "C9.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.1.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "procedure",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "DoD",
+        "SA",
+        "Financial management"
+      ],
+      "related_entities": [
+        "DoD 7000.14-R, DoD Financial Management Regulation (DoD FMR), Volume 15",
+        "Letter of Offer and Acceptance",
+        "LOA",
+        "Security assistance",
+        "Foreign Military Sales",
+        "FMS",
+        "Billing"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "DoD 7000.14-R, DoD Financial Management Regulation (DoD FMR), Volume 15": "C9.1.1",
+        "Letter of Offer and Acceptance": "C9.1.1",
+        "LOA": "C9.1.1",
+        "Security assistance": "C9.1.1",
+        "SA": "C9.1.1, C9.2.1",
+        "Financial management": "C9.2.1",
+        "Foreign Military Sales": "C9.1.1",
+        "FMS": "C9.1.1",
+        "Billing": "C9.10"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "DoD 7000.14-R, DoD Financial Management Regulation (DoD FMR), Volume 15": "DOCUMENT",
+        "Letter of Offer and Acceptance": "DOCUMENT",
+        "LOA": "DOCUMENT",
+        "Security assistance": "CONCEPT",
+        "SA": "CONCEPT",
+        "Financial management": "CONCEPT",
+        "Foreign Military Sales": "PROGRAM",
+        "FMS": "PROGRAM",
+        "Billing": "PROCESSES"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "DoD",
+        "FMS",
+        "financial",
+        "pricing",
+        "cost",
+        "LOA",
+        "billing"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": true,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 71,
+      "character_count": 486,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "There are many key financial functions performed during the life cycle of a Foreign Military Sales (FMS) case. There are many key financial functions performed during the life cycle of a Foreign Military Sales (FMS) case. Two critical financial functions are the development of pricing estimates for the Letter of Offer and Acceptance (LOA) documents and billing and reporting of security assistance (SA) costs incurred/collected. This chapter provides an overview of SA policies and procedures for financial management. See DoD 7000.14-R, DoD Financial Management Regulation (DoD FMR), Volume 15. DoD SA Financial management DoD 7000.14-R, DoD Financial Management Regulation (DoD FMR), Volume 15 Letter of Offer and Acceptance LOA Security assistance Foreign Military Sales FMS Billing"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_1",
+    "content": "Sales from Stock. The FMS program must be managed to recover the full costs of defense articles and defense services from the stocks of the Department of Defense and Coast Guard in accordance with the Arms Export Control Act (AECA). The Letter of Offer and Acceptance (LOA) mandates that the purchaser pay the full cost regardless of the estimated LOA cost for the individual case or the estimated values that were provided on the case. Modifications and Amendments are used to update case values as necessary when changes to the program occur. See Section C6.7. for more information on when these documents should be used.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.1",
+      "section_title": "Sales from Stock.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.1"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.1"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "LOA"
+      ],
+      "related_entities": [
+        "Department of Defense",
+        "Coast Guard",
+        "Letter of Offer and Acceptance",
+        "Modifications and Amendments",
+        "Arms Export Control Act",
+        "AECA",
+        "FMS",
+        "Defense articles",
+        "Defense services",
+        "Section C6.7"
+      ],
+      "entity_section_references": {
+        "Department of Defense": "C9.3.1",
+        "Coast Guard": "C9.3.1",
+        "Letter of Offer and Acceptance": "C9.1.1",
+        "LOA": "C9.1.1",
+        "Modifications and Amendments": "C9.3.1",
+        "Arms Export Control Act": "C9.2.1",
+        "AECA": "C9.2.1",
+        "FMS": "C9.1.1",
+        "Defense articles": "C9.3.1",
+        "Defense services": "C9.3.1",
+        "Section C6.7": "C9.3.1"
+      },
+      "entity_types": {
+        "Department of Defense": "ORGANIZATION",
+        "Coast Guard": "ORGANIZATION",
+        "Letter of Offer and Acceptance": "DOCUMENT",
+        "LOA": "DOCUMENT",
+        "Modifications and Amendments": "DOCUMENT",
+        "Arms Export Control Act": "LEGISLATION_REGULATIONS_LAW",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "FMS": "PROGRAM",
+        "Defense articles": "DEFENSE_ARTICLES_EQUIPMENT",
+        "Defense services": "DEFENSE_ARTICLES_EQUIPMENT",
+        "Section C6.7": "DOCUMENT_SECTIONS"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "FMS",
+        "cost",
+        "AECA",
+        "LOA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 105,
+      "character_count": 623,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Sales from Stock. Sales from Stock. The FMS program must be managed to recover the full costs of defense articles and defense services from the stocks of the Department of Defense and Coast Guard in accordance with the Arms Export Control Act (AECA). The Letter of Offer and Acceptance (LOA) mandates that the purchaser pay the full cost regardless of the estimated LOA cost for the individual case or the estimated values that were provided on the case. Modifications and Amendments are used to update case values as necessary when changes to the program occur. See Section C6.7. for more information on when these documents should be used. LOA Department of Defense Coast Guard Letter of Offer and Acceptance Modifications and Amendments Arms Export Control Act AECA FMS Defense articles Defense services Section C6.7"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_1_1",
+    "content": "Recovery of Cost. DoD Components must recover their costs for executing security assistance (SA) programs in accordance with the AECA and DoD Financial Management Regulation (DoD FMR). For indirect cost, only those additional costs that are incurred by the USG in furnishing the assistance should be recovered. Refer to the DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy for guidance on determining the amounts to be reimbursed and DoD FMR, Volume 15, Chapter 7, Pricing, and Section C9.4.8. on how to price defense articles and services.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.1.1",
+      "section_title": "Recovery of Cost.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.1",
+        "C9.3.1.1"
+      ],
+      "parent_section": "C9.3.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.1.1"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "DoD"
+      ],
+      "related_entities": [
+        "DoD Components",
+        "USG",
+        "DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy",
+        "DoD FMR, Volume 15, Chapter 7, Pricing",
+        "Security assistance",
+        "SA",
+        "Financial management",
+        "AECA",
+        "Defense articles",
+        "C9.4",
+        "Section C9.4.8"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "DoD Components": "C9.3.1.1",
+        "USG": "C9.3.1.1",
+        "DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy": "C9.3.1.1",
+        "DoD FMR, Volume 15, Chapter 7, Pricing": "C9.3.1.1",
+        "Security assistance": "C9.1.1",
+        "SA": "C9.1.1, C9.2.1",
+        "Financial management": "C9.2.1",
+        "AECA": "C9.2.1",
+        "Defense articles": "C9.3.1",
+        "C9.4": "C9.4",
+        "Section C9.4.8": "C9.3.1.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "DoD Components": "ORGANIZATION",
+        "USG": "ORGANIZATION",
+        "DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy": "DOCUMENT",
+        "DoD FMR, Volume 15, Chapter 7, Pricing": "DOCUMENT",
+        "Security assistance": "CONCEPT",
+        "SA": "CONCEPT",
+        "Financial management": "CONCEPT",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "Defense articles": "DEFENSE_ARTICLES_EQUIPMENT",
+        "C9.4": "DOCUMENT_SECTIONS",
+        "Section C9.4.8": "DOCUMENT_SECTIONS"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "DoD",
+        "financial",
+        "pricing",
+        "cost",
+        "AECA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 87,
+      "character_count": 552,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Recovery of Cost. Recovery of Cost. DoD Components must recover their costs for executing security assistance (SA) programs in accordance with the AECA and DoD Financial Management Regulation (DoD FMR). For indirect cost, only those additional costs that are incurred by the USG in furnishing the assistance should be recovered. Refer to the DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy for guidance on determining the amounts to be reimbursed and DoD FMR, Volume 15, Chapter 7, Pricing, and Section C9.4.8. on how to price defense articles and services. DoD DoD Components USG DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy DoD FMR, Volume 15, Chapter 7, Pricing Security assistance SA Financial management AECA Defense articles C9.4 Section C9.4.8"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_1_2",
+    "content": "Materiality. A materiality assessment must be used to determine whether indirect and overhead costs should be included in reimbursable billings. DoD Components should ensure the materiality determination is justified and documented using data analysis, i.e., cost-benefit analysis, which is routinely reassessed to stand up to audit scrutiny. Refer to the DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy for additional guidance on materiality.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.1.2",
+      "section_title": "Materiality.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.1",
+        "C9.3.1.2"
+      ],
+      "parent_section": "C9.3.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.1.2"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "DoD"
+      ],
+      "related_entities": [
+        "DoD Components",
+        "DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy",
+        "Assessment"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "DoD Components": "C9.3.1.1",
+        "DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy": "C9.3.1.1",
+        "Assessment": "C9.16.3.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "DoD Components": "ORGANIZATION",
+        "DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy": "DOCUMENT",
+        "Assessment": "PROCESSES"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost",
+        "DoD",
+        "billing"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 64,
+      "character_count": 456,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Materiality. Materiality. A materiality assessment must be used to determine whether indirect and overhead costs should be included in reimbursable billings. DoD Components should ensure the materiality determination is justified and documented using data analysis, i.e., cost-benefit analysis, which is routinely reassessed to stand up to audit scrutiny. Refer to the DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy for additional guidance on materiality. DoD DoD Components DoD FMR, Volume 11a, Chapter 1, General Reimbursement Policy Assessment"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_2",
+    "content": "Payment in United States Dollars. Sales may be made under FMS only if the eligible purchaser agrees to pay in U.S. dollars (AECA, Section 21 (22 U.S.C. 2761) and AECA Section 22 (22 U.S.C. 2762)). AECA, section 21(h) (22 U.S.C. 2761(h)) authorizes reciprocal arrangements under limited circumstances.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.2",
+      "section_title": "Payment in United States Dollars.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.2"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.2"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "AECA",
+        "22 U.S.C. 2761"
+      ],
+      "related_entities": [
+        "22 U.S.C. 2762",
+        "FMS"
+      ],
+      "entity_section_references": {
+        "AECA": "C9.2.1",
+        "22 U.S.C. 2761": "C9.2.1",
+        "22 U.S.C. 2762": "C9.2.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2761": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2762": "LEGISLATION_REGULATIONS_LAW",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "AECA",
+        "FMS",
+        "payment"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 47,
+      "character_count": 300,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Payment in United States Dollars. Payment in United States Dollars. Sales may be made under FMS only if the eligible purchaser agrees to pay in U.S. dollars (AECA, Section 21 (22 U.S.C. 2761) and AECA Section 22 (22 U.S.C. 2762)). AECA, section 21(h) (22 U.S.C. 2761(h)) authorizes reciprocal arrangements under limited circumstances. AECA 22 U.S.C. 2761 22 U.S.C. 2762 FMS"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_3",
+    "content": "United States Guaranties. The USG may guarantee financing by any individual, corporation, partnership, or other judicial entity doing business in the United States (excluding USG agencies other than the Federal Financing Bank (FFB)) if such financing is in connection with FMS or Direct Commercial Sales (DCS) of defense items. Fees will be charged for such guaranties (AECA, section 24 (22 U.S.C. 2764)).",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.3",
+      "section_title": "United States Guaranties.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.3"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.3"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "USG",
+        "Guaranties"
+      ],
+      "related_entities": [
+        "Federal Financing Bank",
+        "FFB",
+        "AECA",
+        "22 U.S.C. 2764",
+        "FMS"
+      ],
+      "entity_section_references": {
+        "Federal Financing Bank": "C9.2.1",
+        "FFB": "C9.2.1",
+        "USG": "C9.3.1.1",
+        "AECA": "C9.2.1",
+        "22 U.S.C. 2764": "C9.2.1",
+        "FMS": "C9.1.1",
+        "Guaranties": "C9.2.1"
+      },
+      "entity_types": {
+        "Federal Financing Bank": "ORGANIZATION",
+        "FFB": "ORGANIZATION",
+        "USG": "ORGANIZATION",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2764": "LEGISLATION_REGULATIONS_LAW",
+        "FMS": "PROGRAM",
+        "Guaranties": "FUNDING_MECHANISM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "AECA",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 62,
+      "character_count": 405,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "United States Guaranties. United States Guaranties. The USG may guarantee financing by any individual, corporation, partnership, or other judicial entity doing business in the United States (excluding USG agencies other than the Federal Financing Bank (FFB)) if such financing is in connection with FMS or Direct Commercial Sales (DCS) of defense items. Fees will be charged for such guaranties (AECA, section 24 (22 U.S.C. 2764)). USG Guaranties Federal Financing Bank FFB AECA 22 U.S.C. 2764 FMS"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_4",
+    "content": "Pre-Letter of Request and Case Development Activities. Pre-Letter of Request (LOR) activities are those necessary to assist the purchaser in defining requirements in sufficient detail to produce a complete LOR. A complete LOR is one that contains all of the information necessary for the Implementing Agency (IA) to develop an LOA response. Pre-LOR activities include research and analysis, meetings, briefings, responses to requests for proposals and participation in international competitions, equipment demonstrations, and travel directly related to those efforts. Case development activities are those required to prepare LOA Data (LOAD) quality data after an LOR is complete. Case development activities are complete when the purchaser has signed the LOA (See Chapter 5). See Section C9.4.2. for information on pricing and tracking manpower requirements.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.4",
+      "section_title": "Pre-Letter of Request and Case Development Activities.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.4"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.4"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "information",
+      "priority": "IMPORTANT",
+      "primary_entities": [
+        "LOA"
+      ],
+      "related_entities": [
+        "C9.4"
+      ],
+      "entity_section_references": {
+        "LOA": "C9.1.1",
+        "C9.4": "C9.4"
+      },
+      "entity_types": {
+        "LOA": "DOCUMENT",
+        "C9.4": "DOCUMENT_SECTIONS"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "case",
+        "pricing"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "IMPORTANT"
+      },
+      "word_count": 123,
+      "character_count": 860,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Pre-Letter of Request and Case Development Activities. Pre-Letter of Request and Case Development Activities. Pre-Letter of Request (LOR) activities are those necessary to assist the purchaser in defining requirements in sufficient detail to produce a complete LOR. A complete LOR is one that contains all of the information necessary for the Implementing Agency (IA) to develop an LOA response. Pre-LOR activities include research and analysis, meetings, briefings, responses to requests for proposals and participation in international competitions, equipment demonstrations, and travel directly related to those efforts. Case development activities are those required to prepare LOA Data (LOAD) quality data after an LOR is complete. Case development activities are complete when the purchaser has signed the LOA (See Chapter 5). See Section C9.4.2. for information on pricing and tracking manpower requirements. LOA C9.4"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_4_1",
+    "content": "Priority to Case Execution. IAs must make prudent choices when expending FMS Administrative Surcharge funds. In budgeting FMS Administrative Surcharge funds, priority should be placed upon providing support to IA case execution activities.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.4.1",
+      "section_title": "Priority to Case Execution.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.4",
+        "C9.3.4.1"
+      ],
+      "parent_section": "C9.3.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.4.1"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [],
+      "entity_section_references": {
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 33,
+      "character_count": 239,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Priority to Case Execution. Priority to Case Execution. IAs must make prudent choices when expending FMS Administrative Surcharge funds. In budgeting FMS Administrative Surcharge funds, priority should be placed upon providing support to IA case execution activities. FMS "
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_4_2",
+    "content": "Limits on Pre-Letter of Request Expenditures. No more than eight percent of the total FMS Administrative Surcharge funds allocated to an IA in a fiscal year may be expended on pre-LOR activities. Requests for an exception to policy to exceed the eight percent limit on IA expenditure of FMS Administrative Surcharge funds on pre-LOR activities require DSCA Director approval. Requests for an exception to policy must include an accounting of expended and remaining funds and priorities for the remainder of the year.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.4.2",
+      "section_title": "Limits on Pre-Letter of Request Expenditures.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.4",
+        "C9.3.4.2"
+      ],
+      "parent_section": "C9.3.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.4.2"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [
+        "DSCA",
+        "Fiscal year"
+      ],
+      "entity_section_references": {
+        "DSCA": "C9.15.1.1",
+        "FMS": "C9.1.1",
+        "Fiscal year": "C9.16.2.4"
+      },
+      "entity_types": {
+        "DSCA": "ORGANIZATION",
+        "FMS": "PROGRAM",
+        "Fiscal year": "TIME_PERIOD"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "DSCA",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 82,
+      "character_count": 516,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Limits on Pre-Letter of Request Expenditures. Limits on Pre-Letter of Request Expenditures. No more than eight percent of the total FMS Administrative Surcharge funds allocated to an IA in a fiscal year may be expended on pre-LOR activities. Requests for an exception to policy to exceed the eight percent limit on IA expenditure of FMS Administrative Surcharge funds on pre-LOR activities require DSCA Director approval. Requests for an exception to policy must include an accounting of expended and remaining funds and priorities for the remainder of the year. FMS DSCA Fiscal year"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_4_3",
+    "content": "Pre-Letter of Request and Case Development Notifications to the Defense Security Cooperation Agency. IAs will notify DSCA (Office of Business Operations (OBO)) and DSCA (Office of Strategy, Plans, and Policy (SPP)) of planned pre-LOR and case development activities in the annual FMS administrative funds Program Objective Memoranda (POM) and budget process. Thereafter, IAs must notify DSCA (OBO) and DSCA (SPP) when:",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.4.3",
+      "section_title": "Pre-Letter of Request and Case Development Notifications to the Defense Security Cooperation Agency.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.4",
+        "C9.3.4.3"
+      ],
+      "parent_section": "C9.3.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.4.3"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "DSCA"
+      ],
+      "related_entities": [
+        "Defense Security Cooperation Agency",
+        "Security cooperation",
+        "FMS",
+        "Annual"
+      ],
+      "entity_section_references": {
+        "Defense Security Cooperation Agency": "C9.15.1.1",
+        "DSCA": "C9.15.1.1",
+        "Security cooperation": "C9.1",
+        "FMS": "C9.1.1",
+        "Annual": "C9.16.3.1"
+      },
+      "entity_types": {
+        "Defense Security Cooperation Agency": "ORGANIZATION",
+        "DSCA": "ORGANIZATION",
+        "Security cooperation": "CONCEPT",
+        "FMS": "PROGRAM",
+        "Annual": "TIME_PERIOD"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "DSCA",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": true,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 61,
+      "character_count": 418,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Pre-Letter of Request and Case Development Notifications to the Defense Security Cooperation Agency. Pre-Letter of Request and Case Development Notifications to the Defense Security Cooperation Agency. IAs will notify DSCA (Office of Business Operations (OBO)) and DSCA (Office of Strategy, Plans, and Policy (SPP)) of planned pre-LOR and case development activities in the annual FMS administrative funds Program Objective Memoranda (POM) and budget process. Thereafter, IAs must notify DSCA (OBO) and DSCA (SPP) when: DSCA Defense Security Cooperation Agency Security cooperation FMS Annual"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_4_3_1",
+    "content": "There are any changes to information presented in the budget process and the change will result in a new or increased cost greater than one percent of the total IA pre-LOR budget approved by DSCA.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.4.3.1",
+      "section_title": "There are any changes to information presented in the budget process and the change will result in a new or increased cost greater than one percent of the total IA pre-LOR budget approved by DSCA.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.4",
+        "C9.3.4.3",
+        "C9.3.4.3.1"
+      ],
+      "parent_section": "C9.3.4.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.4.3.1"
+      ],
+      "chunk_type": "procedure",
+      "intent_type": "procedure",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "DSCA"
+      ],
+      "entity_section_references": {
+        "DSCA": "C9.15.1.1"
+      },
+      "entity_types": {
+        "DSCA": "ORGANIZATION"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost",
+        "DSCA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": true,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 35,
+      "character_count": 196,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "There are any changes to information presented in the budget process and the change will result in a new or increased cost greater than one percent of the total IA pre-LOR budget approved by DSCA. There are any changes to information presented in the budget process and the change will result in a new or increased cost greater than one percent of the total IA pre-LOR budget approved by DSCA.  DSCA"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_4_3_2",
+    "content": "Expenditure of FMS Administrative Surcharge funds for case development activities associated with a potential FMS case (to include groups of closely related cases) are expected to exceed $1 million.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.4.3.2",
+      "section_title": "Expenditure of FMS Administrative Surcharge funds for case development activities associated with a potential FMS case (to include groups of closely related cases) are expected to exceed $1 million.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.4",
+        "C9.3.4.3",
+        "C9.3.4.3.2"
+      ],
+      "parent_section": "C9.3.4.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.4.3.2"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [],
+      "entity_section_references": {
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 29,
+      "character_count": 198,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Expenditure of FMS Administrative Surcharge funds for case development activities associated with a potential FMS case (to include groups of closely related cases) are expected to exceed $1 million. Expenditure of FMS Administrative Surcharge funds for case development activities associated with a potential FMS case (to include groups of closely related cases) are expected to exceed $1 million. FMS "
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_4_4",
+    "content": "FMS Administrative Surcharge funding associated with these thresholds is all-inclusive (civilian pay, contracts, travel, etc.) and must be reported. Notifications should include an analysis of IA capability to fund other pre-LOR/case development efforts for the remainder of the current fiscal year. A notification memo template is provided at Figure C9.F1.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.4.4",
+      "section_title": "FMS Administrative Surcharge funding associated with these thresholds is all-inclusive (civilian pay, contracts, travel, etc.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.4",
+        "C9.3.4.4"
+      ],
+      "parent_section": "C9.3.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.4.4"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [],
+      "related_entities": [
+        "FMS",
+        "Fiscal year",
+        "Current fiscal year"
+      ],
+      "entity_section_references": {
+        "FMS": "C9.1.1",
+        "Fiscal year": "C9.16.2.4",
+        "Current fiscal year": "C9.16.3.1"
+      },
+      "entity_types": {
+        "FMS": "PROGRAM",
+        "Fiscal year": "TIME_PERIOD",
+        "Current fiscal year": "TIME_PERIOD"
+      },
+      "has_table": true,
+      "table_references": [
+        "Figure C9.F1."
+      ],
+      "keywords": [
+        "case",
+        "funding",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": true,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 50,
+      "character_count": 357,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "FMS Administrative Surcharge funding associated with these thresholds is all-inclusive (civilian pay, contracts, travel, etc. FMS Administrative Surcharge funding associated with these thresholds is all-inclusive (civilian pay, contracts, travel, etc.) and must be reported. Notifications should include an analysis of IA capability to fund other pre-LOR/case development efforts for the remainder of the current fiscal year. A notification memo template is provided at Figure C9.F1.  FMS Fiscal year Current fiscal year"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_4_5",
+    "content": "DSCA will reply to IA notifications within ten (10) working days if additional information or clarification is required.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.4.5",
+      "section_title": "DSCA will reply to IA notifications within ten (10) working days if additional information or clarification is required.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.4",
+        "C9.3.4.5"
+      ],
+      "parent_section": "C9.3.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.4.5"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "information",
+      "priority": "IMPORTANT",
+      "primary_entities": [],
+      "related_entities": [
+        "DSCA"
+      ],
+      "entity_section_references": {
+        "DSCA": "C9.15.1.1"
+      },
+      "entity_types": {
+        "DSCA": "ORGANIZATION"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "DSCA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "IMPORTANT"
+      },
+      "word_count": 18,
+      "character_count": 120,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "DSCA will reply to IA notifications within ten (10) working days if additional information or clarification is required. DSCA will reply to IA notifications within ten (10) working days if additional information or clarification is required.  DSCA"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_4_6",
+    "content": "Use of Appropriated Funds. Should IAs have additional pre-LOR and case development efforts that are not funded in its FMS administrative funds budget, on an exceptional basis and at the discretion of the IA, in accordance with AECA section 43(a) (22 U.S.C. 2792), these efforts may be funded with funds available to the IA for operations. AECA Section 43(a) (22 U.S.C. 2792) provides: \"Funds made available under other law for the operations of USG agencies carrying out functions under this Act shall be available for the administrative expenses incurred by such agencies under this Act.\" IA funds for operations may not be used to confer a subsidy on the foreign customer in violation of AECA Section 21 (22 U.S.C. 2761) and AECA Section 22 (22 U.S.C. 2762). Each DoD Component is responsible for using the Necessary Expense Doctrine to determine whether the security assistance-related expenditures are necessary and incidental to the proper execution of the general purpose of a particular DoD appropriation. FMS administrative funds or case funds that subsequently become available, as consistent with U.S. law and DoD policy, may be used, as appropriate, to reimburse the IA funds.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.4.6",
+      "section_title": "Use of Appropriated Funds.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.4",
+        "C9.3.4.6"
+      ],
+      "parent_section": "C9.3.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.4.6"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "DoD",
+        "AECA",
+        "FMS"
+      ],
+      "related_entities": [
+        "USG",
+        "Security assistance",
+        "22 U.S.C. 2761",
+        "22 U.S.C. 2762"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "USG": "C9.3.1.1",
+        "Security assistance": "C9.1.1",
+        "AECA": "C9.2.1",
+        "22 U.S.C. 2761": "C9.2.1",
+        "22 U.S.C. 2762": "C9.2.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "USG": "ORGANIZATION",
+        "Security assistance": "CONCEPT",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2761": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2762": "LEGISLATION_REGULATIONS_LAW",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "DoD",
+        "AECA",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 190,
+      "character_count": 1187,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Use of Appropriated Funds. Use of Appropriated Funds. Should IAs have additional pre-LOR and case development efforts that are not funded in its FMS administrative funds budget, on an exceptional basis and at the discretion of the IA, in accordance with AECA section 43(a) (22 U.S.C. 2792), these efforts may be funded with funds available to the IA for operations. AECA Section 43(a) (22 U.S.C. 2792) provides: \"Funds made available under other law for the operations of USG agencies carrying out functions under this Act shall be available for the administrative expenses incurred by such agencies under this Act.\" IA funds for operations may not be used to confer a subsidy on the foreign customer in violation of AECA Section 21 (22 U.S.C. 2761) and AECA Section 22 (22 U.S.C. 2762). Each DoD Component is responsible for using the Necessary Expense Doctrine to determine whether the security assistance-related expenditures are necessary and incidental to the proper execution of the general purpose of a particular DoD appropriation. FMS administrative funds or case funds that subsequently become available, as consistent with U.S. law and DoD policy, may be used, as appropriate, to reimburse the IA funds. DoD AECA FMS USG Security assistance 22 U.S.C. 2761 22 U.S.C. 2762"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_5",
+    "content": "Letter of Offer and Acceptance Pricing. When pricing FMS case items, the price depends on the source of supply (e.g., available from stock, ordered from procurement, Working Capital Fund (WCF)), and whether the item is to be replaced with a similar or improved item, or involves manpower or training. DoD 7000.14-R, Volume 15, Chapter 7, provides detailed information on pricing policies.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.5",
+      "section_title": "Letter of Offer and Acceptance Pricing.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.5"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.5"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "DoD",
+        "Letter of Offer and Acceptance",
+        "FMS"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "Letter of Offer and Acceptance": "C9.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "Letter of Offer and Acceptance": "DOCUMENT",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "training",
+        "DoD",
+        "FMS",
+        "pricing"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 61,
+      "character_count": 388,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Letter of Offer and Acceptance Pricing. Letter of Offer and Acceptance Pricing. When pricing FMS case items, the price depends on the source of supply (e.g., available from stock, ordered from procurement, Working Capital Fund (WCF)), and whether the item is to be replaced with a similar or improved item, or involves manpower or training. DoD 7000.14-R, Volume 15, Chapter 7, provides detailed information on pricing policies.  DoD Letter of Offer and Acceptance FMS"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_6",
+    "content": "Direct and/or Indirect Charges. All FMS program expenses are recovered from the purchaser through direct charges (included in the materiel and/or services cost) or indirect (accessorial) charges and/or surcharges (usually computed as a percentage of costs) on the FMS case. Charges included within the materiel and/or services line may be referred to as \"above-the-line\" charges. This term is a holdover from the rescinded LOA form (DD Form 1513) where a line divided the direct charges from the accessorial (surcharge) charges. Accessorials and/or surcharges that are not included within a line item value may be referred to as \"below-the-line\" charges (e.g., transportation surcharge and packing, crating, and handling (PC&H)).",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.6",
+      "section_title": "Direct and/or Indirect Charges.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.6"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.6"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [
+        "LOA"
+      ],
+      "entity_section_references": {
+        "LOA": "C9.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "LOA": "DOCUMENT",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "cost",
+        "FMS",
+        "case"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 108,
+      "character_count": 729,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Direct and/or Indirect Charges. Direct and/or Indirect Charges. All FMS program expenses are recovered from the purchaser through direct charges (included in the materiel and/or services cost) or indirect (accessorial) charges and/or surcharges (usually computed as a percentage of costs) on the FMS case. Charges included within the materiel and/or services line may be referred to as \"above-the-line\" charges. This term is a holdover from the rescinded LOA form (DD Form 1513) where a line divided the direct charges from the accessorial (surcharge) charges. Accessorials and/or surcharges that are not included within a line item value may be referred to as \"below-the-line\" charges (e.g., transportation surcharge and packing, crating, and handling (PC&H)). FMS LOA"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_7",
+    "content": "Single Selling Price. DoD policy is to provide a single unit estimated price for articles offered under FMS. If the purchaser desires, a detailed description of the major components of cost included in estimated prices may be provided with the LOA as supplemental information or via separate report, unless such information may be considered proprietary and not releasable to the purchaser.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.7",
+      "section_title": "Single Selling Price.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.7"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.7"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "DoD",
+        "LOA",
+        "FMS"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "LOA": "C9.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "LOA": "DOCUMENT",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "cost",
+        "DoD",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 61,
+      "character_count": 390,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Single Selling Price. Single Selling Price. DoD policy is to provide a single unit estimated price for articles offered under FMS. If the purchaser desires, a detailed description of the major components of cost included in estimated prices may be provided with the LOA as supplemental information or via separate report, unless such information may be considered proprietary and not releasable to the purchaser.  DoD LOA FMS"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_8",
+    "content": "Use of Estimated Prices. To assure that all costs are covered, quotations for defense articles/services are cited as estimated prices, with final adjustments established during case execution or after delivery of articles and/or services. The LOA indicates that prices for articles and/or services are estimates. See DoD 7000.14-R, Volume 15, Chapter 7, for details on those instances when firm prices may be quoted on an LOA.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.8",
+      "section_title": "Use of Estimated Prices.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.8"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.8"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "LOA"
+      ],
+      "related_entities": [
+        "DoD",
+        "Defense articles"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "LOA": "C9.1.1",
+        "Defense articles": "C9.3.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "LOA": "DOCUMENT",
+        "Defense articles": "DEFENSE_ARTICLES_EQUIPMENT"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "case",
+        "DoD",
+        "cost"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 66,
+      "character_count": 426,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Use of Estimated Prices. Use of Estimated Prices. To assure that all costs are covered, quotations for defense articles/services are cited as estimated prices, with final adjustments established during case execution or after delivery of articles and/or services. The LOA indicates that prices for articles and/or services are estimates. See DoD 7000.14-R, Volume 15, Chapter 7, for details on those instances when firm prices may be quoted on an LOA. LOA DoD Defense articles"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_9",
+    "content": "Pricing Estimates from Vendors. For Letters of Offer and Acceptance (LOA) with Anticipated Offer Dates (AODs) relative to groups B, C, and D (see Section C5.T6.), a delay in receiving contractor estimates may adversely affect the MILDEPs ability to offer LOAs in a timely manner. When developing an LOA document that requires a vendor estimate, the standard timeframe to wait for the vendor estimate is 20 days from the date of the MILDEP request. Absent the vendor estimate, the MILDEP should develop the estimate of the item(s) cost using the mechanisms identified in the DoD FMR Vol 15, Ch 7. This timeframe is not a \"hard-stop\" and the MILDEP may, at its discretion, allow for a longer time for a vendor response when warranted by the circumstances (e.g., first sale of an item, more unique/complicated version, non-standard or country-unique requirements, etc. where the MILDEP would be unable to develop a reasonably accurate estimate.)",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.9",
+      "section_title": "Pricing Estimates from Vendors.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.9"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.9"
+      ],
+      "chunk_type": "reference",
+      "intent_type": "guidance",
+      "priority": "IMPORTANT",
+      "primary_entities": [
+        "LOA"
+      ],
+      "related_entities": [
+        "DoD",
+        "MILDEPs"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "MILDEPs": "C9.17.3.2.1",
+        "LOA": "C9.1.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "MILDEPs": "ORGANIZATION",
+        "LOA": "DOCUMENT"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "DoD",
+        "cost",
+        "pricing"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "IMPORTANT"
+      },
+      "word_count": 153,
+      "character_count": 942,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Pricing Estimates from Vendors. Pricing Estimates from Vendors. For Letters of Offer and Acceptance (LOA) with Anticipated Offer Dates (AODs) relative to groups B, C, and D (see Section C5.T6.), a delay in receiving contractor estimates may adversely affect the MILDEPs ability to offer LOAs in a timely manner. When developing an LOA document that requires a vendor estimate, the standard timeframe to wait for the vendor estimate is 20 days from the date of the MILDEP request. Absent the vendor estimate, the MILDEP should develop the estimate of the item(s) cost using the mechanisms identified in the DoD FMR Vol 15, Ch 7. This timeframe is not a \"hard-stop\" and the MILDEP may, at its discretion, allow for a longer time for a vendor response when warranted by the circumstances (e.g., first sale of an item, more unique/complicated version, non-standard or country-unique requirements, etc. where the MILDEP would be unable to develop a reasonably accurate estimate.) LOA DoD MILDEPs"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_10",
+    "content": "Foreign Military Sales Trust Fund. The FMS Trust Fund is used for payments received from purchasers and disbursements made against implemented FMS cases. This fund is cited directly on contracts for the procurement of defense articles and/or services for the purchaser, or it is used to reimburse DoD Component appropriations for deliveries from DoD stocks or services performed by DoD employees. DSCA manages the FMS Trust Fund and is responsible for the solvency of each purchaser's FMS Trust Fund account. See Section C9.11.1.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.10",
+      "section_title": "Foreign Military Sales Trust Fund.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.10"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.10"
+      ],
+      "chunk_type": "reference",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "DoD",
+        "FMS"
+      ],
+      "related_entities": [
+        "DSCA",
+        "Foreign Military Sales",
+        "Appropriations",
+        "Defense articles",
+        "C9.11"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "DSCA": "C9.15.1.1",
+        "Foreign Military Sales": "C9.1.1",
+        "FMS": "C9.1.1",
+        "Appropriations": "C9.2.1",
+        "Defense articles": "C9.3.1",
+        "C9.11": "C9.11"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "DSCA": "ORGANIZATION",
+        "Foreign Military Sales": "PROGRAM",
+        "FMS": "PROGRAM",
+        "Appropriations": "FUNDING_MECHANISM",
+        "Defense articles": "DEFENSE_ARTICLES_EQUIPMENT",
+        "C9.11": "DOCUMENT_SECTIONS"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "DoD",
+        "DSCA",
+        "FMS",
+        "payment"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 83,
+      "character_count": 529,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Foreign Military Sales Trust Fund. Foreign Military Sales Trust Fund. The FMS Trust Fund is used for payments received from purchasers and disbursements made against implemented FMS cases. This fund is cited directly on contracts for the procurement of defense articles and/or services for the purchaser, or it is used to reimburse DoD Component appropriations for deliveries from DoD stocks or services performed by DoD employees. DSCA manages the FMS Trust Fund and is responsible for the solvency of each purchaser's FMS Trust Fund account. See Section C9.11.1. DoD FMS DSCA Foreign Military Sales Appropriations Defense articles C9.11"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_11",
+    "content": "Refund of Foreign Military Sales Administrative Surcharge Funds to the Foreign Military Sales Administrative Surcharge Account. There are specific circumstances when FMS Administrative Surcharge funds may be used to initially provide services (e.g., site survey) with subsequent reimbursement of the FMS Administrative Surcharge Account once the case is signed/implemented. The following outlines the process for an FMS case to refund FMS Administrative Surcharge funds to the FMS Administrative Surcharge Account for the specific instances where authorized. See Table C9.T2A.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.11",
+      "section_title": "Refund of Foreign Military Sales Administrative Surcharge Funds to the Foreign Military Sales Administrative Surcharge Account.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.11"
+      ],
+      "parent_section": "C9.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.11"
+      ],
+      "chunk_type": "general",
+      "intent_type": "procedure",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "Foreign Military Sales",
+        "FMS"
+      ],
+      "related_entities": [],
+      "entity_section_references": {
+        "Foreign Military Sales": "C9.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "Foreign Military Sales": "PROGRAM",
+        "FMS": "PROGRAM"
+      },
+      "has_table": true,
+      "table_references": [
+        "Table C9.T2A."
+      ],
+      "keywords": [
+        "case",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": true,
+        "has_table": true,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 79,
+      "character_count": 576,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Refund of Foreign Military Sales Administrative Surcharge Funds to the Foreign Military Sales Administrative Surcharge Account. Refund of Foreign Military Sales Administrative Surcharge Funds to the Foreign Military Sales Administrative Surcharge Account. There are specific circumstances when FMS Administrative Surcharge funds may be used to initially provide services (e.g., site survey) with subsequent reimbursement of the FMS Administrative Surcharge Account once the case is signed/implemented. The following outlines the process for an FMS case to refund FMS Administrative Surcharge funds to the FMS Administrative Surcharge Account for the specific instances where authorized. See Table C9.T2A. Foreign Military Sales FMS "
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_11_1",
+    "content": "The IA will establish a method of identifying all disbursement vouchers citing FMS Administrative Surcharge funds that will require subsequent refund to the FMS Administrative Surcharge Account by the FMS case when implemented.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.11.1",
+      "section_title": "The IA will establish a method of identifying all disbursement vouchers citing FMS Administrative Surcharge funds that will require subsequent refund to the FMS Administrative Surcharge Account by the FMS case when implemented.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.11",
+        "C9.3.11.1"
+      ],
+      "parent_section": "C9.3.11",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.11.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [],
+      "entity_section_references": {
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 33,
+      "character_count": 227,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "The IA will establish a method of identifying all disbursement vouchers citing FMS Administrative Surcharge funds that will require subsequent refund to the FMS Administrative Surcharge Account by the FMS case when implemented. The IA will establish a method of identifying all disbursement vouchers citing FMS Administrative Surcharge funds that will require subsequent refund to the FMS Administrative Surcharge Account by the FMS case when implemented. FMS "
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_11_2",
+    "content": "Upon case implementation, either a journal voucher (i.e., Optional Form 1017-G, Journal Voucher, or other agency-approved form) or Standard Form (SF) 1081, Voucher and Schedule of Withdrawals and Credits, may be used to transfer the prior disbursements from the FMS Administrative Surcharge fund cite to the FMS case fund cite. Refer to the DoD FMR, Volume 10, Chapter 10, paragraph 100201, Completion of Intra-governmental Reimbursement and Transfer Vouchers.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.11.2",
+      "section_title": "Upon case implementation, either a journal voucher (i.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.11",
+        "C9.3.11.2"
+      ],
+      "parent_section": "C9.3.11",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.11.2"
+      ],
+      "chunk_type": "reference",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [
+        "DoD",
+        "Credits"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "FMS": "C9.1.1",
+        "Credits": "C9.2.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "FMS": "PROGRAM",
+        "Credits": "FUNDING_MECHANISM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "DoD",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 68,
+      "character_count": 460,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Upon case implementation, either a journal voucher (i. Upon case implementation, either a journal voucher (i.e., Optional Form 1017-G, Journal Voucher, or other agency-approved form) or Standard Form (SF) 1081, Voucher and Schedule of Withdrawals and Credits, may be used to transfer the prior disbursements from the FMS Administrative Surcharge fund cite to the FMS case fund cite. Refer to the DoD FMR, Volume 10, Chapter 10, paragraph 100201, Completion of Intra-governmental Reimbursement and Transfer Vouchers. FMS DoD Credits"
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_11_3",
+    "content": "The journal voucher or SF 1081 must be supported by and reference prior disbursement vouchers being refunded to the FMS Administrative Surcharge Account by the FMS case. This provides adequate documentation for the certification of transfer voucher (i.e., journal voucher or SF 1081) being processed and provides an adequate audit trail to the original obligation and disbursement transaction.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.11.3",
+      "section_title": "The journal voucher or SF 1081 must be supported by and reference prior disbursement vouchers being refunded to the FMS Administrative Surcharge Account by the FMS case.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.11",
+        "C9.3.11.3"
+      ],
+      "parent_section": "C9.3.11",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.11.3"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [],
+      "entity_section_references": {
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": true,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 58,
+      "character_count": 393,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "The journal voucher or SF 1081 must be supported by and reference prior disbursement vouchers being refunded to the FMS Administrative Surcharge Account by the FMS case. The journal voucher or SF 1081 must be supported by and reference prior disbursement vouchers being refunded to the FMS Administrative Surcharge Account by the FMS case. This provides adequate documentation for the certification of transfer voucher (i.e., journal voucher or SF 1081) being processed and provides an adequate audit trail to the original obligation and disbursement transaction. FMS "
+  },
+  {
+    "chunk_id": "samm_c9_c9_3_11_4",
+    "content": "If the refund is processed against current year FMS Administrative Surcharge fund budget authority, the funds would be available for obligation upon posting of the refund transaction. If the refund is processed against prior year FMS Administrative Surcharge fund budget authority, the excess budget authority made available as a result of posting the refund transaction, is to be returned to DSCA.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.3.11.4",
+      "section_title": "If the refund is processed against current year FMS Administrative Surcharge fund budget authority, the funds would be available for obligation upon posting of the refund transaction.",
+      "section_hierarchy": [
+        "C9",
+        "C9.3",
+        "C9.3.11",
+        "C9.3.11.4"
+      ],
+      "parent_section": "C9.3.11",
+      "is_combined": false,
+      "combined_from": [
+        "C9.3.11.4"
+      ],
+      "chunk_type": "procedure",
+      "intent_type": "procedure",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [
+        "DSCA"
+      ],
+      "entity_section_references": {
+        "DSCA": "C9.15.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "DSCA": "ORGANIZATION",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "DSCA",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": true,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 61,
+      "character_count": 398,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "If the refund is processed against current year FMS Administrative Surcharge fund budget authority, the funds would be available for obligation upon posting of the refund transaction. If the refund is processed against current year FMS Administrative Surcharge fund budget authority, the funds would be available for obligation upon posting of the refund transaction. If the refund is processed against prior year FMS Administrative Surcharge fund budget authority, the excess budget authority made available as a result of posting the refund transaction, is to be returned to DSCA. FMS DSCA"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_1",
+    "content": "Government-Furnished Engineering Services. The purchaser may request USG-furnished engineering services, or costs may be incurred, when providing these services as part of production. These services are offered on Foreign Military Sales (FMS) cases and are reported and/or billed the same as other services. Estimated costs to provide engineering services are included in the estimated unit cost of the purchased item. Such costs also include the pro-rata share of government-furnished testing and evaluation services. If requested, a break-out of USG cost is provided to the purchaser. USG-furnished engineering services are charged directly to an FMS case as follows.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.1",
+      "section_title": "Government-Furnished Engineering Services.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.1"
+      ],
+      "parent_section": "C9.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "USG",
+        "FMS"
+      ],
+      "related_entities": [
+        "Foreign Military Sales"
+      ],
+      "entity_section_references": {
+        "USG": "C9.3.1.1",
+        "Foreign Military Sales": "C9.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "USG": "ORGANIZATION",
+        "Foreign Military Sales": "PROGRAM",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost",
+        "case",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 97,
+      "character_count": 669,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Government-Furnished Engineering Services. Government-Furnished Engineering Services. The purchaser may request USG-furnished engineering services, or costs may be incurred, when providing these services as part of production. These services are offered on Foreign Military Sales (FMS) cases and are reported and/or billed the same as other services. Estimated costs to provide engineering services are included in the estimated unit cost of the purchased item. Such costs also include the pro-rata share of government-furnished testing and evaluation services. If requested, a break-out of USG cost is provided to the purchaser. USG-furnished engineering services are charged directly to an FMS case as follows. USG FMS Foreign Military Sales"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_1_1",
+    "content": "Performance of the service is necessary for production, configuration control, or reliability of the procured item. The charge is based on the proportionate share of work years needed for the FMS items. The charge is pro-rated based on the ratio of items produced for FMS purchasers to the total items produced in the same time frame.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.1.1",
+      "section_title": "Performance of the service is necessary for production, configuration control, or reliability of the procured item.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.1",
+        "C9.4.1.1"
+      ],
+      "parent_section": "C9.4.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.1.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [],
+      "entity_section_references": {
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 56,
+      "character_count": 334,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Performance of the service is necessary for production, configuration control, or reliability of the procured item. Performance of the service is necessary for production, configuration control, or reliability of the procured item. The charge is based on the proportionate share of work years needed for the FMS items. The charge is pro-rated based on the ratio of items produced for FMS purchasers to the total items produced in the same time frame. FMS "
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_1_2",
+    "content": "The services are recurring in nature and are related to a current production run in which the FMS materiel is produced. Nonrecurring Costs (NC) are recoverable via policies and procedures included in DoD Directive (DoDD) 2140.02 \"Recoupment of Nonrecurring Costs (NCs) on Sales of U.S. Items\" and DoD Financial Management Regulation (DoD FMR) 7000.14-R, Volume 15, Chapter 7.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.1.2",
+      "section_title": "The services are recurring in nature and are related to a current production run in which the FMS materiel is produced.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.1",
+        "C9.4.1.2"
+      ],
+      "parent_section": "C9.4.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.1.2"
+      ],
+      "chunk_type": "general",
+      "intent_type": "procedure",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "DoD"
+      ],
+      "related_entities": [
+        "Financial management",
+        "FMS"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "Financial management": "C9.2.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "Financial management": "CONCEPT",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost",
+        "DoD",
+        "FMS",
+        "financial"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": true,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 58,
+      "character_count": 375,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "The services are recurring in nature and are related to a current production run in which the FMS materiel is produced. The services are recurring in nature and are related to a current production run in which the FMS materiel is produced. Nonrecurring Costs (NC) are recoverable via policies and procedures included in DoD Directive (DoDD) 2140.02 \"Recoupment of Nonrecurring Costs (NCs) on Sales of U.S. Items\" and DoD Financial Management Regulation (DoD FMR) 7000.14-R, Volume 15, Chapter 7. DoD Financial management FMS"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_1_3",
+    "content": "The services are allocable to a specific purchaser or purchaser's program rather than performed to benefit the program in general. Some engineering work years may be required for general FMS administration. When the costs of such work years cannot be allocated to FMS case lines, they may be paid using FMS Administrative Surcharge funds (FMS Admin).",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.1.3",
+      "section_title": "The services are allocable to a specific purchaser or purchaser's program rather than performed to benefit the program in general.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.1",
+        "C9.4.1.3"
+      ],
+      "parent_section": "C9.4.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.1.3"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "information",
+      "priority": "IMPORTANT",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [],
+      "entity_section_references": {
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost",
+        "case",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "IMPORTANT"
+      },
+      "word_count": 56,
+      "character_count": 350,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "The services are allocable to a specific purchaser or purchaser's program rather than performed to benefit the program in general. The services are allocable to a specific purchaser or purchaser's program rather than performed to benefit the program in general. Some engineering work years may be required for general FMS administration. When the costs of such work years cannot be allocated to FMS case lines, they may be paid using FMS Administrative Surcharge funds (FMS Admin). FMS "
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_2",
+    "content": "Manpower in Support of Foreign Military Sales and Title 10 Building Partner Capacity Programs.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.2",
+      "section_title": "Manpower in Support of Foreign Military Sales and Title 10 Building Partner Capacity Programs.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.2"
+      ],
+      "parent_section": "C9.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.2"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "Foreign Military Sales",
+        "Building Partner Capacity"
+      ],
+      "entity_section_references": {
+        "Foreign Military Sales": "C9.1.1",
+        "Building Partner Capacity": "C9.17.1.1"
+      },
+      "entity_types": {
+        "Foreign Military Sales": "PROGRAM",
+        "Building Partner Capacity": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 14,
+      "character_count": 94,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Manpower in Support of Foreign Military Sales and Title 10 Building Partner Capacity Programs. Manpower in Support of Foreign Military Sales and Title 10 Building Partner Capacity Programs.  Foreign Military Sales Building Partner Capacity"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_2_1",
+    "content": "Foreign Military Sales Case-Related Manpower Functions and Funding Source Matrix. The Foreign Military Sales Case-Related Manpower Functions and Funding Source Matrix table describes FMS case-related activities/functions and their proper source of funding. The activities/functions listed in Table C9.T2A. in the \"FMS Admin\" column represents indirect costs funded by the FMS Administrative Surcharge and should not be included and/or priced as direct costs on the Letter of Offer and Acceptance (LOA). The activities/functions listed in Table C9.T2A. under the \"FMS Case,\" \"Non-Standard,\" and \"Frequency\" columns represent direct costs funded by the Purchaser and should be included as line items on the case. Requests to deviate from the funding sources shown on this table or requests for clarification regarding this table must be coordinated with the DSCA (Office of Business Operations, Financial Policy & Regional Execution Directorate, Financial Policy Division (OBO/FPRE/FP)).",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.2.1",
+      "section_title": "Foreign Military Sales Case-Related Manpower Functions and Funding Source Matrix.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.2",
+        "C9.4.2.1"
+      ],
+      "parent_section": "C9.4.2",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.2.1"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "Foreign Military Sales",
+        "FMS"
+      ],
+      "related_entities": [
+        "DSCA",
+        "Financial Policy & Regional Execution Directorate",
+        "Letter of Offer and Acceptance",
+        "LOA",
+        "FP"
+      ],
+      "entity_section_references": {
+        "DSCA": "C9.15.1.1",
+        "Financial Policy & Regional Execution Directorate": "C.9.18.3",
+        "Letter of Offer and Acceptance": "C9.1.1",
+        "LOA": "C9.1.1",
+        "FP": "C9.1, C9.2.1",
+        "Foreign Military Sales": "C9.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "DSCA": "ORGANIZATION",
+        "Financial Policy & Regional Execution Directorate": "ORGANIZATION",
+        "Letter of Offer and Acceptance": "DOCUMENT",
+        "LOA": "DOCUMENT",
+        "FP": "CONCEPT",
+        "Foreign Military Sales": "PROGRAM",
+        "FMS": "PROGRAM"
+      },
+      "has_table": true,
+      "table_references": [
+        "Table C9.T2A.",
+        "Table C9.T2A."
+      ],
+      "keywords": [
+        "case",
+        "DSCA",
+        "FMS",
+        "financial",
+        "cost",
+        "funding",
+        "LOA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": true,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 139,
+      "character_count": 985,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Foreign Military Sales Case-Related Manpower Functions and Funding Source Matrix. Foreign Military Sales Case-Related Manpower Functions and Funding Source Matrix. The Foreign Military Sales Case-Related Manpower Functions and Funding Source Matrix table describes FMS case-related activities/functions and their proper source of funding. The activities/functions listed in Table C9.T2A. in the \"FMS Admin\" column represents indirect costs funded by the FMS Administrative Surcharge and should not be included and/or priced as direct costs on the Letter of Offer and Acceptance (LOA). The activities/functions listed in Table C9.T2A. under the \"FMS Case,\" \"Non-Standard,\" and \"Frequency\" columns represent direct costs funded by the Purchaser and should be included as line items on the case. Requests to deviate from the funding sources shown on this table or requests for clarification regarding this table must be coordinated with the DSCA (Office of Business Operations, Financial Policy & Regional Execution Directorate, Financial Policy Division (OBO/FPRE/FP)). Foreign Military Sales FMS DSCA Financial Policy & Regional Execution Directorate Letter of Offer and Acceptance LOA FP"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_2_2",
+    "content": "Title 10 Building Partner Capacity Case-Related Manpower Functions and Funding Source Matrix. The Building Partner Capacity (BPC) Case-Related Manpower Functions and Funding Source Matrix table describes Title 10 BPC case-related activities/functions and their proper source of funding. The activities/functions listed in Table C9.T2B. under the \"Title 10 BPC Program Support Costs\" and \"Performing Activity Title 10 Costs\" columns represent indirect costs funded by the DoD Title 10 appropriated funds and should not be included and/or priced as direct costs on the LOA. The activities/functions listed in Table C9.T2B. under the \"Title 10 BPC Case Costs\" column represents direct costs funded by the DoD Title 10 appropriated funds made available to support Benefitting Countries and should be included as line items on the case. Requests for funding clarification regarding this table and possible funding alternatives or exemptions must be coordinated with the DSCA (OBO/FPRE/FP).",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.2.2",
+      "section_title": "Title 10 Building Partner Capacity Case-Related Manpower Functions and Funding Source Matrix.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.2",
+        "C9.4.2.2"
+      ],
+      "parent_section": "C9.4.2",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.2.2"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "DoD",
+        "Building Partner Capacity",
+        "BPC"
+      ],
+      "related_entities": [
+        "DSCA",
+        "LOA",
+        "FP"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "DSCA": "C9.15.1.1",
+        "LOA": "C9.1.1",
+        "FP": "C9.1, C9.2.1",
+        "Building Partner Capacity": "C9.17.1.1",
+        "BPC": "C9.17.1.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "DSCA": "ORGANIZATION",
+        "LOA": "DOCUMENT",
+        "FP": "CONCEPT",
+        "Building Partner Capacity": "PROGRAM",
+        "BPC": "PROGRAM"
+      },
+      "has_table": true,
+      "table_references": [
+        "Table C9.T2B.",
+        "Table C9.T2B."
+      ],
+      "keywords": [
+        "case",
+        "DoD",
+        "DSCA",
+        "cost",
+        "funding",
+        "LOA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": true,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 143,
+      "character_count": 984,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Title 10 Building Partner Capacity Case-Related Manpower Functions and Funding Source Matrix. Title 10 Building Partner Capacity Case-Related Manpower Functions and Funding Source Matrix. The Building Partner Capacity (BPC) Case-Related Manpower Functions and Funding Source Matrix table describes Title 10 BPC case-related activities/functions and their proper source of funding. The activities/functions listed in Table C9.T2B. under the \"Title 10 BPC Program Support Costs\" and \"Performing Activity Title 10 Costs\" columns represent indirect costs funded by the DoD Title 10 appropriated funds and should not be included and/or priced as direct costs on the LOA. The activities/functions listed in Table C9.T2B. under the \"Title 10 BPC Case Costs\" column represents direct costs funded by the DoD Title 10 appropriated funds made available to support Benefitting Countries and should be included as line items on the case. Requests for funding clarification regarding this table and possible funding alternatives or exemptions must be coordinated with the DSCA (OBO/FPRE/FP). DoD Building Partner Capacity BPC DSCA LOA FP"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_2_3",
+    "content": "Foreign Military Sales Program Management Services. The Implementing Agency (IA) may determine that USG program management services are necessary for successful program implementation and execution in accordance with the Foreign Military Sales Case-Related Manpower Functions and Funding Source Matrix in Table C9.T2A.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.2.3",
+      "section_title": "Foreign Military Sales Program Management Services.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.2",
+        "C9.4.2.3"
+      ],
+      "parent_section": "C9.4.2",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.2.3"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "Foreign Military Sales"
+      ],
+      "related_entities": [
+        "USG"
+      ],
+      "entity_section_references": {
+        "USG": "C9.3.1.1",
+        "Foreign Military Sales": "C9.1.1"
+      },
+      "entity_types": {
+        "USG": "ORGANIZATION",
+        "Foreign Military Sales": "PROGRAM"
+      },
+      "has_table": true,
+      "table_references": [
+        "Table C9.T2A."
+      ],
+      "keywords": [
+        "case",
+        "funding"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": true,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 42,
+      "character_count": 318,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Foreign Military Sales Program Management Services. Foreign Military Sales Program Management Services. The Implementing Agency (IA) may determine that USG program management services are necessary for successful program implementation and execution in accordance with the Foreign Military Sales Case-Related Manpower Functions and Funding Source Matrix in Table C9.T2A. Foreign Military Sales USG"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_2_3_1",
+    "content": "Cases \"Accepted\" After August 1, 2006. For LOAs or case line items \"accepted\" after August 1, 2006, any program management services will be included on well-defined, services line items on the case. The tailored line item description note for each of these line items must include details describing exactly what services will be provided and the length of time they will be performed.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.2.3.1",
+      "section_title": "Cases \"Accepted\" After August 1, 2006.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.2",
+        "C9.4.2.3",
+        "C9.4.2.3.1"
+      ],
+      "parent_section": "C9.4.2.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.2.3.1"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [],
+      "related_entities": [],
+      "entity_section_references": {},
+      "entity_types": {},
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "case"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 63,
+      "character_count": 385,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Cases \"Accepted\" After August 1, 2006. Cases \"Accepted\" After August 1, 2006. For LOAs or case line items \"accepted\" after August 1, 2006, any program management services will be included on well-defined, services line items on the case. The tailored line item description note for each of these line items must include details describing exactly what services will be provided and the length of time they will be performed.  "
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_2_3_2",
+    "content": "Cases \"Accepted\" Prior to August 1, 2006. For cases \"accepted\" prior to August 1, 2006, program management services were included on Program Management Lines (PMLs) on the cases. Table C9.T3. identifies the types of sales where PMLs may have been used. PMLs were identified on LOA documents using Generic Code R6B. Generic Code L8A was used on older cases to identify Case Management Lines. While R6B and L8A may no longer be added to cases, PMLs and Case Management Lines that were \"accepted\" prior to August 1, 2006 may be used until closure of those cases as long as the activities are within the scope of the line as written as of August 1, 2006. Adjustments may be made to these existing PMLs via LOA Modifications or LOA Amendments as long as these adjustments are within the current scope of the PML; no adjustments will be made to increase the scope of these line items. Any additional scope required may be added as new line items in accordance with Section C9.4.2.3.1. The FMS Administrative Surcharge is not applied to PMLs. The following must be included on all LOAs, Amendments, or Modifications that include PMLs: \"Subtotal Cost of Ordered Articles and Services and PML total value.\" The total of these two values is the block (8) value of the document.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.2.3.2",
+      "section_title": "Cases \"Accepted\" Prior to August 1, 2006.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.2",
+        "C9.4.2.3",
+        "C9.4.2.3.2"
+      ],
+      "parent_section": "C9.4.2.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.2.3.2"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "LOA"
+      ],
+      "related_entities": [
+        "FMS",
+        "C9.4"
+      ],
+      "entity_section_references": {
+        "LOA": "C9.1.1",
+        "FMS": "C9.1.1",
+        "C9.4": "C9.4"
+      },
+      "entity_types": {
+        "LOA": "DOCUMENT",
+        "FMS": "PROGRAM",
+        "C9.4": "DOCUMENT_SECTIONS"
+      },
+      "has_table": true,
+      "table_references": [
+        "Table C9.T3."
+      ],
+      "keywords": [
+        "LOA",
+        "cost",
+        "FMS",
+        "case"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": true,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 219,
+      "character_count": 1267,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Cases \"Accepted\" Prior to August 1, 2006. Cases \"Accepted\" Prior to August 1, 2006. For cases \"accepted\" prior to August 1, 2006, program management services were included on Program Management Lines (PMLs) on the cases. Table C9.T3. identifies the types of sales where PMLs may have been used. PMLs were identified on LOA documents using Generic Code R6B. Generic Code L8A was used on older cases to identify Case Management Lines. While R6B and L8A may no longer be added to cases, PMLs and Case Management Lines that were \"accepted\" prior to August 1, 2006 may be used until closure of those cases as long as the activities are within the scope of the line as written as of August 1, 2006. Adjustments may be made to these existing PMLs via LOA Modifications or LOA Amendments as long as these adjustments are within the current scope of the PML; no adjustments will be made to increase the scope of these line items. Any additional scope required may be added as new line items in accordance with Section C9.4.2.3.1. The FMS Administrative Surcharge is not applied to PMLs. The following must be included on all LOAs, Amendments, or Modifications that include PMLs: \"Subtotal Cost of Ordered Articles and Services and PML total value.\" The total of these two values is the block (8) value of the document. LOA FMS C9.4"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_2_4",
+    "content": "Foreign Military Sales and Title 10 Building Partner Capacity Manpower Reporting Requirement. For FMS cases, manpower requirements listed on LOAs are generated and validated through the Manpower Travel Data Sheets (MTDS) in the Defense Security Assistance Management System (DSAMS). The MTDS is in a standardized format for capturing and auditing all case-funded military, civilian, or USG contracted full-time equivalent (FTE) manpower, travel, and personnel support costs. The MTDS is not required for Title 10 and Title 22 BPC cases because the costs for these types of activities are researched, validated and reported to DSCA and Congress before BPC LOA development begins. DSCA will validate auditability of all Title 10 and Title 22 BPC case-funded military, civilian or USG contracted FTE manpower, travel and personnel support costs via the planning documents used to define the program's requirements (e.g. Training and Equipment List, Memorandum of Requests, etc.). Do not charge military salaries to BPC cases. Direct military labor costs are charged to applicable military personnel appropriations. MTDS data reporting requirements helps ensures USG or U.S. contracted personnel traveling overseas on case-funded activities are protected by Status of Forces Agreements (SOFA) or other status provisions, where applicable.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.2.4",
+      "section_title": "Foreign Military Sales and Title 10 Building Partner Capacity Manpower Reporting Requirement.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.2",
+        "C9.4.2.4"
+      ],
+      "parent_section": "C9.4.2",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.2.4"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "information",
+      "priority": "IMPORTANT",
+      "primary_entities": [
+        "DSCA",
+        "USG",
+        "BPC"
+      ],
+      "related_entities": [
+        "LOA",
+        "Security assistance",
+        "Foreign Military Sales",
+        "FMS",
+        "Building Partner Capacity",
+        "Defense Security Assistance Management System",
+        "DSAMS",
+        "Appropriations"
+      ],
+      "entity_section_references": {
+        "DSCA": "C9.15.1.1",
+        "USG": "C9.3.1.1",
+        "LOA": "C9.1.1",
+        "Security assistance": "C9.1.1",
+        "Foreign Military Sales": "C9.1.1",
+        "FMS": "C9.1.1",
+        "Building Partner Capacity": "C9.17.1.1",
+        "BPC": "C9.17.1.1",
+        "Defense Security Assistance Management System": "C9.16.3.3.3",
+        "DSAMS": "C9.16.3.3.3",
+        "Appropriations": "C9.2.1"
+      },
+      "entity_types": {
+        "DSCA": "ORGANIZATION",
+        "USG": "ORGANIZATION",
+        "LOA": "DOCUMENT",
+        "Security assistance": "CONCEPT",
+        "Foreign Military Sales": "PROGRAM",
+        "FMS": "PROGRAM",
+        "Building Partner Capacity": "PROGRAM",
+        "BPC": "PROGRAM",
+        "Defense Security Assistance Management System": "SYSTEMS",
+        "DSAMS": "SYSTEMS",
+        "Appropriations": "FUNDING_MECHANISM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "training",
+        "DSCA",
+        "FMS",
+        "cost",
+        "LOA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "IMPORTANT"
+      },
+      "word_count": 194,
+      "character_count": 1334,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Foreign Military Sales and Title 10 Building Partner Capacity Manpower Reporting Requirement. Foreign Military Sales and Title 10 Building Partner Capacity Manpower Reporting Requirement. For FMS cases, manpower requirements listed on LOAs are generated and validated through the Manpower Travel Data Sheets (MTDS) in the Defense Security Assistance Management System (DSAMS). The MTDS is in a standardized format for capturing and auditing all case-funded military, civilian, or USG contracted full-time equivalent (FTE) manpower, travel, and personnel support costs. The MTDS is not required for Title 10 and Title 22 BPC cases because the costs for these types of activities are researched, validated and reported to DSCA and Congress before BPC LOA development begins. DSCA will validate auditability of all Title 10 and Title 22 BPC case-funded military, civilian or USG contracted FTE manpower, travel and personnel support costs via the planning documents used to define the program's requirements (e.g. Training and Equipment List, Memorandum of Requests, etc.). Do not charge military salaries to BPC cases. Direct military labor costs are charged to applicable military personnel appropriations. MTDS data reporting requirements helps ensures USG or U.S. contracted personnel traveling overseas on case-funded activities are protected by Status of Forces Agreements (SOFA) or other status provisions, where applicable. DSCA USG BPC LOA Security assistance Foreign Military Sales FMS Building Partner Capacity Defense Security Assistance Management System DSAMS Appropriations"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_3",
+    "content": "Training. DoD 7000.14-R, Volume 15, Chapter 7, provides detailed guidance for the pricing of training on FMS cases and under the International Military Education and Training (IMET) funded program. The following paragraphs provide additional policy applicable to the various tuition rates (Rates A-E). See Chapter 10 for information on Travel and Living Allowance (TLA) charges for the IMET funded program.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.3",
+      "section_title": "Training.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.3"
+      ],
+      "parent_section": "C9.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.3"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "IMET"
+      ],
+      "related_entities": [
+        "DoD",
+        "FMS",
+        "International Military Education and Training"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "FMS": "C9.1.1",
+        "International Military Education and Training": "C9.2.1",
+        "IMET": "C9.2.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "FMS": "PROGRAM",
+        "International Military Education and Training": "PROGRAM",
+        "IMET": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "training",
+        "DoD",
+        "FMS",
+        "pricing"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 60,
+      "character_count": 406,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Training. Training. DoD 7000.14-R, Volume 15, Chapter 7, provides detailed guidance for the pricing of training on FMS cases and under the International Military Education and Training (IMET) funded program. The following paragraphs provide additional policy applicable to the various tuition rates (Rates A-E). See Chapter 10 for information on Travel and Living Allowance (TLA) charges for the IMET funded program. IMET DoD FMS International Military Education and Training"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_3_1",
+    "content": "Change in Status of International Military Education and Training - Recipient Country.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.3.1",
+      "section_title": "Change in Status of International Military Education and Training - Recipient Country.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.3",
+        "C9.4.3.1"
+      ],
+      "parent_section": "C9.4.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.3.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "International Military Education and Training"
+      ],
+      "entity_section_references": {
+        "International Military Education and Training": "C9.2.1"
+      },
+      "entity_types": {
+        "International Military Education and Training": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "training"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 12,
+      "character_count": 86,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Change in Status of International Military Education and Training - Recipient Country. Change in Status of International Military Education and Training - Recipient Country.  International Military Education and Training"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_3_1_1",
+    "content": "Under Arms Export Control Act (AECA), section 21(a)(1)(C) (22 U.S.C. 2761(a)(1)(C)), countries purchasing education and training via an FMS case and using national funds are to be charged the incremental rate (Rate C) if they are concurrently in receipt of IMET funds (receiving IMET funds in the same fiscal year as the case). If a country is not concurrently in receipt of IMET, it is not eligible for incremental pricing of education and training paid on LOAs accepted/signed after the end of the fiscal year of its IMET funding allocation.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.3.1.1",
+      "section_title": "Under Arms Export Control Act (AECA), section 21(a)(1)(C) (22 U.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.3",
+        "C9.4.3.1",
+        "C9.4.3.1.1"
+      ],
+      "parent_section": "C9.4.3.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.3.1.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "IMET",
+        "Fiscal year"
+      ],
+      "related_entities": [
+        "Arms Export Control Act",
+        "AECA",
+        "22 U.S.C. 2761",
+        "FMS"
+      ],
+      "entity_section_references": {
+        "Arms Export Control Act": "C9.2.1",
+        "AECA": "C9.2.1",
+        "22 U.S.C. 2761": "C9.2.1",
+        "FMS": "C9.1.1",
+        "IMET": "C9.2.1",
+        "Fiscal year": "C9.16.2.4"
+      },
+      "entity_types": {
+        "Arms Export Control Act": "LEGISLATION_REGULATIONS_LAW",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2761": "LEGISLATION_REGULATIONS_LAW",
+        "FMS": "PROGRAM",
+        "IMET": "PROGRAM",
+        "Fiscal year": "TIME_PERIOD"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "training",
+        "FMS",
+        "pricing",
+        "funding",
+        "AECA",
+        "LOA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 90,
+      "character_count": 543,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Under Arms Export Control Act (AECA), section 21(a)(1)(C) (22 U. Under Arms Export Control Act (AECA), section 21(a)(1)(C) (22 U.S.C. 2761(a)(1)(C)), countries purchasing education and training via an FMS case and using national funds are to be charged the incremental rate (Rate C) if they are concurrently in receipt of IMET funds (receiving IMET funds in the same fiscal year as the case). If a country is not concurrently in receipt of IMET, it is not eligible for incremental pricing of education and training paid on LOAs accepted/signed after the end of the fiscal year of its IMET funding allocation. IMET Fiscal year Arms Export Control Act AECA 22 U.S.C. 2761 FMS"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_3_1_2",
+    "content": "The rate to be charged for education and training is established at the time of sale, not at the time that the education and training begins or periods to which it may extend. The rate, whether incremental or full, will continue to apply to all education and training provided under the LOA, or Amendments to it, until the total value of the training line has been obligated. Note: Incremental pricing and full pricing rates may not be mixed on the same training line.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.3.1.2",
+      "section_title": "The rate to be charged for education and training is established at the time of sale, not at the time that the education and training begins or periods to which it may extend.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.3",
+        "C9.4.3.1",
+        "C9.4.3.1.2"
+      ],
+      "parent_section": "C9.4.3.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.3.1.2"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "LOA"
+      ],
+      "entity_section_references": {
+        "LOA": "C9.1.1"
+      },
+      "entity_types": {
+        "LOA": "DOCUMENT"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "training",
+        "pricing"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 83,
+      "character_count": 468,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "The rate to be charged for education and training is established at the time of sale, not at the time that the education and training begins or periods to which it may extend. The rate to be charged for education and training is established at the time of sale, not at the time that the education and training begins or periods to which it may extend. The rate, whether incremental or full, will continue to apply to all education and training provided under the LOA, or Amendments to it, until the total value of the training line has been obligated. Note: Incremental pricing and full pricing rates may not be mixed on the same training line.  LOA"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_4",
+    "content": "Asset Use, Tooling Rental, or Facility Rental.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.4",
+      "section_title": "Asset Use, Tooling Rental, or Facility Rental.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.4"
+      ],
+      "parent_section": "C9.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.4"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [],
+      "entity_section_references": {},
+      "entity_types": {},
+      "has_table": false,
+      "table_references": [],
+      "keywords": [],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 7,
+      "character_count": 46,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Asset Use, Tooling Rental, or Facility Rental. Asset Use, Tooling Rental, or Facility Rental.  "
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_4_1",
+    "content": "Charges for Use of United States Government-Owned Facilities. Fair pricing legislation removed the requirement to apply asset use, tooling rental, or facilities rental charges on FMS cases using USG property. Commercial sales of defense articles to any foreign country or international organization include charges for use of USG-owned facilities, plants, and production or research equipment in connection with the production of the defense articles. Collections of these costs are deposited into the Miscellaneous Receipts Account 3041.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.4.1",
+      "section_title": "Charges for Use of United States Government-Owned Facilities.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.4",
+        "C9.4.4.1"
+      ],
+      "parent_section": "C9.4.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.4.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "USG",
+        "Defense articles"
+      ],
+      "related_entities": [
+        "United States Government",
+        "FMS"
+      ],
+      "entity_section_references": {
+        "United States Government": "C9.3.1.1",
+        "USG": "C9.3.1.1",
+        "FMS": "C9.1.1",
+        "Defense articles": "C9.3.1"
+      },
+      "entity_types": {
+        "United States Government": "ORGANIZATION",
+        "USG": "ORGANIZATION",
+        "FMS": "PROGRAM",
+        "Defense articles": "DEFENSE_ARTICLES_EQUIPMENT"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost",
+        "case",
+        "FMS",
+        "pricing"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 76,
+      "character_count": 538,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Charges for Use of United States Government-Owned Facilities. Charges for Use of United States Government-Owned Facilities. Fair pricing legislation removed the requirement to apply asset use, tooling rental, or facilities rental charges on FMS cases using USG property. Commercial sales of defense articles to any foreign country or international organization include charges for use of USG-owned facilities, plants, and production or research equipment in connection with the production of the defense articles. Collections of these costs are deposited into the Miscellaneous Receipts Account 3041. USG Defense articles United States Government FMS"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_4_2",
+    "content": "Rental Charges for Use of Department of Defense Assets. Commercial sales of defense articles produced in Government-owned facilities or with Government-owned industrial plants and production or research equipment for which a rental charge is assessed in accordance with the Federal Acquisition Regulation (FAR) Part 52.245-9 and the Defense Federal Acquisition Regulation Supplement (DFARS) Part 245.4 must include the rental charge in the sales price. The rental charge in commercial contracts may be waived on a case-by-case basis. See Section C9.6.4.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.4.2",
+      "section_title": "Rental Charges for Use of Department of Defense Assets.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.4",
+        "C9.4.4.2"
+      ],
+      "parent_section": "C9.4.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.4.2"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [],
+      "related_entities": [
+        "Department of Defense",
+        "Defense articles",
+        "C9.6"
+      ],
+      "entity_section_references": {
+        "Department of Defense": "C9.3.1",
+        "Defense articles": "C9.3.1",
+        "C9.6": "C9.6"
+      },
+      "entity_types": {
+        "Department of Defense": "ORGANIZATION",
+        "Defense articles": "DEFENSE_ARTICLES_EQUIPMENT",
+        "C9.6": "DOCUMENT_SECTIONS"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 80,
+      "character_count": 553,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Rental Charges for Use of Department of Defense Assets. Rental Charges for Use of Department of Defense Assets. Commercial sales of defense articles produced in Government-owned facilities or with Government-owned industrial plants and production or research equipment for which a rental charge is assessed in accordance with the Federal Acquisition Regulation (FAR) Part 52.245-9 and the Defense Federal Acquisition Regulation Supplement (DFARS) Part 245.4 must include the rental charge in the sales price. The rental charge in commercial contracts may be waived on a case-by-case basis. See Section C9.6.4.  Department of Defense Defense articles C9.6"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_4_3",
+    "content": "Use of United States Industrial Plant Equipment or Production and Research Property for Foreign Countries or International Organizations. Non-government use of industrial plant equipment or production and research property requires prior written approval of the contracting officer or Departmental level approval, depending upon the percentage of usage, in accordance with provisions in the DFARS Part 245.405 and DFARS Part 245.407. Such approval may be granted only if use does not interfere with U.S. requirements, and the work is in support of FMS or Direct Commercial Sales (DCS) approved under the AECA. The rental charges in commercial contracts can be waived on a case-by-case basis. See Section C9.6.4.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.4.3",
+      "section_title": "Use of United States Industrial Plant Equipment or Production and Research Property for Foreign Countries or International Organizations.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.4",
+        "C9.4.4.3"
+      ],
+      "parent_section": "C9.4.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.4.3"
+      ],
+      "chunk_type": "reference",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "AECA",
+        "FMS",
+        "C9.6"
+      ],
+      "entity_section_references": {
+        "AECA": "C9.2.1",
+        "FMS": "C9.1.1",
+        "C9.6": "C9.6"
+      },
+      "entity_types": {
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "FMS": "PROGRAM",
+        "C9.6": "DOCUMENT_SECTIONS"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "AECA",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 107,
+      "character_count": 711,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Use of United States Industrial Plant Equipment or Production and Research Property for Foreign Countries or International Organizations. Use of United States Industrial Plant Equipment or Production and Research Property for Foreign Countries or International Organizations. Non-government use of industrial plant equipment or production and research property requires prior written approval of the contracting officer or Departmental level approval, depending upon the percentage of usage, in accordance with provisions in the DFARS Part 245.405 and DFARS Part 245.407. Such approval may be granted only if use does not interfere with U.S. requirements, and the work is in support of FMS or Direct Commercial Sales (DCS) approved under the AECA. The rental charges in commercial contracts can be waived on a case-by-case basis. See Section C9.6.4.  AECA FMS C9.6"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_5",
+    "content": "Nonrecurring Cost Recoupment Charges. DoD 7000.14.-R, Volume 15, Chapter 7, and DoDD 2140.02 provide detailed guidance on establishing NC charges and pricing these costs on LOA documents. These costs do not apply to cases that are fully financed with non-repayable Foreign Military Financing (FMF) or non-repayable Military Assistance Program (MAP) funds. See Section C9.6.3. on NC waiver requirements and processes. For questions regarding the NC charges contact DSCA (Office of International Operations, Global Execution Directorate (IOPS/GEX)). See Appendix 6 for LOA notes relating to NC charges.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.5",
+      "section_title": "Nonrecurring Cost Recoupment Charges.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.5"
+      ],
+      "parent_section": "C9.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.5"
+      ],
+      "chunk_type": "reference",
+      "intent_type": "procedure",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "LOA"
+      ],
+      "related_entities": [
+        "DoD",
+        "DSCA",
+        "Foreign Military Financing",
+        "FMF",
+        "C9.6"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "DSCA": "C9.15.1.1",
+        "LOA": "C9.1.1",
+        "Foreign Military Financing": "C9.2.1",
+        "FMF": "C9.2.1",
+        "C9.6": "C9.6"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "DSCA": "ORGANIZATION",
+        "LOA": "DOCUMENT",
+        "Foreign Military Financing": "PROGRAM",
+        "FMF": "PROGRAM",
+        "C9.6": "DOCUMENT_SECTIONS"
+      },
+      "has_table": false,
+      "table_references": [
+        "Appendix 6"
+      ],
+      "keywords": [
+        "case",
+        "DoD",
+        "DSCA",
+        "pricing",
+        "cost",
+        "LOA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": true,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 86,
+      "character_count": 600,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Nonrecurring Cost Recoupment Charges. Nonrecurring Cost Recoupment Charges. DoD 7000.14.-R, Volume 15, Chapter 7, and DoDD 2140.02 provide detailed guidance on establishing NC charges and pricing these costs on LOA documents. These costs do not apply to cases that are fully financed with non-repayable Foreign Military Financing (FMF) or non-repayable Military Assistance Program (MAP) funds. See Section C9.6.3. on NC waiver requirements and processes. For questions regarding the NC charges contact DSCA (Office of International Operations, Global Execution Directorate (IOPS/GEX)). See Appendix 6 for LOA notes relating to NC charges. LOA DoD DSCA Foreign Military Financing FMF C9.6"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_8",
+    "content": "Defense Articles Sold via Foreign Military Sales from Stock. When selling defense articles to eligible foreign countries and international organizations from DoD stock under Section 21 of the AECA, as amended (22 U.S.C. 2761), the IA must determine whether to categorize an FMS sale as one with intent to replace or not to replace.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.8",
+      "section_title": "Defense Articles Sold via Foreign Military Sales from Stock.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.8"
+      ],
+      "parent_section": "C9.4",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.8"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "Defense articles"
+      ],
+      "related_entities": [
+        "DoD",
+        "AECA",
+        "22 U.S.C. 2761",
+        "Foreign Military Sales",
+        "FMS"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "AECA": "C9.2.1",
+        "22 U.S.C. 2761": "C9.2.1",
+        "Foreign Military Sales": "C9.1.1",
+        "FMS": "C9.1.1",
+        "Defense articles": "C9.3.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2761": "LEGISLATION_REGULATIONS_LAW",
+        "Foreign Military Sales": "PROGRAM",
+        "FMS": "PROGRAM",
+        "Defense articles": "DEFENSE_ARTICLES_EQUIPMENT"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "DoD",
+        "AECA",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 54,
+      "character_count": 331,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Defense Articles Sold via Foreign Military Sales from Stock. Defense Articles Sold via Foreign Military Sales from Stock. When selling defense articles to eligible foreign countries and international organizations from DoD stock under Section 21 of the AECA, as amended (22 U.S.C. 2761), the IA must determine whether to categorize an FMS sale as one with intent to replace or not to replace. Defense articles DoD AECA 22 U.S.C. 2761 Foreign Military Sales FMS"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_8_1",
+    "content": "Sale Without Intent to Replace the Defense Article. If, at the time an agreement for sale of a defense article under Section 21 was entered into, the IA does not intend to replace the defense article being sold, then the price charged to the purchaser will be the actual value of the defense article being sold, which is DoD's acquisition cost of the item being sold, less any depreciation.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.8.1",
+      "section_title": "Sale Without Intent to Replace the Defense Article.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.8",
+        "C9.4.8.1"
+      ],
+      "parent_section": "C9.4.8",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.8.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "DoD"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost",
+        "DoD"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 69,
+      "character_count": 390,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Sale Without Intent to Replace the Defense Article. Sale Without Intent to Replace the Defense Article. If, at the time an agreement for sale of a defense article under Section 21 was entered into, the IA does not intend to replace the defense article being sold, then the price charged to the purchaser will be the actual value of the defense article being sold, which is DoD's acquisition cost of the item being sold, less any depreciation.  DoD"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_8_2",
+    "content": "Sale With Intent to Replace the Defense Article. If, at the time an agreement for sale of a defense article under Section 21 is entered into, the IA intends to replace the defense article being sold with any defense article to address a loss of capability or readiness from such sale, then the amount charged to the purchaser for the cost of the replacement article must be one of the following: The estimated amount to replace the article sold with the identical type, model, and series of defense articles, less any depreciation of the article sold, OR When replacement with an article described in Section C9.4.8.2.1. will not meet IA requirements, the estimated amount necessary to replace the article sold with a newer model, modified version, or variant (refer to Section C9.4.8.4.) that serves as a functional equivalent to the defense article that is being sold, less any depreciation of the article sold; OR When a replacement article described in either Section C9.4.8.2.1. or Section C9.4.8.2.2. is not obtainable, the amount equal to the last acquisition cost of the article sold, less any depreciation of such article.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.8.2",
+      "section_title": "Sale With Intent to Replace the Defense Article.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.8",
+        "C9.4.8.2"
+      ],
+      "parent_section": "C9.4.8",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.8.2"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "C9.4",
+        "Section C9.4.8"
+      ],
+      "related_entities": [
+        "Defense articles"
+      ],
+      "entity_section_references": {
+        "Defense articles": "C9.3.1",
+        "C9.4": "C9.4",
+        "Section C9.4.8": "C9.3.1.1"
+      },
+      "entity_types": {
+        "Defense articles": "DEFENSE_ARTICLES_EQUIPMENT",
+        "C9.4": "DOCUMENT_SECTIONS",
+        "Section C9.4.8": "DOCUMENT_SECTIONS"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 187,
+      "character_count": 1131,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Sale With Intent to Replace the Defense Article. Sale With Intent to Replace the Defense Article. If, at the time an agreement for sale of a defense article under Section 21 is entered into, the IA intends to replace the defense article being sold with any defense article to address a loss of capability or readiness from such sale, then the amount charged to the purchaser for the cost of the replacement article must be one of the following: The estimated amount to replace the article sold with the identical type, model, and series of defense articles, less any depreciation of the article sold, OR When replacement with an article described in Section C9.4.8.2.1. will not meet IA requirements, the estimated amount necessary to replace the article sold with a newer model, modified version, or variant (refer to Section C9.4.8.4.) that serves as a functional equivalent to the defense article that is being sold, less any depreciation of the article sold; OR When a replacement article described in either Section C9.4.8.2.1. or Section C9.4.8.2.2. is not obtainable, the amount equal to the last acquisition cost of the article sold, less any depreciation of such article. C9.4 Section C9.4.8 Defense articles"
+  },
+  {
+    "chunk_id": "samm_c9_c9_4_8_6",
+    "content": "Munitions. Munitions that are serviceable retain their full value and should not be depreciated in accordance with standard depreciation timetables. Munitions are defined in 10 U.S.C. 101(e)(4). Notwithstanding this definition, provisions in the SAMM that restrict sales of specific categories of munitions under the FMS program (e.g., Section C4.5.) remain applicable.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.4.8.6",
+      "section_title": "Munitions.",
+      "section_hierarchy": [
+        "C9",
+        "C9.4",
+        "C9.4.8",
+        "C9.4.8.6"
+      ],
+      "parent_section": "C9.4.8",
+      "is_combined": false,
+      "combined_from": [
+        "C9.4.8.6"
+      ],
+      "chunk_type": "general",
+      "intent_type": "guidance",
+      "priority": "IMPORTANT",
+      "primary_entities": [],
+      "related_entities": [
+        "FMS"
+      ],
+      "entity_section_references": {
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "FMS": "PROGRAM"
+      },
+      "has_table": true,
+      "table_references": [],
+      "keywords": [
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": true,
+        "has_procedure": false,
+        "has_table": true,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "IMPORTANT"
+      },
+      "word_count": 51,
+      "character_count": 369,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Munitions. Munitions. Munitions that are serviceable retain their full value and should not be depreciated in accordance with standard depreciation timetables. Munitions are defined in 10 U.S.C. 101(e)(4). Notwithstanding this definition, provisions in the SAMM that restrict sales of specific categories of munitions under the FMS program (e.g., Section C4.5.) remain applicable.  FMS"
+  },
+  {
+    "chunk_id": "samm_c9_c9_6_1",
+    "content": "Waiver of Foreign Military Sales Administrative Surcharge. Costs associated with administering the Foreign Military Sales (FMS) program must always be paid and/or collected (Arms Export Control Act (AECA), section 21(e)(1) (22 U.S.C. 2761(e)(1))). If a waiver of the FMS Administrative Surcharge for the purchaser is approved in one of the circumstances described below, it must still be recouped from another funding source.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.6.1",
+      "section_title": "Waiver of Foreign Military Sales Administrative Surcharge.",
+      "section_hierarchy": [
+        "C9",
+        "C9.6",
+        "C9.6.1"
+      ],
+      "parent_section": "C9.6",
+      "is_combined": false,
+      "combined_from": [
+        "C9.6.1"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "Foreign Military Sales",
+        "FMS"
+      ],
+      "related_entities": [
+        "Arms Export Control Act",
+        "AECA",
+        "22 U.S.C. 2761"
+      ],
+      "entity_section_references": {
+        "Arms Export Control Act": "C9.2.1",
+        "AECA": "C9.2.1",
+        "22 U.S.C. 2761": "C9.2.1",
+        "Foreign Military Sales": "C9.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "Arms Export Control Act": "LEGISLATION_REGULATIONS_LAW",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2761": "LEGISLATION_REGULATIONS_LAW",
+        "Foreign Military Sales": "PROGRAM",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost",
+        "funding",
+        "AECA",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 62,
+      "character_count": 425,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Waiver of Foreign Military Sales Administrative Surcharge. Waiver of Foreign Military Sales Administrative Surcharge. Costs associated with administering the Foreign Military Sales (FMS) program must always be paid and/or collected (Arms Export Control Act (AECA), section 21(e)(1) (22 U.S.C. 2761(e)(1))). If a waiver of the FMS Administrative Surcharge for the purchaser is approved in one of the circumstances described below, it must still be recouped from another funding source. Foreign Military Sales FMS Arms Export Control Act AECA 22 U.S.C. 2761"
+  },
+  {
+    "chunk_id": "samm_c9_c9_6_1_1",
+    "content": "Waiver by the Implementing Agency. DoD 7000.14-R, Volume 15, Chapter 7, and AECA, section 21(e)(2)) (22 U.S.C. 2761(e)(2)) allow the Implementing Agency (IA) to waive or reduce FMS Administrative Surcharges that should be assessed to the purchaser on the Letter of Offer and Acceptance (LOA) as long as the IA obligates its own operation and maintenance appropriations to pay the FMS Administrative Surcharge Account the waived and/or reduced amount. Any FMS Administrative Surcharge waivers approved apply to the Small Case Management Line (SCML) as well.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.6.1.1",
+      "section_title": "Waiver by the Implementing Agency.",
+      "section_hierarchy": [
+        "C9",
+        "C9.6",
+        "C9.6.1",
+        "C9.6.1.1"
+      ],
+      "parent_section": "C9.6.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.6.1.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "guidance",
+      "priority": "IMPORTANT",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [
+        "DoD",
+        "Letter of Offer and Acceptance",
+        "LOA",
+        "AECA",
+        "22 U.S.C. 2761",
+        "Appropriations"
+      ],
+      "entity_section_references": {
+        "DoD": "C9.3.1",
+        "Letter of Offer and Acceptance": "C9.1.1",
+        "LOA": "C9.1.1",
+        "AECA": "C9.2.1",
+        "22 U.S.C. 2761": "C9.2.1",
+        "FMS": "C9.1.1",
+        "Appropriations": "C9.2.1"
+      },
+      "entity_types": {
+        "DoD": "ORGANIZATION",
+        "Letter of Offer and Acceptance": "DOCUMENT",
+        "LOA": "DOCUMENT",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2761": "LEGISLATION_REGULATIONS_LAW",
+        "FMS": "PROGRAM",
+        "Appropriations": "FUNDING_MECHANISM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "case",
+        "DoD",
+        "FMS",
+        "AECA",
+        "LOA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "IMPORTANT"
+      },
+      "word_count": 85,
+      "character_count": 556,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Waiver by the Implementing Agency. Waiver by the Implementing Agency. DoD 7000.14-R, Volume 15, Chapter 7, and AECA, section 21(e)(2)) (22 U.S.C. 2761(e)(2)) allow the Implementing Agency (IA) to waive or reduce FMS Administrative Surcharges that should be assessed to the purchaser on the Letter of Offer and Acceptance (LOA) as long as the IA obligates its own operation and maintenance appropriations to pay the FMS Administrative Surcharge Account the waived and/or reduced amount. Any FMS Administrative Surcharge waivers approved apply to the Small Case Management Line (SCML) as well. FMS DoD Letter of Offer and Acceptance LOA AECA 22 U.S.C. 2761 Appropriations"
+  },
+  {
+    "chunk_id": "samm_c9_c9_6_2",
+    "content": "Waiver of Contract Administration Services. The AECA, section 21(h) (22 U.S.C. 2761(h)) allows the USG to provide quality assurance, inspection, Contract Administration Services (CAS), and contract audit defense services without charge to certain foreign governments who have reciprocal agreements. Table C9.T5., C9.T6., and C9.T7., list approved CAS waiver agreements. The waiver under each agreement applies only to new FMS LOAs with implementation dates (as recorded in Defense Security Assistance Management System (DSAMS)) on or after the effective date of the reciprocal agreement. See Appendix 6 for CAS Waiver LOA note wording.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.6.2",
+      "section_title": "Waiver of Contract Administration Services.",
+      "section_hierarchy": [
+        "C9",
+        "C9.6",
+        "C9.6.2"
+      ],
+      "parent_section": "C9.6",
+      "is_combined": false,
+      "combined_from": [
+        "C9.6.2"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "USG",
+        "LOA",
+        "Security assistance",
+        "AECA",
+        "22 U.S.C. 2761",
+        "FMS",
+        "Defense Security Assistance Management System",
+        "DSAMS",
+        "Defense services"
+      ],
+      "entity_section_references": {
+        "USG": "C9.3.1.1",
+        "LOA": "C9.1.1",
+        "Security assistance": "C9.1.1",
+        "AECA": "C9.2.1",
+        "22 U.S.C. 2761": "C9.2.1",
+        "FMS": "C9.1.1",
+        "Defense Security Assistance Management System": "C9.16.3.3.3",
+        "DSAMS": "C9.16.3.3.3",
+        "Defense services": "C9.3.1"
+      },
+      "entity_types": {
+        "USG": "ORGANIZATION",
+        "LOA": "DOCUMENT",
+        "Security assistance": "CONCEPT",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2761": "LEGISLATION_REGULATIONS_LAW",
+        "FMS": "PROGRAM",
+        "Defense Security Assistance Management System": "SYSTEMS",
+        "DSAMS": "SYSTEMS",
+        "Defense services": "DEFENSE_ARTICLES_EQUIPMENT"
+      },
+      "has_table": true,
+      "table_references": [
+        "Table C9.T5.",
+        "Appendix 6"
+      ],
+      "keywords": [
+        "LOA",
+        "AECA",
+        "FMS"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": true,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 91,
+      "character_count": 635,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Waiver of Contract Administration Services. Waiver of Contract Administration Services. The AECA, section 21(h) (22 U.S.C. 2761(h)) allows the USG to provide quality assurance, inspection, Contract Administration Services (CAS), and contract audit defense services without charge to certain foreign governments who have reciprocal agreements. Table C9.T5., C9.T6., and C9.T7., list approved CAS waiver agreements. The waiver under each agreement applies only to new FMS LOAs with implementation dates (as recorded in Defense Security Assistance Management System (DSAMS)) on or after the effective date of the reciprocal agreement. See Appendix 6 for CAS Waiver LOA note wording.  USG LOA Security assistance AECA 22 U.S.C. 2761 FMS Defense Security Assistance Management System DSAMS Defense services"
+  },
+  {
+    "chunk_id": "samm_c9_c9_6_3",
+    "content": "Waiver of Nonrecurring Cost Recoupment Charge.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.6.3",
+      "section_title": "Waiver of Nonrecurring Cost Recoupment Charge.",
+      "section_hierarchy": [
+        "C9",
+        "C9.6",
+        "C9.6.3"
+      ],
+      "parent_section": "C9.6",
+      "is_combined": false,
+      "combined_from": [
+        "C9.6.3"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [],
+      "entity_section_references": {},
+      "entity_types": {},
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 6,
+      "character_count": 46,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Waiver of Nonrecurring Cost Recoupment Charge. Waiver of Nonrecurring Cost Recoupment Charge.  "
+  },
+  {
+    "chunk_id": "samm_c9_c9_6_3_1",
+    "content": "Basis for Nonrecurring Cost Waiver and/or Reduction. Nonrecurring Cost (NC) charges may be waived or reduced as follows.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.6.3.1",
+      "section_title": "Basis for Nonrecurring Cost Waiver and/or Reduction.",
+      "section_hierarchy": [
+        "C9",
+        "C9.6",
+        "C9.6.3",
+        "C9.6.3.1"
+      ],
+      "parent_section": "C9.6.3",
+      "is_combined": false,
+      "combined_from": [
+        "C9.6.3.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [],
+      "entity_section_references": {},
+      "entity_types": {},
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 18,
+      "character_count": 120,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Basis for Nonrecurring Cost Waiver and/or Reduction. Basis for Nonrecurring Cost Waiver and/or Reduction. Nonrecurring Cost (NC) charges may be waived or reduced as follows.  "
+  },
+  {
+    "chunk_id": "samm_c9_c9_6_3_1_1",
+    "content": "For sales that would significantly advance U.S. interests in NATO standardization; standardization with the Armed Forces of Japan, Australia, the Republic of Korea, Israel, New Zealand; or foreign procurement in the United States under co-production arrangements (refer to AECA 21(e)(2) (22 U.S.C. 2761(e)(2)).",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.6.3.1.1",
+      "section_title": "For sales that would significantly advance U.",
+      "section_hierarchy": [
+        "C9",
+        "C9.6",
+        "C9.6.3",
+        "C9.6.3.1",
+        "C9.6.3.1.1"
+      ],
+      "parent_section": "C9.6.3.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.6.3.1.1"
+      ],
+      "chunk_type": "reference",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "AECA",
+        "22 U.S.C. 2761"
+      ],
+      "entity_section_references": {
+        "AECA": "C9.2.1",
+        "22 U.S.C. 2761": "C9.2.1"
+      },
+      "entity_types": {
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "22 U.S.C. 2761": "LEGISLATION_REGULATIONS_LAW"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "AECA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 43,
+      "character_count": 310,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "For sales that would significantly advance U. For sales that would significantly advance U.S. interests in NATO standardization; standardization with the Armed Forces of Japan, Australia, the Republic of Korea, Israel, New Zealand; or foreign procurement in the United States under co-production arrangements (refer to AECA 21(e)(2) (22 U.S.C. 2761(e)(2)).  AECA 22 U.S.C. 2761"
+  },
+  {
+    "chunk_id": "samm_c9_c9_6_3_1_2",
+    "content": "For the sale of Major Defense Equipment (MDE) also being procured for U.S. Armed Forces and resulting in a cost savings to the U.S. on the U.S.-procured equipment that substantially offsets the revenue lost as a result of the waiver.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.6.3.1.2",
+      "section_title": "For the sale of Major Defense Equipment (MDE) also being procured for U.",
+      "section_hierarchy": [
+        "C9",
+        "C9.6",
+        "C9.6.3",
+        "C9.6.3.1",
+        "C9.6.3.1.2"
+      ],
+      "parent_section": "C9.6.3.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.6.3.1.2"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [],
+      "entity_section_references": {},
+      "entity_types": {},
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "cost"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 40,
+      "character_count": 233,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "For the sale of Major Defense Equipment (MDE) also being procured for U. For the sale of Major Defense Equipment (MDE) also being procured for U.S. Armed Forces and resulting in a cost savings to the U.S. on the U.S.-procured equipment that substantially offsets the revenue lost as a result of the waiver.  "
+  },
+  {
+    "chunk_id": "samm_c9_c9_6_3_1_3",
+    "content": "For sales when imposition of the charge would likely result in the loss of the sale.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.6.3.1.3",
+      "section_title": "For sales when imposition of the charge would likely result in the loss of the sale.",
+      "section_hierarchy": [
+        "C9",
+        "C9.6",
+        "C9.6.3",
+        "C9.6.3.1",
+        "C9.6.3.1.3"
+      ],
+      "parent_section": "C9.6.3.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.6.3.1.3"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [],
+      "entity_section_references": {},
+      "entity_types": {},
+      "has_table": false,
+      "table_references": [],
+      "keywords": [],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 16,
+      "character_count": 84,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "For sales when imposition of the charge would likely result in the loss of the sale. For sales when imposition of the charge would likely result in the loss of the sale.  "
+  },
+  {
+    "chunk_id": "samm_c9_c9_6_3_1_4",
+    "content": "For the sale of MDE at a reduced price due to age or condition, the NC is reduced by the same percentage.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.6.3.1.4",
+      "section_title": "For the sale of MDE at a reduced price due to age or condition, the NC is reduced by the same percentage.",
+      "section_hierarchy": [
+        "C9",
+        "C9.6",
+        "C9.6.3",
+        "C9.6.3.1",
+        "C9.6.3.1.4"
+      ],
+      "parent_section": "C9.6.3.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.6.3.1.4"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [],
+      "entity_section_references": {},
+      "entity_types": {},
+      "has_table": false,
+      "table_references": [],
+      "keywords": [],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 22,
+      "character_count": 105,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "For the sale of MDE at a reduced price due to age or condition, the NC is reduced by the same percentage. For the sale of MDE at a reduced price due to age or condition, the NC is reduced by the same percentage.  "
+  },
+  {
+    "chunk_id": "samm_c9_c9_7_1",
+    "content": "National Funds. Foreign Military Sales (FMS) partners are encouraged to use national funds (cash) for security assistance (SA) payments. If an FMS partner uses third-party funds, such as donations or private financing (without USG guarantee) for an FMS payment, then the USG will treat those funds as national funds.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.7.1",
+      "section_title": "National Funds.",
+      "section_hierarchy": [
+        "C9",
+        "C9.7",
+        "C9.7.1"
+      ],
+      "parent_section": "C9.7",
+      "is_combined": false,
+      "combined_from": [
+        "C9.7.1"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "USG",
+        "FMS"
+      ],
+      "related_entities": [
+        "Security assistance",
+        "SA",
+        "Foreign Military Sales"
+      ],
+      "entity_section_references": {
+        "USG": "C9.3.1.1",
+        "Security assistance": "C9.1.1",
+        "SA": "C9.1.1, C9.2.1",
+        "Foreign Military Sales": "C9.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "USG": "ORGANIZATION",
+        "Security assistance": "CONCEPT",
+        "SA": "CONCEPT",
+        "Foreign Military Sales": "PROGRAM",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "FMS",
+        "payment"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 49,
+      "character_count": 316,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "National Funds. National Funds. Foreign Military Sales (FMS) partners are encouraged to use national funds (cash) for security assistance (SA) payments. If an FMS partner uses third-party funds, such as donations or private financing (without USG guarantee) for an FMS payment, then the USG will treat those funds as national funds. USG FMS Security assistance SA Foreign Military Sales"
+  },
+  {
+    "chunk_id": "samm_c9_c9_7_1_1",
+    "content": "Private or Third-Party (i.e. non-United States Government) Funds. Potential FMS partners who use third-party funds, which may include third-party financing or donations, must understand that any third-party entity does not have access or rights to materiel or services provided under the Letter of Offer and Acceptance (LOA) without advance approval of the Department of State (State). Third-party funds or financing are any funds provided to the USG as payment for an FMS purchase where the source of those funds originate from a source other than the FMS partner's national funds. This may include, but is not limited to, donations or loans from another country, payments from commercial companies or loans from an international lender. Restricted sources include, but are not limited to, the countries identified within the International Traffic in Arms Regulation (ITAR), Section 126.1.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.7.1.1",
+      "section_title": "Private or Third-Party (i.",
+      "section_hierarchy": [
+        "C9",
+        "C9.7",
+        "C9.7.1",
+        "C9.7.1.1"
+      ],
+      "parent_section": "C9.7.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.7.1.1"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "FMS"
+      ],
+      "related_entities": [
+        "United States Government",
+        "USG",
+        "Letter of Offer and Acceptance",
+        "LOA"
+      ],
+      "entity_section_references": {
+        "United States Government": "C9.3.1.1",
+        "USG": "C9.3.1.1",
+        "Letter of Offer and Acceptance": "C9.1.1",
+        "LOA": "C9.1.1",
+        "FMS": "C9.1.1"
+      },
+      "entity_types": {
+        "United States Government": "ORGANIZATION",
+        "USG": "ORGANIZATION",
+        "Letter of Offer and Acceptance": "DOCUMENT",
+        "LOA": "DOCUMENT",
+        "FMS": "PROGRAM"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "FMS",
+        "payment"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 135,
+      "character_count": 890,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Private or Third-Party (i. Private or Third-Party (i.e. non-United States Government) Funds. Potential FMS partners who use third-party funds, which may include third-party financing or donations, must understand that any third-party entity does not have access or rights to materiel or services provided under the Letter of Offer and Acceptance (LOA) without advance approval of the Department of State (State). Third-party funds or financing are any funds provided to the USG as payment for an FMS purchase where the source of those funds originate from a source other than the FMS partner's national funds. This may include, but is not limited to, donations or loans from another country, payments from commercial companies or loans from an international lender. Restricted sources include, but are not limited to, the countries identified within the International Traffic in Arms Regulation (ITAR), Section 126.1. FMS United States Government USG Letter of Offer and Acceptance LOA"
+  },
+  {
+    "chunk_id": "samm_c9_c9_7_1_2",
+    "content": "Bank Letter of Credit. Bank Letters of Credit (BLOC) permits the use of a Letter of Credit (LC), a type of third-party loan funding from a commercial bank, Export Credit Agency, or other lending institution, to make payments. The USG should treat these payments the same as national funds, per Section C9.7.1. In all cases, the LC must be in U.S. dollars.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.7.1.2",
+      "section_title": "Bank Letter of Credit.",
+      "section_hierarchy": [
+        "C9",
+        "C9.7",
+        "C9.7.1",
+        "C9.7.1.2"
+      ],
+      "parent_section": "C9.7.1",
+      "is_combined": false,
+      "combined_from": [
+        "C9.7.1.2"
+      ],
+      "chunk_type": "requirements",
+      "intent_type": "requirement",
+      "priority": "CRITICAL",
+      "primary_entities": [
+        "LC"
+      ],
+      "related_entities": [
+        "USG",
+        "Loan",
+        "C9.7"
+      ],
+      "entity_section_references": {
+        "USG": "C9.3.1.1",
+        "Loan": "C9.2.1",
+        "C9.7": "C9.7",
+        "LC": "C9.17.1.1"
+      },
+      "entity_types": {
+        "USG": "ORGANIZATION",
+        "Loan": "FUNDING_MECHANISM",
+        "C9.7": "DOCUMENT_SECTIONS",
+        "LC": "CONCEPT"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "funding",
+        "case",
+        "payment"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "CRITICAL"
+      },
+      "word_count": 62,
+      "character_count": 355,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Bank Letter of Credit. Bank Letter of Credit. Bank Letters of Credit (BLOC) permits the use of a Letter of Credit (LC), a type of third-party loan funding from a commercial bank, Export Credit Agency, or other lending institution, to make payments. The USG should treat these payments the same as national funds, per Section C9.7.1. In all cases, the LC must be in U.S. dollars. LC USG Loan C9.7"
+  },
+  {
+    "chunk_id": "samm_c9_c9_7_2",
+    "content": "Foreign Military Sales Credit Sales and Guarantees. When the purchase cannot be financed by other means, credit financing or credit guarantees can be extended if allowed by U.S. law, or if allocated by the State within the annual Foreign Military Financing (FMF) ceiling imposed by U.S. law.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.7.2",
+      "section_title": "Foreign Military Sales Credit Sales and Guarantees.",
+      "section_hierarchy": [
+        "C9",
+        "C9.7",
+        "C9.7.2"
+      ],
+      "parent_section": "C9.7",
+      "is_combined": false,
+      "combined_from": [
+        "C9.7.2"
+      ],
+      "chunk_type": "general",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [],
+      "related_entities": [
+        "Foreign Military Sales",
+        "Foreign Military Financing",
+        "FMF",
+        "Annual"
+      ],
+      "entity_section_references": {
+        "Foreign Military Sales": "C9.1.1",
+        "Foreign Military Financing": "C9.2.1",
+        "FMF": "C9.2.1",
+        "Annual": "C9.16.3.1"
+      },
+      "entity_types": {
+        "Foreign Military Sales": "PROGRAM",
+        "Foreign Military Financing": "PROGRAM",
+        "FMF": "PROGRAM",
+        "Annual": "TIME_PERIOD"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 47,
+      "character_count": 291,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Foreign Military Sales Credit Sales and Guarantees. Foreign Military Sales Credit Sales and Guarantees. When the purchase cannot be financed by other means, credit financing or credit guarantees can be extended if allowed by U.S. law, or if allocated by the State within the annual Foreign Military Financing (FMF) ceiling imposed by U.S. law.  Foreign Military Sales Foreign Military Financing FMF Annual"
+  },
+  {
+    "chunk_id": "samm_c9_c9_7_2_1",
+    "content": "Foreign Military Sales Credits. The Arms Export Control Act (AECA), section 23 (22 U.S.C 2763), authorizes the President to finance procurement of defense articles and services for foreign countries and international organizations. With the exception of charging below market rates of interest, this authority has been delegated to the Director, DSCA, in consultation with the Secretary of State and Secretary of the Treasury. The FMF program is a source of financing and may be provided on either a grant (non-repayable) or direct loan basis. See Section C9.7.2.7. for additional information on FMF.",
+    "metadata": {
+      "chapter": "C9",
+      "section_id": "C9.7.2.1",
+      "section_title": "Foreign Military Sales Credits.",
+      "section_hierarchy": [
+        "C9",
+        "C9.7",
+        "C9.7.2",
+        "C9.7.2.1"
+      ],
+      "parent_section": "C9.7.2",
+      "is_combined": false,
+      "combined_from": [
+        "C9.7.2.1"
+      ],
+      "chunk_type": "reference",
+      "intent_type": "information",
+      "priority": "STANDARD",
+      "primary_entities": [
+        "FMF"
+      ],
+      "related_entities": [
+        "DSCA",
+        "Arms Export Control Act",
+        "AECA",
+        "Foreign Military Sales",
+        "Grant",
+        "Loan",
+        "Credits",
+        "Defense articles",
+        "C9.7"
+      ],
+      "entity_section_references": {
+        "DSCA": "C9.15.1.1",
+        "Arms Export Control Act": "C9.2.1",
+        "AECA": "C9.2.1",
+        "Foreign Military Sales": "C9.1.1",
+        "FMF": "C9.2.1",
+        "Grant": "C9.2.1",
+        "Loan": "C9.2.1",
+        "Credits": "C9.2.1",
+        "Defense articles": "C9.3.1",
+        "C9.7": "C9.7"
+      },
+      "entity_types": {
+        "DSCA": "ORGANIZATION",
+        "Arms Export Control Act": "LEGISLATION_REGULATIONS_LAW",
+        "AECA": "LEGISLATION_REGULATIONS_LAW",
+        "Foreign Military Sales": "PROGRAM",
+        "FMF": "PROGRAM",
+        "Grant": "FUNDING_MECHANISM",
+        "Loan": "FUNDING_MECHANISM",
+        "Credits": "FUNDING_MECHANISM",
+        "Defense articles": "DEFENSE_ARTICLES_EQUIPMENT",
+        "C9.7": "DOCUMENT_SECTIONS"
+      },
+      "has_table": false,
+      "table_references": [],
+      "keywords": [
+        "LOA",
+        "DSCA",
+        "AECA"
+      ],
+      "quality_indicators": {
+        "has_definition": false,
+        "has_procedure": false,
+        "has_table": false,
+        "has_milestone": false,
+        "completeness": "full_section",
+        "priority": "STANDARD"
+      },
+      "word_count": 92,
+      "character_count": 600,
+      "document_source": "SAMM C9",
+      "chapter_title": "Financial Management",
+      "url": "https://samm.dsca.mil/chapter/chapter-9",
+      "ingestion_date": "2025-10-31"
+    },
+    "searchable_text": "Foreign Military Sales Credits. Foreign Military Sales Credits. The Arms Export Control Act (AECA), section 23 (22 U.S.C 2763), authorizes the President to finance procurement of defense articles and services for foreign countries and international organizations. With the exception of charging below market rates of interest, this authority has been delegated to the Director, DSCA, in consultation with the Secretary of State and Secretary of the Treasury. The FMF program is a source of financing and may be provided on either a grant (non-repayable) or direct loan basis. See Section C9.7.2.7. for additional information on FMF. FMF DSCA Arms Export Control Act AECA Foreign Military Sales Grant Loan Credits Defense articles C9.7"
+  }
+]
