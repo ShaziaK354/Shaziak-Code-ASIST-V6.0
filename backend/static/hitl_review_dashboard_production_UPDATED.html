@@ -571,7 +571,7 @@
         }
 
         // Placeholder functions for actions
-        function acceptAgentResult(agentNum) {
+        async function acceptAgentResult(agentNum) {
     const review = reviewQueue[currentIndex];
     
     if (!review) {
@@ -579,46 +579,110 @@
         return;
     }
     
-    if (confirm(`✓ Accept Agent ${agentNum} result?\n\nThis will mark this agent's output as verified.`)) {
-        // Show success message
-        const successDiv = document.createElement('div');
-        successDiv.style.cssText = `
+    const agentNames = {1: 'Intent', 2: 'Entity', 3: 'Answer'};
+    const agentName = agentNames[agentNum];
+    
+    if (confirm(`✓ Accept Agent ${agentNum} (${agentName}) result?\n\nThis will mark this agent's output as verified and approved.`)) {
+        
+        // Show loading indicator
+        const loadingDiv = document.createElement('div');
+        loadingDiv.id = 'acceptLoading';
+        loadingDiv.style.cssText = `
             position: fixed;
-            top: 20px;
-            right: 20px;
-            background: #27ae60;
-            color: white;
-            padding: 20px 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 30px 50px;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
             z-index: 10000;
-            font-weight: 600;
-            animation: slideIn 0.3s ease-out;
+            text-align: center;
         `;
-        successDiv.innerHTML = `✓ Agent ${agentNum} result accepted!`;
-        document.body.appendChild(successDiv);
-        
-        // Add animation
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes slideIn {
-                from { transform: translateX(400px); opacity: 0; }
-                to { transform: translateX(0); opacity: 1; }
-            }
+        loadingDiv.innerHTML = `
+            <div class="spinner" style="margin: 0 auto 15px;"></div>
+            <div style="font-size: 16px; font-weight: 600; color: #2c3e50;">
+                Approving ${agentName}...
+            </div>
         `;
-        document.head.appendChild(style);
+        document.body.appendChild(loadingDiv);
         
-        // Remove after 3 seconds
-        setTimeout(() => {
-            successDiv.style.animation = 'slideIn 0.3s ease-out reverse';
-            setTimeout(() => successDiv.remove(), 300);
-        }, 3000);
-        
-        console.log(`Agent ${agentNum} accepted for review ${review.reviewId}`);
+        try {
+            let endpoint = '';
+            let payload = {
+                question: review.question,
+                review_id: review.reviewId
+            };
+            
+            if (agentNum === 1) {
+                endpoint = '/api/hitl/accept-intent';
+                payload.intent = review.aiResponse?.intent || 'general';
+            } else if (agentNum === 2) {
+                endpoint = '/api/hitl/accept-entities';
+                payload.entities = review.aiResponse?.entities || [];
+            } else if (agentNum === 3) {
+                endpoint = '/api/hitl/accept-answer';
+                payload.answer = review.finalAnswer || '';
             }
+            
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            
+            const result = await response.json();
+            loadingDiv.remove();
+            
+            if (result.success) {
+                // Show success message
+                const successDiv = document.createElement('div');
+                successDiv.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    background: #27ae60;
+                    color: white;
+                    padding: 20px 30px;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                    z-index: 10000;
+                    font-weight: 600;
+                    animation: slideIn 0.3s ease-out;
+                `;
+                successDiv.innerHTML = `✓ Agent ${agentNum} (${agentName}) APPROVED!<br><small style="font-weight:normal;">${result.message}</small>`;
+                document.body.appendChild(successDiv);
+                
+                // Add animation
+                const style = document.createElement('style');
+                style.textContent = `
+                    @keyframes slideIn {
+                        from { transform: translateX(400px); opacity: 0; }
+                        to { transform: translateX(0); opacity: 1; }
+                    }
+                `;
+                document.head.appendChild(style);
+                
+                // Remove after 3 seconds
+                setTimeout(() => {
+                    successDiv.style.animation = 'slideIn 0.3s ease-out reverse';
+                    setTimeout(() => successDiv.remove(), 300);
+                }, 3000);
+                
+                console.log(`Agent ${agentNum} approved for review ${review.reviewId}`, result);
+            } else {
+                alert(`Error: ${result.error || 'Failed to approve'}`);
+            }
+            
+        } catch (error) {
+            loadingDiv.remove();
+            console.error('Accept error:', error);
+            alert('Error approving agent result: ' + error.message);
         }
+    }
+}
 
-        function rerunAgent(agentNum) {
+        async function rerunAgent(agentNum) {
     const review = reviewQueue[currentIndex];
     
     if (!review) {
@@ -626,7 +690,10 @@
         return;
     }
     
-    if (confirm(`🔄 Re-run Agent ${agentNum}?\n\nThis will process the agent again with current data.`)) {
+    const agentNames = {1: 'Intent', 2: 'Entity', 3: 'Answer'};
+    const agentName = agentNames[agentNum];
+    
+    if (confirm(`🔄 Re-run Agent ${agentNum} (${agentName})?\n\nThis will process the agent again with current data.`)) {
         // Show loading message
         const loadingDiv = document.createElement('div');
         loadingDiv.id = 'rerunLoading';
@@ -645,44 +712,102 @@
         loadingDiv.innerHTML = `
             <div class="spinner" style="margin: 0 auto 15px;"></div>
             <div style="font-size: 16px; font-weight: 600; color: #2c3e50;">
-                Re-running Agent ${agentNum}...
+                Re-running Agent ${agentNum} (${agentName})...
             </div>
             <div style="font-size: 13px; color: #7f8c8d; margin-top: 8px;">
-                Please wait...
+                Please wait, this may take a moment...
             </div>
         `;
         document.body.appendChild(loadingDiv);
         
-        // Simulate API call (2 seconds)
-        setTimeout(() => {
+        try {
+            let endpoint = '';
+            let payload = { question: review.question };
+            
+            if (agentNum === 1) {
+                endpoint = '/api/hitl/rerun-intent';
+            } else if (agentNum === 2) {
+                endpoint = '/api/hitl/rerun-entities';
+                payload.intent = review.aiResponse?.intent || 'general';
+            } else if (agentNum === 3) {
+                endpoint = '/api/hitl/regenerate-answer';
+                payload.intent = review.aiResponse?.intent || 'general';
+                payload.entities = review.aiResponse?.entities || [];
+                payload.context = review.aiResponse?.context || '';
+            }
+            
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            
+            const result = await response.json();
             loadingDiv.remove();
             
-            // Show success message
-            const successDiv = document.createElement('div');
-            successDiv.style.cssText = `
-                position: fixed;
-                top: 20px;
-                right: 20px;
-                background: #3498db;
-                color: white;
-                padding: 20px 30px;
-                border-radius: 8px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-                z-index: 10000;
-                font-weight: 600;
-            `;
-            successDiv.innerHTML = `🔄 Agent ${agentNum} re-run completed!`;
-            document.body.appendChild(successDiv);
+            if (result.success) {
+                // Update local review data with new results
+                if (agentNum === 1 && result.result) {
+                    review.aiResponse = review.aiResponse || {};
+                    review.aiResponse.intent = result.result.intent;
+                    review.confidenceIntent = result.result.confidence;
+                }
+                else if (agentNum === 2 && result.result) {
+                    review.aiResponse = review.aiResponse || {};
+                    review.aiResponse.entities = result.result.entities;
+                    review.confidenceEntity = result.result.confidence;
+                }
+                else if (agentNum === 3 && result.result) {
+                    review.finalAnswer = result.result.answer;
+                }
+                
+                // Refresh display
+                displayReview(review);
+                
+                // Show success message
+                const successDiv = document.createElement('div');
+                successDiv.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    background: #3498db;
+                    color: white;
+                    padding: 20px 30px;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                    z-index: 10000;
+                    font-weight: 600;
+                `;
+                
+                let resultInfo = '';
+                if (agentNum === 1) {
+                    resultInfo = `New Intent: ${result.result.intent} (${(result.result.confidence * 100).toFixed(0)}%)`;
+                } else if (agentNum === 2) {
+                    resultInfo = `Found ${result.result.count} entities`;
+                } else if (agentNum === 3) {
+                    resultInfo = `Generated ${result.result.length} chars`;
+                }
+                
+                successDiv.innerHTML = `🔄 Agent ${agentNum} (${agentName}) re-run completed!<br><small style="font-weight:normal;">${resultInfo}</small>`;
+                document.body.appendChild(successDiv);
+                
+                // Remove after 4 seconds
+                setTimeout(() => {
+                    successDiv.style.opacity = '0';
+                    successDiv.style.transition = 'opacity 0.3s';
+                    setTimeout(() => successDiv.remove(), 300);
+                }, 4000);
+                
+                console.log(`Agent ${agentNum} re-run completed:`, result);
+            } else {
+                alert(`Error: ${result.error || 'Failed to re-run agent'}`);
+            }
             
-            // Remove after 3 seconds
-            setTimeout(() => {
-                successDiv.style.opacity = '0';
-                successDiv.style.transition = 'opacity 0.3s';
-                setTimeout(() => successDiv.remove(), 300);
-            }, 3000);
-            
-            console.log(`Agent ${agentNum} re-run for review ${review.reviewId}`);
-        }, 2000);
+        } catch (error) {
+            loadingDiv.remove();
+            console.error('Re-run error:', error);
+            alert('Error re-running agent: ' + error.message);
+        }
     }
 }
 
@@ -946,9 +1071,10 @@ function addEntity() {
     document.body.appendChild(modal);
 }
 
-// Helper function to submit entity
-function submitEntityType(entityName) {
+// Helper function to submit entity - WITH API CALL
+async function submitEntityType(entityName) {
     const entityType = document.getElementById('entityTypeSelect').value;
+    const review = reviewQueue[currentIndex];
     
     if (!entityType) {
         alert('Please select an entity type!');
@@ -958,38 +1084,134 @@ function submitEntityType(entityName) {
     // Remove modal
     document.getElementById('entityTypeModal').remove();
     
-    // Show success message
-    const successDiv = document.createElement('div');
-    successDiv.style.cssText = `
+    // Show loading indicator
+    const loadingDiv = document.createElement('div');
+    loadingDiv.id = 'entityAddLoading';
+    loadingDiv.style.cssText = `
         position: fixed;
-        top: 20px;
-        right: 20px;
-        background: #27ae60;
-        color: white;
-        padding: 20px 30px;
-        border-radius: 8px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 30px 50px;
+        border-radius: 10px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.3);
         z-index: 10000;
-        font-weight: 600;
+        text-align: center;
     `;
-    successDiv.innerHTML = `
-        ➕ Entity Added Successfully!<br>
-        <div style="font-size: 14px; margin-top: 8px; opacity: 0.95; background: rgba(255,255,255,0.2); padding: 8px; border-radius: 4px;">
-            <strong>${entityName}</strong><br>
-            Type: ${entityType}
+    loadingDiv.innerHTML = `
+        <div class="spinner" style="margin: 0 auto 15px;"></div>
+        <div style="font-size: 16px; font-weight: 600; color: #2c3e50;">
+            Training Entity System...
         </div>
     `;
-    document.body.appendChild(successDiv);
+    document.body.appendChild(loadingDiv);
     
-    // Remove after 4 seconds
-    setTimeout(() => {
-        successDiv.style.opacity = '0';
-        successDiv.style.transition = 'opacity 0.3s';
-        setTimeout(() => successDiv.remove(), 300);
-    }, 4000);
-    
-    const review = reviewQueue[currentIndex];
-    console.log(`Entity added: ${entityName} (${entityType}) to review ${review.reviewId}`);
+    try {
+        // Get current entities
+        const currentEntities = review.aiResponse?.entities || [];
+        const updatedEntities = [...currentEntities, entityName];
+        
+        const requestBody = {
+            question: review.question,
+            corrected_entities: updatedEntities,
+            added_entity: entityName,
+            entity_type: entityType
+        };
+        
+        console.log('[HITL] Calling /api/hitl/correct-entities (add)', requestBody);
+        
+        const response = await fetch('/api/hitl/correct-entities', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(requestBody)
+        });
+        
+        const result = await response.json();
+        
+        // Remove loading
+        document.getElementById('entityAddLoading')?.remove();
+        
+        console.log('[HITL] Response:', result);
+        
+        if (result.success) {
+            // Update local review data
+            if (!review.aiResponse) review.aiResponse = {};
+            if (!review.aiResponse.entities) review.aiResponse.entities = [];
+            review.aiResponse.entities.push(entityName);
+            
+            // Show success message
+            const successDiv = document.createElement('div');
+            successDiv.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #27ae60;
+                color: white;
+                padding: 20px 30px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                z-index: 10000;
+                font-weight: 600;
+                max-width: 400px;
+            `;
+            successDiv.innerHTML = `
+                ✅ Entity Added & Trained!<br>
+                <div style="font-size: 14px; margin-top: 8px; opacity: 0.95; background: rgba(255,255,255,0.2); padding: 8px; border-radius: 4px;">
+                    <strong>${entityName}</strong> (${entityType})<br>
+                    <span style="color: #90EE90;">✓ Will apply on similar questions</span>
+                </div>
+            `;
+            document.body.appendChild(successDiv);
+            
+            // Remove after 4 seconds
+            setTimeout(() => {
+                successDiv.style.opacity = '0';
+                successDiv.style.transition = 'opacity 0.3s';
+                setTimeout(() => successDiv.remove(), 300);
+            }, 4000);
+            
+            // Refresh display
+            displayReview(review);
+            
+        } else {
+            throw new Error(result.error || 'Unknown error');
+        }
+        
+    } catch (error) {
+        // Remove loading
+        document.getElementById('entityAddLoading')?.remove();
+        
+        console.error('Error adding entity:', error);
+        
+        // Show error message
+        const errorDiv = document.createElement('div');
+        errorDiv.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #e74c3c;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 10000;
+            font-weight: 600;
+        `;
+        errorDiv.innerHTML = `
+            ❌ Error Adding Entity<br>
+            <div style="font-size: 13px; margin-top: 8px; opacity: 0.95;">
+                ${error.message}
+            </div>
+        `;
+        document.body.appendChild(errorDiv);
+        
+        setTimeout(() => {
+            errorDiv.style.opacity = '0';
+            errorDiv.style.transition = 'opacity 0.3s';
+            setTimeout(() => errorDiv.remove(), 300);
+        }, 4000);
+    }
 }
 
         function removeEntity() {
@@ -1060,8 +1282,8 @@ function submitEntityType(entityName) {
     document.body.appendChild(modal);
 }
 
-// Helper function to remove entity
-function submitRemoveEntity() {
+// Helper function to remove entity - WITH API CALL
+async function submitRemoveEntity() {
     const review = reviewQueue[currentIndex];
     const selectElement = document.getElementById('entityRemoveSelect');
     const selectedIndex = selectElement.value;
@@ -1076,36 +1298,131 @@ function submitRemoveEntity() {
     // Remove modal
     document.getElementById('removeEntityModal').remove();
     
-    // Show success message
-    const successDiv = document.createElement('div');
-    successDiv.style.cssText = `
+    // Show loading indicator
+    const loadingDiv = document.createElement('div');
+    loadingDiv.id = 'entityRemoveLoading';
+    loadingDiv.style.cssText = `
         position: fixed;
-        top: 20px;
-        right: 20px;
-        background: #e74c3c;
-        color: white;
-        padding: 20px 30px;
-        border-radius: 8px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 30px 50px;
+        border-radius: 10px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.3);
         z-index: 10000;
-        font-weight: 600;
+        text-align: center;
     `;
-    successDiv.innerHTML = `
-        ➖ Entity Removed!<br>
-        <div style="font-size: 14px; margin-top: 8px; opacity: 0.95; background: rgba(255,255,255,0.2); padding: 8px; border-radius: 4px;">
-            <strong>${entityName}</strong> has been marked as incorrect
+    loadingDiv.innerHTML = `
+        <div class="spinner" style="margin: 0 auto 15px;"></div>
+        <div style="font-size: 16px; font-weight: 600; color: #2c3e50;">
+            Training Entity System...
         </div>
     `;
-    document.body.appendChild(successDiv);
+    document.body.appendChild(loadingDiv);
     
-    // Remove after 4 seconds
-    setTimeout(() => {
-        successDiv.style.opacity = '0';
-        successDiv.style.transition = 'opacity 0.3s';
-        setTimeout(() => successDiv.remove(), 300);
-    }, 4000);
-    
-    console.log(`Entity removed: ${entityName} from review ${review.reviewId}`);
+    try {
+        // Get current entities and remove the selected one
+        const currentEntities = review.aiResponse?.entities || [];
+        const updatedEntities = currentEntities.filter((_, idx) => idx !== parseInt(selectedIndex));
+        
+        const requestBody = {
+            question: review.question,
+            corrected_entities: updatedEntities,
+            removed_entity: entityName
+        };
+        
+        console.log('[HITL] Calling /api/hitl/correct-entities (remove)', requestBody);
+        
+        const response = await fetch('/api/hitl/correct-entities', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(requestBody)
+        });
+        
+        const result = await response.json();
+        
+        // Remove loading
+        document.getElementById('entityRemoveLoading')?.remove();
+        
+        console.log('[HITL] Response:', result);
+        
+        if (result.success) {
+            // Update local review data
+            review.aiResponse.entities = updatedEntities;
+            
+            // Show success message
+            const successDiv = document.createElement('div');
+            successDiv.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #e74c3c;
+                color: white;
+                padding: 20px 30px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                z-index: 10000;
+                font-weight: 600;
+                max-width: 400px;
+            `;
+            successDiv.innerHTML = `
+                ➖ Entity Removed & Trained!<br>
+                <div style="font-size: 14px; margin-top: 8px; opacity: 0.95; background: rgba(255,255,255,0.2); padding: 8px; border-radius: 4px;">
+                    <strong>${entityName}</strong> removed<br>
+                    <span style="color: #ffcccc;">✓ Will apply on similar questions</span>
+                </div>
+            `;
+            document.body.appendChild(successDiv);
+            
+            // Remove after 4 seconds
+            setTimeout(() => {
+                successDiv.style.opacity = '0';
+                successDiv.style.transition = 'opacity 0.3s';
+                setTimeout(() => successDiv.remove(), 300);
+            }, 4000);
+            
+            // Refresh display
+            displayReview(review);
+            
+        } else {
+            throw new Error(result.error || 'Unknown error');
+        }
+        
+    } catch (error) {
+        // Remove loading
+        document.getElementById('entityRemoveLoading')?.remove();
+        
+        console.error('Error removing entity:', error);
+        
+        // Show error message
+        const errorDiv = document.createElement('div');
+        errorDiv.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #e74c3c;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 10000;
+            font-weight: 600;
+        `;
+        errorDiv.innerHTML = `
+            ❌ Error Removing Entity<br>
+            <div style="font-size: 13px; margin-top: 8px; opacity: 0.95;">
+                ${error.message}
+            </div>
+        `;
+        document.body.appendChild(errorDiv);
+        
+        setTimeout(() => {
+            errorDiv.style.opacity = '0';
+            errorDiv.style.transition = 'opacity 0.3s';
+            setTimeout(() => errorDiv.remove(), 300);
+        }, 4000);
+    }
 }
 
         function editAnswer() {
